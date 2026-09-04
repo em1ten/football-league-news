@@ -1,0 +1,1029 @@
+{
+  "season": "2026-27",
+  "verified": "2026-09-04",
+  "source": "Wikipedia division pages for 2026-27",
+  "review": "Re-verify every June after playoffs. Promotion/relegation changes 9-12 clubs a year.",
+  "marker_rules": [
+    "Markers are full club names, unambiguous abbreviations, unambiguous nicknames, or grounds.",
+    "Never add bare 'City', 'United', 'Town', 'County', 'Rovers', 'Wanderers', 'Athletic', 'the Reds', 'the U's'.",
+    "A nickname qualifies only if no other EFL club shares it.",
+    "Where an obvious short form was deliberately left out, the reason is in 'note'. Do not add it back."
+  ],
+  "clubs": [
+    {
+      "slug": "birmingham-city",
+      "name": "Birmingham City",
+      "division": "championship",
+      "town": "Birmingham",
+      "stadium": "St Andrew's",
+      "markers": [
+        "birmingham city",
+        "bcfc"
+      ],
+      "exclude": [],
+      "site": "https://www.bcfc.com"
+    },
+    {
+      "slug": "blackburn-rovers",
+      "name": "Blackburn Rovers",
+      "division": "championship",
+      "town": "Blackburn",
+      "stadium": "Ewood Park",
+      "markers": [
+        "blackburn rovers",
+        "blackburn",
+        "ewood park"
+      ],
+      "exclude": [],
+      "site": "https://www.rovers.co.uk"
+    },
+    {
+      "slug": "bolton-wanderers",
+      "name": "Bolton Wanderers",
+      "division": "championship",
+      "town": "Bolton",
+      "stadium": "Toughsheet Community Stadium",
+      "markers": [
+        "bolton wanderers",
+        "bolton"
+      ],
+      "exclude": [],
+      "site": "https://www.bwfc.co.uk"
+    },
+    {
+      "slug": "bristol-city",
+      "name": "Bristol City",
+      "division": "championship",
+      "town": "Bristol",
+      "stadium": "Ashton Gate",
+      "markers": [
+        "bristol city",
+        "ashton gate"
+      ],
+      "exclude": [],
+      "site": "https://www.bcfc.co.uk",
+      "note": "Bare 'bristol' omitted: collides with Bristol Rovers (League Two)."
+    },
+    {
+      "slug": "burnley",
+      "name": "Burnley",
+      "division": "championship",
+      "town": "Burnley",
+      "stadium": "Turf Moor",
+      "markers": [
+        "burnley",
+        "the clarets",
+        "turf moor"
+      ],
+      "exclude": [],
+      "site": "https://www.burnleyfootballclub.com"
+    },
+    {
+      "slug": "cardiff-city",
+      "name": "Cardiff City",
+      "division": "championship",
+      "town": "Cardiff",
+      "stadium": "Cardiff City Stadium",
+      "markers": [
+        "cardiff city",
+        "cardiff",
+        "the bluebirds"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "charlton-athletic",
+      "name": "Charlton Athletic",
+      "division": "championship",
+      "town": "London",
+      "stadium": "The Valley",
+      "markers": [
+        "charlton athletic",
+        "charlton",
+        "the addicks"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "derby-county",
+      "name": "Derby County",
+      "division": "championship",
+      "town": "Derby",
+      "stadium": "Pride Park",
+      "markers": [
+        "derby county",
+        "the rams",
+        "pride park"
+      ],
+      "exclude": [],
+      "site": "https://www.dcfc.co.uk",
+      "note": "Bare 'derby' omitted: 'derby' is a common football noun (local derby)."
+    },
+    {
+      "slug": "lincoln-city",
+      "name": "Lincoln City",
+      "division": "championship",
+      "town": "Lincoln",
+      "stadium": "Sincil Bank",
+      "markers": [
+        "lincoln city",
+        "the imps",
+        "sincil bank"
+      ],
+      "exclude": [],
+      "site": "https://www.weareimps.com"
+    },
+    {
+      "slug": "middlesbrough",
+      "name": "Middlesbrough",
+      "division": "championship",
+      "town": "Middlesbrough",
+      "stadium": "Riverside Stadium",
+      "markers": [
+        "middlesbrough",
+        "boro"
+      ],
+      "exclude": [],
+      "site": "https://www.mfc.co.uk"
+    },
+    {
+      "slug": "millwall",
+      "name": "Millwall",
+      "division": "championship",
+      "town": "London",
+      "stadium": "The Den",
+      "markers": [
+        "millwall"
+      ],
+      "exclude": [],
+      "site": "https://www.millwallfc.co.uk"
+    },
+    {
+      "slug": "norwich-city",
+      "name": "Norwich City",
+      "division": "championship",
+      "town": "Norwich",
+      "stadium": "Carrow Road",
+      "markers": [
+        "norwich city",
+        "norwich",
+        "the canaries",
+        "carrow road"
+      ],
+      "exclude": [],
+      "site": "https://www.canaries.co.uk"
+    },
+    {
+      "slug": "portsmouth",
+      "name": "Portsmouth",
+      "division": "championship",
+      "town": "Portsmouth",
+      "stadium": "Fratton Park",
+      "markers": [
+        "portsmouth",
+        "pompey",
+        "fratton park"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "preston-north-end",
+      "name": "Preston North End",
+      "division": "championship",
+      "town": "Preston",
+      "stadium": "Deepdale",
+      "markers": [
+        "preston north end",
+        "preston",
+        "pne",
+        "deepdale"
+      ],
+      "exclude": [],
+      "site": "https://www.pnefc.net"
+    },
+    {
+      "slug": "queens-park-rangers",
+      "name": "Queens Park Rangers",
+      "division": "championship",
+      "town": "London",
+      "stadium": "Loftus Road",
+      "markers": [
+        "queens park rangers",
+        "qpr",
+        "loftus road"
+      ],
+      "exclude": [],
+      "site": "https://www.qpr.co.uk"
+    },
+    {
+      "slug": "sheffield-united",
+      "name": "Sheffield United",
+      "division": "championship",
+      "town": "Sheffield",
+      "stadium": "Bramall Lane",
+      "markers": [
+        "sheffield united",
+        "the blades",
+        "sufc",
+        "bramall lane"
+      ],
+      "exclude": [],
+      "site": "https://www.sufc.co.uk",
+      "note": "Bare 'sheffield' omitted: collides with Sheffield Wednesday (League One)."
+    },
+    {
+      "slug": "southampton",
+      "name": "Southampton",
+      "division": "championship",
+      "town": "Southampton",
+      "stadium": "St Mary's",
+      "markers": [
+        "southampton",
+        "st mary's stadium"
+      ],
+      "exclude": [],
+      "site": "https://www.southamptonfc.com",
+      "note": "'saints' omitted: also St Mirren, St Johnstone, Northampton."
+    },
+    {
+      "slug": "stoke-city",
+      "name": "Stoke City",
+      "division": "championship",
+      "town": "Stoke-on-Trent",
+      "stadium": "bet365 Stadium",
+      "markers": [
+        "stoke city",
+        "the potters"
+      ],
+      "exclude": [],
+      "site": null,
+      "note": "Bare 'stoke' omitted: Port Vale are also Stoke-on-Trent."
+    },
+    {
+      "slug": "swansea-city",
+      "name": "Swansea City",
+      "division": "championship",
+      "town": "Swansea",
+      "stadium": "Swansea.com Stadium",
+      "markers": [
+        "swansea city",
+        "swansea",
+        "the swans"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "watford",
+      "name": "Watford",
+      "division": "championship",
+      "town": "Watford",
+      "stadium": "Vicarage Road",
+      "markers": [
+        "watford",
+        "the hornets",
+        "vicarage road"
+      ],
+      "exclude": [],
+      "site": "https://www.watfordfc.com"
+    },
+    {
+      "slug": "west-bromwich-albion",
+      "name": "West Bromwich Albion",
+      "division": "championship",
+      "town": "West Bromwich",
+      "stadium": "The Hawthorns",
+      "markers": [
+        "west bromwich albion",
+        "west brom",
+        "wba",
+        "the baggies",
+        "the hawthorns"
+      ],
+      "exclude": [],
+      "site": "https://www.wba.co.uk"
+    },
+    {
+      "slug": "west-ham-united",
+      "name": "West Ham United",
+      "division": "championship",
+      "town": "London",
+      "stadium": "London Stadium",
+      "markers": [
+        "west ham united",
+        "west ham",
+        "the hammers",
+        "whufc"
+      ],
+      "exclude": [],
+      "site": "https://www.whufc.com"
+    },
+    {
+      "slug": "wolverhampton-wanderers",
+      "name": "Wolverhampton Wanderers",
+      "division": "championship",
+      "town": "Wolverhampton",
+      "stadium": "Molineux",
+      "markers": [
+        "wolverhampton wanderers",
+        "wolves",
+        "molineux"
+      ],
+      "exclude": [],
+      "site": "https://www.wolves.co.uk"
+    },
+    {
+      "slug": "wrexham",
+      "name": "Wrexham",
+      "division": "championship",
+      "town": "Wrexham",
+      "stadium": "Racecourse Ground",
+      "markers": [
+        "wrexham"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "afc-wimbledon",
+      "name": "AFC Wimbledon",
+      "division": "league-one",
+      "town": "London",
+      "stadium": "Plough Lane",
+      "markers": [
+        "afc wimbledon",
+        "wimbledon"
+      ],
+      "exclude": [],
+      "site": null,
+      "note": "'the dons' omitted: also MK Dons, Aberdeen."
+    },
+    {
+      "slug": "barnsley",
+      "name": "Barnsley",
+      "division": "league-one",
+      "town": "Barnsley",
+      "stadium": "Oakwell",
+      "markers": [
+        "barnsley",
+        "the tykes",
+        "oakwell"
+      ],
+      "exclude": [],
+      "site": "https://www.barnsleyfc.co.uk"
+    },
+    {
+      "slug": "blackpool",
+      "name": "Blackpool",
+      "division": "league-one",
+      "town": "Blackpool",
+      "stadium": "Bloomfield Road",
+      "markers": [
+        "blackpool",
+        "the tangerines",
+        "the seasiders"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "bradford-city",
+      "name": "Bradford City",
+      "division": "league-one",
+      "town": "Bradford",
+      "stadium": "Valley Parade",
+      "markers": [
+        "bradford city",
+        "bradford",
+        "the bantams",
+        "valley parade"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "bromley",
+      "name": "Bromley",
+      "division": "league-one",
+      "town": "London",
+      "stadium": "Hayes Lane",
+      "markers": [
+        "bromley"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "burton-albion",
+      "name": "Burton Albion",
+      "division": "league-one",
+      "town": "Burton upon Trent",
+      "stadium": "Pirelli Stadium",
+      "markers": [
+        "burton albion",
+        "the brewers"
+      ],
+      "exclude": [],
+      "site": null,
+      "note": "Bare 'burton' omitted: common surname."
+    },
+    {
+      "slug": "cambridge-united",
+      "name": "Cambridge United",
+      "division": "league-one",
+      "town": "Cambridge",
+      "stadium": "Abbey Stadium",
+      "markers": [
+        "cambridge united",
+        "cambridge"
+      ],
+      "exclude": [],
+      "site": null,
+      "note": "'the u's' omitted: also Colchester, Oxford."
+    },
+    {
+      "slug": "doncaster-rovers",
+      "name": "Doncaster Rovers",
+      "division": "league-one",
+      "town": "Doncaster",
+      "stadium": "Eco-Power Stadium",
+      "markers": [
+        "doncaster rovers",
+        "doncaster"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "huddersfield-town",
+      "name": "Huddersfield Town",
+      "division": "league-one",
+      "town": "Huddersfield",
+      "stadium": "Kirklees Stadium",
+      "markers": [
+        "huddersfield town",
+        "huddersfield",
+        "the terriers"
+      ],
+      "exclude": [],
+      "site": "https://www.htafc.com"
+    },
+    {
+      "slug": "leicester-city",
+      "name": "Leicester City",
+      "division": "league-one",
+      "town": "Leicester",
+      "stadium": "King Power Stadium",
+      "markers": [
+        "leicester city",
+        "leicester",
+        "the foxes",
+        "lcfc",
+        "king power"
+      ],
+      "exclude": [],
+      "site": "https://www.lcfc.com"
+    },
+    {
+      "slug": "leyton-orient",
+      "name": "Leyton Orient",
+      "division": "league-one",
+      "town": "London",
+      "stadium": "Brisbane Road",
+      "markers": [
+        "leyton orient",
+        "the o's",
+        "brisbane road"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "luton-town",
+      "name": "Luton Town",
+      "division": "league-one",
+      "town": "Luton",
+      "stadium": "Kenilworth Road",
+      "markers": [
+        "luton town",
+        "luton",
+        "kenilworth road"
+      ],
+      "exclude": [],
+      "site": null,
+      "note": "'the hatters' omitted: also Stockport County."
+    },
+    {
+      "slug": "mansfield-town",
+      "name": "Mansfield Town",
+      "division": "league-one",
+      "town": "Mansfield",
+      "stadium": "Field Mill",
+      "markers": [
+        "mansfield town",
+        "mansfield",
+        "the stags"
+      ],
+      "exclude": [],
+      "site": "https://www.mansfieldtown.net"
+    },
+    {
+      "slug": "milton-keynes-dons",
+      "name": "Milton Keynes Dons",
+      "division": "league-one",
+      "town": "Milton Keynes",
+      "stadium": "Stadium MK",
+      "markers": [
+        "milton keynes dons",
+        "mk dons",
+        "stadium mk"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "notts-county",
+      "name": "Notts County",
+      "division": "league-one",
+      "town": "Nottingham",
+      "stadium": "Meadow Lane",
+      "markers": [
+        "notts county",
+        "meadow lane"
+      ],
+      "exclude": [],
+      "site": "https://www.nottscountyfc.co.uk",
+      "note": "'the magpies' omitted: also Newcastle United."
+    },
+    {
+      "slug": "oxford-united",
+      "name": "Oxford United",
+      "division": "league-one",
+      "town": "Oxford",
+      "stadium": "Kassam Stadium",
+      "markers": [
+        "oxford united",
+        "oufc",
+        "kassam"
+      ],
+      "exclude": [],
+      "site": "https://www.oufc.co.uk"
+    },
+    {
+      "slug": "peterborough-united",
+      "name": "Peterborough United",
+      "division": "league-one",
+      "town": "Peterborough",
+      "stadium": "London Road",
+      "markers": [
+        "peterborough united",
+        "peterborough",
+        "the posh"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "plymouth-argyle",
+      "name": "Plymouth Argyle",
+      "division": "league-one",
+      "town": "Plymouth",
+      "stadium": "Home Park",
+      "markers": [
+        "plymouth argyle",
+        "plymouth",
+        "the pilgrims"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "reading",
+      "name": "Reading",
+      "division": "league-one",
+      "town": "Reading",
+      "stadium": "Madejski Stadium",
+      "markers": [
+        "reading fc",
+        "reading f.c.",
+        "the royals",
+        "madejski"
+      ],
+      "exclude": [],
+      "site": null,
+      "note": "CRITICAL: bare 'reading' is never a marker - it is an ordinary English verb."
+    },
+    {
+      "slug": "sheffield-wednesday",
+      "name": "Sheffield Wednesday",
+      "division": "league-one",
+      "town": "Sheffield",
+      "stadium": "Hillsborough",
+      "markers": [
+        "sheffield wednesday",
+        "swfc",
+        "the owls",
+        "hillsborough"
+      ],
+      "exclude": [],
+      "site": "https://www.swfc.co.uk",
+      "note": "CRITICAL: bare 'wednesday' is never a marker - it is a weekday. Bare 'sheffield' omitted: collides with Sheffield United."
+    },
+    {
+      "slug": "stevenage",
+      "name": "Stevenage",
+      "division": "league-one",
+      "town": "Stevenage",
+      "stadium": "Broadhall Way",
+      "markers": [
+        "stevenage"
+      ],
+      "exclude": [],
+      "site": "https://www.stevenagefc.com"
+    },
+    {
+      "slug": "stockport-county",
+      "name": "Stockport County",
+      "division": "league-one",
+      "town": "Stockport",
+      "stadium": "Edgeley Park",
+      "markers": [
+        "stockport county",
+        "stockport",
+        "edgeley park"
+      ],
+      "exclude": [],
+      "site": "https://www.stockportcounty.com"
+    },
+    {
+      "slug": "wigan-athletic",
+      "name": "Wigan Athletic",
+      "division": "league-one",
+      "town": "Wigan",
+      "stadium": "Brick Community Stadium",
+      "markers": [
+        "wigan athletic",
+        "wigan"
+      ],
+      "exclude": [],
+      "site": "https://wiganathletic.com",
+      "note": "'latics' omitted: also Oldham Athletic."
+    },
+    {
+      "slug": "wycombe-wanderers",
+      "name": "Wycombe Wanderers",
+      "division": "league-one",
+      "town": "High Wycombe",
+      "stadium": "Adams Park",
+      "markers": [
+        "wycombe wanderers",
+        "wycombe",
+        "the chairboys"
+      ],
+      "exclude": [],
+      "site": "https://www.wwfc.com"
+    },
+    {
+      "slug": "accrington-stanley",
+      "name": "Accrington Stanley",
+      "division": "league-two",
+      "town": "Accrington",
+      "stadium": "Crown Ground",
+      "markers": [
+        "accrington stanley",
+        "accrington"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "barnet",
+      "name": "Barnet",
+      "division": "league-two",
+      "town": "London",
+      "stadium": "The Hive Stadium",
+      "markers": [
+        "barnet",
+        "the hive stadium"
+      ],
+      "exclude": [],
+      "site": null,
+      "note": "'the bees' omitted: also Brentford."
+    },
+    {
+      "slug": "bristol-rovers",
+      "name": "Bristol Rovers",
+      "division": "league-two",
+      "town": "Bristol",
+      "stadium": "Memorial Stadium",
+      "markers": [
+        "bristol rovers",
+        "the gas",
+        "the pirates"
+      ],
+      "exclude": [],
+      "site": null,
+      "note": "Bare 'bristol' omitted: collides with Bristol City (Championship)."
+    },
+    {
+      "slug": "cheltenham-town",
+      "name": "Cheltenham Town",
+      "division": "league-two",
+      "town": "Cheltenham",
+      "stadium": "Whaddon Road",
+      "markers": [
+        "cheltenham town",
+        "cheltenham"
+      ],
+      "exclude": [],
+      "site": null,
+      "note": "'the robins' omitted: also Bristol City, Swindon."
+    },
+    {
+      "slug": "chesterfield",
+      "name": "Chesterfield",
+      "division": "league-two",
+      "town": "Chesterfield",
+      "stadium": "SMH Group Stadium",
+      "markers": [
+        "chesterfield",
+        "the spireites"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "colchester-united",
+      "name": "Colchester United",
+      "division": "league-two",
+      "town": "Colchester",
+      "stadium": "Colchester Community Stadium",
+      "markers": [
+        "colchester united",
+        "colchester"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "crawley-town",
+      "name": "Crawley Town",
+      "division": "league-two",
+      "town": "Crawley",
+      "stadium": "Broadfield Stadium",
+      "markers": [
+        "crawley town",
+        "crawley"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "crewe-alexandra",
+      "name": "Crewe Alexandra",
+      "division": "league-two",
+      "town": "Crewe",
+      "stadium": "Gresty Road",
+      "markers": [
+        "crewe alexandra",
+        "crewe",
+        "the railwaymen",
+        "gresty road"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "exeter-city",
+      "name": "Exeter City",
+      "division": "league-two",
+      "town": "Exeter",
+      "stadium": "St James Park",
+      "markers": [
+        "exeter city",
+        "exeter",
+        "the grecians"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "fleetwood-town",
+      "name": "Fleetwood Town",
+      "division": "league-two",
+      "town": "Fleetwood",
+      "stadium": "Highbury Stadium",
+      "markers": [
+        "fleetwood town",
+        "fleetwood",
+        "the cod army"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "gillingham",
+      "name": "Gillingham",
+      "division": "league-two",
+      "town": "Gillingham",
+      "stadium": "Priestfield Stadium",
+      "markers": [
+        "gillingham",
+        "the gills",
+        "priestfield"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "grimsby-town",
+      "name": "Grimsby Town",
+      "division": "league-two",
+      "town": "Cleethorpes",
+      "stadium": "Blundell Park",
+      "markers": [
+        "grimsby town",
+        "grimsby",
+        "the mariners",
+        "blundell park"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "newport-county",
+      "name": "Newport County",
+      "division": "league-two",
+      "town": "Newport",
+      "stadium": "Rodney Parade",
+      "markers": [
+        "newport county",
+        "the exiles",
+        "rodney parade"
+      ],
+      "exclude": [],
+      "site": "https://www.newport-county.co.uk",
+      "note": "Bare 'newport' omitted: several UK towns share the name."
+    },
+    {
+      "slug": "northampton-town",
+      "name": "Northampton Town",
+      "division": "league-two",
+      "town": "Northampton",
+      "stadium": "Sixfields Stadium",
+      "markers": [
+        "northampton town",
+        "northampton",
+        "the cobblers",
+        "sixfields"
+      ],
+      "exclude": [],
+      "site": "https://www.ntfc.co.uk"
+    },
+    {
+      "slug": "oldham-athletic",
+      "name": "Oldham Athletic",
+      "division": "league-two",
+      "town": "Oldham",
+      "stadium": "Boundary Park",
+      "markers": [
+        "oldham athletic",
+        "oldham",
+        "boundary park"
+      ],
+      "exclude": [],
+      "site": null,
+      "note": "'latics' omitted: also Wigan Athletic."
+    },
+    {
+      "slug": "port-vale",
+      "name": "Port Vale",
+      "division": "league-two",
+      "town": "Stoke-on-Trent",
+      "stadium": "Vale Park",
+      "markers": [
+        "port vale",
+        "the valiants",
+        "vale park"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "rochdale",
+      "name": "Rochdale",
+      "division": "league-two",
+      "town": "Rochdale",
+      "stadium": "Spotland Stadium",
+      "markers": [
+        "rochdale",
+        "spotland"
+      ],
+      "exclude": [],
+      "site": "https://rochdaleafc.co.uk",
+      "note": "'dale' omitted: too short, common surname/placename fragment."
+    },
+    {
+      "slug": "rotherham-united",
+      "name": "Rotherham United",
+      "division": "league-two",
+      "town": "Rotherham",
+      "stadium": "New York Stadium",
+      "markers": [
+        "rotherham united",
+        "rotherham",
+        "the millers"
+      ],
+      "exclude": [],
+      "site": "https://www.themillers.co.uk",
+      "note": "'new york stadium' omitted as a marker: would false-match US content."
+    },
+    {
+      "slug": "salford-city",
+      "name": "Salford City",
+      "division": "league-two",
+      "town": "Salford",
+      "stadium": "Moor Lane",
+      "markers": [
+        "salford city"
+      ],
+      "exclude": [],
+      "site": "https://www.salfordcityfc.co.uk",
+      "note": "Bare 'salford' omitted: Salford Red Devils (rugby league) dominate that term."
+    },
+    {
+      "slug": "shrewsbury-town",
+      "name": "Shrewsbury Town",
+      "division": "league-two",
+      "town": "Shrewsbury",
+      "stadium": "New Meadow",
+      "markers": [
+        "shrewsbury town",
+        "shrewsbury",
+        "the shrews"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "swindon-town",
+      "name": "Swindon Town",
+      "division": "league-two",
+      "town": "Swindon",
+      "stadium": "County Ground",
+      "markers": [
+        "swindon town",
+        "swindon"
+      ],
+      "exclude": [],
+      "site": null
+    },
+    {
+      "slug": "tranmere-rovers",
+      "name": "Tranmere Rovers",
+      "division": "league-two",
+      "town": "Birkenhead",
+      "stadium": "Prenton Park",
+      "markers": [
+        "tranmere rovers",
+        "tranmere",
+        "prenton park"
+      ],
+      "exclude": [],
+      "site": "https://www.tranmererovers.co.uk"
+    },
+    {
+      "slug": "walsall",
+      "name": "Walsall",
+      "division": "league-two",
+      "town": "Walsall",
+      "stadium": "Bescot Stadium",
+      "markers": [
+        "walsall",
+        "the saddlers",
+        "bescot"
+      ],
+      "exclude": [],
+      "site": "https://www.saddlers.co.uk"
+    },
+    {
+      "slug": "york-city",
+      "name": "York City",
+      "division": "league-two",
+      "town": "York",
+      "stadium": "York Community Stadium",
+      "markers": [
+        "york city",
+        "the minstermen"
+      ],
+      "exclude": [
+        "new york"
+      ],
+      "site": "https://yorkcityfootballclub.co.uk",
+      "note": "Bare 'york' omitted: New York. Exclusion rule also applied below."
+    }
+  ]
+}
