@@ -62,7 +62,7 @@ def build_html(articles, clubs):
     picker_sections = []
     for d in DIVISION_ORDER:
         pills = "\n".join(club_pill(c) for c in clubs_by_div[d])
-        picker_sections.append(f'<section class="division"><h4>{DIVISION_LABEL[d]}</h4><div class="pills">{pills}</div></section>')
+        picker_sections.append(f'<section class="division" data-division="{esc(d)}"><h4>{DIVISION_LABEL[d]}</h4><div class="pills">{pills}</div></section>')
     picker_html = "\n".join(picker_sections)
 
     return f"""<!doctype html>
@@ -74,23 +74,86 @@ def build_html(articles, clubs):
 <meta name="description" content="{esc(SITE_TAGLINE)} News from all 72 English Football League clubs.">
 <link rel="alternate" type="application/rss+xml" href="feed.xml">
 <style>
-  :root {{ color-scheme: light dark; }}
-  body {{ font-family: system-ui, sans-serif; max-width: 720px; margin: 0 auto; padding: 1rem; background: Canvas; color: CanvasText; }}
-  header {{ margin-bottom: 1rem; }}
-  header h1 {{ margin: 0 0 0.2rem; }}
-  .tagline {{ opacity: 0.7; font-size: 0.85rem; }}
-  #picker-toggle {{ margin: 0.5rem 0; }}
-  #picker {{ border: 1px solid; padding: 0.75rem; border-radius: 8px; margin-bottom: 1rem; }}
-  .division h4 {{ margin: 0.5rem 0 0.25rem; }}
+  :root {{
+    color-scheme: dark;
+    --bg: #0d1117;
+    --surface: #161b22;
+    --border: #2a3038;
+    --text: #e6e8eb;
+    --text-dim: #8b949e;
+    --accent: #3fb950;
+    --championship: #d4af37;
+    --league-one: #58a6ff;
+    --league-two: #f778ba;
+  }}
+  * {{ box-sizing: border-box; }}
+  body {{
+    font-family: -apple-system, "Segoe UI", Roboto, system-ui, sans-serif;
+    max-width: 700px; margin: 0 auto; padding: 1.25rem 1rem 4rem;
+    background: var(--bg); color: var(--text); line-height: 1.4;
+  }}
+  header {{ margin-bottom: 1.25rem; }}
+  header h1 {{ margin: 0 0 0.3rem; font-size: 1.7rem; letter-spacing: -0.02em; }}
+  .tagline {{ color: var(--text-dim); font-size: 0.85rem; }}
+
+  #picker-toggle {{
+    background: var(--surface); color: var(--text); border: 1px solid var(--border);
+    border-radius: 8px; padding: 0.55rem 1rem; font-size: 0.9rem; cursor: pointer;
+    width: 100%; text-align: left; display: flex; justify-content: space-between; align-items: center;
+  }}
+  #picker-toggle:hover {{ border-color: var(--accent); }}
+  #picker-toggle .chev {{ opacity: 0.6; transition: transform 0.15s; }}
+  #picker-toggle[aria-expanded="true"] .chev {{ transform: rotate(180deg); }}
+
+  #picker {{
+    background: var(--surface); border: 1px solid var(--border); border-top: none;
+    padding: 1rem; border-radius: 0 0 8px 8px; margin-bottom: 1.5rem;
+  }}
+  .division {{ margin-bottom: 0.9rem; }}
+  .division:last-child {{ margin-bottom: 0; }}
+  .division h4 {{
+    margin: 0 0 0.5rem; font-size: 0.75rem; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--text-dim);
+  }}
+  .division[data-division="championship"] h4 {{ color: var(--championship); }}
+  .division[data-division="league-one"] h4 {{ color: var(--league-one); }}
+  .division[data-division="league-two"] h4 {{ color: var(--league-two); }}
   .pills {{ display: flex; flex-wrap: wrap; gap: 0.4rem; }}
-  .pill {{ border: 1px solid; border-radius: 999px; padding: 0.25rem 0.7rem; background: transparent; color: inherit; font-size: 0.85rem; cursor: pointer; }}
-  .pill.selected {{ background: currentColor; }}
-  .pill.selected {{ color: Canvas; }}
-  .card {{ border-bottom: 1px solid; padding: 0.75rem 0; }}
-  .card h3 {{ margin: 0.2rem 0; font-size: 1rem; }}
-  .card-meta {{ font-size: 0.75rem; opacity: 0.65; }}
-  .card p {{ font-size: 0.9rem; opacity: 0.85; margin: 0.2rem 0 0; }}
-  #update-banner {{ display:none; position: sticky; top: 0; background: Highlight; color: HighlightText; padding: 0.5rem; text-align: center; border-radius: 6px; margin-bottom: 0.5rem; }}
+  .pill {{
+    border: 1px solid var(--border); border-radius: 999px; padding: 0.3rem 0.75rem;
+    background: transparent; color: var(--text); font-size: 0.82rem; cursor: pointer;
+    transition: background 0.1s, border-color 0.1s;
+  }}
+  .pill:hover {{ border-color: var(--accent); }}
+  .pill.selected {{ background: var(--accent); border-color: var(--accent); color: #04250c; font-weight: 600; }}
+
+  #feed {{ display: flex; flex-direction: column; gap: 0.9rem; }}
+  .card {{
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--border);
+    border-radius: 8px; padding: 0.9rem 1rem;
+  }}
+  .card[data-division="championship"] {{ border-left-color: var(--championship); }}
+  .card[data-division="league-one"] {{ border-left-color: var(--league-one); }}
+  .card[data-division="league-two"] {{ border-left-color: var(--league-two); }}
+  .card-meta {{
+    font-size: 0.72rem; color: var(--text-dim); text-transform: uppercase;
+    letter-spacing: 0.04em; margin-bottom: 0.35rem;
+  }}
+  .card h3 {{ margin: 0; font-size: 1.02rem; line-height: 1.35; font-weight: 600; }}
+  .card h3 a {{ color: var(--text); text-decoration: none; }}
+  .card h3 a:hover {{ color: var(--accent); text-decoration: underline; }}
+  .card p {{ font-size: 0.88rem; color: var(--text-dim); margin: 0.4rem 0 0; }}
+
+  #update-banner {{
+    display: none; position: sticky; top: 0.75rem; z-index: 10;
+    background: var(--accent); color: #04250c; padding: 0.6rem 1rem;
+    text-align: center; border-radius: 8px; margin-bottom: 1rem; font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  }}
+  #update-banner button {{
+    background: #04250c; color: var(--accent); border: none; border-radius: 6px;
+    padding: 0.3rem 0.8rem; margin-left: 0.6rem; font-weight: 600; cursor: pointer;
+  }}
 </style>
 </head>
 <body>
@@ -100,7 +163,10 @@ def build_html(articles, clubs):
   <div class="tagline">{esc(SITE_TAGLINE)}</div>
 </header>
 
-<button id="picker-toggle">Choose your clubs</button>
+<button id="picker-toggle" aria-expanded="false">
+  <span id="picker-toggle-label">Choose your clubs</span>
+  <span class="chev">&#9662;</span>
+</button>
 <div id="picker" hidden>
 {picker_html}
 </div>
@@ -114,6 +180,7 @@ def build_html(articles, clubs):
   var STORAGE_KEY = "eflfeed.clubs";
   var picker = document.getElementById("picker");
   var toggle = document.getElementById("picker-toggle");
+  var toggleLabel = document.getElementById("picker-toggle-label");
   var feed = document.getElementById("feed");
   var pills = Array.prototype.slice.call(document.querySelectorAll(".pill"));
 
@@ -135,7 +202,7 @@ def build_html(articles, clubs):
       var clubs = (c.dataset.clubs || "").split(" ");
       c.hidden = !clubs.some(function(s) {{ return sel.indexOf(s) !== -1; }});
     }});
-    toggle.textContent = sel.length ? "Edit your clubs (" + sel.length + ")" : "Choose your clubs";
+    toggleLabel.textContent = sel.length ? "Your clubs (" + sel.length + ")" : "Choose your clubs";
   }}
 
   pills.forEach(function(p) {{
@@ -148,12 +215,15 @@ def build_html(articles, clubs):
     }});
   }});
 
+  // Collapsed by default regardless of selection state -- a 72-pill wall
+  // open on first load pushes every story off-screen, which is worse than
+  // asking people to tap once to find it.
   toggle.addEventListener("click", function() {{
-    picker.hidden = !picker.hidden;
+    var open = picker.hidden;
+    picker.hidden = !open;
+    toggle.setAttribute("aria-expanded", open ? "true" : "false");
   }});
 
-  // Keep the picker open by default until a first selection exists.
-  if (getSelection().length === 0) {{ picker.hidden = false; }}
   applyFilter();
 
   // --- update checking: on load, on tab focus, and periodically.
