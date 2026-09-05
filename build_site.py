@@ -68,6 +68,28 @@ def day_label(d, today):
     return d.strftime("%A %d %B")
 
 
+def cluster_by_clubs(articles):
+    """Group same-club-set stories together within a day. Real production
+    output showed the same fixture covered 5-10 times (preview, lineups,
+    live score, highlights, report) each rendering as its own card -- that's
+    not noise, it's genuine coverage, but it overwhelms the page. Clustering
+    by the exact club-set means both "same match covered repeatedly" and
+    "same club covered by several different stories" collapse into one
+    primary card plus an expandable list, in first-seen (i.e. newest-first,
+    since input is already sorted) order. Nothing is dropped -- everything
+    stays reachable via the <details> disclosure."""
+    clusters = []
+    index_by_key = {}
+    for a in articles:
+        key = tuple(sorted(a.get("clubs", [])))
+        if key not in index_by_key:
+            index_by_key[key] = len(clusters)
+            clusters.append({"primary": a, "more": []})
+        else:
+            clusters[index_by_key[key]]["more"].append(a)
+    return clusters
+
+
 def group_by_day(articles_sorted, today):
     """articles_sorted must already be newest-first. Returns an ordered
     list of (label, [articles]) preserving that order."""
@@ -87,14 +109,37 @@ def group_by_day(articles_sorted, today):
 
 # -------------------------------------------------------------------- pieces
 
-def article_card(a):
-    clubs_attr = " ".join(a.get("clubs", []))
+def card_body(a, compact=False):
     club_label = ", ".join(c.replace("-", " ").title() for c in a.get("clubs", [])) or "League"
-    return f"""<article class="card" data-clubs="{esc(clubs_attr)}" data-division="{esc(a.get('division',''))}">
+    if compact:
+        return f"""<div class="more-item">
   <div class="card-meta">{esc(club_label)} &middot; {esc(a.get('source',''))} &middot; <time class="ts" data-published="{esc(a.get('published',''))}">&nbsp;</time></div>
+  <a class="more-link" href="{esc(a.get('url',''))}" rel="noopener" target="_blank">{esc(a.get('title',''))}</a>
+</div>"""
+    return f"""<div class="card-meta">{esc(club_label)} &middot; {esc(a.get('source',''))} &middot; <time class="ts" data-published="{esc(a.get('published',''))}">&nbsp;</time></div>
   <h3><a href="{esc(a.get('url',''))}" rel="noopener" target="_blank">{esc(a.get('title',''))}</a></h3>
-  {f'<p>{esc(a.get("excerpt",""))}</p>' if a.get("excerpt") else ""}
-</article>"""
+  {f'<p>{esc(a.get("excerpt",""))}</p>' if a.get("excerpt") else ""}"""
+
+
+def cluster_card(cluster):
+    primary = cluster["primary"]
+    more = cluster["more"]
+    clubs_attr = " ".join(primary.get("clubs", []))
+    division = primary.get("division", "")
+    more_html = ""
+    if more:
+        items = "\n".join(card_body(a, compact=True) for a in more)
+        noun = "story" if len(more) == 1 else "stories"
+        more_html = f"""<details class="more-stories">
+  <summary>+{len(more)} more {noun}</summary>
+  <div class="more-list">{items}</div>
+</details>"""
+    return f"""<div class="cluster" data-clubs="{esc(clubs_attr)}" data-division="{esc(division)}">
+  <article class="card" data-division="{esc(division)}">
+    {card_body(primary)}
+  </article>
+  {more_html}
+</div>"""
 
 
 def club_pill(c):
@@ -118,7 +163,8 @@ def build_html(articles, clubs):
 
     feed_sections = []
     for label, group in day_groups:
-        cards = "\n".join(article_card(a) for a in group)
+        clusters = cluster_by_clubs(group)
+        cards = "\n".join(cluster_card(c) for c in clusters)
         feed_sections.append(f'<section class="day-group"><h2 class="day-heading">{esc(label)}</h2>{cards}</section>')
     feed_html = "\n".join(feed_sections)
 
@@ -273,6 +319,24 @@ def build_html(articles, clubs):
   .card h3 a {{ color: var(--ink); text-decoration: none; }}
   .card h3 a:hover {{ color: var(--accent); text-decoration: underline; }}
   .card p {{ font-size: 0.88rem; color: var(--muted); margin: 0.4rem 0 0; }}
+
+  .cluster {{ display: flex; flex-direction: column; }}
+  .more-stories {{ margin-top: 0.4rem; }}
+  .more-stories summary {{
+    font-family: "Space Grotesk", monospace; font-size: 0.78rem; color: var(--muted);
+    cursor: pointer; padding: 0.3rem 0.2rem; list-style: none;
+  }}
+  .more-stories summary::-webkit-details-marker {{ display: none; }}
+  .more-stories summary:before {{ content: "\\25B8"; display: inline-block; margin-right: 0.4rem; transition: transform 0.15s; }}
+  .more-stories[open] summary:before {{ transform: rotate(90deg); }}
+  .more-stories summary:hover {{ color: var(--accent); }}
+  .more-list {{
+    display: flex; flex-direction: column; gap: 0.6rem; margin-top: 0.4rem;
+    padding-left: 0.9rem; border-left: 2px solid var(--line);
+  }}
+  .more-item .card-meta {{ margin-bottom: 0.15rem; }}
+  .more-link {{ font-size: 0.88rem; color: var(--ink); text-decoration: none; }}
+  .more-link:hover {{ color: var(--accent); text-decoration: underline; }}
 </style>
 </head>
 <body>
@@ -336,15 +400,15 @@ def build_html(articles, clubs):
     pills.forEach(function(p) {{
       p.setAttribute("aria-pressed", sel.indexOf(p.dataset.slug) !== -1 ? "true" : "false");
     }});
-    var cards = feed.querySelectorAll(".card");
+    var cards = feed.querySelectorAll(".cluster");
     cards.forEach(function(c) {{
       if (sel.length === 0) {{ c.hidden = false; return; }}
       var clubs = (c.dataset.clubs || "").split(" ");
       c.hidden = !clubs.some(function(s) {{ return sel.indexOf(s) !== -1; }});
     }});
-    // Hide a day heading if every card under it is now hidden.
+    // Hide a day heading if every cluster under it is now hidden.
     document.querySelectorAll(".day-group").forEach(function(g) {{
-      var anyVisible = Array.prototype.slice.call(g.querySelectorAll(".card")).some(function(c) {{ return !c.hidden; }});
+      var anyVisible = Array.prototype.slice.call(g.querySelectorAll(".cluster")).some(function(c) {{ return !c.hidden; }});
       g.hidden = !anyVisible;
     }});
     pickerLabel.textContent = sel.length ? "Your clubs (" + sel.length + ")" : "Choose your clubs";
