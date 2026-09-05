@@ -116,11 +116,22 @@ def is_empty_excerpt(title, excerpt):
 
 
 SOURCE_ALIASES = {
-    "bbc.com": "BBC", "bbc.co.uk": "BBC", "BBC Sport": "BBC",
+    "bbc.com": "BBC", "bbc.co.uk": "BBC", "BBC Sport": "BBC", "BBC News": "BBC",
+    "Sky Sports": "Sky Sports", "skysports.com": "Sky Sports",
+    "The Athletic": "The Athletic", "theathletic.com": "The Athletic",
 }
 
 
 def normalise_source(name):
+    if not name:
+        return name
+    # Google News RSS channel titles are the raw search query, e.g.
+    # '"Wolverhampton Wanderers" when:1d - Google News', not the literal
+    # string "Google News". Collapsing them is what makes the excerpt-
+    # blanking check below actually fire, and stops every distinct query
+    # fragmenting the source label shown on each card.
+    if "google news" in name.lower():
+        return "Google News"
     return SOURCE_ALIASES.get(name, name)
 
 
