@@ -17,7 +17,9 @@ Needs: feedparser, requests  (both -- see note in tag_clubs.py's sibling
 README / the KT doc: feedparser alone silently breaks the fixtures job)
 """
 
+import html
 import json
+import re
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -57,34 +59,59 @@ def _parse(url):
     return feedparser.parse(resp.content)
 
 
+_TAG_RE = re.compile(r"<[^>]+>")
+
+
+def clean_excerpt(raw):
+    """Google News RSS summaries embed raw HTML -- an <a> link back to the
+    article plus a <font> tag naming the source. Strip tags and decode
+    entities so what's stored is plain text, not markup. Doing this once
+    here (not at render time) means every downstream consumer -- build_site,
+    feed.xml, any future client -- gets clean data automatically."""
+    if not raw:
+        return ""
+    text = _TAG_RE.sub(" ", raw)
+    text = html.unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
 def _entry_to_article(entry, source):
     published = entry.get("published_parsed") or entry.get("updated_parsed")
     if published:
         published_dt = datetime(*published[:6], tzinfo=timezone.utc)
     else:
         published_dt = datetime.now(timezone.utc)
+    # Google News summaries are just the headline + a link + the source
+    # name, wrapped in HTML -- zero real content beyond what the "title"
+    # and "source" fields already show. Drop the excerpt entirely for that
+    # source rather than showing leftover junk. Official feeds (BBC, club
+    # RSS) write genuine standalone descriptions, so those are kept.
+    if source == "Google News":
+        excerpt = ""
+    else:
+        excerpt = clean_excerpt(entry.get("summary", ""))
     return {
-        "title": entry.get("title", "").strip(),
+        "title": clean_excerpt(entry.get("title", "")),
         "url": entry.get("link", ""),
-        "excerpt": entry.get("summary", "").strip(),
+        "excerpt": excerpt,
         "source": source,
         "published": published_dt.isoformat(),
     }
 
 
+
+
+
 def is_empty_excerpt(title, excerpt):
-    """Google News-style excerpts that are just the headline + a bare
-    domain carry zero information -- drop them. Anything with genuinely
-    more text than that is kept, even if some of that text turns out to
-    be junk (other clustered stories) -- that failure mode is unpredictable
-    to fix generically, so don't try; just don't throw away real content."""
+    """For non-Google-News sources (official/BBC feeds), a summary that's
+    just the headline repeated carries zero information -- drop it. Kept
+    separate from the Google-News-specific blanking above because these
+    feeds sometimes write genuine standalone descriptions worth keeping."""
     if not excerpt:
         return True
     stripped = excerpt.replace(title, "").strip(" -\u2013\u2014")
     if len(stripped) < 3:
         return True
-    # A leftover that's a single token with no spaces and a dot is a bare
-    # source domain (bbc.co.uk, skysports.com), not real added content.
     return " " not in stripped and "." in stripped
 
 
