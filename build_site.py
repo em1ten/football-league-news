@@ -35,7 +35,7 @@ SITE_DIR = HERE / "site"
 # Update this if you move to a custom domain -- it feeds the RSS <link>,
 # the sitemap, and the Open Graph tags used for link previews.
 SITE_URL = "https://em1ten.github.io/football-league-news"
-SITE_TITLE = "EFL Feed"
+SITE_TITLE = "Football League News"
 SITE_TAGLINE = "All 72 clubs. One feed."
 SITE_ABOUT = "Made by a fan, for fans. Independent and unofficial -- not affiliated with the EFL or any club."
 KOFI_URL = "https://ko-fi.com/footballnewsfeed"
@@ -217,7 +217,7 @@ def build_manifest():
     is already the fallback for everyone who doesn't install it."""
     return {
         "name": SITE_TITLE,
-        "short_name": SITE_TITLE,
+        "short_name": "Football News",  # what shows under the home-screen icon -- the full title truncates awkwardly there
         "description": f"News from all 72 English Football League clubs. {SITE_ABOUT}",
         "start_url": "./",
         "scope": "./",
