@@ -435,6 +435,8 @@ def build_html(articles, clubs, standings):
   .yc-pos-num {{ font-family: "Space Grotesk", monospace; font-weight: 700; font-size: 1rem; color: var(--accent); }}
   .yc-pts {{ font-family: "Space Grotesk", monospace; font-size: 0.62rem; color: var(--muted); }}
 
+  .picker-wrap {{ margin-bottom: 1.75rem; }}
+
   #picker-toggle {{
     background: var(--card); color: var(--ink); border: 1px solid var(--line);
     border-radius: 8px; padding: 0.55rem 1rem; font-family: "Space Grotesk", monospace;
@@ -447,7 +449,7 @@ def build_html(articles, clubs, standings):
 
   #picker {{
     background: var(--card); border: 1px solid var(--line); border-top: none;
-    padding: 1rem; border-radius: 0 0 8px 8px; margin-bottom: 1.5rem;
+    padding: 1rem; border-radius: 0 0 8px 8px;
   }}
   #club-search {{
     width: 100%; padding: 0.5rem 0.75rem; margin-bottom: 0.6rem;
@@ -581,18 +583,20 @@ def build_html(articles, clubs, standings):
   {your_clubs_html}
 </div>
 
-<button id="picker-toggle" aria-expanded="false" type="button">
-  <span id="picker-toggle-label">Choose your clubs</span>
-  <span class="chev">&#9662;</span>
-</button>
-<div id="picker" hidden>
-  <input id="club-search" type="search" placeholder="Search clubs&hellip;" autocomplete="off" aria-label="Search clubs">
-  <div class="picker-actions">
-    <button id="picker-clear" type="button">Clear selection</button>
-    <button id="picker-done" type="button">Done</button>
+<div class="picker-wrap">
+  <button id="picker-toggle" aria-expanded="false" type="button">
+    <span id="picker-toggle-label">Choose your clubs</span>
+    <span class="chev">&#9662;</span>
+  </button>
+  <div id="picker" hidden>
+    <input id="club-search" type="search" placeholder="Search clubs&hellip;" autocomplete="off" aria-label="Search clubs">
+    <div class="picker-actions">
+      <button id="picker-clear" type="button">Clear selection</button>
+      <button id="picker-done" type="button">Done</button>
+    </div>
+    {picker_html}
+    <p id="search-empty" hidden>No clubs match that.</p>
   </div>
-  {picker_html}
-  <p id="search-empty" hidden>No clubs match that.</p>
 </div>
 
 <main id="feed">
