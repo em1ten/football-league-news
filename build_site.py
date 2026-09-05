@@ -36,7 +36,7 @@ SITE_DIR = HERE / "site"
 # the sitemap, and the Open Graph tags used for link previews.
 SITE_URL = "https://em1ten.github.io/football-league-news"
 SITE_TITLE = "Football League News"
-SITE_TAGLINE = "All 72 clubs. One feed."
+SITE_TAGLINE = "All 72 clubs. One feed. No ads."
 SITE_ABOUT = "Made by a fan, for fans. Independent and unofficial -- not affiliated with the EFL or any club."
 KOFI_URL = "https://ko-fi.com/footballnewsfeed"
 
