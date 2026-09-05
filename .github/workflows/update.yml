@@ -3,10 +3,17 @@ name: Update EFL Feed
 on:
   workflow_dispatch: {}
   schedule:
+    # Native GitHub cron is unreliable under load (can slip hours) --
+    # this is a backup only. cron-job.org drives the real 15-min cadence
+    # via workflow_dispatch once that's set up. Offset off :00/:15/:30/:45
+    # to avoid the congestion everyone else's cron creates at those marks.
     - cron: "7,37 * * * *"
   push:
     branches: [main]
 
+# A single stuck run can jam this group forever ("waiting for run #X to
+# complete" pointing at a dead run). If deploys mysteriously stop, rename
+# this group (e.g. pages -> pages-clean) to orphan the stuck run for free.
 concurrency:
   group: pages
   cancel-in-progress: true
@@ -32,19 +39,31 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
+        # feedparser alone is NOT enough -- fetch_news.py also needs
+        # requests. Missing it crashes silently before the deploy step,
+        # so nothing updates and there's no obvious error unless you
+        # check this step's log directly.
         run: pip install -r requirements.txt
 
       - name: Fetch news
         run: python3 fetch_news.py
 
+      - name: Fetch standings
+        # Table/results data doesn't need 15-min polling like news does --
+        # this is cheap and safe to run every time regardless.
+        run: python3 fetch_standings.py
+
       - name: Build site
         run: python3 build_site.py
 
       - name: Commit updated articles.json
+        # Persist the merge-with-previous state back to the repo so the
+        # next run (and a human browsing history) can see it. Skips
+        # cleanly if nothing changed.
         run: |
           git config user.name "efl-feed-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add articles.json
+          git add articles.json standings.json
           git diff --cached --quiet && echo "no article changes" || git commit -m "Update articles [skip ci]"
           git push || echo "nothing to push"
 
