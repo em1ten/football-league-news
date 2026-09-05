@@ -18,6 +18,7 @@ SITE_DIR = HERE / "site"
 SITE_URL = "https://example.invalid"  # replace once the domain is live
 SITE_TITLE = "EFL Feed"
 SITE_TAGLINE = "Independent and unofficial. Not affiliated with the EFL."
+KOFI_URL = "https://ko-fi.com/footballnewsfeed"
 
 
 def load():
@@ -95,6 +96,12 @@ def build_html(articles, clubs):
   header {{ margin-bottom: 1.25rem; }}
   header h1 {{ margin: 0 0 0.3rem; font-size: 1.7rem; letter-spacing: -0.02em; }}
   .tagline {{ color: var(--text-dim); font-size: 0.85rem; }}
+  .kofi-link {{
+    display: inline-block; margin-top: 0.6rem; font-size: 0.82rem;
+    color: var(--text-dim); text-decoration: none; border: 1px solid var(--border);
+    border-radius: 999px; padding: 0.3rem 0.8rem;
+  }}
+  .kofi-link:hover {{ color: var(--text); border-color: var(--accent); }}
 
   #picker-toggle {{
     background: var(--surface); color: var(--text); border: 1px solid var(--border);
@@ -161,6 +168,7 @@ def build_html(articles, clubs):
 <header>
   <h1>{esc(SITE_TITLE)}</h1>
   <div class="tagline">{esc(SITE_TAGLINE)}</div>
+  <a class="kofi-link" href="{esc(KOFI_URL)}" rel="noopener" target="_blank">&#9749; Support this site on Ko-fi</a>
 </header>
 
 <button id="picker-toggle" aria-expanded="false">
@@ -278,7 +286,7 @@ def build_feed_xml(articles):
 <channel>
   <title>{esc(SITE_TITLE)}</title>
   <link>{esc(SITE_URL)}</link>
-  <description>{esc(SITE_TAGLINE)}</description>
+  <description>{esc(SITE_TAGLINE)} Support: {esc(KOFI_URL)}</description>
 {chr(10).join(items)}
 </channel>
 </rss>"""
