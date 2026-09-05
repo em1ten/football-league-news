@@ -303,7 +303,16 @@ def build_html(articles, clubs):
   .day-group:first-child .day-heading {{ margin-top: 0; }}
 
   #feed {{ display: flex; flex-direction: column; }}
-  .day-group {{ display: flex; flex-direction: column; gap: 0.8rem; }}
+  /* :not([hidden]) matters here: JS toggles the `hidden` attribute on
+     .day-group and .cluster to filter content, but the browser's default
+     [hidden]{{display:none}} rule is a UA-stylesheet rule -- any author
+     rule that sets `display` on the same element overrides it regardless
+     of selector specificity. An unscoped `.day-group{{display:flex}}`
+     silently defeats `hidden` entirely: the attribute gets set, nothing
+     visually hides. Scoping the flex display to :not([hidden]) means the
+     layout rule only applies while visible, and hidden elements fall
+     through to the real UA default. */
+  .day-group:not([hidden]) {{ display: flex; flex-direction: column; gap: 0.8rem; }}
   .card {{
     background: var(--card); border: 1px solid var(--line); border-left: 3px solid var(--line);
     border-radius: 8px; padding: 0.9rem 1rem;
@@ -320,7 +329,7 @@ def build_html(articles, clubs):
   .card h3 a:hover {{ color: var(--accent); text-decoration: underline; }}
   .card p {{ font-size: 0.88rem; color: var(--muted); margin: 0.4rem 0 0; }}
 
-  .cluster {{ display: flex; flex-direction: column; }}
+  .cluster:not([hidden]) {{ display: flex; flex-direction: column; }}
   .more-stories {{ margin-top: 0.4rem; }}
   .more-stories summary {{
     font-family: "Space Grotesk", monospace; font-size: 0.78rem; color: var(--muted);
