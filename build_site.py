@@ -196,12 +196,16 @@ def your_clubs_card(club, standings_for_division):
 
 
 def build_favicon_svg():
-    # Inline lettermark: rounded square, accent fill, bold initials. No
-    # bitmap asset to manage or fail to upload.
+    # Teletext-inspired lettermark: black background, bright-green outline
+    # frame, white blocky monospace text. Deliberately its own colour
+    # combination (not the classic multicolour teletext page palette) and
+    # no page number / service name -- evokes the era's chunky low-res
+    # text-service look without referencing any specific real service.
     return """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#1a7f4b"/>
-  <text x="32" y="42" font-family="Archivo, sans-serif" font-weight="800"
-        font-size="26" fill="#ffffff" text-anchor="middle">EF</text>
+  <rect width="64" height="64" fill="#0a0a0a"/>
+  <rect x="2.5" y="2.5" width="59" height="59" fill="none" stroke="#4ade80" stroke-width="3"/>
+  <text x="32" y="41" font-family="'Courier New', monospace" font-weight="700"
+        font-size="22" letter-spacing="1" fill="#ffffff" text-anchor="middle">fln</text>
 </svg>"""
 
 
@@ -230,16 +234,24 @@ def build_manifest():
 
 def write_png_icon(path, size):
     """Generate the PWA icon as a real PNG. iOS in particular ignores SVG
-    for home-screen icons, so the existing favicon.svg isn't enough on its
-    own. Written with zlib+struct rather than Pillow so the build has no
-    extra dependency to install in CI (see the missing-dependency lesson
-    in LEARNINGS.md -- fewer deps, fewer silent CI crashes)."""
+    for home-screen icons, so favicon.svg isn't enough on its own. Written
+    with zlib+struct rather than Pillow so the build has no extra
+    dependency to install in CI (see the missing-dependency lesson in
+    LEARNINGS.md -- fewer deps, fewer silent CI crashes).
+
+    Matches favicon.svg's palette (black background, green frame) but
+    can't reproduce the actual "fln" lettering here -- there's no font
+    renderer available without adding a dependency, and hand-mapping
+    three letterforms pixel-by-pixel at icon scale would likely look
+    worse than a clean geometric mark. Uses the same goalposts motif as
+    before, recoloured, rather than a blurry attempt at real letters."""
     import zlib
     import struct
 
-    # Accent green background, with a lighter inset square as a simple mark.
-    bg = (26, 127, 75)
+    bg = (10, 10, 10)
+    frame = (74, 222, 128)
     fg = (255, 255, 255)
+    border = max(2, size // 32)
     inset = size // 4
     bar = max(1, size // 12)
 
@@ -247,11 +259,17 @@ def write_png_icon(path, size):
     for y in range(size):
         rows.append(0)  # PNG filter type 0 for each scanline
         for x in range(size):
-            # Draw a simple "goalposts" mark: two verticals + a crossbar.
+            on_frame = (x < border or x >= size - border or y < border or y >= size - border)
             in_left = inset <= x < inset + bar and y >= inset
             in_right = size - inset - bar <= x < size - inset and y >= inset
             in_top = inset <= x < size - inset and inset <= y < inset + bar
-            rows.extend(fg if (in_left or in_right or in_top) else bg)
+            if on_frame:
+                pixel = frame
+            elif in_left or in_right or in_top:
+                pixel = fg
+            else:
+                pixel = bg
+            rows.extend(pixel)
 
     def chunk(tag, data):
         c = struct.pack(">I", len(data)) + tag + data
