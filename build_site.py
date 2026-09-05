@@ -30,6 +30,7 @@ from pathlib import Path
 HERE = Path(__file__).parent
 ARTICLES = HERE / "articles.json"
 CLUBS = HERE / "clubs.json"
+STANDINGS = HERE / "standings.json"
 SITE_DIR = HERE / "site"
 # Update this if you move to a custom domain -- it feeds the RSS <link>,
 # the sitemap, and the Open Graph tags used for link previews.
@@ -46,7 +47,8 @@ DIVISION_LABEL = {"championship": "Championship", "league-one": "League One", "l
 def load():
     articles = json.loads(ARTICLES.read_text(encoding="utf-8")) if ARTICLES.exists() else []
     clubs = json.loads(CLUBS.read_text(encoding="utf-8"))["clubs"]
-    return articles, clubs
+    standings = json.loads(STANDINGS.read_text(encoding="utf-8")) if STANDINGS.exists() else {}
+    return articles, clubs, standings
 
 
 def esc(s):
@@ -150,6 +152,49 @@ def club_pill(c):
     return f'<button class="pill" type="button" aria-pressed="false" data-slug="{esc(c["slug"])}">{esc(c["name"])}</button>'
 
 
+ORDINALS = {1: "st", 2: "nd", 3: "rd"}
+
+
+def ordinal(n):
+    if 10 <= n % 100 <= 20:
+        return f"{n}th"
+    return f"{n}{ORDINALS.get(n % 10, 'th')}"
+
+
+def your_clubs_card(club, standings_for_division):
+    """One row in the 'Your clubs' strip: last result + league position.
+    standings_for_division is the {'table':[...], 'last_result':{...}}
+    dict for this club's division, or None if standings.json has nothing
+    for that division yet (e.g. first run before fetch_standings.py has
+    ever succeeded) -- degrades to just showing the club name, not a
+    broken row."""
+    slug = club["slug"]
+    if not standings_for_division:
+        return None
+    last = standings_for_division.get("last_result", {}).get(slug)
+    table_row = next((t for t in standings_for_division.get("table", []) if t["slug"] == slug), None)
+    if not last and not table_row:
+        return None
+    result_html = ""
+    if last:
+        opp_name = last["opponent_name"]
+        venue = "vs" if last["home_away"] == "H" else "@"
+        result_html = f'<div class="yc-result">{esc(last["result"])} {last["gf"]}&ndash;{last["ga"]} {venue} {esc(opp_name)}</div>'
+    position_html = ""
+    if table_row:
+        position_html = f"""<div class="yc-position">
+      <div class="yc-pos-num">{ordinal(table_row['position'])}</div>
+      <div class="yc-pts">{table_row['points']} pts &middot; P{table_row['played']}</div>
+    </div>"""
+    return f"""<div class="yc-row" data-slug="{esc(slug)}" data-division="{esc(club['division'])}">
+  <div>
+    <div class="yc-name">{esc(club['name'])}</div>
+    {result_html}
+  </div>
+  {position_html}
+</div>"""
+
+
 def build_favicon_svg():
     # Inline lettermark: rounded square, accent fill, bold initials. No
     # bitmap asset to manage or fail to upload.
@@ -219,7 +264,7 @@ def write_png_icon(path, size):
     path.write_bytes(png)
 
 
-def build_html(articles, clubs):
+def build_html(articles, clubs, standings):
     today = datetime.now(timezone.utc).date()
     articles_sorted = sorted(articles, key=lambda a: a.get("published", ""), reverse=True)
     day_groups = group_by_day(articles_sorted, today)
@@ -230,6 +275,13 @@ def build_html(articles, clubs):
         cards = "\n".join(cluster_card(c) for c in clusters)
         feed_sections.append(f'<section class="day-group"><h2 class="day-heading">{esc(label)}</h2>{cards}</section>')
     feed_html = "\n".join(feed_sections)
+
+    your_clubs_rows = []
+    for c in clubs:
+        row = your_clubs_card(c, standings.get(c["division"]))
+        if row:
+            your_clubs_rows.append((c["slug"], row))
+    your_clubs_html = "\n".join(html for _, html in your_clubs_rows)
 
     clubs_by_div = {d: [c for c in clubs if c["division"] == d] for d in DIVISION_ORDER}
     picker_sections = []
@@ -345,6 +397,25 @@ def build_html(articles, clubs):
     padding: 0.25rem 0.7rem; margin-left: 0.6rem; font-weight: 600; cursor: pointer;
     font-family: "Space Grotesk", monospace;
   }}
+
+  #your-clubs:not([hidden]) {{ margin-bottom: 1.5rem; }}
+  .yc-heading {{
+    font-family: "Space Grotesk", monospace; font-size: 0.68rem; text-transform: uppercase;
+    letter-spacing: 0.08em; color: var(--muted); margin: 0 0 0.5rem;
+  }}
+  .yc-row {{
+    background: var(--card); border: 1px solid var(--line); border-left: 3px solid var(--line);
+    border-radius: 8px; padding: 0.7rem 0.9rem; margin-bottom: 0.5rem;
+    display: flex; justify-content: space-between; align-items: center;
+  }}
+  .yc-row[data-division="championship"] {{ border-left-color: var(--championship); }}
+  .yc-row[data-division="league-one"] {{ border-left-color: var(--league-one); }}
+  .yc-row[data-division="league-two"] {{ border-left-color: var(--league-two); }}
+  .yc-name {{ font-weight: 600; font-size: 0.92rem; }}
+  .yc-result {{ font-family: "Space Grotesk", monospace; font-size: 0.72rem; color: var(--muted); margin-top: 0.15rem; }}
+  .yc-position {{ text-align: right; }}
+  .yc-pos-num {{ font-family: "Space Grotesk", monospace; font-weight: 700; font-size: 1rem; color: var(--accent); }}
+  .yc-pts {{ font-family: "Space Grotesk", monospace; font-size: 0.62rem; color: var(--muted); }}
 
   #picker-toggle {{
     background: var(--card); color: var(--ink); border: 1px solid var(--line);
@@ -487,6 +558,11 @@ def build_html(articles, clubs):
   <a class="kofi-link" href="{esc(KOFI_URL)}" rel="noopener" target="_blank">&#9749; Support this site on Ko-fi</a>
 </header>
 
+<div id="your-clubs" hidden>
+  <h2 class="yc-heading">Your clubs</h2>
+  {your_clubs_html}
+</div>
+
 <button id="picker-toggle" aria-expanded="false" type="button">
   <span id="picker-toggle-label">Choose your clubs</span>
   <span class="chev">&#9662;</span>
@@ -546,6 +622,7 @@ def build_html(articles, clubs):
   var searchEmpty = document.getElementById("search-empty");
   var emptyState = document.getElementById("empty-state");
   var emptyClearBtn = document.getElementById("empty-clear");
+  var yourClubs = document.getElementById("your-clubs");
   var feed = document.getElementById("feed");
   var pills = Array.prototype.slice.call(document.querySelectorAll(".pill"));
 
@@ -577,6 +654,17 @@ def build_html(articles, clubs):
     var anyClusterVisible = Array.prototype.slice.call(feed.querySelectorAll(".cluster"))
       .some(function(c) {{ return !c.hidden; }});
     emptyState.hidden = anyClusterVisible;
+    // "Your clubs" strip: only ever shown for clubs actually followed --
+    // an empty selection means nothing to show, not "show everyone".
+    var ycRows = Array.prototype.slice.call(document.querySelectorAll(".yc-row"));
+    var anyYcVisible = false;
+    ycRows.forEach(function(row) {{
+      var show = sel.indexOf(row.dataset.slug) !== -1;
+      row.hidden = !show;
+      if (show) anyYcVisible = true;
+    }});
+    yourClubs.hidden = !anyYcVisible;
+
     pickerLabel.textContent = sel.length ? "Your clubs (" + sel.length + ")" : "Choose your clubs";
   }}
 
@@ -751,10 +839,10 @@ def build_version(articles):
 
 
 def main():
-    articles, clubs = load()
+    articles, clubs, standings = load()
     SITE_DIR.mkdir(exist_ok=True)
 
-    (SITE_DIR / "index.html").write_text(build_html(articles, clubs), encoding="utf-8")
+    (SITE_DIR / "index.html").write_text(build_html(articles, clubs, standings), encoding="utf-8")
     (SITE_DIR / "feed.xml").write_text(build_feed_xml(articles), encoding="utf-8")
     (SITE_DIR / "sitemap.xml").write_text(build_sitemap(), encoding="utf-8")
     (SITE_DIR / "version.json").write_text(json.dumps(build_version(articles)), encoding="utf-8")
