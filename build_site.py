@@ -272,11 +272,20 @@ def build_html(articles, clubs):
     background: var(--card); border: 1px solid var(--line); border-top: none;
     padding: 1rem; border-radius: 0 0 8px 8px; margin-bottom: 1.5rem;
   }}
+  .picker-actions {{
+    display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;
+  }}
   #picker-clear {{
     font-family: "Space Grotesk", monospace; font-size: 0.75rem; color: var(--muted);
     background: none; border: none; cursor: pointer; text-decoration: underline;
-    padding: 0; margin-bottom: 0.75rem;
+    padding: 0;
   }}
+  #picker-done {{
+    font-family: "Space Grotesk", monospace; font-size: 0.78rem; color: var(--badge-fg);
+    background: var(--accent); border: none; border-radius: 999px; cursor: pointer;
+    padding: 0.3rem 0.9rem; font-weight: 600;
+  }}
+  #picker-done:hover {{ background: var(--accent-soft); }}
   .division {{ margin-bottom: 0.9rem; }}
   .division:last-child {{ margin-bottom: 0; }}
   .division h4 {{
@@ -362,7 +371,10 @@ def build_html(articles, clubs):
   <span class="chev">&#9662;</span>
 </button>
 <div id="picker" hidden>
-  <button id="picker-clear" type="button">Clear selection</button>
+  <div class="picker-actions">
+    <button id="picker-clear" type="button">Clear selection</button>
+    <button id="picker-done" type="button">Done</button>
+  </div>
   {picker_html}
 </div>
 
@@ -395,6 +407,7 @@ def build_html(articles, clubs):
   var pickerToggle = document.getElementById("picker-toggle");
   var pickerLabel = document.getElementById("picker-toggle-label");
   var clearBtn = document.getElementById("picker-clear");
+  var doneBtn = document.getElementById("picker-done");
   var feed = document.getElementById("feed");
   var pills = Array.prototype.slice.call(document.querySelectorAll(".pill"));
 
@@ -433,10 +446,24 @@ def build_html(articles, clubs):
     }});
   }});
   clearBtn.addEventListener("click", function() {{ setSelection([]); applyFilter(); }});
+  function closePicker() {{
+    picker.hidden = true;
+    pickerToggle.setAttribute("aria-expanded", "false");
+  }}
+  doneBtn.addEventListener("click", closePicker);
   pickerToggle.addEventListener("click", function() {{
     var open = picker.hidden;
     picker.hidden = !open;
     pickerToggle.setAttribute("aria-expanded", open ? "true" : "false");
+  }});
+  // Click outside the picker (and outside its own toggle button) closes it.
+  // Selecting pills stays multi-select -- this only fires for clicks that
+  // land outside the picker entirely, so picking several clubs in a row
+  // still works before the picker closes.
+  document.addEventListener("click", function(e) {{
+    if (picker.hidden) return;
+    if (picker.contains(e.target) || pickerToggle.contains(e.target)) return;
+    closePicker();
   }});
   applyFilter();
 
