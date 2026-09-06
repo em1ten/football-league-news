@@ -306,10 +306,7 @@ def build_html(articles, clubs, standings):
     for d in DIVISION_ORDER:
         pills = "\n".join(club_pill(c) for c in clubs_by_div[d])
         picker_sections.append(f'''<div class="division" data-division="{esc(d)}">
-  <div class="division-head">
-    <h4>{DIVISION_LABEL[d]}</h4>
-    <button class="division-select-all" type="button" data-division="{esc(d)}">Select all</button>
-  </div>
+  <h4>{DIVISION_LABEL[d]}</h4>
   <div class="pills">{pills}</div>
 </div>''')
     picker_html = "\n".join(picker_sections)
@@ -510,20 +507,29 @@ def build_html(articles, clubs, standings):
   #picker-done:hover {{ background: var(--accent-soft); }}
   .division {{ margin-bottom: 0.9rem; }}
   .division:last-child {{ margin-bottom: 0; }}
-  .division-head {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }}
   .division h4 {{
-    margin: 0; font-family: "Space Grotesk", monospace; font-size: 0.72rem;
+    margin: 0 0 0.5rem; font-family: "Space Grotesk", monospace; font-size: 0.72rem;
     text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted);
   }}
-  .division-select-all {{
-    font-family: "Space Grotesk", monospace; font-size: 0.68rem; color: var(--muted);
-    background: none; border: none; cursor: pointer; text-decoration: underline; padding: 0;
-  }}
-  .division-select-all:hover {{ color: var(--ink); }}
-  .division-select-all[data-active="true"] {{ color: var(--accent); }}
   .division[data-division="championship"] h4 {{ color: var(--championship); }}
   .division[data-division="league-one"] h4 {{ color: var(--league-one); }}
   .division[data-division="league-two"] h4 {{ color: var(--league-two); }}
+
+  .league-pills {{ display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1rem; }}
+  .league-pill {{ font-weight: 600; }}
+  .league-pill[data-division="championship"] {{ border-color: var(--championship); color: var(--championship); }}
+  .league-pill[data-division="league-one"] {{ border-color: var(--league-one); color: var(--league-one); }}
+  .league-pill[data-division="league-two"] {{ border-color: var(--league-two); color: var(--league-two); }}
+  /* Pressed-state text colour is checked per division per theme (see
+     LEARNINGS.md badge-fg note) -- light-mode league-one/two are darker,
+     saturated colours that need white text; championship and everything
+     in dark mode (brighter pastels) need black. Not a single value that
+     works everywhere. */
+  .league-pill[aria-pressed="true"] {{ color: #ffffff; }}
+  .league-pill[data-division="championship"][aria-pressed="true"] {{ color: #000000; background: var(--championship); }}
+  .league-pill[data-division="league-one"][aria-pressed="true"] {{ background: var(--league-one); }}
+  .league-pill[data-division="league-two"][aria-pressed="true"] {{ background: var(--league-two); }}
+  [data-theme="dark"] .league-pill[aria-pressed="true"] {{ color: #000000; }}
   .pills {{ display: flex; flex-wrap: wrap; gap: 0.4rem; }}
   .pill {{
     font-family: "Space Grotesk", monospace; border: 1px solid var(--line); border-radius: 999px;
@@ -611,6 +617,11 @@ def build_html(articles, clubs, standings):
       <button id="picker-clear" type="button">Clear selection</button>
       <button id="picker-done" type="button">Done</button>
     </div>
+    <div class="league-pills">
+      <button class="pill league-pill" type="button" aria-pressed="false" data-division="championship">Championship</button>
+      <button class="pill league-pill" type="button" aria-pressed="false" data-division="league-one">League One</button>
+      <button class="pill league-pill" type="button" aria-pressed="false" data-division="league-two">League Two</button>
+    </div>
     {picker_html}
     <p id="search-empty" hidden>No clubs match that.</p>
   </div>
@@ -663,7 +674,13 @@ def build_html(articles, clubs, standings):
   var emptyClearBtn = document.getElementById("empty-clear");
   var yourClubs = document.getElementById("your-clubs");
   var feed = document.getElementById("feed");
-  var pills = Array.prototype.slice.call(document.querySelectorAll(".pill"));
+  // Scoped to exclude .league-pill: those share the .pill class purely
+  // for visual styling, but are a different control (toggles a whole
+  // division) with their own click handler below. Without this
+  // exclusion, clicking a league pill would ALSO fire the club-pill
+  // handler and push the literal division name into the selection as
+  // if it were a club slug.
+  var pills = Array.prototype.slice.call(document.querySelectorAll(".pill:not(.league-pill)"));
 
   function getSelection() {{
     try {{ return JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]"); }}
@@ -704,19 +721,17 @@ def build_html(articles, clubs, standings):
     }});
     yourClubs.hidden = !anyYcVisible;
 
-    // Per-division "select all" button reflects whether every club in
-    // that division is currently followed -- lets it double as both an
-    // action and a status indicator, rather than a static label.
-    document.querySelectorAll(".division").forEach(function(d) {{
-      var divisionPills = Array.prototype.slice.call(d.querySelectorAll(".pill"));
+    // League pill reflects whether every club in that division is
+    // currently followed -- lets it double as both an action and a
+    // status indicator, rather than a static label.
+    document.querySelectorAll(".league-pill").forEach(function(lp) {{
+      var divisionPills = Array.prototype.slice.call(
+        document.querySelectorAll('.division[data-division="' + lp.dataset.division + '"] .pill')
+      );
       var allSelected = divisionPills.length > 0 && divisionPills.every(function(p) {{
         return sel.indexOf(p.dataset.slug) !== -1;
       }});
-      var btn = d.querySelector(".division-select-all");
-      if (btn) {{
-        btn.textContent = allSelected ? "Clear division" : "Select all";
-        btn.dataset.active = allSelected ? "true" : "false";
-      }}
+      lp.setAttribute("aria-pressed", allSelected ? "true" : "false");
     }});
 
     pickerLabel.textContent = sel.length ? "Your clubs (" + sel.length + ")" : "Choose your clubs";
@@ -734,11 +749,11 @@ def build_html(articles, clubs, standings):
   clearBtn.addEventListener("click", function() {{ setSelection([]); applyFilter(); }});
   emptyClearBtn.addEventListener("click", function() {{ setSelection([]); applyFilter(); }});
 
-  document.querySelectorAll(".division-select-all").forEach(function(btn) {{
-    btn.addEventListener("click", function() {{
-      var division = btn.closest(".division");
-      var divisionSlugs = Array.prototype.slice.call(division.querySelectorAll(".pill"))
-        .map(function(p) {{ return p.dataset.slug; }});
+  document.querySelectorAll(".league-pill").forEach(function(lp) {{
+    lp.addEventListener("click", function() {{
+      var divisionSlugs = Array.prototype.slice.call(
+        document.querySelectorAll('.division[data-division="' + lp.dataset.division + '"] .pill')
+      ).map(function(p) {{ return p.dataset.slug; }});
       var sel = getSelection();
       var allSelected = divisionSlugs.every(function(s) {{ return sel.indexOf(s) !== -1; }});
       if (allSelected) {{
