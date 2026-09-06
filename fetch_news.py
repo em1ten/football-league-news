@@ -237,7 +237,9 @@ _NON_FOOTBALL_NOISE_RE = re.compile(
     r"\btragedy\b|\bvictims\b|\bgang violence\b|\bmystery\b|"
     r"\bhigh school\b|\bvarsity\b|\bjunior varsity\b|\bprep football\b|"
     r"\bengineer\b|\breservoir\b|\bcivil service\b|\bparking garage\b|"
-    r"\btwin city\b|\bheadquarters\b|\bin memory of\b"
+    r"\btwin city\b|\bheadquarters\b|\bin memory of\b|\bfirefighters\b|\bblaze\b|"
+    r"\bflames engulf\b|\bgarage fire\b|\bscrapyard fire\b|\bhouse fire\b|"
+    r"\bwildfire\b|\barson\b|\brough sleeping\b|\bhomeless(?:ness)?\b"
 )
 
 # Known non-UK local-news outlets that repeatedly surface for homonym
@@ -252,6 +254,7 @@ HOMONYM_NOISE_SOURCES = {
     "Portsmouth Daily Times", "seacoastonline.com", "WAVY.com", "13newsnow.com",
     "The Columbus Dispatch", "Chillicothe Gazette", "MaxPreps", "News Dakota",
     "Lincoln City Homepage", "newportnewstimes.com", "The Spectator",
+    "WRIC ABC 8News",
 }
 
 # Any of these present means it's genuinely about the club, even if a
