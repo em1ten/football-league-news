@@ -23,6 +23,7 @@ LEARNINGS.md / the KT doc), adapted for EFL Feed:
 
 import json
 import hashlib
+import re
 from datetime import datetime, date, timezone
 from email.utils import format_datetime
 from pathlib import Path
@@ -74,25 +75,122 @@ def day_label(d, today):
     return d.strftime("%A %d %B")
 
 
+CLUSTER_WINDOW_HOURS = 6
+
+# Words that carry no story-distinguishing signal: generic English function
+# words plus football-journalism boilerplate ("TV channel", "kick-off time",
+# "live stream" template headlines all reduce to nothing once these are
+# stripped). Club names are stripped separately per-article since they vary.
+_CLUSTER_STOPWORDS = {
+    "a", "an", "the", "and", "or", "but", "to", "of", "in", "on", "at", "for",
+    "with", "as", "after", "before", "from", "by", "is", "are", "was", "were",
+    "be", "been", "it", "its", "this", "that", "has", "have", "had", "will",
+    "not", "no", "vs", "v", "up", "out", "over", "his", "her", "their", "our",
+    "your", "who", "what", "when", "how", "why", "until", "end", "season",
+    "tv", "channel", "live", "stream", "streaming", "watch", "where", "kick",
+    "off", "kickoff", "time", "score", "scores", "report", "highlights",
+    "preview", "lineup", "lineups", "stats", "head", "odds", "tips",
+    "prediction", "predictions", "betting", "match", "game", "news", "latest",
+    "update", "updates", "confirmed", "official", "breaking",
+}
+_WORD_RE = re.compile(r"[a-z0-9']+")
+
+
+def _significant_tokens(title, clubs):
+    club_words = set()
+    for slug in clubs:
+        club_words.update(slug.split("-"))
+    words = _WORD_RE.findall(title.lower())
+    return {w for w in words if len(w) > 2 and w not in _CLUSTER_STOPWORDS and w not in club_words}
+
+
+def _same_story(a, b):
+    """Same club-set and close in time isn't the same STORY -- confirmed
+    live: a Jamie Vardy transfer story and an unrelated 'Burnley make an
+    approach for Broja' transfer story both got merged into one cluster
+    purely because they shared the club tag and landed in the same window.
+    This is a second, independent gate: strip club names and generic/
+    boilerplate words from both titles: if what's left doesn't overlap AT
+    ALL, and both sides actually have something left to compare (a template
+    headline like "Where to watch: TV channel, kick-off time" reduces to
+    nothing and can't be judged either way -- default to merging rather
+    than wrongly splitting genuine same-match coverage that just uses
+    different phrasing), treat them as different stories. A heuristic, not
+    real story-matching -- two genuinely unrelated stories that happen to
+    share a distinctive word can still merge, and two paraphrases of the
+    same story with zero shared vocabulary can still split."""
+    tokens_a = _significant_tokens(a.get("title", ""), a.get("clubs", []))
+    tokens_b = _significant_tokens(b.get("title", ""), b.get("clubs", []))
+    if not tokens_a or not tokens_b:
+        return True
+    return bool(tokens_a & tokens_b)
+
+
 def cluster_by_clubs(articles):
-    """Group same-club-set stories together within a day. Real production
-    output showed the same fixture covered 5-10 times (preview, lineups,
-    live score, highlights, report) each rendering as its own card -- that's
-    not noise, it's genuine coverage, but it overwhelms the page. Clustering
-    by the exact club-set means both "same match covered repeatedly" and
-    "same club covered by several different stories" collapse into one
-    primary card plus an expandable list, in first-seen (i.e. newest-first,
-    since input is already sorted) order. Nothing is dropped -- everything
-    stays reachable via the <details> disclosure."""
+    """Group same-club-set stories together within a day. Two independent
+    gates must both pass to merge a story into an existing cluster:
+
+    1. Time window, anchored to that cluster's PRIMARY time (not a rolling
+       "gap since the last item added" -- a rolling window drifts: a dense
+       chain of small gaps, e.g. a viral transfer story picked up by dozens
+       of outlets over several hours, keeps re-extending its own reach and
+       can end up sweeping in a much later, unrelated story. Confirmed
+       live: a Jamie Vardy transfer story generated 45 pickups across ~6
+       hours, and a rolling window chained all the way out to sweep in two
+       unrelated stories about the same club 12h and 16h later.
+    2. Story similarity (_same_story) -- same club and close in time still
+       isn't necessarily the same STORY. Confirmed live: a genuinely
+       different transfer story ("Burnley make an approach for Broja")
+       landed in the middle of the Vardy burst and got merged in purely on
+       club+time. Stripped of club names and generic/boilerplate words, if
+       nothing overlaps between two titles, they're treated as different
+       stories.
+
+    A new cluster opened for a key doesn't retire the earlier ones for that
+    same key -- every article checks against ALL previously-opened clusters
+    sharing its club-set (each still gated by its own time window), not
+    just whichever opened most recently. Without this, one interloper story
+    (like Broja) permanently splits the real burst in two: everything after
+    it would compare only against the interloper, fail the similarity
+    check, and each spin off as its own singleton instead of rejoining the
+    original cluster.
+
+    All of this is a heuristic, not real story-matching: two genuinely
+    unrelated stories close together in time can still share a distinctive
+    word and merge; two paraphrases of the same story with no shared
+    vocabulary can still split. Nothing is ever dropped either way --
+    everything stays reachable via the <details> disclosure, just possibly
+    split across more than one card instead of one."""
     clusters = []
-    index_by_key = {}
+    clusters_by_key = {}
     for a in articles:
         key = tuple(sorted(a.get("clubs", [])))
-        if key not in index_by_key:
-            index_by_key[key] = len(clusters)
-            clusters.append({"primary": a, "more": []})
+        try:
+            t = datetime.fromisoformat(a["published"])
+        except Exception:
+            t = None
+
+        matched_idx = None
+        for idx in clusters_by_key.get(key, []):
+            primary = clusters[idx]["primary"]
+            try:
+                pt = datetime.fromisoformat(primary["published"])
+            except Exception:
+                pt = None
+            within_window = (
+                t is not None and pt is not None
+                and abs((pt - t).total_seconds()) <= CLUSTER_WINDOW_HOURS * 3600
+            )
+            if within_window and _same_story(primary, a):
+                matched_idx = idx
+                break
+
+        if matched_idx is not None:
+            clusters[matched_idx]["more"].append(a)
         else:
-            clusters[index_by_key[key]]["more"].append(a)
+            new_idx = len(clusters)
+            clusters.append({"primary": a, "more": []})
+            clusters_by_key.setdefault(key, []).append(new_idx)
     return clusters
 
 
