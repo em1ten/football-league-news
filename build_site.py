@@ -383,18 +383,57 @@ def write_png_icon(path, size):
     path.write_bytes(png)
 
 
+# A cluster needs at least this many total stories (primary + more) to
+# count as a "top story" -- otherwise an ordinary single-source piece
+# would get inflated into looking like breaking news on a quiet day.
+TOP_STORY_MIN_COUNT = 6
+
+
+def extract_top_story(day_groups):
+    """Pull the biggest cluster out of TODAY's group specifically (not
+    Yesterday or older -- "top story of the day" means today), if it's
+    big enough to matter. Reverse-chronological sorting has no sense of
+    importance: a 45-outlet transfer story sinks below single-source
+    pieces published minutes later purely because it's older, even
+    though its size is a genuine signal that it's the story everyone's
+    covering. Mutates day_groups in place to remove the extracted
+    cluster from its normal position, so it isn't shown twice. Returns
+    None if there's no Today group yet, or nothing meets the size bar."""
+    today_group = next((g for g in day_groups if g[0] == "Today"), None)
+    if today_group is None:
+        return None
+    label, clusters = today_group
+    if not clusters:
+        return None
+    biggest = max(clusters, key=lambda c: 1 + len(c["more"]))
+    if 1 + len(biggest["more"]) < TOP_STORY_MIN_COUNT:
+        return None
+    clusters.remove(biggest)
+    return biggest
+
+
+def top_story_section(cluster):
+    count = 1 + len(cluster["more"])
+    return f"""<section class="top-story">
+  <div class="top-story-badge">Top story &middot; {count} outlets covering this</div>
+  {cluster_card(cluster)}
+</section>"""
+
+
 def build_html(articles, clubs, standings):
     today = datetime.now(timezone.utc).date()
     articles_sorted = sorted(articles, key=lambda a: a.get("published", ""), reverse=True)
     day_groups = group_by_day(articles_sorted, today)
 
+    clustered_day_groups = [(label, cluster_by_clubs(group)) for label, group in day_groups]
+    top_story = extract_top_story(clustered_day_groups)
+    top_story_html = top_story_section(top_story) if top_story else ""
+
     feed_sections = []
-    for label, group in day_groups:
-        clusters = cluster_by_clubs(group)
+    for label, clusters in clustered_day_groups:
         cards = "\n".join(cluster_card(c) for c in clusters)
         feed_sections.append(f'<section class="day-group"><h2 class="day-heading">{esc(label)}</h2>{cards}</section>')
     feed_html = "\n".join(feed_sections)
-
     your_clubs_rows = []
     for c in clubs:
         row = your_clubs_card(c, standings.get(c["division"]))
@@ -697,6 +736,16 @@ def build_html(articles, clubs, standings):
   .card p {{ font-size: 0.88rem; color: var(--muted); margin: 0.4rem 0 0; }}
 
   .cluster:not([hidden]) {{ display: flex; flex-direction: column; }}
+
+  .top-story {{ margin-bottom: 1.75rem; }}
+  .top-story-badge {{
+    display: inline-block; background: var(--accent); color: var(--badge-fg);
+    font-family: "Space Grotesk", monospace; font-weight: 700; font-size: 0.68rem;
+    text-transform: uppercase; letter-spacing: 0.04em; padding: 0.25rem 0.6rem;
+    margin-bottom: 0.5rem; transform: rotate(-1deg);
+  }}
+  .top-story .card {{ border-width: 3px; }}
+  .top-story .card h3 {{ font-size: 1.15rem; }}
   .more-stories {{ margin-top: 0.4rem; }}
   .more-stories summary {{
     font-family: "Space Grotesk", monospace; font-size: 0.78rem; color: var(--muted);
@@ -751,6 +800,7 @@ def build_html(articles, clubs, standings):
   </div>
 </div>
 
+{top_story_html}
 <main id="feed">
 {feed_html}
 </main>
