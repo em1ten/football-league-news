@@ -117,13 +117,16 @@ def group_by_day(articles_sorted, today):
 
 def card_body(a, compact=False):
     club_label = ", ".join(c.replace("-", " ").title() for c in a.get("clubs", [])) or "League"
+    division = a.get("division", "")
     if compact:
         return f"""<div class="more-item">
-  <div class="card-meta">{esc(club_label)} &middot; {esc(a.get('source',''))} &middot; <time class="ts" data-published="{esc(a.get('published',''))}">&nbsp;</time></div>
+  <div class="card-tag" data-division="{esc(division)}">{esc(club_label)}</div>
   <a class="more-link" href="{esc(a.get('url',''))}" rel="noopener" target="_blank">{esc(a.get('title',''))}</a>
+  <div class="card-meta">{esc(a.get('source',''))} &middot; <time class="ts" data-published="{esc(a.get('published',''))}">&nbsp;</time></div>
 </div>"""
-    return f"""<div class="card-meta">{esc(club_label)} &middot; {esc(a.get('source',''))} &middot; <time class="ts" data-published="{esc(a.get('published',''))}">&nbsp;</time></div>
+    return f"""<div class="card-tag" data-division="{esc(division)}">{esc(club_label)}</div>
   <h3><a href="{esc(a.get('url',''))}" rel="noopener" target="_blank">{esc(a.get('title',''))}</a></h3>
+  <div class="card-meta">{esc(a.get('source',''))} &middot; <time class="ts" data-published="{esc(a.get('published',''))}">&nbsp;</time></div>
   {f'<p>{esc(a.get("excerpt",""))}</p>' if a.get("excerpt") else ""}"""
 
 
@@ -352,11 +355,11 @@ def build_html(articles, clubs, standings):
   :root {{
     --accent: #1a7f4b;
     --accent-soft: #2fae6b;
-    --ink: #14181c;
-    --bg: #f7f8f5;
+    --ink: #1a1a1a;
+    --bg: #f2ede1;
     --card: #ffffff;
-    --line: #dde2dc;
-    --muted: #5b6660;
+    --line: #1a1a1a;
+    --muted: #6b6255;
     --head-bg: #101613;
     --head-fg: #f2f5f0;
     --badge-fg: #ffffff;
@@ -370,7 +373,7 @@ def build_html(articles, clubs, standings):
     --ink: #e8ece7;
     --bg: #0d100e;
     --card: #161b18;
-    --line: #2a322c;
+    --line: #4a5650;
     --muted: #8b968f;
     --head-bg: #0d100e;
     --head-fg: #e8ece7;
@@ -386,28 +389,39 @@ def build_html(articles, clubs, standings):
     background: var(--bg); color: var(--ink); line-height: 1.45;
     transition: background 0.15s, color 0.15s;
   }}
-  header {{ position: relative; text-align: center; margin-bottom: 1.25rem; padding-top: 0.25rem; }}
-  header h1 {{
-    margin: 0 0 0.3rem; font-family: "Archivo", sans-serif; font-weight: 800;
-    font-size: 1.9rem; letter-spacing: -0.01em; padding: 0 2.6rem;
+  header {{ position: relative; text-align: center; margin-bottom: 1.4rem; padding-top: 0.25rem; }}
+  .wordmark-sticker {{
+    display: inline-block; background: #0d100e; color: #4ade80;
+    padding: 0.5rem 0.9rem; transform: rotate(-1.5deg); border: 2px solid #4ade80;
+    margin: 0 2.6rem 0.5rem; max-width: calc(100% - 5.2rem);
   }}
-  .tagline {{ font-family: "Space Grotesk", monospace; color: var(--muted); font-size: 0.8rem; padding: 0 2.6rem; }}
+  header h1 {{
+    margin: 0; font-family: "Archivo", sans-serif; font-weight: 800;
+    font-size: 1.6rem; letter-spacing: -0.01em; line-height: 1.1;
+  }}
+  .tagline {{
+    font-family: "Space Grotesk", monospace; color: var(--ink); font-size: 0.78rem;
+    font-weight: 700; padding: 0 2.6rem; display: inline-block;
+    border-bottom: 3px solid var(--accent);
+  }}
   .kofi-link {{
     display: inline-block; margin-top: 0.6rem; font-family: "Space Grotesk", monospace;
-    font-size: 0.78rem; color: var(--muted); text-decoration: none; border: 1px solid var(--line);
+    font-size: 0.78rem; color: var(--muted); text-decoration: none; border: 2px solid var(--line);
     border-radius: 999px; padding: 0.3rem 0.8rem;
   }}
   .kofi-link:hover {{ color: var(--ink); border-color: var(--accent); }}
 
   #theme-toggle {{
-    position: absolute; top: 0.1rem; right: 0; background: transparent; border: 1px solid var(--line);
+    position: absolute; top: 0.1rem; right: 0; background: transparent; border: 2px solid var(--line);
     border-radius: 999px; width: 2.1rem; height: 2.1rem; cursor: pointer; font-size: 1rem;
     color: var(--ink); display: flex; align-items: center; justify-content: center;
   }}
   #theme-toggle:hover {{ border-color: var(--accent); }}
 
   @media (max-width: 380px) {{
-    header h1 {{ font-size: 1.5rem; padding: 0 2.4rem; }}
+    header h1 {{ font-size: 1.3rem; }}
+    .wordmark-sticker {{ margin-left: 2.4rem; margin-right: 2.4rem; padding: 0.4rem 0.7rem; max-width: calc(100% - 4.8rem); }}
+    .tagline {{ padding: 0 2.4rem; }}
   }}
 
   #update-banner {{
@@ -429,40 +443,40 @@ def build_html(articles, clubs, standings):
     letter-spacing: 0.08em; color: var(--muted); margin: 0 0 0.5rem;
   }}
   .yc-row {{
-    background: var(--card); border: 1px solid var(--line); border-left: 3px solid var(--line);
-    border-radius: 8px; padding: 0.7rem 0.9rem; margin-bottom: 0.5rem;
+    background: var(--card); border: 2px solid var(--line);
+    border-radius: 2px; padding: 0.7rem 0.9rem; margin-bottom: 0.5rem;
     display: flex; justify-content: space-between; align-items: center;
   }}
-  .yc-row[data-division="championship"] {{ border-left-color: var(--championship); }}
-  .yc-row[data-division="league-one"] {{ border-left-color: var(--league-one); }}
-  .yc-row[data-division="league-two"] {{ border-left-color: var(--league-two); }}
   .yc-name {{ font-weight: 600; font-size: 0.92rem; }}
   .yc-result {{ font-family: "Space Grotesk", monospace; font-size: 0.72rem; color: var(--muted); margin-top: 0.15rem; }}
   .yc-position {{ text-align: right; }}
-  .yc-pos-num {{ font-family: "Space Grotesk", monospace; font-weight: 700; font-size: 1rem; color: var(--accent); }}
+  .yc-pos-num {{
+    font-family: "Space Grotesk", monospace; font-weight: 700; font-size: 0.9rem;
+    background: var(--accent); color: var(--badge-fg); padding: 0.2rem 0.5rem; display: inline-block;
+  }}
   .yc-pts {{ font-family: "Space Grotesk", monospace; font-size: 0.62rem; color: var(--muted); }}
 
   .picker-wrap {{ margin-bottom: 1.75rem; }}
 
   #picker-toggle {{
-    background: var(--card); color: var(--ink); border: 1px solid var(--line);
-    border-radius: 8px; padding: 0.55rem 1rem; font-family: "Space Grotesk", monospace;
-    font-size: 0.85rem; cursor: pointer; width: 100%; text-align: left;
-    display: flex; justify-content: space-between; align-items: center;
+    background: var(--card); color: var(--ink); border: 2px dashed var(--line);
+    border-radius: 2px; padding: 0.55rem 1rem; font-family: "Space Grotesk", monospace;
+    font-weight: 700; font-size: 0.85rem; cursor: pointer; width: 100%; text-align: center;
+    display: flex; justify-content: center; align-items: center; gap: 0.5rem;
   }}
-  #picker-toggle:hover {{ border-color: var(--accent); }}
+  #picker-toggle:hover {{ border-color: var(--accent); color: var(--accent); }}
   #picker-toggle .chev {{ opacity: 0.6; transition: transform 0.15s; }}
   #picker-toggle[aria-expanded="true"] .chev {{ transform: rotate(180deg); }}
 
   #picker {{
-    background: var(--card); border: 1px solid var(--line); border-top: none;
-    padding: 1rem; border-radius: 0 0 8px 8px;
+    background: var(--card); border: 2px solid var(--line); border-top: none;
+    padding: 1rem; border-radius: 0;
   }}
   #club-search {{
     width: 100%; padding: 0.5rem 0.75rem; margin-bottom: 0.6rem;
     font-family: "Space Grotesk", monospace; font-size: 0.85rem;
     background: var(--bg); color: var(--ink);
-    border: 1px solid var(--line); border-radius: 8px;
+    border: 2px solid var(--line); border-radius: 2px;
   }}
   #club-search:focus {{ outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }}
   #search-empty {{
@@ -532,7 +546,7 @@ def build_html(articles, clubs, standings):
   [data-theme="dark"] .league-pill[aria-pressed="true"] {{ color: #000000; }}
   .pills {{ display: flex; flex-wrap: wrap; gap: 0.4rem; }}
   .pill {{
-    font-family: "Space Grotesk", monospace; border: 1px solid var(--line); border-radius: 999px;
+    font-family: "Space Grotesk", monospace; border: 2px solid var(--line); border-radius: 999px;
     padding: 0.3rem 0.75rem; background: transparent; color: var(--ink); font-size: 0.8rem;
     cursor: pointer; transition: background 0.1s, border-color 0.1s;
   }}
@@ -558,15 +572,26 @@ def build_html(articles, clubs, standings):
      through to the real UA default. */
   .day-group:not([hidden]) {{ display: flex; flex-direction: column; gap: 0.8rem; }}
   .card {{
-    background: var(--card); border: 1px solid var(--line); border-left: 3px solid var(--line);
-    border-radius: 8px; padding: 0.9rem 1rem;
+    background: var(--card); border: 2px solid var(--line);
+    border-radius: 2px; padding: 0.85rem 0.95rem;
   }}
-  .card[data-division="championship"] {{ border-left-color: var(--championship); }}
-  .card[data-division="league-one"] {{ border-left-color: var(--league-one); }}
-  .card[data-division="league-two"] {{ border-left-color: var(--league-two); }}
+  .cluster:nth-child(odd) .card {{ transform: rotate(0.5deg); }}
+  .cluster:nth-child(even) .card {{ transform: rotate(-0.5deg); }}
+  .card-tag {{
+    display: inline-block; font-family: "Space Grotesk", monospace; font-weight: 700;
+    font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.02em;
+    padding: 0.15rem 0.5rem; margin-bottom: 0.5rem;
+  }}
+  /* Same per-division-per-theme contrast rule as the league pills (see
+     LEARNINGS.md badge-fg note): light-mode league-one/two need white
+     text, championship and everything in dark mode need black. */
+  .card-tag[data-division="championship"] {{ background: var(--championship); color: #000000; }}
+  .card-tag[data-division="league-one"] {{ background: var(--league-one); color: #ffffff; }}
+  .card-tag[data-division="league-two"] {{ background: var(--league-two); color: #ffffff; }}
+  [data-theme="dark"] .card-tag {{ color: #000000; }}
   .card-meta {{
-    font-family: "Space Grotesk", monospace; font-size: 0.72rem; color: var(--muted);
-    text-transform: uppercase; letter-spacing: 0.03em; margin-bottom: 0.35rem;
+    font-family: "Space Grotesk", monospace; font-size: 0.7rem; color: var(--muted);
+    margin-top: 0.35rem;
   }}
   .card h3 {{ margin: 0; font-size: 1.02rem; line-height: 1.35; font-weight: 600; }}
   .card h3 a {{ color: var(--ink); text-decoration: none; }}
@@ -587,16 +612,17 @@ def build_html(articles, clubs, standings):
     display: flex; flex-direction: column; gap: 0.6rem; margin-top: 0.4rem;
     padding-left: 0.9rem; border-left: 2px solid var(--line);
   }}
-  .more-item .card-meta {{ margin-bottom: 0.15rem; }}
-  .more-link {{ font-size: 0.88rem; color: var(--ink); text-decoration: none; }}
+  .more-item .card-tag {{ margin-bottom: 0.3rem; font-size: 0.6rem; }}
+  .more-link {{ font-size: 0.88rem; color: var(--ink); text-decoration: none; display: block; }}
   .more-link:hover {{ color: var(--accent); text-decoration: underline; }}
+  .more-item .card-meta {{ margin-top: 0.2rem; }}
 </style>
 </head>
 <body>
 <div id="update-banner">New stories are available.<button id="update-btn">Refresh</button></div>
 <header>
   <button id="theme-toggle" aria-label="Toggle dark mode" type="button">&#9788;</button>
-  <h1>{esc(SITE_TITLE)}</h1>
+  <div class="wordmark-sticker"><h1>{esc(SITE_TITLE)}</h1></div>
   <div class="tagline">{esc(SITE_TAGLINE)}</div>
   <a class="kofi-link" href="{esc(KOFI_URL)}" rel="noopener" target="_blank">&#9749; Support this site on Ko-fi</a>
 </header>
