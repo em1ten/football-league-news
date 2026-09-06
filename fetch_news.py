@@ -280,6 +280,19 @@ _FOOTBALL_CONTEXT_RE = re.compile(
 _WOMENS_FOOTBALL_RE = re.compile(r"(?i)\bwomen'?s?\b|\bladies\b|wsl\d?\b")
 
 
+# Also out of scope: youth/development-squad football (U18s, U21s, U23s,
+# academy, PDL). Same reasoning as the women's-football scope -- this site
+# is first-team men's football specifically.
+_YOUTH_FOOTBALL_RE = re.compile(
+    r"(?i)\bu1[89]s?\b|\bu2[13]s?\b|\bunder-?1[89]\b|\bunder-?2[13]\b|"
+    r"\byouth\b|\bacademy\b|\bdevelopment squad\b|\bprofessional development league\b|\bpdl\b"
+)
+
+
+def is_youth_football(title, excerpt=""):
+    return bool(_YOUTH_FOOTBALL_RE.search(f"{title} {excerpt}"))
+
+
 def is_womens_football(title, excerpt=""):
     return bool(_WOMENS_FOOTBALL_RE.search(f"{title} {excerpt}"))
 
@@ -299,6 +312,8 @@ def passes_quality_filters(article, from_google_news):
     if is_gambling_content(title, source):
         return False
     if is_womens_football(title, article.get("excerpt", "")):
+        return False
+    if is_youth_football(title, article.get("excerpt", "")):
         return False
     # Homonym check only applies to text-matched Google News content --
     # official feeds are already scoped by URL so can't be homonym noise.
