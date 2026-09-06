@@ -269,6 +269,21 @@ _FOOTBALL_CONTEXT_RE = re.compile(
 )
 
 
+# This aggregator is scoped to men's football only -- a separate women's
+# football site is a possible future project, not this one. WSL/BWSL
+# (Women's Super League), "Ladies" (legacy team-name suffix still used by
+# some clubs), and bare "Women"/"Women's" (as in "Cardiff City Women")
+# all reliably signal women's-team content in practice. No word-boundary
+# on the wsl/bwsl variants deliberately, since both "WSL2" and "BWSL2"
+# need to match and "wsl" essentially never appears inside an unrelated
+# English word.
+_WOMENS_FOOTBALL_RE = re.compile(r"(?i)\bwomen'?s?\b|\bladies\b|wsl\d?\b")
+
+
+def is_womens_football(title, excerpt=""):
+    return bool(_WOMENS_FOOTBALL_RE.search(f"{title} {excerpt}"))
+
+
 def is_homonym_noise(title, source=""):
     if source in HOMONYM_NOISE_SOURCES:
         return True
@@ -282,6 +297,8 @@ def passes_quality_filters(article, from_google_news):
     if is_stream_spam(title, url, source):
         return False
     if is_gambling_content(title, source):
+        return False
+    if is_womens_football(title, article.get("excerpt", "")):
         return False
     # Homonym check only applies to text-matched Google News content --
     # official feeds are already scoped by URL so can't be homonym noise.
