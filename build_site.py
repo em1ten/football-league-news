@@ -305,7 +305,13 @@ def build_html(articles, clubs, standings):
     picker_sections = []
     for d in DIVISION_ORDER:
         pills = "\n".join(club_pill(c) for c in clubs_by_div[d])
-        picker_sections.append(f'<div class="division" data-division="{esc(d)}"><h4>{DIVISION_LABEL[d]}</h4><div class="pills">{pills}</div></div>')
+        picker_sections.append(f'''<div class="division" data-division="{esc(d)}">
+  <div class="division-head">
+    <h4>{DIVISION_LABEL[d]}</h4>
+    <button class="division-select-all" type="button" data-division="{esc(d)}">Select all</button>
+  </div>
+  <div class="pills">{pills}</div>
+</div>''')
     picker_html = "\n".join(picker_sections)
 
     return f"""<!doctype html>
@@ -386,9 +392,9 @@ def build_html(articles, clubs, standings):
   header {{ position: relative; text-align: center; margin-bottom: 1.25rem; padding-top: 0.25rem; }}
   header h1 {{
     margin: 0 0 0.3rem; font-family: "Archivo", sans-serif; font-weight: 800;
-    font-size: 1.9rem; letter-spacing: -0.01em;
+    font-size: 1.9rem; letter-spacing: -0.01em; padding: 0 2.6rem;
   }}
-  .tagline {{ font-family: "Space Grotesk", monospace; color: var(--muted); font-size: 0.8rem; }}
+  .tagline {{ font-family: "Space Grotesk", monospace; color: var(--muted); font-size: 0.8rem; padding: 0 2.6rem; }}
   .kofi-link {{
     display: inline-block; margin-top: 0.6rem; font-family: "Space Grotesk", monospace;
     font-size: 0.78rem; color: var(--muted); text-decoration: none; border: 1px solid var(--line);
@@ -402,6 +408,10 @@ def build_html(articles, clubs, standings):
     color: var(--ink); display: flex; align-items: center; justify-content: center;
   }}
   #theme-toggle:hover {{ border-color: var(--accent); }}
+
+  @media (max-width: 380px) {{
+    header h1 {{ font-size: 1.5rem; padding: 0 2.4rem; }}
+  }}
 
   #update-banner {{
     max-height: 0; opacity: 0; overflow: hidden; margin-bottom: 0;
@@ -500,10 +510,17 @@ def build_html(articles, clubs, standings):
   #picker-done:hover {{ background: var(--accent-soft); }}
   .division {{ margin-bottom: 0.9rem; }}
   .division:last-child {{ margin-bottom: 0; }}
+  .division-head {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }}
   .division h4 {{
-    margin: 0 0 0.5rem; font-family: "Space Grotesk", monospace; font-size: 0.72rem;
+    margin: 0; font-family: "Space Grotesk", monospace; font-size: 0.72rem;
     text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted);
   }}
+  .division-select-all {{
+    font-family: "Space Grotesk", monospace; font-size: 0.68rem; color: var(--muted);
+    background: none; border: none; cursor: pointer; text-decoration: underline; padding: 0;
+  }}
+  .division-select-all:hover {{ color: var(--ink); }}
+  .division-select-all[data-active="true"] {{ color: var(--accent); }}
   .division[data-division="championship"] h4 {{ color: var(--championship); }}
   .division[data-division="league-one"] h4 {{ color: var(--league-one); }}
   .division[data-division="league-two"] h4 {{ color: var(--league-two); }}
@@ -687,6 +704,21 @@ def build_html(articles, clubs, standings):
     }});
     yourClubs.hidden = !anyYcVisible;
 
+    // Per-division "select all" button reflects whether every club in
+    // that division is currently followed -- lets it double as both an
+    // action and a status indicator, rather than a static label.
+    document.querySelectorAll(".division").forEach(function(d) {{
+      var divisionPills = Array.prototype.slice.call(d.querySelectorAll(".pill"));
+      var allSelected = divisionPills.length > 0 && divisionPills.every(function(p) {{
+        return sel.indexOf(p.dataset.slug) !== -1;
+      }});
+      var btn = d.querySelector(".division-select-all");
+      if (btn) {{
+        btn.textContent = allSelected ? "Clear division" : "Select all";
+        btn.dataset.active = allSelected ? "true" : "false";
+      }}
+    }});
+
     pickerLabel.textContent = sel.length ? "Your clubs (" + sel.length + ")" : "Choose your clubs";
   }}
 
@@ -701,6 +733,27 @@ def build_html(articles, clubs, standings):
   }});
   clearBtn.addEventListener("click", function() {{ setSelection([]); applyFilter(); }});
   emptyClearBtn.addEventListener("click", function() {{ setSelection([]); applyFilter(); }});
+
+  document.querySelectorAll(".division-select-all").forEach(function(btn) {{
+    btn.addEventListener("click", function() {{
+      var division = btn.closest(".division");
+      var divisionSlugs = Array.prototype.slice.call(division.querySelectorAll(".pill"))
+        .map(function(p) {{ return p.dataset.slug; }});
+      var sel = getSelection();
+      var allSelected = divisionSlugs.every(function(s) {{ return sel.indexOf(s) !== -1; }});
+      if (allSelected) {{
+        // Toggle off: remove this division's clubs, leave any others untouched.
+        sel = sel.filter(function(s) {{ return divisionSlugs.indexOf(s) === -1; }});
+      }} else {{
+        // Toggle on: add any not already selected, no duplicates.
+        divisionSlugs.forEach(function(s) {{
+          if (sel.indexOf(s) === -1) sel.push(s);
+        }});
+      }}
+      setSelection(sel);
+      applyFilter();
+    }});
+  }});
 
   // Scanning 72 pills to find your club is the main friction in the picker.
   // Filters pills live; hides a whole division heading when nothing in it
