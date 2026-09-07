@@ -518,14 +518,24 @@ def build_html(articles, clubs, standings):
     transition: background 0.15s, color 0.15s;
   }}
   header {{ position: relative; text-align: center; margin-bottom: 1.4rem; padding-top: 0.25rem; }}
-  .wordmark-sticker {{
-    display: inline-block; background: var(--championship); color: #000000;
-    padding: 0.5rem 0.9rem; transform: rotate(-1.5deg); border: 2px solid var(--line);
-    margin: 0 2.6rem 0.5rem; max-width: calc(100% - 5.2rem);
+  /* Lockup: the "fln" mark from favicon.svg paired with the full name, so
+     the browser-tab icon and the page header share one identity. Sized in
+     em so the mark scales with the title text rather than needing its own
+     breakpoint. */
+  .wordmark {{
+    display: inline-flex; align-items: stretch; gap: 0.6rem;
+    margin: 0 2.6rem 0.5rem; max-width: calc(100% - 5.2rem); text-align: left;
+  }}
+  .wordmark-mark {{
+    background: var(--ink); color: var(--bg);
+    font-family: "Space Grotesk", monospace; font-weight: 700;
+    font-size: 1.5rem; line-height: 1; letter-spacing: 0.02em;
+    padding: 0.3rem 0.55rem; display: flex; align-items: center; flex-shrink: 0;
   }}
   header h1 {{
     margin: 0; font-family: "Archivo", sans-serif; font-weight: 800;
-    font-size: 1.6rem; letter-spacing: -0.01em; line-height: 1.1;
+    font-size: 1.15rem; letter-spacing: -0.01em; line-height: 1.15;
+    display: flex; align-items: center;
   }}
   .tagline {{
     font-family: "Space Grotesk", monospace; color: var(--ink); font-size: 0.78rem;
@@ -547,8 +557,9 @@ def build_html(articles, clubs, standings):
   #theme-toggle:hover {{ border-color: var(--accent); }}
 
   @media (max-width: 380px) {{
-    header h1 {{ font-size: 1.3rem; }}
-    .wordmark-sticker {{ margin-left: 2.4rem; margin-right: 2.4rem; padding: 0.4rem 0.7rem; max-width: calc(100% - 4.8rem); }}
+    header h1 {{ font-size: 1rem; }}
+    .wordmark-mark {{ font-size: 1.25rem; padding: 0.25rem 0.45rem; }}
+    .wordmark {{ margin-left: 2.4rem; margin-right: 2.4rem; max-width: calc(100% - 4.8rem); }}
     .tagline {{ padding: 0 2.4rem; }}
   }}
 
@@ -751,7 +762,10 @@ def build_html(articles, clubs, standings):
 <div id="update-banner">New stories are available.<button id="update-btn">Refresh</button></div>
 <header>
   <button id="theme-toggle" aria-label="Toggle dark mode" type="button">&#9788;</button>
-  <div class="wordmark-sticker"><h1>{esc(SITE_TITLE)}</h1></div>
+  <div class="wordmark">
+    <span class="wordmark-mark" aria-hidden="true">fln</span>
+    <h1>{esc(SITE_TITLE)}</h1>
+  </div>
   <div class="tagline">{esc(SITE_TAGLINE)}</div>
   <a class="kofi-link" href="{esc(KOFI_URL)}" rel="noopener" target="_blank">&#9749; Support this site on Ko-fi</a>
 </header>
