@@ -128,26 +128,35 @@ def _significant_tokens(title, clubs):
     return {w for w in words if len(w) > 2 and w not in _CLUSTER_STOPWORDS and w not in club_words}
 
 
-def _same_story(a, b):
+def _same_story(a, b, min_overlap=1):
     """Same club-set and close in time isn't the same STORY -- confirmed
     live: a Jamie Vardy transfer story and an unrelated 'Burnley make an
     approach for Broja' transfer story both got merged into one cluster
     purely because they shared the club tag and landed in the same window.
     This is a second, independent gate: strip club names and generic/
-    boilerplate words from both titles: if what's left doesn't overlap AT
-    ALL, and both sides actually have something left to compare (a template
-    headline like "Where to watch: TV channel, kick-off time" reduces to
-    nothing and can't be judged either way -- default to merging rather
-    than wrongly splitting genuine same-match coverage that just uses
-    different phrasing), treat them as different stories. A heuristic, not
-    real story-matching -- two genuinely unrelated stories that happen to
-    share a distinctive word can still merge, and two paraphrases of the
-    same story with zero shared vocabulary can still split."""
+    boilerplate words from both titles, then require at least min_overlap
+    shared remaining words.
+
+    min_overlap defaults to 1 for normal same-club clustering (where the
+    club tag already provides strong evidence they're related), but the
+    top-story grouping passes a higher value: across the whole day's feed,
+    a single shared common word like "risk" or "challenge" links stories
+    that have nothing to do with each other.
+
+    A template headline like "Where to watch: TV channel, kick-off time"
+    reduces to nothing and can't be judged either way -- default to
+    merging rather than wrongly splitting genuine same-match coverage that
+    just uses different phrasing. A heuristic, not real story-matching."""
     tokens_a = _significant_tokens(a.get("title", ""), a.get("clubs", []))
     tokens_b = _significant_tokens(b.get("title", ""), b.get("clubs", []))
     if not tokens_a or not tokens_b:
-        return True
-    return bool(tokens_a & tokens_b)
+        # Nothing distinctive left to compare. Within a single club's
+        # feed that's safe to merge (the club tag is already strong
+        # evidence). Across the whole day's feed it is NOT -- a
+        # boilerplate headline would sweep in unrelated clubs -- so
+        # callers using a stricter threshold get a strict answer.
+        return min_overlap <= 1
+    return len(tokens_a & tokens_b) >= min_overlap
 
 
 def cluster_by_clubs(articles):
@@ -413,45 +422,49 @@ def write_png_icon(path, size):
 TOP_STORY_MIN_COUNT = 6
 
 
+TOP_STORY_MIN_OVERLAP = 2
+
+
 def _group_same_story_clusters(clusters):
     """Group clusters -- REGARDLESS of exact club-tag combination -- whose
     primaries are the same real-world story. The normal per-key clustering
     keys strictly by exact club-set, so the same event tagged with
     slightly different combinations (e.g. 'Burnley' alone vs 'Leicester
     City, Burnley' when a story also names a transferred player's old
-    club) never even gets compared, let alone merged -- found live: real
-    Jamie Vardy coverage fragmented across several small same-key clusters
-    that individually never grew big enough to register as the day's top
-    story, even though the true combined total was larger than what
-    displaced it. Used only for identifying the single biggest story of
-    the day -- the main feed's per-key clustering is unaffected, still
-    predictable and grouped by exact club tags. Simple union-find over
-    pairwise _same_story matches; deliberately skips the time-window
-    check the main clustering applies, since this only ever runs within
-    a single already-day-bounded set."""
-    n = len(clusters)
-    parent = list(range(n))
+    club) never even gets compared, let alone merged.
 
-    def find(x):
-        while parent[x] != x:
-            parent[x] = parent[parent[x]]
-            x = parent[x]
-        return x
+    Deliberately NOT union-find. A transitive approach chains: story A
+    shares one word with B, B shares a DIFFERENT word with C, and A+B+C
+    all merge even though A and C have nothing in common. Confirmed live
+    and badly: across a full day's feed that chaining collapsed 195
+    unrelated stories spanning a dozen clubs into a single "top story"
+    built around a minor booking item. Instead this is star-shaped --
+    every member must match the SEED directly, so a group can never be
+    broader than what genuinely matches its own primary. Combined with a
+    stricter overlap threshold (TOP_STORY_MIN_OVERLAP), since across the
+    whole day's feed a single shared common word like "risk" or
+    "challenge" is far too weak a signal.
 
-    def union(x, y):
-        rx, ry = find(x), find(y)
-        if rx != ry:
-            parent[rx] = ry
-
-    for i in range(n):
-        for j in range(i + 1, n):
-            if _same_story(clusters[i]["primary"], clusters[j]["primary"]):
-                union(i, j)
-
-    groups = {}
-    for i in range(n):
-        groups.setdefault(find(i), []).append(i)
-    return list(groups.values())
+    Seeds are tried largest-cluster-first so the biggest genuine story
+    anchors its own group rather than being absorbed into a smaller one."""
+    order = sorted(range(len(clusters)),
+                   key=lambda i: 1 + len(clusters[i]["more"]), reverse=True)
+    used = set()
+    groups = []
+    for seed in order:
+        if seed in used:
+            continue
+        group = [seed]
+        used.add(seed)
+        for other in order:
+            if other in used:
+                continue
+            if _same_story(clusters[seed]["primary"], clusters[other]["primary"],
+                           min_overlap=TOP_STORY_MIN_OVERLAP):
+                group.append(other)
+                used.add(other)
+        groups.append(group)
+    return groups
 
 
 def extract_top_story(day_groups):
