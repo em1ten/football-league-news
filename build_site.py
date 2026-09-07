@@ -95,11 +95,35 @@ _CLUSTER_STOPWORDS = {
 }
 _WORD_RE = re.compile(r"[a-z0-9']+")
 
+# Built once at module load from clubs.json's own curated markers (official
+# name, common nickname, ground name) -- e.g. Wolverhampton Wanderers'
+# markers include "wolves". Using only the slug's own words (wolverhampton,
+# wanderers) missed this entirely: found live when a Bertrand Traore
+# transfer-rumour story and 14 completely unrelated Birmingham-Wolves
+# match-report stories all "matched" on the single surviving word "wolves",
+# which is how virtually every headline actually refers to the club.
+def _build_club_marker_words():
+    try:
+        data = json.loads(CLUBS.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    out = {}
+    for c in data.get("clubs", []):
+        words = set()
+        for marker in c.get("markers", []):
+            words.update(_WORD_RE.findall(marker.lower()))
+        out[c["slug"]] = words
+    return out
+
+
+CLUB_MARKER_WORDS = _build_club_marker_words()
+
 
 def _significant_tokens(title, clubs):
     club_words = set()
     for slug in clubs:
         club_words.update(slug.split("-"))
+        club_words.update(CLUB_MARKER_WORDS.get(slug, set()))
     words = _WORD_RE.findall(title.lower())
     return {w for w in words if len(w) > 2 and w not in _CLUSTER_STOPWORDS and w not in club_words}
 
@@ -389,27 +413,85 @@ def write_png_icon(path, size):
 TOP_STORY_MIN_COUNT = 6
 
 
+def _group_same_story_clusters(clusters):
+    """Group clusters -- REGARDLESS of exact club-tag combination -- whose
+    primaries are the same real-world story. The normal per-key clustering
+    keys strictly by exact club-set, so the same event tagged with
+    slightly different combinations (e.g. 'Burnley' alone vs 'Leicester
+    City, Burnley' when a story also names a transferred player's old
+    club) never even gets compared, let alone merged -- found live: real
+    Jamie Vardy coverage fragmented across several small same-key clusters
+    that individually never grew big enough to register as the day's top
+    story, even though the true combined total was larger than what
+    displaced it. Used only for identifying the single biggest story of
+    the day -- the main feed's per-key clustering is unaffected, still
+    predictable and grouped by exact club tags. Simple union-find over
+    pairwise _same_story matches; deliberately skips the time-window
+    check the main clustering applies, since this only ever runs within
+    a single already-day-bounded set."""
+    n = len(clusters)
+    parent = list(range(n))
+
+    def find(x):
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    def union(x, y):
+        rx, ry = find(x), find(y)
+        if rx != ry:
+            parent[rx] = ry
+
+    for i in range(n):
+        for j in range(i + 1, n):
+            if _same_story(clusters[i]["primary"], clusters[j]["primary"]):
+                union(i, j)
+
+    groups = {}
+    for i in range(n):
+        groups.setdefault(find(i), []).append(i)
+    return list(groups.values())
+
+
 def extract_top_story(day_groups):
-    """Pull the biggest cluster out of TODAY's group specifically (not
+    """Pull the biggest STORY out of TODAY's group specifically (not
     Yesterday or older -- "top story of the day" means today), if it's
     big enough to matter. Reverse-chronological sorting has no sense of
     importance: a 45-outlet transfer story sinks below single-source
     pieces published minutes later purely because it's older, even
     though its size is a genuine signal that it's the story everyone's
-    covering. Mutates day_groups in place to remove the extracted
-    cluster from its normal position, so it isn't shown twice. Returns
-    None if there's no Today group yet, or nothing meets the size bar."""
+    covering. "Biggest story" is judged across all clusters sharing the
+    same real-world event via _group_same_story_clusters, not just the
+    single biggest same-club-tag cluster -- see that function's docstring
+    for why. Mutates day_groups in place to remove every cluster that
+    contributed to the extracted story, so nothing is shown twice.
+    Returns None if there's no Today group yet, or nothing meets the
+    size bar."""
     today_group = next((g for g in day_groups if g[0] == "Today"), None)
     if today_group is None:
         return None
     label, clusters = today_group
     if not clusters:
         return None
-    biggest = max(clusters, key=lambda c: 1 + len(c["more"]))
-    if 1 + len(biggest["more"]) < TOP_STORY_MIN_COUNT:
+
+    groups = _group_same_story_clusters(clusters)
+    best = max(groups, key=lambda idxs: sum(1 + len(clusters[i]["more"]) for i in idxs))
+    total = sum(1 + len(clusters[i]["more"]) for i in best)
+    if total < TOP_STORY_MIN_COUNT:
         return None
-    clusters.remove(biggest)
-    return biggest
+
+    member_clusters = [clusters[i] for i in best]
+    all_articles = []
+    for c in member_clusters:
+        all_articles.append(c["primary"])
+        all_articles.extend(c["more"])
+    all_articles.sort(key=lambda a: a.get("published", ""), reverse=True)
+    merged = {"primary": all_articles[0], "more": all_articles[1:]}
+
+    keep_ids = set(id(clusters[i]) for i in range(len(clusters))) - set(id(clusters[i]) for i in best)
+    clusters[:] = [c for c in clusters if id(c) in keep_ids]
+    return merged
 
 
 def top_story_section(cluster):
@@ -528,8 +610,8 @@ def build_html(articles, clubs, standings):
   }}
   header {{ position: relative; text-align: center; margin-bottom: 1.4rem; padding-top: 0.25rem; }}
   .wordmark-sticker {{
-    display: inline-block; background: #0d100e; color: #4ade80;
-    padding: 0.5rem 0.9rem; transform: rotate(-1.5deg); border: 2px solid #4ade80;
+    display: inline-block; background: var(--accent); color: var(--badge-fg);
+    padding: 0.5rem 0.9rem; transform: rotate(-1.5deg); border: 2px solid var(--line);
     margin: 0 2.6rem 0.5rem; max-width: calc(100% - 5.2rem);
   }}
   header h1 {{
