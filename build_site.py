@@ -610,7 +610,7 @@ def build_html(articles, clubs, standings):
   }}
   header {{ position: relative; text-align: center; margin-bottom: 1.4rem; padding-top: 0.25rem; }}
   .wordmark-sticker {{
-    display: inline-block; background: var(--accent); color: var(--badge-fg);
+    display: inline-block; background: var(--championship); color: #000000;
     padding: 0.5rem 0.9rem; transform: rotate(-1.5deg); border: 2px solid var(--line);
     margin: 0 2.6rem 0.5rem; max-width: calc(100% - 5.2rem);
   }}
