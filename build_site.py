@@ -128,35 +128,29 @@ def _significant_tokens(title, clubs):
     return {w for w in words if len(w) > 2 and w not in _CLUSTER_STOPWORDS and w not in club_words}
 
 
-def _same_story(a, b, min_overlap=1):
-    """Same club-set and close in time isn't the same STORY -- confirmed
-    live: a Jamie Vardy transfer story and an unrelated 'Burnley make an
-    approach for Broja' transfer story both got merged into one cluster
-    purely because they shared the club tag and landed in the same window.
-    This is a second, independent gate: strip club names and generic/
-    boilerplate words from both titles, then require at least min_overlap
-    shared remaining words.
-
-    min_overlap defaults to 1 for normal same-club clustering (where the
-    club tag already provides strong evidence they're related), but the
-    top-story grouping passes a higher value: across the whole day's feed,
-    a single shared common word like "risk" or "challenge" links stories
-    that have nothing to do with each other.
+def _same_story(a, b):
+    """Second gate on clustering, alongside club-set and time window:
+    same club and close in time still isn't necessarily the same STORY.
+    Confirmed live: a Jamie Vardy transfer story and an unrelated
+    "Burnley make an approach for Broja" story merged into one cluster
+    purely on club tag + timing. Strip club names (including nicknames
+    from clubs.json markers) and generic/boilerplate words from both
+    titles; if nothing distinctive is left in common, treat them as
+    different stories.
 
     A template headline like "Where to watch: TV channel, kick-off time"
     reduces to nothing and can't be judged either way -- default to
-    merging rather than wrongly splitting genuine same-match coverage that
-    just uses different phrasing. A heuristic, not real story-matching."""
+    merging rather than wrongly splitting genuine same-match coverage
+    that just uses different phrasing. Safe here because the shared club
+    tag is already strong evidence; this was NOT safe when the removed
+    top-story feature reused this across the whole day's feed.
+
+    A heuristic, not real story-matching."""
     tokens_a = _significant_tokens(a.get("title", ""), a.get("clubs", []))
     tokens_b = _significant_tokens(b.get("title", ""), b.get("clubs", []))
     if not tokens_a or not tokens_b:
-        # Nothing distinctive left to compare. Within a single club's
-        # feed that's safe to merge (the club tag is already strong
-        # evidence). Across the whole day's feed it is NOT -- a
-        # boilerplate headline would sweep in unrelated clubs -- so
-        # callers using a stricter threshold get a strict answer.
-        return min_overlap <= 1
-    return len(tokens_a & tokens_b) >= min_overlap
+        return True
+    return bool(tokens_a & tokens_b)
 
 
 def cluster_by_clubs(articles):
@@ -419,110 +413,12 @@ def write_png_icon(path, size):
 # A cluster needs at least this many total stories (primary + more) to
 # count as a "top story" -- otherwise an ordinary single-source piece
 # would get inflated into looking like breaking news on a quiet day.
-TOP_STORY_MIN_COUNT = 6
-
-
-TOP_STORY_MIN_OVERLAP = 2
-
-
-def _group_same_story_clusters(clusters):
-    """Group clusters -- REGARDLESS of exact club-tag combination -- whose
-    primaries are the same real-world story. The normal per-key clustering
-    keys strictly by exact club-set, so the same event tagged with
-    slightly different combinations (e.g. 'Burnley' alone vs 'Leicester
-    City, Burnley' when a story also names a transferred player's old
-    club) never even gets compared, let alone merged.
-
-    Deliberately NOT union-find. A transitive approach chains: story A
-    shares one word with B, B shares a DIFFERENT word with C, and A+B+C
-    all merge even though A and C have nothing in common. Confirmed live
-    and badly: across a full day's feed that chaining collapsed 195
-    unrelated stories spanning a dozen clubs into a single "top story"
-    built around a minor booking item. Instead this is star-shaped --
-    every member must match the SEED directly, so a group can never be
-    broader than what genuinely matches its own primary. Combined with a
-    stricter overlap threshold (TOP_STORY_MIN_OVERLAP), since across the
-    whole day's feed a single shared common word like "risk" or
-    "challenge" is far too weak a signal.
-
-    Seeds are tried largest-cluster-first so the biggest genuine story
-    anchors its own group rather than being absorbed into a smaller one."""
-    order = sorted(range(len(clusters)),
-                   key=lambda i: 1 + len(clusters[i]["more"]), reverse=True)
-    used = set()
-    groups = []
-    for seed in order:
-        if seed in used:
-            continue
-        group = [seed]
-        used.add(seed)
-        for other in order:
-            if other in used:
-                continue
-            if _same_story(clusters[seed]["primary"], clusters[other]["primary"],
-                           min_overlap=TOP_STORY_MIN_OVERLAP):
-                group.append(other)
-                used.add(other)
-        groups.append(group)
-    return groups
-
-
-def extract_top_story(day_groups):
-    """Pull the biggest STORY out of TODAY's group specifically (not
-    Yesterday or older -- "top story of the day" means today), if it's
-    big enough to matter. Reverse-chronological sorting has no sense of
-    importance: a 45-outlet transfer story sinks below single-source
-    pieces published minutes later purely because it's older, even
-    though its size is a genuine signal that it's the story everyone's
-    covering. "Biggest story" is judged across all clusters sharing the
-    same real-world event via _group_same_story_clusters, not just the
-    single biggest same-club-tag cluster -- see that function's docstring
-    for why. Mutates day_groups in place to remove every cluster that
-    contributed to the extracted story, so nothing is shown twice.
-    Returns None if there's no Today group yet, or nothing meets the
-    size bar."""
-    today_group = next((g for g in day_groups if g[0] == "Today"), None)
-    if today_group is None:
-        return None
-    label, clusters = today_group
-    if not clusters:
-        return None
-
-    groups = _group_same_story_clusters(clusters)
-    best = max(groups, key=lambda idxs: sum(1 + len(clusters[i]["more"]) for i in idxs))
-    total = sum(1 + len(clusters[i]["more"]) for i in best)
-    if total < TOP_STORY_MIN_COUNT:
-        return None
-
-    member_clusters = [clusters[i] for i in best]
-    all_articles = []
-    for c in member_clusters:
-        all_articles.append(c["primary"])
-        all_articles.extend(c["more"])
-    all_articles.sort(key=lambda a: a.get("published", ""), reverse=True)
-    merged = {"primary": all_articles[0], "more": all_articles[1:]}
-
-    keep_ids = set(id(clusters[i]) for i in range(len(clusters))) - set(id(clusters[i]) for i in best)
-    clusters[:] = [c for c in clusters if id(c) in keep_ids]
-    return merged
-
-
-def top_story_section(cluster):
-    count = 1 + len(cluster["more"])
-    return f"""<section class="top-story">
-  <div class="top-story-badge">Top story &middot; {count} outlets covering this</div>
-  {cluster_card(cluster)}
-</section>"""
-
-
 def build_html(articles, clubs, standings):
     today = datetime.now(timezone.utc).date()
     articles_sorted = sorted(articles, key=lambda a: a.get("published", ""), reverse=True)
     day_groups = group_by_day(articles_sorted, today)
 
     clustered_day_groups = [(label, cluster_by_clubs(group)) for label, group in day_groups]
-    top_story = extract_top_story(clustered_day_groups)
-    top_story_html = top_story_section(top_story) if top_story else ""
 
     feed_sections = []
     for label, clusters in clustered_day_groups:
@@ -832,15 +728,6 @@ def build_html(articles, clubs, standings):
 
   .cluster:not([hidden]) {{ display: flex; flex-direction: column; }}
 
-  .top-story {{ margin-bottom: 1.75rem; }}
-  .top-story-badge {{
-    display: inline-block; background: var(--accent); color: var(--badge-fg);
-    font-family: "Space Grotesk", monospace; font-weight: 700; font-size: 0.68rem;
-    text-transform: uppercase; letter-spacing: 0.04em; padding: 0.25rem 0.6rem;
-    margin-bottom: 0.5rem; transform: rotate(-1deg);
-  }}
-  .top-story .card {{ border-width: 3px; }}
-  .top-story .card h3 {{ font-size: 1.15rem; }}
   .more-stories {{ margin-top: 0.4rem; }}
   .more-stories summary {{
     font-family: "Space Grotesk", monospace; font-size: 0.78rem; color: var(--muted);
@@ -895,7 +782,6 @@ def build_html(articles, clubs, standings):
   </div>
 </div>
 
-{top_story_html}
 <main id="feed">
 {feed_html}
 </main>
