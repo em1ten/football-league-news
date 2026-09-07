@@ -166,10 +166,14 @@ SOURCE_ALIASES = {
 
 STREAM_SPAM_DOMAINS = {"rikkyo.ac.jp"}
 
-# Mathematical/fullwidth unicode block used to dodge basic keyword filters
-# -- e.g. "𝐋𝐈𝐕𝐄", "Ｌｉｖｅ". Legitimate club/publisher names don't use these.
+# Mathematical/fullwidth/CJK-decorative unicode blocks used to dodge basic
+# keyword filters -- e.g. "𝐋𝐈𝐕𝐄", "Ｌｉｖｅ", "【LIVESTREAMS】". Legitimate
+# club/publisher names don't use these. The CJK Symbols/Punctuation block
+# (U+3000-303F, covers 【】) was a real gap found live: it only got caught
+# via the rikkyo.ac.jp domain blocklist, so a new spam site using the same
+# bracket trick under a different domain would have slipped straight through.
 _GARBLED_UNICODE_RE = re.compile(
-    "[\U0001D400-\U0001D7FF\uFF00-\uFFEF]"
+    "[\U0001D400-\U0001D7FF\uFF00-\uFFEF\u3000-\u303F]"
 )
 
 
@@ -265,8 +269,15 @@ _FOOTBALL_CONTEXT_RE = re.compile(
     r"\bkick-off\b|\bfixture\b|\blineup\b|\bline-up\b|\bstarting xi\b|"
     r"\bderby\b.*\b(win|loss|draw|beat)|\bstadium\b|\bloan\b|\bsigning\b|"
     r"\bwinger\b|\bmidfielder\b|\bdefender\b|\bgoalkeeper\b|\bpromotion\b|"
-    r"\brelegation\b|play-?off|\bvs\b|\bv\b\s|\bwednesday\b.*\bfc\b"
+    r"\brelegation\b|play-?off|\bvs\b|\bv\b\s|\bwednesday\b.*\bfc\b|"
+    r"\bforward\b|\bcentre-back\b|\bright-back\b|\bleft-back\b|\bfull-back\b|"
+    r"\bwing-back\b"
 )
+# A football scoreline ("2-0", "4 0") is a strong, fairly unambiguous
+# signal on its own -- distinct enough from most other content types that
+# it's worth checking as a separate pattern rather than folding into the
+# word list above.
+_SCORELINE_RE = re.compile(r"\b\d{1,2}[-\s]\d{1,2}\b")
 
 
 # This aggregator is scoped to men's football only -- a separate women's
@@ -297,8 +308,52 @@ def is_womens_football(title, excerpt=""):
     return bool(_WOMENS_FOOTBALL_RE.search(f"{title} {excerpt}"))
 
 
-def is_homonym_noise(title, source=""):
+# Some clubs' bare marker doubles as a real, substantial place name --
+# Portsmouth and Middlesbrough are real cities, Watford a real town, all
+# of which generate constant non-football news (Portsmouth is also a
+# major Royal Navy base). The keyword-blocklist approach below can never
+# keep up with every non-football topic a real city generates -- confirmed
+# live: an immigration-protest story reached 63 outlets and became the
+# site's TOP STORY purely because "Portsmouth" appeared in every headline,
+# with no crash/obituary/police-type word for the blocklist to catch.
+# For these clubs specifically, flip the logic: require a POSITIVE
+# football signal rather than just the absence of a known-bad word.
+# Deliberately conservative about which generic words count as that
+# signal here -- words like "captain", "training", "crew", or "mission"
+# are exactly as likely to appear in genuine Royal Navy Portsmouth
+# content as in football content, so they're left out of
+# _FOOTBALL_CONTEXT_RE specifically because of this club.
+HIGH_RISK_HOMONYM_CLUBS = {"portsmouth", "middlesbrough", "watford"}
+_HIGH_RISK_CLUB_RE = re.compile(
+    r"(?i)\b(" + "|".join(HIGH_RISK_HOMONYM_CLUBS) + r")\b"
+)
+OFFICIAL_CLUB_NAMES = {c["name"].lower() for c in _BY_SLUG.values()}
+
+
+def _has_positive_football_signal(title, excerpt, source=""):
+    text = f"{title} {excerpt}"
+    if _FOOTBALL_CONTEXT_RE.search(text) or _SCORELINE_RE.search(text):
+        return True
+    # An EXACT match against a club's own official name (not a fuzzy
+    # marker match) means the source IS that club's own site -- e.g.
+    # "Cardiff City" as a source. Deliberately exact-match only: a fuzzy
+    # marker match would also catch "Watford Observer" (a local paper
+    # named after the town, not the club), which proves nothing about
+    # whether the story is football content.
+    if source.strip().lower() in OFFICIAL_CLUB_NAMES:
+        return True
+    # Last resort: does the headline also name another real EFL club?
+    # Two clubs mentioned together is strong evidence of a genuine
+    # match/transfer story, independent of which specific words it uses --
+    # and it reuses the same curated marker data as the real tagging step,
+    # rather than guessing at more generic vocabulary.
+    return len(match_clubs(title, excerpt)["clubs"]) >= 2
+
+
+def is_homonym_noise(title, source="", excerpt=""):
     if source in HOMONYM_NOISE_SOURCES:
+        return True
+    if _HIGH_RISK_CLUB_RE.search(title) and not _has_positive_football_signal(title, excerpt, source):
         return True
     if not _NON_FOOTBALL_NOISE_RE.search(title):
         return False
@@ -317,7 +372,7 @@ def passes_quality_filters(article, from_google_news):
         return False
     # Homonym check only applies to text-matched Google News content --
     # official feeds are already scoped by URL so can't be homonym noise.
-    if from_google_news and is_homonym_noise(title, source):
+    if from_google_news and is_homonym_noise(title, source, article.get("excerpt", "")):
         return False
     return True
 
