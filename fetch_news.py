@@ -139,17 +139,35 @@ def _parse(url):
 _TAG_RE = re.compile(r"<[^>]+>")
 
 
+MAX_EXCERPT_CHARS = 220
+
+
 def clean_excerpt(raw):
     """Google News RSS summaries embed raw HTML -- an <a> link back to the
     article plus a <font> tag naming the source. Strip tags and decode
     entities so what's stored is plain text, not markup. Doing this once
     here (not at render time) means every downstream consumer -- build_site,
-    feed.xml, any future client -- gets clean data automatically."""
+    feed.xml, any future client -- gets clean data automatically.
+
+    Also truncates to a short teaser. Official club RSS feeds (confirmed
+    live once CLUB_FEEDS was wired in) commonly hand over the ENTIRE
+    article body as the description, not a short summary -- a full
+    800-word match report showing up whole under a headline card is
+    exactly the "too much" a reader doesn't want. Truncates at the last
+    word boundary before the limit rather than mid-word, and only adds
+    the ellipsis when text was actually cut."""
     if not raw:
         return ""
     text = _TAG_RE.sub(" ", raw)
     text = html.unescape(text)
-    return re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) <= MAX_EXCERPT_CHARS:
+        return text
+    truncated = text[:MAX_EXCERPT_CHARS]
+    last_space = truncated.rfind(" ")
+    if last_space > 0:
+        truncated = truncated[:last_space]
+    return truncated.rstrip(".,;:-") + "..."
 
 
 def split_google_news_title(title):
@@ -177,11 +195,19 @@ def split_google_news_title(title):
 
 
 def _entry_to_article(entry, source):
+    """Returns None if the entry has no parseable publish date -- rather
+    than guessing "now". Confirmed live: once official club feeds went
+    live, some entries lacked a parseable published_parsed/updated_parsed
+    (inconsistent date formats across the many different CMS platforms
+    club sites run on), and defaulting those to datetime.now() made
+    genuinely old content -- June stories, in one case -- show up under
+    "Today". An undated article is far more likely to be stale/legacy
+    content than something breaking right now; showing nothing is safer
+    than showing a lie about recency."""
     published = entry.get("published_parsed") or entry.get("updated_parsed")
-    if published:
-        published_dt = datetime(*published[:6], tzinfo=timezone.utc)
-    else:
-        published_dt = datetime.now(timezone.utc)
+    if not published:
+        return None
+    published_dt = datetime(*published[:6], tzinfo=timezone.utc)
     # Google News summaries are just the headline + a link + the source
     # name, wrapped in HTML -- zero real content beyond what the "title"
     # and "source" fields already show. Drop the excerpt entirely for that
@@ -655,6 +681,8 @@ def fetch_club_feeds():
                 continue
             for entry in feed.entries:
                 a = _entry_to_article(entry, normalise_source(feed.feed.get("title", slug)))
+                if a is None:
+                    continue
                 if is_empty_excerpt(a["title"], a["excerpt"]):
                     a["excerpt"] = ""
                 if not passes_quality_filters(a, from_google_news=False):
@@ -678,6 +706,8 @@ def fetch_division_feeds():
             continue
         for entry in feed.entries:
             a = _entry_to_article(entry, normalise_source(feed.feed.get("title", "Google News")))
+            if a is None:
+                continue
             # Extract the real per-article publisher from the title suffix
             # BEFORE matching clubs or running quality filters -- both need
             # the real source, and match_clubs needs the publisher name
@@ -726,6 +756,8 @@ def fetch_rotation_club_queries(n_slices=3):
             continue
         for entry in feed.entries:
             a = _entry_to_article(entry, normalise_source(feed.feed.get("title", "Google News")))
+            if a is None:
+                continue
             clean_title, publisher = split_google_news_title(a["title"])
             a["title"] = clean_title
             if publisher:
