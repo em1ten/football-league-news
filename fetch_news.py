@@ -484,7 +484,15 @@ _BOILERPLATE_TITLE_RE = re.compile(
     r"box score - \w+ \d{1,2}, \d{4}|"
     r"\(\d{1,2} \w+,? \d{4}\) (team|player) stats|"
     r"\u00b7 (results|squad|fixtures) 20\d\d-\d\d|"
-    r"live score$"
+    r"live score$|"
+    # Mass-produced "how to watch" filler, generated per-fixture with
+    # near-identical phrasing regardless of which teams are playing --
+    # confirmed live: three near-identical instances from athlonsports.com
+    # for three unrelated matches. Deliberately narrow to this exact
+    # template structure, NOT a bare "live stream" check -- that would
+    # also catch genuinely useful broadcast-info headlines like "TV
+    # channel, live stream and kick-off time" (tested and kept elsewhere).
+    r"lineups,?\s*live stream(?:ing|s)?,?\s*how\s*(?:and|&)\s*where to watch"
 )
 
 
