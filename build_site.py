@@ -260,6 +260,7 @@ def cluster_card(cluster):
     more = cluster["more"]
     clubs_attr = " ".join(primary.get("clubs", []))
     division = primary.get("division", "")
+    category = primary.get("category", "news")
     more_html = ""
     if more:
         items = "\n".join(card_body(a, compact=True) for a in more)
@@ -268,7 +269,7 @@ def cluster_card(cluster):
   <summary>+{len(more)} more {noun}</summary>
   <div class="more-list">{items}</div>
 </details>"""
-    return f"""<div class="cluster" data-clubs="{esc(clubs_attr)}" data-division="{esc(division)}">
+    return f"""<div class="cluster" data-clubs="{esc(clubs_attr)}" data-division="{esc(division)}" data-category="{esc(category)}">
   <article class="card" data-division="{esc(division)}">
     {card_body(primary)}
   </article>
@@ -682,6 +683,12 @@ def build_html(articles, clubs, standings):
   .league-pill[data-division="championship"][aria-pressed="true"] {{ color: #000000; background: var(--championship); }}
   .league-pill[data-division="league-one"][aria-pressed="true"] {{ background: var(--league-one); }}
   .league-pill[data-division="league-two"][aria-pressed="true"] {{ background: var(--league-two); }}
+
+  .category-chips {{ display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.25rem; }}
+  .category-pill {{ font-weight: 600; }}
+  /* Reuses the same accent/badge-fg pairing as the top-story badge and
+     "Done" button elsewhere -- already contrast-checked in both themes. */
+  .category-pill[aria-pressed="true"] {{ background: var(--accent); border-color: var(--accent); color: var(--badge-fg); }}
   [data-theme="dark"] .league-pill[aria-pressed="true"] {{ color: #000000; }}
   .pills {{ display: flex; flex-wrap: wrap; gap: 0.4rem; }}
   .pill {{
@@ -796,13 +803,20 @@ def build_html(articles, clubs, standings):
   </div>
 </div>
 
+<div class="category-chips">
+  <button class="pill category-pill" type="button" aria-pressed="false" data-category="transfer">Transfers</button>
+  <button class="pill category-pill" type="button" aria-pressed="false" data-category="match">Matches</button>
+  <button class="pill category-pill" type="button" aria-pressed="false" data-category="opinion">Opinion</button>
+  <button class="pill category-pill" type="button" aria-pressed="false" data-category="news">News</button>
+</div>
+
 <main id="feed">
 {feed_html}
 </main>
 
 <div id="empty-state" hidden>
-  <p>No stories yet for the clubs you follow.</p>
-  <button id="empty-clear" type="button">Show all clubs</button>
+  <p>No stories match your current filters.</p>
+  <button id="empty-clear" type="button">Clear filters</button>
 </div>
 
 <footer>
@@ -843,30 +857,42 @@ def build_html(articles, clubs, standings):
   var emptyClearBtn = document.getElementById("empty-clear");
   var yourClubs = document.getElementById("your-clubs");
   var feed = document.getElementById("feed");
+  var CATEGORY_STORAGE_KEY = "eflfeed.categories";
+  var categoryPills = Array.prototype.slice.call(document.querySelectorAll(".category-pill"));
   // Scoped to exclude .league-pill: those share the .pill class purely
   // for visual styling, but are a different control (toggles a whole
   // division) with their own click handler below. Without this
   // exclusion, clicking a league pill would ALSO fire the club-pill
   // handler and push the literal division name into the selection as
   // if it were a club slug.
-  var pills = Array.prototype.slice.call(document.querySelectorAll(".pill:not(.league-pill)"));
+  var pills = Array.prototype.slice.call(document.querySelectorAll(".pill:not(.league-pill):not(.category-pill)"));
 
   function getSelection() {{
     try {{ return JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]"); }}
     catch (e) {{ return []; }}
   }}
   function setSelection(sel) {{ localStorage.setItem(STORAGE_KEY, JSON.stringify(sel)); }}
+  function getCategorySelection() {{
+    try {{ return JSON.parse(localStorage.getItem(CATEGORY_STORAGE_KEY) || "[]"); }}
+    catch (e) {{ return []; }}
+  }}
+  function setCategorySelection(sel) {{ localStorage.setItem(CATEGORY_STORAGE_KEY, JSON.stringify(sel)); }}
 
   function applyFilter() {{
     var sel = getSelection();
+    var catSel = getCategorySelection();
     pills.forEach(function(p) {{
       p.setAttribute("aria-pressed", sel.indexOf(p.dataset.slug) !== -1 ? "true" : "false");
     }});
+    categoryPills.forEach(function(p) {{
+      p.setAttribute("aria-pressed", catSel.indexOf(p.dataset.category) !== -1 ? "true" : "false");
+    }});
     var cards = feed.querySelectorAll(".cluster");
     cards.forEach(function(c) {{
-      if (sel.length === 0) {{ c.hidden = false; return; }}
       var clubs = (c.dataset.clubs || "").split(" ");
-      c.hidden = !clubs.some(function(s) {{ return sel.indexOf(s) !== -1; }});
+      var clubOk = sel.length === 0 || clubs.some(function(s) {{ return sel.indexOf(s) !== -1; }});
+      var catOk = catSel.length === 0 || catSel.indexOf(c.dataset.category) !== -1;
+      c.hidden = !(clubOk && catOk);
     }});
     // Hide a day heading if every cluster under it is now hidden.
     document.querySelectorAll(".day-group").forEach(function(g) {{
@@ -915,8 +941,17 @@ def build_html(articles, clubs, standings):
       applyFilter();
     }});
   }});
+  categoryPills.forEach(function(p) {{
+    p.addEventListener("click", function() {{
+      var sel = getCategorySelection();
+      var i = sel.indexOf(p.dataset.category);
+      if (i === -1) sel.push(p.dataset.category); else sel.splice(i, 1);
+      setCategorySelection(sel);
+      applyFilter();
+    }});
+  }});
   clearBtn.addEventListener("click", function() {{ setSelection([]); applyFilter(); }});
-  emptyClearBtn.addEventListener("click", function() {{ setSelection([]); applyFilter(); }});
+  emptyClearBtn.addEventListener("click", function() {{ setSelection([]); setCategorySelection([]); applyFilter(); }});
 
   document.querySelectorAll(".league-pill").forEach(function(lp) {{
     lp.addEventListener("click", function() {{
