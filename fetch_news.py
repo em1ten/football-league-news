@@ -257,7 +257,8 @@ _NON_FOOTBALL_NOISE_RE = re.compile(
     r"\bengineer\b|\breservoir\b|\bcivil service\b|\bparking garage\b|"
     r"\btwin city\b|\bheadquarters\b|\bin memory of\b|\bfirefighters\b|\bblaze\b|"
     r"\bflames engulf\b|\bgarage fire\b|\bscrapyard fire\b|\bhouse fire\b|"
-    r"\bwildfire\b|\barson\b|\brough sleeping\b|\bhomeless(?:ness)?\b"
+    r"\bwildfire\b|\barson\b|\brough sleeping\b|\bhomeless(?:ness)?\b|"
+    r"\bmigrants?\b|\basylum\b|\bsmall boats?\b|\bchannel crossings?\b"
 )
 
 # Known non-UK local-news outlets that repeatedly surface for homonym
@@ -280,18 +281,19 @@ HOMONYM_NOISE_SOURCES = {
 _FOOTBALL_CONTEXT_RE = re.compile(
     r"(?i)\bfc\b|\befl\b|championship|league one|league two|\bmatch\b|"
     r"\bboss\b|\bmanager\b|\bstriker\b|\bgoal\b|\btransfer\b|\bsquad\b|"
-    r"\bkick-off\b|\bfixture\b|\blineup\b|\bline-up\b|\bstarting xi\b|"
+    r"\bkick-off\b|\bfixtures?\b|\blineup\b|\bline-up\b|\bstarting xi\b|"
     r"\bderby\b.*\b(win|loss|draw|beat)|\bstadium\b|\bloan\b|\bsigning\b|"
     r"\bwinger\b|\bmidfielder\b|\bdefender\b|\bgoalkeeper\b|\bpromotion\b|"
     r"\brelegation\b|play-?off|\bvs\b|\bv\b\s|\bwednesday\b.*\bfc\b|"
     r"\bforward\b|\bcentre-back\b|\bright-back\b|\bleft-back\b|\bfull-back\b|"
-    r"\bwing-back\b"
+    r"\bwing-back\b|\btakeover\b"
 )
-# A football scoreline ("2-0", "4 0") is a strong, fairly unambiguous
-# signal on its own -- distinct enough from most other content types that
-# it's worth checking as a separate pattern rather than folding into the
-# word list above.
-_SCORELINE_RE = re.compile(r"\b\d{1,2}[-\s]\d{1,2}\b")
+# A football scoreline is a strong, fairly unambiguous signal on its own.
+# Covers both the compact style ("2-0", "4 0") and the common "Team 1
+# Team 0" style with words between the digits (found live: "Bradford
+# City 1 Mansfield Town 0" wasn't caught by the compact-only pattern).
+_SCORELINE_RE = re.compile(r"\b\d{1,2}\s*-\s*\d{1,2}\b|\b\d{1,2}\s\d{1,2}\b")
+_SCORELINE_WORDY_RE = re.compile(r"\b\d{1,2}\s+[A-Z][\w'-]*(?:\s+[A-Z][\w'-]*){0,3}\s+\d{1,2}\b")
 
 
 # This aggregator is scoped to men's football only -- a separate women's
@@ -430,23 +432,32 @@ _HIGH_RISK_CLUB_RE = re.compile(
 # The club's OWN other markers (nickname, ground) are stronger evidence
 # than generic football vocabulary -- e.g. "Imps" (Lincoln City) or
 # "Pompey" (Portsmouth) essentially never appear outside football
-# content. Built from the risky marker's own slug lookup, excluding the
-# risky marker itself (that's the ambiguous one being disambiguated).
-_HIGH_RISK_DISTINGUISHING_MARKERS = {}
-for _risky, _slug in HIGH_RISK_HOMONYM_CLUBS.items():
-    _club = _BY_SLUG.get(_slug, {})
-    _markers = [m for m in _club.get("markers", []) if m.lower() != _risky.lower()]
-    # Also check each marker with a leading "the " stripped -- headlines
-    # often drop it ("His Imps' Career", not "His The Imps' Career").
+# content. Built for EVERY club, not just the curated high-risk list --
+# needed once "strict" mode (below) treats any matched club as needing
+# positive signal, since a short headline like "VARDY JOINS THE CLARETS"
+# has no generic football-context word but does use Burnley's own
+# distinguishing nickname.
+ALL_CLUB_DISTINGUISHING_MARKERS = {}
+for _slug, _club in _BY_SLUG.items():
+    _own_name = _club.get("name", "").lower()
+    _bare_words = {m.lower() for m in _club.get("markers", []) if len(m.split()) == 1}
+    # Exclude both single bare-word markers AND the club's own full name --
+    # the latter matters for clubs like York City, where the "risky"
+    # marker is the two-word phrase itself ("York city centre" uses
+    # "city" generically, not as part of the club name). Without this,
+    # the same text that triggered the homonym check was also being
+    # counted as evidence disproving it -- circular.
+    _exclude = _bare_words | {_own_name}
+    _markers = [m for m in _club.get("markers", []) if m.lower() not in _exclude]
     for _m in list(_markers):
         if _m.lower().startswith("the "):
             _markers.append(_m[4:])
-    _HIGH_RISK_DISTINGUISHING_MARKERS[_slug] = _markers
+    ALL_CLUB_DISTINGUISHING_MARKERS[_slug] = _markers
 
 
 def _mentions_distinguishing_marker(title, excerpt):
     text = f"{title} {excerpt}".lower()
-    for markers in _HIGH_RISK_DISTINGUISHING_MARKERS.values():
+    for markers in ALL_CLUB_DISTINGUISHING_MARKERS.values():
         for m in markers:
             if re.search(r"\b" + re.escape(m.lower()) + r"\b", text):
                 return True
@@ -456,37 +467,65 @@ OFFICIAL_CLUB_NAMES = {c["name"].lower() for c in _BY_SLUG.values()}
 
 def _has_positive_football_signal(title, excerpt, source=""):
     text = f"{title} {excerpt}"
-    if _FOOTBALL_CONTEXT_RE.search(text) or _SCORELINE_RE.search(text):
+    if _FOOTBALL_CONTEXT_RE.search(text) or _SCORELINE_RE.search(text) or _SCORELINE_WORDY_RE.search(text):
         return True
     if _mentions_distinguishing_marker(title, excerpt):
+        return True
+    src = source.strip().lower()
+    # A national broadcaster/wire-quality source filing something as
+    # thin as a bare club name is overwhelmingly likely to be their own
+    # sports pages (team profile, results page) -- reuses the same
+    # trusted-source list built for the ranking feature.
+    if src in TRUSTED_SOURCES:
         return True
     # An EXACT match against a club's own official name (not a fuzzy
     # marker match) means the source IS that club's own site -- e.g.
     # "Cardiff City" as a source. Deliberately exact-match only: a fuzzy
     # marker match would also catch "Watford Observer" (a local paper
     # named after the town, not the club), which proves nothing about
-    # whether the story is football content.
-    if source.strip().lower() in OFFICIAL_CLUB_NAMES:
+    # whether the story is football content. Also strips a trailing
+    # "FC"/"Football Club" the same way source_tier() does, since
+    # official sources commonly appear as "Rochdale AFC" not "Rochdale".
+    src_bare = re.sub(r"\s+(fc|afc|f\.c\.|football club)$", "", src)
+    if src in OFFICIAL_CLUB_NAMES or src_bare in OFFICIAL_CLUB_NAMES:
         return True
     # Last resort: does the headline also name another real EFL club?
-    # Two clubs mentioned together is strong evidence of a genuine
-    # match/transfer story, independent of which specific words it uses --
-    # and it reuses the same curated marker data as the real tagging step,
-    # rather than guessing at more generic vocabulary.
-    return len(match_clubs(title, excerpt)["clubs"]) >= 2
+    # Two clubs mentioned together is normally strong evidence of a
+    # genuine match/transfer story. Deliberately unrestricted -- an
+    # earlier version required at least one non-risky club, but that
+    # broke the very common real case of two homonym-risk clubs playing
+    # each other (e.g. Crewe vs York City, both real towns). The
+    # Southampton+Portsmouth migrant story that motivated the
+    # restriction is instead caught below, by adding "migrant" etc. to
+    # the general noise-word list -- a more targeted fix than
+    # penalising every two-risky-club pairing.
+    matched = match_clubs(title, excerpt)["clubs"]
+    return len(matched) >= 2
 
 
-def is_homonym_noise(title, source="", excerpt=""):
+def is_homonym_noise(title, source="", excerpt="", strict=False):
     if source in HOMONYM_NOISE_SOURCES:
         return True
-    if _HIGH_RISK_CLUB_RE.search(title) and not _has_positive_football_signal(title, excerpt, source):
+    if strict:
+        # Applied only to the per-club rotation query path. Found live
+        # at scale: 49 of 72 clubs have a bare place-name marker (their
+        # actual club name IS a real town), so a curated "high risk"
+        # list of just 4 clubs never had a chance of keeping up -- a
+        # bare Google News search for e.g. "Southampton" or "Rochdale"
+        # surfaces every civic/crime/politics story mentioning that
+        # place, not just football. Every matched club is treated as
+        # needing positive evidence here, not just the curated few.
+        matched = match_clubs(title, excerpt)["clubs"]
+        if matched and not _has_positive_football_signal(title, excerpt, source):
+            return True
+    elif _HIGH_RISK_CLUB_RE.search(title) and not _has_positive_football_signal(title, excerpt, source):
         return True
     if not _NON_FOOTBALL_NOISE_RE.search(title):
         return False
     return not _FOOTBALL_CONTEXT_RE.search(title)
 
 
-def passes_quality_filters(article, from_google_news):
+def passes_quality_filters(article, from_google_news, strict_homonym=False):
     title, url, source = article["title"], article["url"], article["source"]
     if is_stream_spam(title, url, source):
         return False
@@ -500,7 +539,9 @@ def passes_quality_filters(article, from_google_news):
         return False
     # Homonym check only applies to text-matched Google News content --
     # official feeds are already scoped by URL so can't be homonym noise.
-    if from_google_news and is_homonym_noise(title, source, article.get("excerpt", "")):
+    if from_google_news and is_homonym_noise(
+        title, source, article.get("excerpt", ""), strict=strict_homonym
+    ):
         return False
     return True
 
@@ -614,7 +655,7 @@ def fetch_rotation_club_queries(n_slices=3):
                 a["source"] = normalise_source(publisher)
             if is_empty_excerpt(a["title"], a["excerpt"]):
                 a["excerpt"] = ""
-            if not passes_quality_filters(a, from_google_news=True):
+            if not passes_quality_filters(a, from_google_news=True, strict_homonym=True):
                 continue
             tagged = match_clubs(a["title"], a["excerpt"])
             if slug not in tagged["clubs"]:
