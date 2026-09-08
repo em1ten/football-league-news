@@ -166,6 +166,20 @@ SOURCE_ALIASES = {
 
 STREAM_SPAM_DOMAINS = {"rikkyo.ac.jp"}
 
+# Content-farm sources that publish auto-generated/misattributed junk
+# regardless of topic -- distinct from stream-spam (illegal-stream link
+# farms) and gambling sites, so kept as its own blocklist. Confirmed live:
+# "Mshale" repeatedly posts titles combining unrelated phrases with real
+# club names and a trailing junk code, e.g. "Weekend Weather With Fire
+# Wrap Grimsby Town Vs Salford City (YqXudjCzX3)" -- these pass every
+# other filter since the club names are real and there's no gambling or
+# stream-spam vocabulary, so this needs a dedicated source-level block.
+JUNK_SOURCES = {"Mshale"}
+
+
+def is_junk_source(source):
+    return source in JUNK_SOURCES
+
 # Mathematical/fullwidth/CJK-decorative unicode blocks used to dodge basic
 # keyword filters -- e.g. "𝐋𝐈𝐕𝐄", "Ｌｉｖｅ", "【LIVESTREAMS】". Legitimate
 # club/publisher names don't use these. The CJK Symbols/Punctuation block
@@ -304,6 +318,37 @@ def is_youth_football(title, excerpt=""):
     return bool(_YOUTH_FOOTBALL_RE.search(f"{title} {excerpt}"))
 
 
+# Lightweight category tag for the reader's own filter chips (News /
+# Transfers / Matches / Opinion). Betting/prediction content needs no
+# category here since is_gambling_content already removes it entirely --
+# this is purely about letting someone hide, say, opinion pieces while
+# skimming. Order matters: checked most-specific-first, first match wins,
+# so a transfer story that also reports a score still files as "transfer"
+# rather than "match".
+_CATEGORY_PATTERNS = [
+    ("transfer", re.compile(
+        r"(?i)\btransfer\b|\bloan\b|\bsigns?\b|\bsigning\b|\bsigned\b|"
+        r"\bdeal\b|\bcontract\b|\bswoop\b|\bagreement\b|\bjoins?\b|"
+        r"\bjoined\b|\bjoining\b|\bapproach\b"
+    )),
+    ("match", re.compile(
+        r"(?i)\b\d{1,2}[-\s]\d{1,2}\b|\bmatch report\b|\bhighlights\b|"
+        r"\bfull-?time\b|\bkick-off\b|\blive score\b|\bvs\.?\b|\bv\b"
+    )),
+    ("opinion", re.compile(
+        r"(?i)\bopinion\b|\bverdict\b|\banalysis\b|\bcolumn\b|\btakeaways?\b"
+    )),
+]
+
+
+def categorise(title, excerpt=""):
+    text = f"{title} {excerpt}"
+    for name, pattern in _CATEGORY_PATTERNS:
+        if pattern.search(text):
+            return name
+    return "news"
+
+
 def is_womens_football(title, excerpt=""):
     return bool(_WOMENS_FOOTBALL_RE.search(f"{title} {excerpt}"))
 
@@ -323,16 +368,47 @@ def is_womens_football(title, excerpt=""):
 # are exactly as likely to appear in genuine Royal Navy Portsmouth
 # content as in football content, so they're left out of
 # _FOOTBALL_CONTEXT_RE specifically because of this club.
-HIGH_RISK_HOMONYM_CLUBS = {"portsmouth", "middlesbrough", "watford"}
+HIGH_RISK_HOMONYM_CLUBS = {
+    "portsmouth": "portsmouth",
+    "middlesbrough": "middlesbrough",
+    "watford": "watford",
+    "lincoln city": "lincoln-city",
+}
 _HIGH_RISK_CLUB_RE = re.compile(
     r"(?i)\b(" + "|".join(HIGH_RISK_HOMONYM_CLUBS) + r")\b"
 )
+# The club's OWN other markers (nickname, ground) are stronger evidence
+# than generic football vocabulary -- e.g. "Imps" (Lincoln City) or
+# "Pompey" (Portsmouth) essentially never appear outside football
+# content. Built from the risky marker's own slug lookup, excluding the
+# risky marker itself (that's the ambiguous one being disambiguated).
+_HIGH_RISK_DISTINGUISHING_MARKERS = {}
+for _risky, _slug in HIGH_RISK_HOMONYM_CLUBS.items():
+    _club = _BY_SLUG.get(_slug, {})
+    _markers = [m for m in _club.get("markers", []) if m.lower() != _risky.lower()]
+    # Also check each marker with a leading "the " stripped -- headlines
+    # often drop it ("His Imps' Career", not "His The Imps' Career").
+    for _m in list(_markers):
+        if _m.lower().startswith("the "):
+            _markers.append(_m[4:])
+    _HIGH_RISK_DISTINGUISHING_MARKERS[_slug] = _markers
+
+
+def _mentions_distinguishing_marker(title, excerpt):
+    text = f"{title} {excerpt}".lower()
+    for markers in _HIGH_RISK_DISTINGUISHING_MARKERS.values():
+        for m in markers:
+            if re.search(r"\b" + re.escape(m.lower()) + r"\b", text):
+                return True
+    return False
 OFFICIAL_CLUB_NAMES = {c["name"].lower() for c in _BY_SLUG.values()}
 
 
 def _has_positive_football_signal(title, excerpt, source=""):
     text = f"{title} {excerpt}"
     if _FOOTBALL_CONTEXT_RE.search(text) or _SCORELINE_RE.search(text):
+        return True
+    if _mentions_distinguishing_marker(title, excerpt):
         return True
     # An EXACT match against a club's own official name (not a fuzzy
     # marker match) means the source IS that club's own site -- e.g.
@@ -363,6 +439,8 @@ def is_homonym_noise(title, source="", excerpt=""):
 def passes_quality_filters(article, from_google_news):
     title, url, source = article["title"], article["url"], article["source"]
     if is_stream_spam(title, url, source):
+        return False
+    if is_junk_source(source):
         return False
     if is_gambling_content(title, source):
         return False
@@ -414,6 +492,7 @@ def fetch_club_feeds():
                 if not passes_quality_filters(a, from_google_news=False):
                     continue
                 a["clubs"] = [slug]
+                a["category"] = categorise(a["title"], a.get("excerpt", ""))
                 a["division"] = division_of(slug)
                 a["scope"] = "club"
                 articles.append(a)
@@ -456,6 +535,7 @@ def fetch_division_feeds():
             if not tagged_clubs:
                 continue
             a["clubs"] = tagged_clubs
+            a["category"] = categorise(a["title"], a.get("excerpt", ""))
             a["division"] = division
             a["scope"] = "club"
             articles.append(a)
@@ -491,6 +571,7 @@ def fetch_rotation_club_queries(n_slices=3):
                 # that merely contains the word "derby".
                 continue
             a["clubs"] = tagged["clubs"]
+            a["category"] = categorise(a["title"], a.get("excerpt", ""))
             a["division"] = division_of(slug)
             a["scope"] = "club"
             articles.append(a)
