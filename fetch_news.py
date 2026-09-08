@@ -349,6 +349,56 @@ def categorise(title, excerpt=""):
     return "news"
 
 
+# Source-quality tier, used ONLY to pick which article leads a cluster
+# and how the "+N more" list orders within it -- never to re-rank the
+# day's overall feed. That distinction matters: the removed top-story
+# feature broke four times trying to infer "the biggest story" across
+# the whole feed from headline text, which is a genuinely hard problem.
+# Picking the best-written report to feature INSIDE an already-formed
+# cluster (same club, same time window, same real event) is a much
+# smaller, safer claim -- the cluster's identity is already established
+# by the existing club+time+story-similarity checks.
+#
+# "Trusted" is deliberately a short, curated list of national
+# broadcasters/wire-quality sources plus official club sites (reused
+# from OFFICIAL_CLUB_NAMES, already built for the homonym check) --
+# not an attempt to rank every outlet. "Low" catches template/directory
+# pages (squad lists, box scores, live-score stat pages) that provide
+# no real reporting, regardless of source -- confirmed live: these
+# were crowding out genuine journalism as cluster primaries.
+TRUSTED_SOURCES = {"bbc", "sky sports", "efl", "efl.com", "itv"}
+
+LOW_QUALITY_SOURCES = {
+    "transfermarkt", "vavel.com", "fotmob", "flashscore.com",
+    "sofascore", "besoccer livescore",
+}
+
+_BOILERPLATE_TITLE_RE = re.compile(
+    r"(?i)- news, schedule, scores, roster, and stats|"
+    r"schedule\s*&\s*fixtures\s*-\s*20\d\d-\d\d|"
+    r"box score - \w+ \d{1,2}, \d{4}|"
+    r"\(\d{1,2} \w+,? \d{4}\) (team|player) stats|"
+    r"\u00b7 (results|squad|fixtures) 20\d\d-\d\d|"
+    r"live score$"
+)
+
+
+def source_tier(source, title):
+    src = (source or "").strip().lower()
+    if _BOILERPLATE_TITLE_RE.search(title or ""):
+        return "low"
+    if src in LOW_QUALITY_SOURCES:
+        return "low"
+    # Official club sources commonly appear as "X FC" or "X Football
+    # Club" in the wild, but clubs.json stores bare names ("Burnley",
+    # not "Burnley FC") -- strip the common suffixes before matching so
+    # both forms count.
+    src_bare = re.sub(r"\s+(fc|f\.c\.|football club)$", "", src)
+    if src in TRUSTED_SOURCES or src in OFFICIAL_CLUB_NAMES or src_bare in OFFICIAL_CLUB_NAMES:
+        return "trusted"
+    return "normal"
+
+
 def is_womens_football(title, excerpt=""):
     return bool(_WOMENS_FOOTBALL_RE.search(f"{title} {excerpt}"))
 
@@ -493,6 +543,7 @@ def fetch_club_feeds():
                     continue
                 a["clubs"] = [slug]
                 a["category"] = categorise(a["title"], a.get("excerpt", ""))
+                a["tier"] = source_tier(a["source"], a["title"])
                 a["division"] = division_of(slug)
                 a["scope"] = "club"
                 articles.append(a)
@@ -536,6 +587,7 @@ def fetch_division_feeds():
                 continue
             a["clubs"] = tagged_clubs
             a["category"] = categorise(a["title"], a.get("excerpt", ""))
+            a["tier"] = source_tier(a["source"], a["title"])
             a["division"] = division
             a["scope"] = "club"
             articles.append(a)
@@ -572,6 +624,7 @@ def fetch_rotation_club_queries(n_slices=3):
                 continue
             a["clubs"] = tagged["clubs"]
             a["category"] = categorise(a["title"], a.get("excerpt", ""))
+            a["tier"] = source_tier(a["source"], a["title"])
             a["division"] = division_of(slug)
             a["scope"] = "club"
             articles.append(a)
