@@ -218,7 +218,37 @@ def cluster_by_clubs(articles):
             new_idx = len(clusters)
             clusters.append({"primary": a, "more": []})
             clusters_by_key.setdefault(key, []).append(new_idx)
+    for c in clusters:
+        _promote_best_primary(c)
     return clusters
+
+
+_TIER_RANK = {"trusted": 0, "normal": 1, "low": 2}
+
+
+def _promote_best_primary(cluster):
+    """Feature the best-written report as a cluster's headline, not
+    necessarily whichever happened to be newest. This only reorders
+    WITHIN an already-formed cluster (same club, same time window,
+    already confirmed to be the same story by _same_story) -- it never
+    changes which stories are grouped, or where a cluster sits in the
+    day's chronological order. That distinction is deliberate: the
+    removed top-story feature broke by inferring importance ACROSS the
+    whole feed from headline text; picking a lead article INSIDE a
+    cluster whose identity is already established is a much smaller,
+    safer claim.
+
+    Ties within a tier keep the newest first, same as before this
+    existed."""
+    members = [cluster["primary"]] + cluster["more"]
+    # Two-pass stable sort: sort by the tiebreak (recency, newest first)
+    # first, then by the primary key (tier, best first). Python's sort
+    # is stable, so within each tier the newest-first order from the
+    # first pass survives.
+    members.sort(key=lambda a: a.get("published", ""), reverse=True)
+    members.sort(key=lambda a: _TIER_RANK.get(a.get("tier", "normal"), 1))
+    cluster["primary"] = members[0]
+    cluster["more"] = members[1:]
 
 
 def group_by_day(articles_sorted, today):
