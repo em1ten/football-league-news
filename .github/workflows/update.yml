@@ -48,9 +48,6 @@ jobs:
       - name: Fetch news
         run: python3 fetch_news.py
 
-      - name: Discover feeds
-        run: python3 discover_feeds.py
-
       - name: Fetch standings
         # Table/results data doesn't need 15-min polling like news does --
         # this is cheap and safe to run every time regardless.
