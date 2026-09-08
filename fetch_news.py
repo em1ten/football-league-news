@@ -37,9 +37,86 @@ USER_AGENT = "EFLFeedBot/1.0 (+https://example.invalid)"
 # Fill in as you find real feed URLs. Anything not listed here for a club
 # just relies on the rotation + text-matching path instead -- that's fine,
 # it's the fallback the rotation path exists for.
+# Verified via discover_feeds.py against the real, live URLs -- each one
+# was checked to actually parse as a feed with real entries, not just
+# guessed. 72/72 clubs found a working feed on the first run. A club
+# whose only feed here has very few entries (some BBC per-team feeds
+# showed just 4) hasn't been individually content-checked beyond that --
+# worth watching once real data flows through, same as any other new
+# source in this pipeline.
 CLUB_FEEDS = {
-    # "sheffield-wednesday": ["https://www.swfc.co.uk/news/rss"],
-    # "leicester-city": ["https://www.lcfc.com/rss/news"],
+    "accrington-stanley": ["https://feeds.bbci.co.uk/sport/football/teams/accrington-stanley/rss.xml"],
+    "afc-wimbledon": ["https://feeds.bbci.co.uk/sport/football/teams/afc-wimbledon/rss.xml"],
+    "barnet": ["https://feeds.bbci.co.uk/sport/football/teams/barnet/rss.xml"],
+    "barnsley": ["https://www.barnsleyfc.co.uk/rss.xml"],
+    "birmingham-city": ["https://feeds.bbci.co.uk/sport/football/teams/birmingham-city/rss.xml"],
+    "blackburn-rovers": ["https://www.rovers.co.uk/rss.xml"],
+    "blackpool": ["https://feeds.bbci.co.uk/sport/football/teams/blackpool/rss.xml"],
+    "bolton-wanderers": ["https://feeds.bbci.co.uk/sport/football/teams/bolton-wanderers/rss.xml"],
+    "bradford-city": ["https://feeds.bbci.co.uk/sport/football/teams/bradford-city/rss.xml"],
+    "bristol-city": ["https://feeds.bbci.co.uk/sport/football/teams/bristol-city/rss.xml"],
+    "bristol-rovers": ["https://feeds.bbci.co.uk/sport/football/teams/bristol-rovers/rss.xml"],
+    "bromley": ["https://feeds.bbci.co.uk/sport/football/teams/bromley/rss.xml"],
+    "burnley": ["https://www.burnleyfootballclub.com/rss"],
+    "burton-albion": ["https://feeds.bbci.co.uk/sport/football/teams/burton-albion/rss.xml"],
+    "cambridge-united": ["https://feeds.bbci.co.uk/sport/football/teams/cambridge-united/rss.xml"],
+    "cardiff-city": ["https://feeds.bbci.co.uk/sport/football/teams/cardiff-city/rss.xml"],
+    "charlton-athletic": ["https://feeds.bbci.co.uk/sport/football/teams/charlton-athletic/rss.xml"],
+    "cheltenham-town": ["https://feeds.bbci.co.uk/sport/football/teams/cheltenham-town/rss.xml"],
+    "chesterfield": ["https://feeds.bbci.co.uk/sport/football/teams/chesterfield/rss.xml"],
+    "colchester-united": ["https://feeds.bbci.co.uk/sport/football/teams/colchester-united/rss.xml"],
+    "crawley-town": ["https://feeds.bbci.co.uk/sport/football/teams/crawley-town/rss.xml"],
+    "crewe-alexandra": ["https://feeds.bbci.co.uk/sport/football/teams/crewe-alexandra/rss.xml"],
+    "derby-county": ["https://feeds.bbci.co.uk/sport/football/teams/derby-county/rss.xml"],
+    "doncaster-rovers": ["https://feeds.bbci.co.uk/sport/football/teams/doncaster-rovers/rss.xml"],
+    "exeter-city": ["https://feeds.bbci.co.uk/sport/football/teams/exeter-city/rss.xml"],
+    "fleetwood-town": ["https://feeds.bbci.co.uk/sport/football/teams/fleetwood-town/rss.xml"],
+    "gillingham": ["https://feeds.bbci.co.uk/sport/football/teams/gillingham/rss.xml"],
+    "grimsby-town": ["https://feeds.bbci.co.uk/sport/football/teams/grimsby-town/rss.xml"],
+    "huddersfield-town": ["https://www.htafc.com/rss.xml"],
+    "leicester-city": ["https://www.lcfc.com/rss"],
+    "leyton-orient": ["https://feeds.bbci.co.uk/sport/football/teams/leyton-orient/rss.xml"],
+    "lincoln-city": ["https://feeds.bbci.co.uk/sport/football/teams/lincoln-city/rss.xml"],
+    "luton-town": ["https://feeds.bbci.co.uk/sport/football/teams/luton-town/rss.xml"],
+    "mansfield-town": ["https://www.mansfieldtown.net/rss.xml"],
+    "middlesbrough": ["https://www.mfc.co.uk/rss.xml"],
+    "millwall": ["https://www.millwallfc.co.uk/rss.xml"],
+    "milton-keynes-dons": ["https://feeds.bbci.co.uk/sport/football/teams/milton-keynes-dons/rss.xml"],
+    "newport-county": ["https://feeds.bbci.co.uk/sport/football/teams/newport-county/rss.xml"],
+    "northampton-town": ["https://www.ntfc.co.uk/rss.xml"],
+    "norwich-city": ["https://feeds.bbci.co.uk/sport/football/teams/norwich-city/rss.xml"],
+    "notts-county": ["https://www.nottscountyfc.co.uk/rss.xml"],
+    "oldham-athletic": ["https://feeds.bbci.co.uk/sport/football/teams/oldham-athletic/rss.xml"],
+    "oxford-united": ["https://feeds.bbci.co.uk/sport/football/teams/oxford-united/rss.xml"],
+    "peterborough-united": ["https://feeds.bbci.co.uk/sport/football/teams/peterborough-united/rss.xml"],
+    "plymouth-argyle": ["https://feeds.bbci.co.uk/sport/football/teams/plymouth-argyle/rss.xml"],
+    "port-vale": ["https://feeds.bbci.co.uk/sport/football/teams/port-vale/rss.xml"],
+    "portsmouth": ["https://feeds.bbci.co.uk/sport/football/teams/portsmouth/rss.xml"],
+    "preston-north-end": ["https://www.pnefc.net/rss.xml"],
+    "queens-park-rangers": ["https://www.qpr.co.uk/rss.xml"],
+    "reading": ["https://feeds.bbci.co.uk/sport/football/teams/reading/rss.xml"],
+    "rochdale": ["https://rochdaleafc.co.uk/rss"],
+    "rotherham-united": ["https://www.themillers.co.uk/rss.xml"],
+    "salford-city": ["https://www.salfordcityfc.co.uk/rss.xml"],
+    "sheffield-united": ["https://www.sufc.co.uk/rss.xml"],
+    "sheffield-wednesday": ["https://www.swfc.co.uk/rss.xml"],
+    "shrewsbury-town": ["https://feeds.bbci.co.uk/sport/football/teams/shrewsbury-town/rss.xml"],
+    "southampton": ["https://www.southamptonfc.com/news/rss"],
+    "stevenage": ["https://www.stevenagefc.com/rss.xml"],
+    "stockport-county": ["https://www.stockportcounty.com/rss.xml"],
+    "stoke-city": ["https://feeds.bbci.co.uk/sport/football/teams/stoke-city/rss.xml"],
+    "swansea-city": ["https://feeds.bbci.co.uk/sport/football/teams/swansea-city/rss.xml"],
+    "swindon-town": ["https://feeds.bbci.co.uk/sport/football/teams/swindon-town/rss.xml"],
+    "tranmere-rovers": ["https://www.tranmererovers.co.uk/rss.xml"],
+    "walsall": ["https://www.saddlers.co.uk/rss.xml"],
+    "watford": ["https://www.watfordfc.com/rss.xml"],
+    "west-bromwich-albion": ["https://feeds.bbci.co.uk/sport/football/teams/west-bromwich-albion/rss.xml"],
+    "west-ham-united": ["https://feeds.bbci.co.uk/sport/football/teams/west-ham-united/rss.xml"],
+    "wigan-athletic": ["https://wiganathletic.com/rss.xml"],
+    "wolverhampton-wanderers": ["https://www.wolves.co.uk/news/rss"],
+    "wrexham": ["https://feeds.bbci.co.uk/sport/football/teams/wrexham/rss.xml"],
+    "wycombe-wanderers": ["https://www.wwfc.com/rss.xml"],
+    "york-city": ["https://yorkcityfootballclub.co.uk/rss.xml"],
 }
 
 # One Google News query per division, cheap and league-wide.
@@ -311,7 +388,7 @@ _WOMENS_FOOTBALL_RE = re.compile(r"(?i)\bwomen'?s?\b|\bladies\b|wsl\d?\b")
 # academy, PDL). Same reasoning as the women's-football scope -- this site
 # is first-team men's football specifically.
 _YOUTH_FOOTBALL_RE = re.compile(
-    r"(?i)\bu1[89]s?\b|\bu2[13]s?\b|\bunder-?1[89]\b|\bunder-?2[13]\b|"
+    r"(?i)\bu1[89]s?\b|\bu2[13]s?\b|\bunder-?1[89]s?\b|\bunder-?2[13]s?\b|"
     r"\byouth\b|\bacademy\b|\bdevelopment squad\b|\bprofessional development league\b|\bpdl\b"
 )
 
