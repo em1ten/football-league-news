@@ -465,6 +465,162 @@
         "home_away": "H",
         "date": "2026-09-19"
       }
+    },
+    "form": {
+      "wolverhampton-wanderers": [
+        "W",
+        "L",
+        "D",
+        "W",
+        "W"
+      ],
+      "blackburn-rovers": [
+        "D",
+        "L",
+        "L",
+        "W",
+        "D"
+      ],
+      "bolton-wanderers": [
+        "L",
+        "L",
+        "L",
+        "W",
+        "W"
+      ],
+      "bristol-city": [
+        "W",
+        "W",
+        "L",
+        "L",
+        "W"
+      ],
+      "millwall": [
+        "L",
+        "W",
+        "L",
+        "D",
+        "D"
+      ],
+      "charlton-athletic": [
+        "D",
+        "L",
+        "D",
+        "D",
+        "L"
+      ],
+      "derby-county": [
+        "W",
+        "L",
+        "L",
+        "L",
+        "D"
+      ],
+      "middlesbrough": [
+        "D",
+        "W",
+        "W",
+        "D",
+        "D"
+      ],
+      "lincoln-city": [
+        "D",
+        "D",
+        "W",
+        "W",
+        "L"
+      ],
+      "norwich-city": [
+        "L",
+        "W",
+        "W",
+        "L",
+        "L"
+      ],
+      "portsmouth": [
+        "L",
+        "L",
+        "W",
+        "D",
+        "D"
+      ],
+      "queens-park-rangers": [
+        "W",
+        "L",
+        "D",
+        "D",
+        "D"
+      ],
+      "stoke-city": [
+        "W",
+        "W",
+        "D",
+        "W",
+        "W"
+      ],
+      "swansea-city": [
+        "W",
+        "D",
+        "L",
+        "W",
+        "W"
+      ],
+      "sheffield-united": [
+        "W",
+        "L",
+        "W",
+        "L",
+        "L"
+      ],
+      "birmingham-city": [
+        "D",
+        "D",
+        "L",
+        "W",
+        "D"
+      ],
+      "watford": [
+        "L",
+        "L",
+        "W",
+        "L",
+        "L"
+      ],
+      "southampton": [
+        "D",
+        "D",
+        "W",
+        "W",
+        "L"
+      ],
+      "burnley": [
+        "D",
+        "L",
+        "D",
+        "L",
+        "D"
+      ],
+      "west-ham-united": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "D"
+      ],
+      "cardiff-city": [
+        "L",
+        "L",
+        "D",
+        "L",
+        "W"
+      ],
+      "wrexham": [
+        "W",
+        "D",
+        "D",
+        "L",
+        "W"
+      ]
     }
   },
   "league-one": {
@@ -933,6 +1089,162 @@
         "home_away": "H",
         "date": "2026-09-26"
       }
+    },
+    "form": {
+      "notts-county": [
+        "W",
+        "D",
+        "D",
+        "L",
+        "L"
+      ],
+      "leicester-city": [
+        "D",
+        "W",
+        "L",
+        "W",
+        "D"
+      ],
+      "oxford-united": [
+        "W",
+        "L",
+        "W",
+        "W",
+        "D"
+      ],
+      "milton-keynes-dons": [
+        "D",
+        "L",
+        "D",
+        "D",
+        "D"
+      ],
+      "reading": [
+        "W",
+        "W",
+        "L",
+        "W",
+        "D"
+      ],
+      "luton-town": [
+        "L",
+        "W",
+        "D",
+        "L",
+        "L"
+      ],
+      "barnsley": [
+        "W",
+        "W",
+        "L",
+        "L",
+        "D"
+      ],
+      "bromley": [
+        "L",
+        "L",
+        "L",
+        "D",
+        "W"
+      ],
+      "blackpool": [
+        "W",
+        "L",
+        "L",
+        "D",
+        "L"
+      ],
+      "wycombe-wanderers": [
+        "L",
+        "D",
+        "W",
+        "W",
+        "D"
+      ],
+      "bradford-city": [
+        "L",
+        "L",
+        "W",
+        "W",
+        "W"
+      ],
+      "burton-albion": [
+        "W",
+        "D",
+        "L",
+        "D",
+        "W"
+      ],
+      "stevenage": [
+        "D",
+        "D",
+        "W",
+        "W",
+        "L"
+      ],
+      "cambridge-united": [
+        "W",
+        "D",
+        "W",
+        "D",
+        "D"
+      ],
+      "wigan-athletic": [
+        "L",
+        "W",
+        "L",
+        "D",
+        "L"
+      ],
+      "huddersfield-town": [
+        "W",
+        "W",
+        "D",
+        "D",
+        "L"
+      ],
+      "afc-wimbledon": [
+        "L",
+        "W",
+        "W",
+        "D",
+        "D"
+      ],
+      "leyton-orient": [
+        "L",
+        "W",
+        "D",
+        "L",
+        "W"
+      ],
+      "sheffield-wednesday": [
+        "W",
+        "W",
+        "W",
+        "D",
+        "D"
+      ],
+      "mansfield-town": [
+        "W",
+        "L",
+        "L",
+        "D",
+        "D"
+      ],
+      "doncaster-rovers": [
+        "D",
+        "D",
+        "L",
+        "L",
+        "W"
+      ],
+      "stockport-county": [
+        "L",
+        "W",
+        "L",
+        "D",
+        "W"
+      ]
     }
   },
   "league-two": {
@@ -1380,6 +1692,155 @@
         "home_away": "H",
         "date": "2026-09-26"
       }
+    },
+    "form": {
+      "newport-county": [
+        "L",
+        "L",
+        "D",
+        "D",
+        "W"
+      ],
+      "rochdale": [
+        "W",
+        "L",
+        "D",
+        "W",
+        "W"
+      ],
+      "oldham-athletic": [
+        "D",
+        "L",
+        "L",
+        "L",
+        "L"
+      ],
+      "port-vale": [
+        "D",
+        "L",
+        "L",
+        "W",
+        "L"
+      ],
+      "colchester-united": [
+        "L",
+        "L",
+        "D",
+        "D",
+        "D"
+      ],
+      "barnet": [
+        "D",
+        "D",
+        "D",
+        "W",
+        "W"
+      ],
+      "salford-city": [
+        "W",
+        "W",
+        "D",
+        "W",
+        "W"
+      ],
+      "cheltenham-town": [
+        "W",
+        "D",
+        "W",
+        "D",
+        "W"
+      ],
+      "rotherham-united": [
+        "D",
+        "L",
+        "D",
+        "W",
+        "D"
+      ],
+      "chesterfield": [
+        "D",
+        "D",
+        "W",
+        "W",
+        "L"
+      ],
+      "fleetwood-town": [
+        "D",
+        "W",
+        "D",
+        "L",
+        "L"
+      ],
+      "crawley-town": [
+        "L",
+        "D",
+        "L",
+        "L",
+        "L"
+      ],
+      "gillingham": [
+        "D",
+        "W",
+        "W",
+        "W",
+        "L"
+      ],
+      "walsall": [
+        "D",
+        "D",
+        "D",
+        "W",
+        "D"
+      ],
+      "grimsby-town": [
+        "D",
+        "D",
+        "W",
+        "W",
+        "L"
+      ],
+      "exeter-city": [
+        "D",
+        "D",
+        "L",
+        "D",
+        "L"
+      ],
+      "northampton-town": [
+        "D",
+        "D",
+        "W",
+        "L",
+        "L"
+      ],
+      "swindon-town": [
+        "W",
+        "W",
+        "L",
+        "L",
+        "D"
+      ],
+      "tranmere-rovers": [
+        "D",
+        "W",
+        "L",
+        "D",
+        "D"
+      ],
+      "shrewsbury-town": [
+        "L",
+        "L",
+        "W",
+        "D",
+        "D"
+      ],
+      "york-city": [
+        "L",
+        "D",
+        "W",
+        "L",
+        "W"
+      ]
     }
   }
 }
