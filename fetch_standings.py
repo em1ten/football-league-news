@@ -41,6 +41,7 @@ DIVISION_CODES = {
     "league-two": "E3",
 }
 CSV_URL_TMPL = "https://www.football-data.co.uk/mmz4281/{season}/{code}.csv"
+FORM_LENGTH = 5  # results shown in each club's form guide on the page
 
 # Known historical football-data.co.uk naming quirks -- NOT verified against
 # the live 2026-27 file (see module docstring). Keys are lowercased. Only
@@ -181,8 +182,11 @@ def compute_division(division, rows):
         t["position"] = i
 
     # Last result per club: latest dated match involving that club.
+    # The same pass builds each club's form guide (W/D/L in date order);
+    # trimmed to the last FORM_LENGTH once every match has been seen.
     dated = [r for r in parsed_rows if r["date"] is not None]
     dated.sort(key=lambda r: r["date"])
+    form = {}
     for r in dated:
         for slug, opp_slug, opp_raw, gf, ga, is_home in (
             (r["home_slug"], r["away_slug"], r["away_raw"], r["hg"], r["ag"], True),
@@ -202,12 +206,16 @@ def compute_division(division, rows):
                 "home_away": "H" if is_home else "A",
                 "date": r["date"].strftime("%Y-%m-%d"),
             }
+            form.setdefault(slug, []).append(result)
+
+    # Oldest first, newest last -- the page draws them left to right.
+    form = {slug: results[-FORM_LENGTH:] for slug, results in form.items()}
 
     if unmatched:
         print(f"[standings] {division}: UNMATCHED team name(s), add to "
               f"TEAM_ALIASES: {sorted(unmatched)}")
 
-    return ranked, last_result
+    return ranked, last_result, form
 
 
 def main():
@@ -218,8 +226,8 @@ def main():
         except Exception as e:
             print(f"[standings] {division} fetch failed: {e}")
             continue
-        table, last_result = compute_division(division, rows)
-        result[division] = {"table": table, "last_result": last_result}
+        table, last_result, form = compute_division(division, rows)
+        result[division] = {"table": table, "last_result": last_result, "form": form}
         print(f"[standings] {division}: {len(table)} clubs in table, "
               f"{len(last_result)} with a last result")
 
