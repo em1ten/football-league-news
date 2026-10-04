@@ -277,11 +277,32 @@ STREAM_SPAM_DOMAINS = {"rikkyo.ac.jp"}
 # Wrap Grimsby Town Vs Salford City (YqXudjCzX3)" -- these pass every
 # other filter since the club names are real and there's no gambling or
 # stream-spam vocabulary, so this needs a dedicated source-level block.
-JUNK_SOURCES = {"Mshale"}
+JUNK_SOURCES = {"Mshale", "Unisba Media"}
+
+# The content-farm signature itself, so the next clone is caught without a
+# new blocklist entry: a 10-char random code in brackets ending the title,
+# e.g. "...Live Scoreboard Mary Simon French Proficiency Criticism
+# (7h1uith2Dm)". Confirmed live on Mshale AND Unisba Media. The code must
+# mix case mid-token or contain a digit, so ordinary bracketed words like
+# "(Interviews)", "(HIGHLIGHTS)" or "(EXCLUSIVE)" never match -- tested
+# against 12 real junk titles (all caught) and 8 legitimate bracketed
+# headlines (none caught).
+_JUNK_CODE_SUFFIX_RE = re.compile(r"\(([A-Za-z0-9]{10})\)\s*$")
 
 
-def is_junk_source(source):
-    return source in JUNK_SOURCES
+def has_junk_code_suffix(title):
+    m = _JUNK_CODE_SUFFIX_RE.search(title or "")
+    if not m:
+        return False
+    tok = m.group(1)
+    has_lower = any(ch.islower() for ch in tok)
+    upper_after_first = any(ch.isupper() for ch in tok[1:])
+    has_digit = any(ch.isdigit() for ch in tok)
+    return has_lower and (upper_after_first or has_digit)
+
+
+def is_junk_source(source, title=""):
+    return source in JUNK_SOURCES or has_junk_code_suffix(title)
 
 # Mathematical/fullwidth/CJK-decorative unicode blocks used to dodge basic
 # keyword filters -- e.g. "𝐋𝐈𝐕𝐄", "Ｌｉｖｅ", "【LIVESTREAMS】". Legitimate
@@ -575,6 +596,22 @@ def _mentions_distinguishing_marker(title, excerpt):
     return False
 OFFICIAL_CLUB_NAMES = {c["name"].lower() for c in _BY_SLUG.values()}
 
+# A "headline" that is nothing but a club's name is a directory/profile
+# page, never a story: BBC team feeds include entries titled just
+# "Wrexham AFC" or "Barnet", and Google News constantly returns
+# "Walsall FC" (Transfermarkt), "Portsmouth Football Club",
+# "Wrexham Association Football Club" and the like.
+_BARE_CLUB_TITLES = set(OFFICIAL_CLUB_NAMES)
+for _c in _BY_SLUG.values():
+    _BARE_CLUB_TITLES.update(m.lower() for m in _c.get("markers", []))
+_CLUB_SUFFIX_RE = re.compile(r"\s+(association football club|football club|f\.?c\.?|a\.?f\.?c\.?)$")
+
+
+def is_bare_club_title(title):
+    t = re.sub(r"\s+", " ", (title or "").strip().lower()).rstrip(" .")
+    t = _CLUB_SUFFIX_RE.sub("", t)
+    return t in _BARE_CLUB_TITLES
+
 
 def _has_positive_football_signal(title, excerpt, source=""):
     text = f"{title} {excerpt}"
@@ -640,7 +677,9 @@ def passes_quality_filters(article, from_google_news, strict_homonym=False):
     title, url, source = article["title"], article["url"], article["source"]
     if is_stream_spam(title, url, source):
         return False
-    if is_junk_source(source):
+    if is_junk_source(source, title):
+        return False
+    if is_bare_club_title(title):
         return False
     if is_gambling_content(title, source):
         return False
@@ -687,8 +726,14 @@ def fetch_club_feeds():
             except Exception as e:
                 print(f"[club-feed] {slug} {url} failed: {e}")
                 continue
+            # Label by where the feed actually lives, not the feed's own
+            # <title> -- club CMSs call themselves things like "Latest News -
+            # Sheffield Wednesday FC", which read badly on a card and never
+            # matched the trusted-source list, so official club news was
+            # being ranked as ordinary rather than trusted.
+            source_label = "BBC" if "bbci.co.uk" in url or "bbc.co.uk" in url else "Official site"
             for entry in feed.entries:
-                a = _entry_to_article(entry, normalise_source(feed.feed.get("title", slug)))
+                a = _entry_to_article(entry, source_label)
                 if a is None:
                     continue
                 if is_empty_excerpt(a["title"], a["excerpt"]):
@@ -697,7 +742,9 @@ def fetch_club_feeds():
                     continue
                 a["clubs"] = [slug]
                 a["category"] = categorise(a["title"], a.get("excerpt", ""))
-                a["tier"] = source_tier(a["source"], a["title"])
+                # Official club + BBC team feeds are trusted by construction
+                # (URL-scoped to the club). Template boilerplate still demotes.
+                a["tier"] = "low" if source_tier(a["source"], a["title"]) == "low" else "trusted"
                 a["division"] = division_of(slug)
                 a["scope"] = "club"
                 articles.append(a)
@@ -807,21 +854,36 @@ def dedupe(articles):
     return out
 
 
+FUTURE_TOLERANCE_SECONDS = 3600
+
+
+def within_age_window(articles, now=None):
+    """Keep only articles published within MAX_AGE_DAYS, and not dated
+    more than an hour in the future. Applied to EVERYTHING -- fresh and
+    previous alike. It used to run only on previous-run articles, so
+    freshly fetched items were never age-checked: official club and BBC
+    team feeds return weeks of history (Southampton's alone had 272
+    entries), and 27-day-old Birmingham stories went straight onto the
+    page. A future-dated item (bad feed clock) would otherwise pin itself
+    to the top of the feed indefinitely."""
+    now = time.time() if now is None else now
+    kept = []
+    for a in articles:
+        try:
+            ts = datetime.fromisoformat(a["published"]).timestamp()
+        except Exception:
+            continue
+        if -FUTURE_TOLERANCE_SECONDS <= (now - ts) <= MAX_AGE_DAYS * 86400:
+            kept.append(a)
+    return kept
+
+
 def load_previous():
     try:
         old = json.loads(OUT.read_text(encoding="utf-8"))
     except Exception:
         return []
-    now = time.time()
-    kept = []
-    for a in old:
-        try:
-            ts = datetime.fromisoformat(a["published"]).timestamp()
-        except Exception:
-            continue
-        if (now - ts) <= MAX_AGE_DAYS * 86400:
-            kept.append(a)
-    return kept
+    return within_age_window(old)
 
 
 def main():
@@ -832,7 +894,7 @@ def main():
 
     # Merge-with-previous, not full-replace: a feed going temporarily empty
     # (rate-limited/blocked) shouldn't make stories visibly vanish.
-    merged = dedupe(fresh + load_previous())
+    merged = dedupe(within_age_window(fresh) + load_previous())
     merged.sort(key=lambda a: a["published"], reverse=True)
 
     OUT.write_text(json.dumps(merged, indent=2, ensure_ascii=False), encoding="utf-8")
