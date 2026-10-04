@@ -320,6 +320,16 @@ def ordinal(n):
     return f"{n}{ORDINALS.get(n % 10, 'th')}"
 
 
+# football-data.co.uk abbreviates a few EFL names in its CSVs, and those
+# leaked straight onto the "Your clubs" cards ("W 2-1 @ Peterboro").
+# Everything else it uses ("Wolves", "West Brom") already reads well.
+OPPONENT_DISPLAY = {
+    "Peterboro": "Peterborough",
+    "Bristol Rvs": "Bristol Rovers",
+    "Sheffield Weds": "Sheffield Wed",
+}
+
+
 def your_clubs_card(club, standings_for_division):
     """One row in the 'Your clubs' strip: last result + league position.
     standings_for_division is the {'table':[...], 'last_result':{...}}
@@ -336,7 +346,7 @@ def your_clubs_card(club, standings_for_division):
         return None
     result_html = ""
     if last:
-        opp_name = last["opponent_name"]
+        opp_name = OPPONENT_DISPLAY.get(last["opponent_name"], last["opponent_name"])
         venue = "vs" if last["home_away"] == "H" else "@"
         result_html = f'<div class="yc-result">{esc(last["result"])} {last["gf"]}&ndash;{last["ga"]} {venue} {esc(opp_name)}</div>'
     position_html = ""
@@ -511,6 +521,16 @@ def build_html(articles, clubs, standings):
   }})();
 </script>
 <style>
+  /* `hidden` must ALWAYS win. The browser's own [hidden]{{display:none}}
+     lives in the UA stylesheet, and ANY author rule that sets `display`
+     on the same element beats it -- so `.yc-row{{display:flex}}` drew all
+     72 "Your clubs" rows even while JS had correctly set `hidden` on 71
+     of them. This has now bitten three times (.cluster, .day-group,
+     .yc-row); one !important rule here ends the whole class of bug for
+     every current and future component. jsdom can't catch it (it applies
+     no CSS) -- test filtering in a real browser. */
+  [hidden] {{ display: none !important; }}
+
   :root {{
     --accent: #1a7f4b;
     --accent-soft: #2fae6b;
