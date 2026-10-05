@@ -627,15 +627,27 @@
     "table": [
       {
         "slug": "bradford-city",
-        "played": 7,
+        "played": 8,
         "won": 5,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 2,
-        "gf": 7,
-        "ga": 4,
+        "gf": 8,
+        "ga": 5,
         "gd": 3,
-        "points": 15,
+        "points": 16,
         "position": 1
+      },
+      {
+        "slug": "huddersfield-town",
+        "played": 8,
+        "won": 4,
+        "drawn": 3,
+        "lost": 1,
+        "gf": 14,
+        "ga": 7,
+        "gd": 7,
+        "points": 15,
+        "position": 2
       },
       {
         "slug": "sheffield-wednesday",
@@ -647,7 +659,7 @@
         "ga": 6,
         "gd": 7,
         "points": 14,
-        "position": 2
+        "position": 3
       },
       {
         "slug": "stockport-county",
@@ -659,7 +671,7 @@
         "ga": 10,
         "gd": 7,
         "points": 13,
-        "position": 3
+        "position": 4
       },
       {
         "slug": "cambridge-united",
@@ -671,31 +683,31 @@
         "ga": 11,
         "gd": 2,
         "points": 13,
-        "position": 4
-      },
-      {
-        "slug": "huddersfield-town",
-        "played": 7,
-        "won": 3,
-        "drawn": 3,
-        "lost": 1,
-        "gf": 11,
-        "ga": 6,
-        "gd": 5,
-        "points": 12,
         "position": 5
       },
       {
-        "slug": "burton-albion",
+        "slug": "reading",
         "played": 8,
         "won": 3,
         "drawn": 3,
         "lost": 2,
-        "gf": 13,
-        "ga": 12,
-        "gd": 1,
+        "gf": 17,
+        "ga": 10,
+        "gd": 7,
         "points": 12,
         "position": 6
+      },
+      {
+        "slug": "burton-albion",
+        "played": 9,
+        "won": 3,
+        "drawn": 3,
+        "lost": 3,
+        "gf": 14,
+        "ga": 15,
+        "gd": -1,
+        "points": 12,
+        "position": 7
       },
       {
         "slug": "afc-wimbledon",
@@ -707,18 +719,6 @@
         "ga": 8,
         "gd": -2,
         "points": 12,
-        "position": 7
-      },
-      {
-        "slug": "reading",
-        "played": 7,
-        "won": 3,
-        "drawn": 2,
-        "lost": 2,
-        "gf": 16,
-        "ga": 9,
-        "gd": 7,
-        "points": 11,
         "position": 8
       },
       {
@@ -735,13 +735,13 @@
       },
       {
         "slug": "leyton-orient",
-        "played": 7,
+        "played": 8,
         "won": 3,
         "drawn": 1,
-        "lost": 3,
+        "lost": 4,
         "gf": 13,
-        "ga": 9,
-        "gd": 4,
+        "ga": 11,
+        "gd": 2,
         "points": 10,
         "position": 10
       },
@@ -929,12 +929,12 @@
       },
       "reading": {
         "result": "D",
-        "gf": 2,
-        "ga": 2,
-        "opponent_slug": "wycombe-wanderers",
-        "opponent_name": "Wycombe",
-        "home_away": "A",
-        "date": "2026-09-26"
+        "gf": 1,
+        "ga": 1,
+        "opponent_slug": "bradford-city",
+        "opponent_name": "Bradford",
+        "home_away": "H",
+        "date": "2026-10-03"
       },
       "luton-town": {
         "result": "L",
@@ -982,22 +982,22 @@
         "date": "2026-09-26"
       },
       "bradford-city": {
-        "result": "W",
+        "result": "D",
         "gf": 1,
-        "ga": 0,
-        "opponent_slug": "luton-town",
-        "opponent_name": "Luton",
+        "ga": 1,
+        "opponent_slug": "reading",
+        "opponent_name": "Reading",
         "home_away": "A",
-        "date": "2026-09-19"
+        "date": "2026-10-03"
       },
       "burton-albion": {
-        "result": "W",
+        "result": "L",
         "gf": 1,
-        "ga": 0,
-        "opponent_slug": null,
-        "opponent_name": "Plymouth",
-        "home_away": "A",
-        "date": "2026-09-26"
+        "ga": 3,
+        "opponent_slug": "huddersfield-town",
+        "opponent_name": "Huddersfield",
+        "home_away": "H",
+        "date": "2026-10-03"
       },
       "stevenage": {
         "result": "L",
@@ -1027,13 +1027,13 @@
         "date": "2026-09-19"
       },
       "huddersfield-town": {
-        "result": "L",
-        "gf": 1,
-        "ga": 2,
-        "opponent_slug": "bromley",
-        "opponent_name": "Bromley",
+        "result": "W",
+        "gf": 3,
+        "ga": 1,
+        "opponent_slug": "burton-albion",
+        "opponent_name": "Burton",
         "home_away": "A",
-        "date": "2026-09-19"
+        "date": "2026-10-03"
       },
       "afc-wimbledon": {
         "result": "D",
@@ -1045,13 +1045,13 @@
         "date": "2026-09-26"
       },
       "leyton-orient": {
-        "result": "W",
-        "gf": 1,
-        "ga": 0,
-        "opponent_slug": "stevenage",
-        "opponent_name": "Stevenage",
+        "result": "L",
+        "gf": 0,
+        "ga": 2,
+        "opponent_slug": null,
+        "opponent_name": "Plymouth",
         "home_away": "H",
-        "date": "2026-09-19"
+        "date": "2026-10-03"
       },
       "sheffield-wednesday": {
         "result": "D",
@@ -1121,9 +1121,9 @@
       ],
       "reading": [
         "W",
-        "W",
         "L",
         "W",
+        "D",
         "D"
       ],
       "luton-town": [
@@ -1163,17 +1163,17 @@
       ],
       "bradford-city": [
         "L",
-        "L",
         "W",
         "W",
-        "W"
+        "W",
+        "D"
       ],
       "burton-albion": [
-        "W",
         "D",
         "L",
         "D",
-        "W"
+        "W",
+        "L"
       ],
       "stevenage": [
         "D",
@@ -1198,10 +1198,10 @@
       ],
       "huddersfield-town": [
         "W",
-        "W",
         "D",
         "D",
-        "L"
+        "L",
+        "W"
       ],
       "afc-wimbledon": [
         "L",
@@ -1211,11 +1211,11 @@
         "D"
       ],
       "leyton-orient": [
-        "L",
         "W",
         "D",
         "L",
-        "W"
+        "W",
+        "L"
       ],
       "sheffield-wednesday": [
         "W",
@@ -1250,6 +1250,18 @@
   "league-two": {
     "table": [
       {
+        "slug": "salford-city",
+        "played": 9,
+        "won": 5,
+        "drawn": 1,
+        "lost": 3,
+        "gf": 13,
+        "ga": 10,
+        "gd": 3,
+        "points": 16,
+        "position": 1
+      },
+      {
         "slug": "barnet",
         "played": 7,
         "won": 4,
@@ -1259,19 +1271,19 @@
         "ga": 10,
         "gd": 7,
         "points": 15,
-        "position": 1
+        "position": 2
       },
       {
         "slug": "cheltenham-town",
-        "played": 8,
+        "played": 9,
         "won": 4,
         "drawn": 3,
-        "lost": 1,
+        "lost": 2,
         "gf": 16,
-        "ga": 12,
-        "gd": 4,
+        "ga": 14,
+        "gd": 2,
         "points": 15,
-        "position": 2
+        "position": 3
       },
       {
         "slug": "york-city",
@@ -1283,7 +1295,7 @@
         "ga": 10,
         "gd": 6,
         "points": 14,
-        "position": 3
+        "position": 4
       },
       {
         "slug": "walsall",
@@ -1295,103 +1307,127 @@
         "ga": 5,
         "gd": 6,
         "points": 14,
-        "position": 4
-      },
-      {
-        "slug": "grimsby-town",
-        "played": 8,
-        "won": 3,
-        "drawn": 4,
-        "lost": 1,
-        "gf": 12,
-        "ga": 8,
-        "gd": 4,
-        "points": 13,
         "position": 5
       },
       {
-        "slug": "salford-city",
-        "played": 8,
+        "slug": "chesterfield",
+        "played": 9,
         "won": 4,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 3,
-        "gf": 12,
-        "ga": 10,
-        "gd": 2,
-        "points": 13,
+        "gf": 15,
+        "ga": 12,
+        "gd": 3,
+        "points": 14,
         "position": 6
       },
       {
-        "slug": "gillingham",
-        "played": 8,
+        "slug": "grimsby-town",
+        "played": 9,
         "won": 3,
-        "drawn": 3,
+        "drawn": 4,
+        "lost": 2,
+        "gf": 13,
+        "ga": 10,
+        "gd": 3,
+        "points": 13,
+        "position": 7
+      },
+      {
+        "slug": "gillingham",
+        "played": 9,
+        "won": 3,
+        "drawn": 4,
         "lost": 2,
         "gf": 11,
         "ga": 9,
         "gd": 2,
-        "points": 12,
-        "position": 7
-      },
-      {
-        "slug": "tranmere-rovers",
-        "played": 8,
-        "won": 2,
-        "drawn": 5,
-        "lost": 1,
-        "gf": 10,
-        "ga": 8,
-        "gd": 2,
-        "points": 11,
+        "points": 13,
         "position": 8
       },
       {
-        "slug": "chesterfield",
-        "played": 8,
-        "won": 3,
-        "drawn": 2,
-        "lost": 3,
-        "gf": 11,
-        "ga": 10,
-        "gd": 1,
-        "points": 11,
+        "slug": "rochdale",
+        "played": 9,
+        "won": 4,
+        "drawn": 1,
+        "lost": 4,
+        "gf": 10,
+        "ga": 11,
+        "gd": -1,
+        "points": 13,
         "position": 9
       },
       {
-        "slug": "swindon-town",
-        "played": 8,
-        "won": 3,
-        "drawn": 2,
-        "lost": 3,
-        "gf": 9,
+        "slug": "tranmere-rovers",
+        "played": 9,
+        "won": 2,
+        "drawn": 5,
+        "lost": 2,
+        "gf": 12,
         "ga": 12,
-        "gd": -3,
+        "gd": 0,
         "points": 11,
         "position": 10
       },
       {
-        "slug": "rotherham-united",
-        "played": 8,
-        "won": 2,
-        "drawn": 4,
-        "lost": 2,
-        "gf": 11,
-        "ga": 11,
-        "gd": 0,
-        "points": 10,
+        "slug": "swindon-town",
+        "played": 9,
+        "won": 3,
+        "drawn": 2,
+        "lost": 4,
+        "gf": 9,
+        "ga": 13,
+        "gd": -4,
+        "points": 11,
         "position": 11
       },
       {
-        "slug": "fleetwood-town",
-        "played": 8,
+        "slug": "shrewsbury-town",
+        "played": 9,
+        "won": 3,
+        "drawn": 2,
+        "lost": 4,
+        "gf": 9,
+        "ga": 14,
+        "gd": -5,
+        "points": 11,
+        "position": 12
+      },
+      {
+        "slug": "newport-county",
+        "played": 9,
         "won": 2,
         "drawn": 4,
-        "lost": 2,
-        "gf": 9,
-        "ga": 9,
+        "lost": 3,
+        "gf": 12,
+        "ga": 12,
         "gd": 0,
         "points": 10,
-        "position": 12
+        "position": 13
+      },
+      {
+        "slug": "rotherham-united",
+        "played": 9,
+        "won": 2,
+        "drawn": 4,
+        "lost": 3,
+        "gf": 11,
+        "ga": 12,
+        "gd": -1,
+        "points": 10,
+        "position": 14
+      },
+      {
+        "slug": "fleetwood-town",
+        "played": 9,
+        "won": 2,
+        "drawn": 4,
+        "lost": 3,
+        "gf": 9,
+        "ga": 10,
+        "gd": -1,
+        "points": 10,
+        "position": 15
       },
       {
         "slug": "colchester-united",
@@ -1403,43 +1439,19 @@
         "ga": 12,
         "gd": -2,
         "points": 10,
-        "position": 13
+        "position": 16
       },
       {
-        "slug": "rochdale",
-        "played": 8,
-        "won": 3,
-        "drawn": 1,
-        "lost": 4,
-        "gf": 9,
-        "ga": 11,
-        "gd": -2,
-        "points": 10,
-        "position": 14
-      },
-      {
-        "slug": "newport-county",
-        "played": 8,
+        "slug": "exeter-city",
+        "played": 9,
         "won": 2,
         "drawn": 3,
-        "lost": 3,
-        "gf": 12,
-        "ga": 12,
-        "gd": 0,
-        "points": 9,
-        "position": 15
-      },
-      {
-        "slug": "shrewsbury-town",
-        "played": 8,
-        "won": 2,
-        "drawn": 2,
         "lost": 4,
-        "gf": 7,
-        "ga": 13,
-        "gd": -6,
-        "points": 8,
-        "position": 16
+        "gf": 5,
+        "ga": 6,
+        "gd": -1,
+        "points": 9,
+        "position": 17
       },
       {
         "slug": "oldham-athletic",
@@ -1451,18 +1463,6 @@
         "ga": 13,
         "gd": -4,
         "points": 7,
-        "position": 17
-      },
-      {
-        "slug": "exeter-city",
-        "played": 8,
-        "won": 1,
-        "drawn": 3,
-        "lost": 4,
-        "gf": 4,
-        "ga": 6,
-        "gd": -2,
-        "points": 6,
         "position": 18
       },
       {
@@ -1504,22 +1504,22 @@
     ],
     "last_result": {
       "newport-county": {
-        "result": "W",
-        "gf": 2,
-        "ga": 1,
-        "opponent_slug": "grimsby-town",
-        "opponent_name": "Grimsby",
-        "home_away": "H",
-        "date": "2026-09-26"
+        "result": "D",
+        "gf": 0,
+        "ga": 0,
+        "opponent_slug": "gillingham",
+        "opponent_name": "Gillingham",
+        "home_away": "A",
+        "date": "2026-10-03"
       },
       "rochdale": {
         "result": "W",
-        "gf": 2,
-        "ga": 1,
-        "opponent_slug": "fleetwood-town",
-        "opponent_name": "Fleetwood Town",
-        "home_away": "A",
-        "date": "2026-09-26"
+        "gf": 1,
+        "ga": 0,
+        "opponent_slug": "swindon-town",
+        "opponent_name": "Swindon",
+        "home_away": "H",
+        "date": "2026-10-03"
       },
       "oldham-athletic": {
         "result": "L",
@@ -1559,48 +1559,48 @@
       },
       "salford-city": {
         "result": "W",
-        "gf": 4,
-        "ga": 1,
-        "opponent_slug": "oldham-athletic",
-        "opponent_name": "Oldham",
-        "home_away": "A",
-        "date": "2026-09-26"
+        "gf": 1,
+        "ga": 0,
+        "opponent_slug": "fleetwood-town",
+        "opponent_name": "Fleetwood Town",
+        "home_away": "H",
+        "date": "2026-10-03"
       },
       "cheltenham-town": {
-        "result": "W",
-        "gf": 2,
-        "ga": 1,
-        "opponent_slug": "chesterfield",
-        "opponent_name": "Chesterfield",
-        "home_away": "H",
-        "date": "2026-09-26"
+        "result": "L",
+        "gf": 0,
+        "ga": 2,
+        "opponent_slug": null,
+        "opponent_name": "Accrington",
+        "home_away": "A",
+        "date": "2026-10-03"
       },
       "rotherham-united": {
-        "result": "D",
-        "gf": 1,
+        "result": "L",
+        "gf": 0,
         "ga": 1,
-        "opponent_slug": null,
-        "opponent_name": "Crewe",
-        "home_away": "H",
-        "date": "2026-09-26"
+        "opponent_slug": "exeter-city",
+        "opponent_name": "Exeter",
+        "home_away": "A",
+        "date": "2026-10-03"
       },
       "chesterfield": {
-        "result": "L",
-        "gf": 1,
+        "result": "W",
+        "gf": 4,
         "ga": 2,
-        "opponent_slug": "cheltenham-town",
-        "opponent_name": "Cheltenham",
-        "home_away": "A",
-        "date": "2026-09-26"
+        "opponent_slug": "tranmere-rovers",
+        "opponent_name": "Tranmere",
+        "home_away": "H",
+        "date": "2026-10-03"
       },
       "fleetwood-town": {
         "result": "L",
-        "gf": 1,
-        "ga": 2,
-        "opponent_slug": "rochdale",
-        "opponent_name": "Rochdale",
-        "home_away": "H",
-        "date": "2026-09-26"
+        "gf": 0,
+        "ga": 1,
+        "opponent_slug": "salford-city",
+        "opponent_name": "Salford",
+        "home_away": "A",
+        "date": "2026-10-03"
       },
       "crawley-town": {
         "result": "L",
@@ -1612,13 +1612,13 @@
         "date": "2026-09-19"
       },
       "gillingham": {
-        "result": "L",
+        "result": "D",
         "gf": 0,
-        "ga": 3,
-        "opponent_slug": "york-city",
-        "opponent_name": "York",
-        "home_away": "A",
-        "date": "2026-09-26"
+        "ga": 0,
+        "opponent_slug": "newport-county",
+        "opponent_name": "Newport County",
+        "home_away": "H",
+        "date": "2026-10-03"
       },
       "walsall": {
         "result": "D",
@@ -1633,19 +1633,19 @@
         "result": "L",
         "gf": 1,
         "ga": 2,
-        "opponent_slug": "newport-county",
-        "opponent_name": "Newport County",
-        "home_away": "A",
-        "date": "2026-09-26"
+        "opponent_slug": "shrewsbury-town",
+        "opponent_name": "Shrewsbury",
+        "home_away": "H",
+        "date": "2026-10-03"
       },
       "exeter-city": {
-        "result": "L",
-        "gf": 0,
-        "ga": 1,
-        "opponent_slug": null,
-        "opponent_name": "Bristol Rvs",
-        "home_away": "A",
-        "date": "2026-09-26"
+        "result": "W",
+        "gf": 1,
+        "ga": 0,
+        "opponent_slug": "rotherham-united",
+        "opponent_name": "Rotherham",
+        "home_away": "H",
+        "date": "2026-10-03"
       },
       "northampton-town": {
         "result": "L",
@@ -1657,31 +1657,31 @@
         "date": "2026-09-19"
       },
       "swindon-town": {
-        "result": "D",
-        "gf": 1,
+        "result": "L",
+        "gf": 0,
         "ga": 1,
-        "opponent_slug": null,
-        "opponent_name": "Accrington",
-        "home_away": "H",
-        "date": "2026-09-26"
+        "opponent_slug": "rochdale",
+        "opponent_name": "Rochdale",
+        "home_away": "A",
+        "date": "2026-10-03"
       },
       "tranmere-rovers": {
-        "result": "D",
-        "gf": 1,
-        "ga": 1,
-        "opponent_slug": "walsall",
-        "opponent_name": "Walsall",
-        "home_away": "H",
-        "date": "2026-09-26"
+        "result": "L",
+        "gf": 2,
+        "ga": 4,
+        "opponent_slug": "chesterfield",
+        "opponent_name": "Chesterfield",
+        "home_away": "A",
+        "date": "2026-10-03"
       },
       "shrewsbury-town": {
-        "result": "D",
+        "result": "W",
         "gf": 2,
-        "ga": 2,
-        "opponent_slug": "colchester-united",
-        "opponent_name": "Colchester",
-        "home_away": "H",
-        "date": "2026-09-26"
+        "ga": 1,
+        "opponent_slug": "grimsby-town",
+        "opponent_name": "Grimsby",
+        "home_away": "A",
+        "date": "2026-10-03"
       },
       "york-city": {
         "result": "W",
@@ -1696,15 +1696,15 @@
     "form": {
       "newport-county": [
         "L",
-        "L",
         "D",
         "D",
-        "W"
+        "W",
+        "D"
       ],
       "rochdale": [
-        "W",
         "L",
         "D",
+        "W",
         "W",
         "W"
       ],
@@ -1738,36 +1738,36 @@
       ],
       "salford-city": [
         "W",
-        "W",
         "D",
+        "W",
         "W",
         "W"
       ],
       "cheltenham-town": [
-        "W",
         "D",
         "W",
         "D",
-        "W"
-      ],
-      "rotherham-united": [
-        "D",
-        "L",
-        "D",
-        "W",
-        "D"
-      ],
-      "chesterfield": [
-        "D",
-        "D",
-        "W",
         "W",
         "L"
       ],
-      "fleetwood-town": [
+      "rotherham-united": [
+        "L",
         "D",
         "W",
         "D",
+        "L"
+      ],
+      "chesterfield": [
+        "D",
+        "W",
+        "W",
+        "L",
+        "W"
+      ],
+      "fleetwood-town": [
+        "W",
+        "D",
+        "L",
         "L",
         "L"
       ],
@@ -1779,11 +1779,11 @@
         "L"
       ],
       "gillingham": [
-        "D",
         "W",
         "W",
         "W",
-        "L"
+        "L",
+        "D"
       ],
       "walsall": [
         "D",
@@ -1794,17 +1794,17 @@
       ],
       "grimsby-town": [
         "D",
-        "D",
         "W",
         "W",
+        "L",
         "L"
       ],
       "exeter-city": [
         "D",
-        "D",
         "L",
         "D",
-        "L"
+        "L",
+        "W"
       ],
       "northampton-town": [
         "D",
@@ -1815,24 +1815,24 @@
       ],
       "swindon-town": [
         "W",
-        "W",
         "L",
         "L",
-        "D"
+        "D",
+        "L"
       ],
       "tranmere-rovers": [
-        "D",
         "W",
         "L",
         "D",
-        "D"
+        "D",
+        "L"
       ],
       "shrewsbury-town": [
         "L",
-        "L",
         "W",
         "D",
-        "D"
+        "D",
+        "W"
       ],
       "york-city": [
         "L",
