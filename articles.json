@@ -4,9 +4,23 @@
     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNSjI3Tlg0Mk5kQko5ZmxaMUt1Y1NSdlVvMXNmY0ROS19Fd2g3dTlfeHhMUHJDcFhLaER0Mld3emFkSHY1QmVXNnJhRW56VEo0c0tlNzdvWnB1dFBEQjhRRkIybDAyUGFzUnc2MkJWTEx5UWpFQy1KdzllR1BLOG1lTi1uM1VoVjNFV3hzVmdqekRjQWRkWVh5eUxMV01oVTNKT3Fxd0lXOW94QVVpQnM2LVRyeGF4TDY3dU5NMUFsd1VmUF9OZzJRZkZTOE9QUVZwZEhLT0h3cUlMM2lXWFRQbzdDdGZ2bmNzQWRpUW9n?oc=5",
     "excerpt": "",
     "source": "Sky Sports",
-    "published": "2026-10-13T23:03:20+00:00",
+    "published": "2026-10-14T01:49:54+00:00",
     "clubs": [
       "middlesbrough"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Birmingham 4-0 Preston: August Priske scores twice as Blues thump Graham Alexander's struggling North End",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBtM29TVDd3QVpIeW5yVU9vOFBPc1h4Wk4wczJFLVNkUFBrUXF1d2t5ZTljS1NodXo1aWRFYVp1TmViNmwyX0ttMEg2U0dkcDAyQ0VQRXBQTkhmRjZqMlc0Sjlzc2pTal9mdUZDY2pvZnRWd2U2aDNnZ2ZMVQ?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-14T00:46:57+00:00",
+    "clubs": [
+      "preston-north-end"
     ],
     "category": "match",
     "tier": "trusted",
@@ -18,13 +32,115 @@
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1sRkVCY2QtcDlFeHRlOVZ0TjFyNE9ycjc5QktOZ2NuMF8xODJNRlZ6NG9GRVJhZi1uRU1oRjA5UE15ZmE0NlcwVE1Od3h0ZndrbUpkRXZyZExidDRSbGJORXBrbzBzbVl1RGJZU3VLS1l3WU5L?oc=5",
     "excerpt": "",
     "source": "Sky Sports",
-    "published": "2026-10-13T23:02:22+00:00",
+    "published": "2026-10-14T00:32:22+00:00",
     "clubs": [
       "bolton-wanderers",
       "wolverhampton-wanderers"
     ],
     "category": "match",
     "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Lincoln City v West Ham (14/10/2026)",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVnVwalhGZTFkcl93MjdRblg2eGtCU3BrMkpGUXVCcTE1ekc4VUxmb2UtRGVCTkY2NlpUN0x6bWRvcVpXTlM0YWFqRkRndFh1NzVTeHg5cDhMNWpQNjQyODNjaTdxRi04NElLdjZ3MFZpVG9INHVxb2VMWk5DUXVHV29XaVM2dW1nTTJOclBSYVh4TjJpTkdaUlV6cTVISVVCa084?oc=5",
+    "excerpt": "",
+    "source": "Flashscore UK",
+    "published": "2026-10-14T00:25:13+00:00",
+    "clubs": [
+      "lincoln-city",
+      "west-ham-united"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Sheffield United vs. Portsmouth Live Stream of English Football League",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBWcU5HUkIxNk5pYnBkbWhjVDdXOVhuc1VLZmV0b3lxd0ZxQXQ2a2g1ZWNDMDQ4dW42bExjSTlNdTJrcU1rT1hPUjduRFZac2R6elpIMXQ4Wko0UFJzdVE?oc=5",
+    "excerpt": "",
+    "source": "CBS Sports",
+    "published": "2026-10-14T00:15:04+00:00",
+    "clubs": [
+      "sheffield-united",
+      "portsmouth"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Sky Bet Championship: Swans flying, five-star Bluebirds and box office Boro",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVFhUc0I0U2V0Y0NQWG85blU4S25DdmpxZDdOYXhwWWlmNGRfZ0x5OG84bzZjdXpTU0RhQVlJMGFaMk1lWmVqamJ1STdyd19NXzNPTmpnSUpDV1R2YlBLbE5VQlM2V2FBbFpOaGtXMFR3eWE2d25Ta2FiREVDQkVTTUxtTWtKRUwxWDRRQVNzaUw4UHNRQUZTR0JYaVlCbWZNUVJCTndrSHdJQ05IQVR4dml5eHFLRVJU?oc=5",
+    "excerpt": "",
+    "source": "EFL",
+    "published": "2026-10-14T00:03:49+00:00",
+    "clubs": [
+      "middlesbrough"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Burnley 2-2 Charlton: Ivan Mesik hits 96th-minute equaliser to earn point for Nathan Jones' Addicks",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBDcUhfSEswUjFMTmY0d3lSYVhiSC1zS3M0SEg3MTRfTlpReUpjS2JuZEdMd2tsd2QtMFRDbmI5bVZNZlN5eXM0WkxmbVlyTU1SSl9QSk9TLWRxYkwwTkhKQzhaS2hIbkxJcktqZThOYVU0V1RrQnpuUQ?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-13T23:23:18+00:00",
+    "clubs": [
+      "charlton-athletic",
+      "burnley"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Stoke 2-3 Middlesbrough: Neto Borges scores winner for Kim Hellberg's side to make up for earlier own goal",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9EdDMzOW12aXhud1ZseWtzMTNaOFMzb1REamZVU0hhMXVBcE1rYlU3ckp5U0hfSEJFUFVtbjBCUzhEaWJHTTFUWjJObzFONWtFbmF1aVBXemNTLVBCYmhUZDFvTmJkT01xZHJfMF9hS0VzNE91SW90RXZCelY?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-13T23:20:18+00:00",
+    "clubs": [
+      "middlesbrough"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Derby (H) live on QPR+",
+    "url": "https://qprfc.co.uk/news/2026/october/13/stream-derby-home/",
+    "excerpt": "QPR fans all over the world can either watch or listen to our Sky Bet Championship fixture versus Derby County on Wednesday evening. Rangers welcome the Rams to W12 for a 7.45pm BST kick-off. Live video match passes are...",
+    "source": "Official site",
+    "published": "2026-10-13T23:20:00+00:00",
+    "clubs": [
+      "queens-park-rangers"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Burnley vs. Wolves (16 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORzgtb3l2YzJlM0xSN3V2c0RwWHUybnp0WFlfN0NjZVRWWWJNQjdhZzBVWURkZlNmdWx4Q1Z0ZFJxX2hCVzFlUFVBMlRxRmdWX09QbWRRX2tkbTdrSE1UR2tjaVZaajZ5NExraXExY2kzZWxVZFZvdjB6WGpndGNmVk1VX2hqdmNSUVRCWllKN0d5RWc?oc=5",
+    "excerpt": "",
+    "source": "ESPN",
+    "published": "2026-10-13T23:16:48+00:00",
+    "clubs": [
+      "burnley",
+      "wolverhampton-wanderers"
+    ],
+    "category": "match",
+    "tier": "low",
     "division": "championship",
     "scope": "club"
   },
@@ -73,6 +189,35 @@
     "scope": "club"
   },
   {
+    "title": "Bristol City 0-1 Blackburn: Rovers goalkeeper Balazs Toth stars as Tony Mowbray's side secure hard-fought win at Ashton Gate",
+    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPWkIzeUtNREItb1ptQm9LajRlM0dlVFRGSy1RSW9kQzUtWFZFV1VsZ2lNWFNmUG1iVVhobktsbW9mejZjMmRtOHFlc2FRd0E3N2NJaGpTZWQ0ZjU1cUpHUG9XWGRYMV9ENV8yX2dEY1FQTks5dFBzWmdTa3VFWGxub1NEZHdxdDF3cEJJdjZ4TnZzamx4UndjWnNIZGFCZGRobEdWd2hzQU9ndnVKQVhyWVdSb1JzOFo4ZFVHbm9RSUdRNVlEdE1LdlJFbEpvdlhPNFBNOEN5UVEyQ3NmQjZDTzEtNXlsYlBaMF9qUHIwWmVRVUo3S3JnNzdJVXRwUEtC?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-13T22:37:51+00:00",
+    "clubs": [
+      "bristol-city",
+      "blackburn-rovers"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Where to watch Southampton today? Live stream & TV channel for upcoming games",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY3ZrdXlqbEtUbFdSY1FNUHRWMTl3NE1WUFBTMWhNajBQMXBzQ1ZyakVHaTd2ODdaUEEwOE91OGR4SFdVaWZIbWphVjJXOXd2OWdnbktsdkszemFKOEJCUk5GLWNmb1BNdW5EYmdFRzZuMmVxR01uMUdFRzdOYjJreUF2Z3YyaC1Kb3NqYWpCaWlVRTVD?oc=5",
+    "excerpt": "",
+    "source": "Goal.com",
+    "published": "2026-10-13T22:37:07+00:00",
+    "clubs": [
+      "southampton"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "Preview: Mansfield Town vs Oxford United - prediction, team news, lineups",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTnpwWjFoT1JweC1vZGVyMFFjM3hGVTJob1RXV0Nxb0RkU1V1cURWVUM2azZCU1hTdnFiTTlxOVJlc3RsU0FsSDI5RXNxYXE3YnFyN2ZTMUJqeW1FQ2VIdXRtbmJZd1dXS282ZVpxTjIya19Iem84cGV3WWhROUVxVGRXNGY4NGFYbHFRU0pSbTluQi1vWkxrZ3lzV2xQZjFZbzdmU085MUtQZ2VucExlVzVxTDZ4dHVGMk9FZl8zNzU0RDQ?oc=5",
     "excerpt": "",
@@ -102,6 +247,21 @@
     "scope": "club"
   },
   {
+    "title": "Bristol City 0-1 Blackburn (Oct 13, 2026) Final Score",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40MTE4RHBJSzRIYVNwX3ZiZ19EcERIa1hSaC1wNmNFUFFRODZCVHh2SXI5ak5PZzRUOS1vSDNCc3l3Z0xPUERXSEtoMm9PMXo0LXk0RTk0aUZGQ1dZdUtaN2xB?oc=5",
+    "excerpt": "",
+    "source": "ESPN",
+    "published": "2026-10-13T22:27:33+00:00",
+    "clubs": [
+      "bristol-city",
+      "blackburn-rovers"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "NICKY HAYEN | REACTION | BURNLEY V CHARLTON ATHLETIC",
     "url": "https://www.burnleyfootballclub.com/media-video/nicky-hayen-reaction-burnley-v-charlton-athletic",
     "excerpt": "",
@@ -112,6 +272,21 @@
     ],
     "category": "match",
     "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Burnley 2-2 Charlton (Oct 13, 2026) Final Score",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1aNDVYa3lMX2gzVlVHNEk3XzlSWElTVTctdnhqVjBkdUFQOEZmRGRsLW82OFI0RndHTWpVcjI5dzI3SHhNa3ZpLXM5VE10bGk1UWJPaEdRbUZBVHhNT2I1ZEp3?oc=5",
+    "excerpt": "",
+    "source": "ESPN",
+    "published": "2026-10-13T22:20:18+00:00",
+    "clubs": [
+      "charlton-athletic",
+      "burnley"
+    ],
+    "category": "match",
+    "tier": "normal",
     "division": "championship",
     "scope": "club"
   },
@@ -172,6 +347,48 @@
     "scope": "club"
   },
   {
+    "title": "Assists - West Bromwich Albion stats for Championship 2026/2027",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOFN0T0hIZEQzbnQ2dHRPUm16dEZZYlhEYkZCZzVIS0huZnBaSzZ4QV9uNjJYcU15d2hVUklWcExZd2FmWmRjb0Q0YmRoZFhSVjhYXzRxZG15RlhBem00Tkw0Qk02WXFFRGFXQWRVMlNJYS1nanNpNVNiS3M4b0lBa3B1TGJRMDJrUTdKaUF5RWFLRnVENFpEMzY4LUhZc1BIazVGd2lPbUh3cGRhMnhXYWgwZVo?oc=5",
+    "excerpt": "",
+    "source": "FotMob",
+    "published": "2026-10-13T22:08:36+00:00",
+    "clubs": [
+      "west-bromwich-albion"
+    ],
+    "category": "news",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Top scorer - West Bromwich Albion stats for Championship 2026/2027",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNnJvMzJsQjl3eHVVWTJCLTVLek9UVGhTVlFHVzhacmczUmo5Y0RSWWRVOWNJaVRMcXl3WTlyb2Vic3NiMDhCUDdVSUxybTN2SjlNR2xBYXczY2lKMzZVT0FzMzhPUlN5Z3dzZGhxdVlXVE1LQ3J4TzFHbjl0YVdmM0xKYWI0bEhNd1NoNHV2aTFLRF91aDBidExvMjBaaUZ5cTQzTHdrbkpmUm9q?oc=5",
+    "excerpt": "",
+    "source": "FotMob",
+    "published": "2026-10-13T22:08:36+00:00",
+    "clubs": [
+      "west-bromwich-albion"
+    ],
+    "category": "news",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "FotMob rating - West Bromwich Albion stats for Championship 2026/2027",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUVFKbUlCektidEVlSmtJNThLM1RfUHpOOGRHaHFiR0w2YklGZlRZYlhxRjV5bzlQc2lWY0d4SV90WnVJVjlTSkxZRmd4Mmo2QkJUU1RmZFFUTVhSa044ZjZTeUdBTUV2ODBrcTJyNVJPbzVMMEFpTlZXbXhRLUZKT2FYU2hfaGxPQXBoZ0JZOVhhaDVIalJvdmtIdnNZc2w0WmN2RGdhckdCNEZKanc?oc=5",
+    "excerpt": "",
+    "source": "FotMob",
+    "published": "2026-10-13T22:08:36+00:00",
+    "clubs": [
+      "west-bromwich-albion"
+    ],
+    "category": "news",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "MATCH REACTION | Steven Schumacher on Bolton Wanderers' 3-1 win at Wolves",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTXdBYWVKX1lVQXBaM2JQa3JvaW85czJMdTRKd0FpWk12d2NSS0tqTXUxZG9JdGR0bTNhQUZOc1dOaDN1YWNVQk1kTDZfNzhDZWVnNE96azZVaE43MS1xemxoVVFUamd1YW1CaWJWeVRvbjhITnY4clZTTGw5Qm9DYWdPb1JRNEx1azkxTWNnMWNVVllfZE55WFRELUNGUFloVDMyODFNaw?oc=5",
     "excerpt": "",
@@ -187,6 +404,20 @@
     "scope": "club"
   },
   {
+    "title": "Boss beaming with battling victory in Bristol!",
+    "url": "https://www.rovers.co.uk/news/2026/october/13/boss-beaming-with-battling-victory-in-bristol-/",
+    "excerpt": "Tony Mowbray felt Rovers deserved the points for the team’s determination and grit, with Dapo Afolayan’s super strike making the difference in the 1-0 win over Bristol City. Afolayan delivered again and came back to...",
+    "source": "Official site",
+    "published": "2026-10-13T22:01:19+00:00",
+    "clubs": [
+      "blackburn-rovers"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "Club Statement",
     "url": "https://millwallfc.co.uk/news/2026/october/13/club-statement/",
     "excerpt": "Millwall Football Club is aware of an alleged, individual incident of discriminatory abuse towards a Swansea City player during the second-half of Tuesday evening's Sky Bet Championship match. The club operates a...",
@@ -196,21 +427,6 @@
       "millwall"
     ],
     "category": "news",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Burnley 2-2 Charlton: Ivan Mesik hits 96th-minute equaliser to earn point for Nathan Jones' Addicks",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBDcUhfSEswUjFMTmY0d3lSYVhiSC1zS3M0SEg3MTRfTlpReUpjS2JuZEdMd2tsd2QtMFRDbmI5bVZNZlN5eXM0WkxmbVlyTU1SSl9QSk9TLWRxYkwwTkhKQzhaS2hIbkxJcktqZThOYVU0V1RrQnpuUQ?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-10-13T21:55:12+00:00",
-    "clubs": [
-      "charlton-athletic",
-      "burnley"
-    ],
-    "category": "match",
     "tier": "trusted",
     "division": "championship",
     "scope": "club"
@@ -230,16 +446,17 @@
     "scope": "club"
   },
   {
-    "title": "Birmingham 4-0 Preston: August Priske scores twice as Blues thump Graham Alexander's struggling North End",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQWJjNk80LVBvVWVPSGNma3FFc0dDemhRMzNsYTVGZjJqZ1l3c0htN3BsV1E4S3ZDaVZLUTBuZ2VHdURXZjBVQjB1QkZWb29ZYTY5MDV5RWNSUnBCZFduaUdJUzV3VHpCSFFVUmlzNjZ1TjdONy14Zm1Fa2FlZVNYZ3Z5RlAtdWJRTGVZa2hn?oc=5",
+    "title": "Wrexham 1-2 West Brom (Oct 13, 2026) Game Analysis",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1GbW9MUTBKbGtUanhKc043UjBnNTBzcTFRa1hSZTJMQl9sRTVzbk0taEVrc3hZb1FJS2tEaTVfcFpZd05hek9lZUZpMWZfMk00TkdKTE1pU0tBQnJkdG9FT3BZSQ?oc=5",
     "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-10-13T21:46:27+00:00",
+    "source": "ESPN",
+    "published": "2026-10-13T21:45:41+00:00",
     "clubs": [
-      "preston-north-end"
+      "west-bromwich-albion",
+      "wrexham"
     ],
     "category": "match",
-    "tier": "trusted",
+    "tier": "normal",
     "division": "championship",
     "scope": "club"
   },
@@ -265,20 +482,6 @@
     "published": "2026-10-13T21:45:00+00:00",
     "clubs": [
       "millwall"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Stoke 2-3 Middlesbrough: Neto Borges scores winner for Kim Hellberg's side to make up for earlier own goal",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9EdDMzOW12aXhud1ZseWtzMTNaOFMzb1REamZVU0hhMXVBcE1rYlU3ckp5U0hfSEJFUFVtbjBCUzhEaWJHTTFUWjJObzFONWtFbmF1aVBXemNTLVBCYmhUZDFvTmJkT01xZHJfMF9hS0VzNE91SW90RXZCelY?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-10-13T21:45:00+00:00",
-    "clubs": [
-      "middlesbrough"
     ],
     "category": "match",
     "tier": "trusted",
@@ -329,6 +532,20 @@
     "scope": "club"
   },
   {
+    "title": "Reading FC boss admits Royals 'didn't help themselves' against Chelsea",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUWhtaUk4aTJieFYzcC1NaGlFNml0cUpqc2QtQ0FzTEFiaFQxbng4aXpoaHFqenVGd2tUbEtvVkxJRHBQR19GWGY4a1I0U0tHOGJ1NlRNMU95dElSMEhuZXp0RF8xMUlvVmUwNHRhZXdwR1l0VUwxeWYyOTlGS0szVldIeFc1YzhobXhJZ194d1gxaExXSWhVOC1oTjhzTy1ROE44b2RiOA?oc=5",
+    "excerpt": "",
+    "source": "Reading Chronicle",
+    "published": "2026-10-13T21:34:02+00:00",
+    "clubs": [
+      "reading"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
     "title": "Burnley 2-2 Charlton | Championship highlights",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOa2hqSm9OZzVRMXlWcjhlMm9jaEpsejNkNGMyVVNRYmhfajNZdTFub19rMEI4QmVLczRUUEdWMm4xRXFVT0cxbllnNkM2ZWZWYU9NbS13azU2QVp1Nzdibmo4bk00YzZqeWkzTEdTMHZkWGFLSUhFem8xc1hzWHBXT2RXSnQ4MDRUOHNSVm9WZ3ZpcGR2YXhERld3?oc=5",
     "excerpt": "",
@@ -351,6 +568,21 @@
     "published": "2026-10-13T21:30:00+00:00",
     "clubs": [
       "burnley"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Millwall 0-1 Swansea: Ronald winner keeps Vitor Matos' side top - but game disrupted by alleged racist chanting",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBMMS1TOENQb2NlbFNwTDBkOUUyYm5yZlVRVkQ3MlI2TjBRQVZQU1Z5ZHhZRWc1UndVVmkzMXdwQmtmM0lMQ3RaeVRfZXpOOGpVTTRfTmtscXl2Y1ZQRjNCM3lfMDlrSVVPbERWN0M5emY2ZVhiMGYtclA1Y0Izdw?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-13T21:29:23+00:00",
+    "clubs": [
+      "millwall",
+      "swansea-city"
     ],
     "category": "match",
     "tier": "trusted",
@@ -415,6 +647,20 @@
     "scope": "club"
   },
   {
+    "title": "Graham Alexander | 'We've let ourselves down'",
+    "url": "https://www.pnefc.net/news/2026/october/13/graham-alexander----we-ve-let-ourselves-down-/",
+    "excerpt": "Graham Alexander believes two goals just before half-time took the game away from PNE at Birmingham City. North End were beaten 4-0 in the Second City, and the manager admitted that the scoreline was ‘terrible’. He...",
+    "source": "Official site",
+    "published": "2026-10-13T21:22:00+00:00",
+    "clubs": [
+      "preston-north-end"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "Birmingham 4-0 Preston | Championship Highlights",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVktIdU14UU92cF9Xd1dDOHVMMjZrRDNaY01Lb2hralYxQzRHaUVHTTg4NmhSOXhPVzZLcXc5QkpNVFdTMW12OFR4LUF1THhOeWx0anZyaER3S1FMYjB3cnM0bkFUM1pYeW54M3pHYnJnSWpxV2tMdVVyb0EtQ21GMldFbmxkd01JZXNqR1FrUG5WSVZKWXc1b09qU3k?oc=5",
     "excerpt": "",
@@ -458,13 +704,14 @@
     "scope": "club"
   },
   {
-    "title": "Millwall match halted over allegations of racist chanting",
+    "title": "Millwall match halted over allegations of racist chanting at Swansea player",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQUxDMzJFeHNxWVJ6ZmNIX2JYZGczeE5zNlVIcUN3djZROExlX0w5MHhhVTlna0RKRnpXUVRWeHpiNEFIcEVjaFlaSFJuNUwzVTZNQzZ2OVpkTndVQ2cwWG1nN1ZsVWdvc3Z6SWRRRWxiRWZQR2d2WWU5a1NSX1J2T0YxTE14THRWSEwwSEU5SjJueFVyVVdSTUNITW1FT2M?oc=5",
     "excerpt": "",
     "source": "The Telegraph",
     "published": "2026-10-13T21:10:00+00:00",
     "clubs": [
-      "millwall"
+      "millwall",
+      "swansea-city"
     ],
     "category": "news",
     "tier": "normal",
@@ -588,6 +835,21 @@
     "scope": "club"
   },
   {
+    "title": "Wolverhampton Wanderers 1-3 Bolton Wanderers: Trotters stun Wolves",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAwSTVBZi11bHBDQ05pSXN1NGJ0d0N3dk9PQ3VUMFA5WmkxODNVeWgwV1lBYXlmSVFvZXJlR04tdk5CT0ExanJqaUxtQXpTVU14YVcyS1R1cHNzM3F4cTh1Q2FMRjNBUQ?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-10-13T20:55:00+00:00",
+    "clubs": [
+      "wolverhampton-wanderers",
+      "bolton-wanderers"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "Lincoln City v West Ham United: Championship stats & head-to-head",
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5BUVhXb2w3MHZLdnZaM3huMUdZdHBVYzB3d3ZLQW9aN0prakxSeHloRDkya3N1TTVaOUF4bHo4Y1NaeW84cUNPZlJCVkFkS0s3R0haSzF4OVlsNUhzNmlZNEMtT3BqQQ?oc=5",
     "excerpt": "",
@@ -646,16 +908,15 @@
     "scope": "club"
   },
   {
-    "title": "Sheffield United vs. Portsmouth Live Stream of English Football League",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBWcU5HUkIxNk5pYnBkbWhjVDdXOVhuc1VLZmV0b3lxd0ZxQXQ2a2g1ZWNDMDQ4dW42bExjSTlNdTJrcU1rT1hPUjduRFZac2R6elpIMXQ4Wko0UFJzdVE?oc=5",
+    "title": "Wolves suffer first home defeat of season as difficult return to action continues",
+    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQaHhFY0R0d2pUM01jUWhwUXRFZnhXN2ZlQzF3bTVuSVA5RTBlRFJyZExGRGNQa1VYbXlFUUluamVYTVpTNVZNX2xKakNpQ092UV8xNVk0UnRsYWFRclg3U0lKVjBDa1UySDY1N3dZcWVQUUNYVkFfNE1CTXpGNWUyTHRBNGs3MzZ4bVBwXzBzampEaXFyS2lqTzRCMERabjhERV9CNzg3MHRVWV9OdVFNYjc1WmpZS1dxczBRMm15a3NkZTUzVFU2NXUzdEVtMjVJZWNNUU5yeVcyN0JFTUpaMFMtZ01oOWZVS0lzVURYbkI?oc=5",
     "excerpt": "",
-    "source": "CBS Sports",
-    "published": "2026-10-13T20:50:00+00:00",
+    "source": "Shropshire Star",
+    "published": "2026-10-13T20:44:00+00:00",
     "clubs": [
-      "sheffield-united",
-      "portsmouth"
+      "wolverhampton-wanderers"
     ],
-    "category": "match",
+    "category": "news",
     "tier": "normal",
     "division": "championship",
     "scope": "club"
@@ -706,7 +967,7 @@
   },
   {
     "title": "Boro vs. Cardiff (17 Oct, 2026) Live Score",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9jdThQRWRzXzRJRWpjVjM5a2Q4N0drRGs1NXlWU3hzenZpaUdwQ2J5V1I0RHlQWGNVS3Uwd0dPNkVUc0ZXT2RqN3AxWHR0YlNGa29qTm95WlFTWkF5bkRCelpQQ1FwdW4yS1FjS1ZoRGFZUQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPelA1ejBFQVZlUUZKNExYcGV3c1lCZ1NELTBveVpfZFB6UWNRNFY4YUFmdmJuQWNJOGd1d3FJemZlNG14NUZqSUY5OUNWX1hCdzUwWjE0VlIycjNhZklsR2VfRy1fRG1PeW5kNVMzRjBXelJjU2RtN01EdnN0MGh0TGtQUG4?oc=5",
     "excerpt": "",
     "source": "ESPN Philippines",
     "published": "2026-10-13T20:23:59+00:00",
@@ -720,7 +981,22 @@
     "scope": "club"
   },
   {
-    "title": "Watford set to sack manager Dionisi and move on to fifth new boss of 2026",
+    "title": "Millwall v Swansea City: Championship stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE13YjVpZkp2U3ZUZmpnTG5NeUZpbko0bnFwd3N3OGZ5ajVQdi1Pc1IzNV82eFQ4ckxZejc1VURZdnBCRHVIanhLc19YRzVJSl9yQ2x4czFvWmd4b1JNd3ItalRFT3gzTXMtUG9YWkVGcw?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-10-13T20:11:00+00:00",
+    "clubs": [
+      "swansea-city",
+      "millwall"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Watford set to sack manager Alessio Dionisi and move on to fifth new boss of 2026",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPN1NnMUEtd2FGNnRaejMtVXc3azcycHVXVzdZczhwZ1VCN1dVcTZJY1FlMjR1bDlUUW1lMWhNeWNKNHo3SXZQcDVBNlBQUktsV0NMbEVMMFNVNkZFQUZlTjVPYVNrdGVScGxIS3lacDJmUmxMblE4clNkWkVXMGhLdFM4NDBORG9oZzE4T0lMaEs?oc=5",
     "excerpt": "",
     "source": "talkSPORT",
@@ -1246,7 +1522,7 @@
   },
   {
     "title": "Doncaster Rovers sign former Hull City and Sheffield Wednesday man after striker suffers setback",
-    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNaGFTRW5BckotN1I2LVRZd050ZEdPYlRDWklYVTNuVkRCV3hVcThSWG9jdXpxWnBzeFdtUVNsZVNzbjE3eVEtdjBLQzhOTThlYmNlX2tmVXBYZ0s5OWdIYkVyLWFZWTZ5R015OHY3NGRtUFBvMG5oTjd0b3h3b3JZaVE5UUx6V2JQS2FVdVo5Z1JzcUpPbjI1YUs2N01NNHotRUFYSFpmemFRMWRUMy1VS1o1S3UtR3FqSER3QU5PZGRlQy0wRUxobm9QMUF6b3lFemhuTFlnaHlRMUY1R0F1RXVYLXNpT3FZ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOMTg2SWxodEtld1FicjRDc2xaMDhXNTd2TmdXUXppa3h4NS1WenF0OE5sSVRCMGxpQ21QNjFYQm83cWVCdzRUSkdnY2dEM1g4NUU3WmRhcFFGUC0wOGZPVFRfc0Z4c1NfR2U4ZUdHMDl3UVBUQ2IzTnZLY25DeTdKZDN5Mm5VLXd0WXExVmZucTgtVXBhVGNzTWJ0Z1RFWWhkWWkzT2pZYV81eVpKUVZyTDJSU2xhRHd0dzZGcnNxX0JEQ3I4RlR2SmJjbjlfSzJidXpORjRnUXk3LXZJblBERHBjWUExQQ?oc=5",
     "excerpt": "",
     "source": "Yorkshire Post",
     "published": "2026-10-13T17:30:00+00:00",
@@ -1285,6 +1561,20 @@
     "category": "news",
     "tier": "normal",
     "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Hartlepool sign Grimsby defender Lavelle on loan",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUWJWTVhrV05wUGV6d1pSaTVOOXBPOGhXcUJWTWI4MFVFbUk4RjR4UVZLNVNoNFVkall6NnBYQ2R0X2o2ZFdFdENxRXc5QV83azA4bm51S1M5OHZpWVNqdEtRX3d0aVVCeVA3N2p3T2tjODhvWEhyTEw2eDdlR09hLUtLV2hWQ1JuLTlBUy10enAzbzQ?oc=5",
+    "excerpt": "",
+    "source": "Yahoo Sports",
+    "published": "2026-10-13T17:18:02+00:00",
+    "clubs": [
+      "grimsby-town"
+    ],
+    "category": "transfer",
+    "tier": "normal",
+    "division": "league-two",
     "scope": "club"
   },
   {
@@ -1441,6 +1731,20 @@
     "category": "match",
     "tier": "trusted",
     "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "xG + xA per 90 - Northampton Town stats for League Two 2026/2027",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTllKWDk2M3BfeGh1OGhKVVNoZnF4WUxzNmZuazBYVEluYlk1V2F0cEZSSjVYV3N5OWR1UGVnbzRmbkRQcXBqcDNQT01ZbGNFVHpuWXN2WjlTVmZlcmxNaVBxME9UM1JDdmxoZzBRd3lrb0dZMWlRd1ZrTnZrcDRkTHRDZDdNNGQzUVJnQjNpa0ZHNFo3SHl5RVhvNURuQ3lJM3BNZWtsNlVwa18xZWdnc09uUWhNUTBXTThIcHc2VGlmZUdoSHRjQmtfSWdRYVRrVGFmeWJwaw?oc=5",
+    "excerpt": "",
+    "source": "FotMob",
+    "published": "2026-10-13T16:54:27+00:00",
+    "clubs": [
+      "northampton-town"
+    ],
+    "category": "news",
+    "tier": "low",
+    "division": "league-two",
     "scope": "club"
   },
   {
@@ -1701,6 +2005,20 @@
     "scope": "club"
   },
   {
+    "title": "xG difference - Stoke City stats for Championship 2026/2027",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRUI2SWROYTJxM0RkdEVDZTBKWnNzYjRrRExfYnZ1ZnVpb3FtQTFpcGZQajViX3NWdVVLS2tiQngxWFVaTDZiTEs1OEZOdWxDdG5ybTg1ZGlkZHJXUERxYnlRR2t1VkJEZEo0U2RrT005d1hjcndOLUZfTndnV0dmMzM4aGtsa3FlWjlMeUJ0U3NsM25HTDc2YlBR?oc=5",
+    "excerpt": "",
+    "source": "FotMob",
+    "published": "2026-10-13T15:12:24+00:00",
+    "clubs": [
+      "stoke-city"
+    ],
+    "category": "news",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "Report - Reserves 1 v 2 Preston North End",
     "url": "https://www.themillers.co.uk/news/2026/october/13/report---reserves-1---2-preston-north-end/",
     "excerpt": "It was a credible performance despite a narrow defeat earlier this afternoon for the Millers in our second Central League outing, with a second half strike from Reece Wilson not being enough to catapult a comeback, as...",
@@ -1857,6 +2175,20 @@
     "scope": "club"
   },
   {
+    "title": "Bristol Rovers confirms they are NOT in negotiations over stadium at golf club site",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWnVvaWdCUU9CRGNBSzl4Wm1aUUdQRURBUUVpN1V1VkFiZkhBLXR0V3ptTno3bmtwNndCUUhFaGhoTGFoclgtLUdQbHRQSk1zNWtQUzZ1V2kzWHpDWHBlSmtrcEhQcGFWZmxwTlVjckJqOVZqVFJMX0FkblliN01JS1NsWmlnZDU5cFFMNFFSS0x4OVpLTlA4WmFXdnpXVmdudHcxSk81TV9Mc1dy?oc=5",
+    "excerpt": "",
+    "source": "Bristol Live",
+    "published": "2026-10-13T14:00:38+00:00",
+    "clubs": [
+      "bristol-rovers"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
     "title": "Fan Advisory Board (FAB) - Meeting Nine Summary",
     "url": "https://www.lcfc.com/media-article/fan-advisory-board-fab-meeting-nine-summary",
     "excerpt": "The latest Fan Advisory Board (FAB) meeting took place on Wednesday 16 September, with supporter representatives discussing a range of topics and helping shape fan-informed actions across several areas of Club...",
@@ -1882,20 +2214,6 @@
     "category": "news",
     "tier": "trusted",
     "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Bristol Rovers confirms it is NOT in negotiations over stadium at golf club site",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWnVvaWdCUU9CRGNBSzl4Wm1aUUdQRURBUUVpN1V1VkFiZkhBLXR0V3ptTno3bmtwNndCUUhFaGhoTGFoclgtLUdQbHRQSk1zNWtQUzZ1V2kzWHpDWHBlSmtrcEhQcGFWZmxwTlVjckJqOVZqVFJMX0FkblliN01JS1NsWmlnZDU5cFFMNFFSS0x4OVpLTlA4WmFXdnpXVmdudHcxSk81TV9Mc1dy?oc=5",
-    "excerpt": "",
-    "source": "Bristol Live",
-    "published": "2026-10-13T13:58:00+00:00",
-    "clubs": [
-      "bristol-rovers"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "league-two",
     "scope": "club"
   },
   {
@@ -2166,6 +2484,20 @@
     "category": "match",
     "tier": "normal",
     "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "xA per 90 - Wycombe Wanderers stats for League One 2026/2027",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdlMtendBVnpkcGR6X2M4dzliRFczMlVaLTNFWm5qb01jQVJXZ041RXpqdzVKZk10S0J4SlFxa3BQWEVVZHJESkt1bkd1SmRNc0JCWEFRQm96VmxVLWNVenNpMUJJVWhNTjZvc2txUEl0Q3VYdm1IaUkxbmhZMnFPVFhPNkhleDh6TzNIQ0RWU2dwS3JrY1IySVFVSWRYN3Z3Zm82WHZYbUpJTFlmakU2WGFubw?oc=5",
+    "excerpt": "",
+    "source": "FotMob",
+    "published": "2026-10-13T12:10:34+00:00",
+    "clubs": [
+      "wycombe-wanderers"
+    ],
+    "category": "news",
+    "tier": "low",
+    "division": "league-one",
     "scope": "club"
   },
   {
@@ -3095,6 +3427,20 @@
     "scope": "club"
   },
   {
+    "title": "Blocks per 90 - Bromley stats for League One 2026/2027",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNLXBGS2JSdEY2Q2pPb1ZoMU1zeVg0YVFxVERNcXNMWDN4UVkzREFmUHZkaFNFeExaa09VOG1NdXdCM1hKeG03bEN5LVoyVmJiQklra0lEWUhncGRpVk9pQWdrdm5yclVVb1Nza2FSdi1WM3JhSy1aSEkweU11a28zcElhbzZsX2w0OGJpWmRUdlRWT2lXak9XY2xvN19OeDF4TFlyTWV2N2w?oc=5",
+    "excerpt": "",
+    "source": "FotMob",
+    "published": "2026-10-13T08:26:08+00:00",
+    "clubs": [
+      "bromley"
+    ],
+    "category": "news",
+    "tier": "low",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
     "title": "Bristol City v Blackburn Rovers: how to watch on TV",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ1VPU19PUDI1LXlmOGNWMEtKTnFnVWhzV0xKZURSaDdiRW4zRnExZ0JPYXllZjRjNGFrQy1BMk1TU2R0dS1IUmpGMmliZmhKcVVoa2JZXzNhbWRsYk9KR01YY2dIcW83dkM2TWxUandhS0k1R3FqZjNFbXVhVnMzZDVNcV9hRDBOU0wzalZXbU9uQ1VhZUgxVXJmRUo5b0tZeUREWGl4WQ?oc=5",
     "excerpt": "",
@@ -3351,6 +3697,20 @@
     "scope": "club"
   },
   {
+    "title": "Expected goals (xG) - Accrington Stanley stats for League Two 2026/2027",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcG1ZZXFzWEJCWXlSUVh4REF2dWhUZ2t2ME5XbW1iWUpmME5VLUVrQ0tkZFdoQ0tjSVBYazMxUld6M3lveVRucHZjbFhSNEk2YTNvQl9uOWdzTkhHWWJVaG5nU1ZaNlh4ODFCcTFZX19Rcm1tQUpRQ1Z4QVpPbEMxeWdvSlZMRmUtb1RnSWVYcjB5Q2NnYTBBWTd4NWg1djJiRFJFZ1dTRDhVb3ZqQk5uZkFvZw?oc=5",
+    "excerpt": "",
+    "source": "FotMob",
+    "published": "2026-10-13T06:16:55+00:00",
+    "clubs": [
+      "accrington-stanley"
+    ],
+    "category": "news",
+    "tier": "low",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
     "title": "Peterborough United - Burton Albion Stats: Football Scores & Results",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZ1l5SWEzdVYtUkVxOHVOckJjUjVNY3VjRjdTdUFoRkxsNFFWeVl1SDcxRlRKZlBXZ3ZGalFJX0EtQ3d3c1otZHB3US1mR2pJOWNoNmMzbnB5ZlRIVkhqYlJHR1hIbXMzMl9od0xwZVExXzBUWElDVmRQb21KRWx1V1RTUVRpZVpEeWsyVHJmVkpobTBTU1lPdWhEN2xuTmtKLXFmLVdNSldRQktBUDYycUFheVRJdWZVMUFQWg?oc=5",
     "excerpt": "",
@@ -3526,6 +3886,20 @@
     "scope": "club"
   },
   {
+    "title": "Interceptions per 90 - Rochdale stats for League Two 2026/2027",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSlhEWjhDOXRXWXB0RGRFUG5zUXhCQ00zcUNJdENFazFzX3BWT0R4aXdfT19Ca0RPWXpwTnNQVE9QN1F6VHR4eG1URlpTdHkxTVZPVEY2S3ZSbjZRVHdTZGhjOEoycnVwalU1UTgxMlZJbDBiMFFiVWl0MEdhTzJQaUNQS29idmdlZ0R1VGxQT0FKbFhGdVVud3dqWFNzSjYtYzVN?oc=5",
+    "excerpt": "",
+    "source": "FotMob",
+    "published": "2026-10-13T05:04:11+00:00",
+    "clubs": [
+      "rochdale"
+    ],
+    "category": "news",
+    "tier": "low",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
     "title": "Swansea winging it at the top of Championship",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaVd0dGZUd1M5YWVHNG9iOFhMWXZJeVpWdktHaC1tTDFPZ29MNVIyZmNaeEV2WERVRGF4WFZ2LTlMUnVhZlpaUEtwVnE2WDV1Q0MyWi0yQ3N1VzhpdUpveHV2ZXpnSEV3T1BPX2NiRWRQUUNERW03NDJTMWZBMDNSMTlKRHdwUQ?oc=5",
     "excerpt": "",
@@ -3609,6 +3983,35 @@
     "category": "match",
     "tier": "normal",
     "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Wrexham vs. West Brom (13 Oct, 2026) Live Score - ESPN (UK)",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4eUtBcWZEblRSLXYtWFozcnhsV18xcld0a0tsSV9tQUNuZ1VqT2JtdTBHYU5HOVJBYy1VUm9pb09sSmZwYjdwM2ZLVHFfdERLZEVpb25NeDZVelh5M3U3UEtMRlZvUHM?oc=5",
+    "excerpt": "",
+    "source": "ESPN",
+    "published": "2026-10-13T03:56:58+00:00",
+    "clubs": [
+      "west-bromwich-albion",
+      "wrexham"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Brentford - Bradford City 2-0",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNHJfa1VWZ1pPLUNnbHJDdVZpMUJOZzA3UGJFWUwtSjJkQTJwZGNsYU5RUE9idi1MM1RqamtSMEtZZkh0OU1Vc19UZGVHMmZJZHlpUFRTMl85ckE2N191VjRkTF9oN2gtaUVVUnZLYlpkTDd3TEJKYWNvYnhuZjkzN002UjUwTDJyZ2NkdA?oc=5",
+    "excerpt": "",
+    "source": "Flashscore.com",
+    "published": "2026-10-13T03:35:55+00:00",
+    "clubs": [
+      "bradford-city"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "league-one",
     "scope": "club"
   },
   {
@@ -7033,21 +7436,6 @@
     "category": "match",
     "tier": "normal",
     "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Millwall v Swansea City: Championship stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBwd0FvWEl5VEdvUUQ4X1JodjhzNGFVeXdWaE1HYW41NG16cEdOVG8zUUQ1aDhXdmRtSFBYM1h0bk5PTFFVVXJWdGRKTWZzamxIVEJCbm1Ybi1udHRuVlVKUmRiUHVrQQ?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-10-12T01:22:00+00:00",
-    "clubs": [
-      "swansea-city",
-      "millwall"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
     "scope": "club"
   },
   {
@@ -15434,20 +15822,6 @@
     "scope": "club"
   },
   {
-    "title": "Team news: Rovers v Cardiff City",
-    "url": "https://www.rovers.co.uk/news/2026/october/10/team-news--rovers-v-cardiff-city/",
-    "excerpt": "Andri Gudjohnsen is back in the starting XI in the only change to the team that started at Portsmouth for today’s encounter against Cardiff City. Gudjohnsen, who was in excellent form for Iceland during the...",
-    "source": "Official site",
-    "published": "2026-10-10T12:45:00+00:00",
-    "clubs": [
-      "blackburn-rovers"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
     "title": "TEAM NEWS: TOWN vs SHEFFIELD WEDNESDAY (H)",
     "url": "https://www.htafc.com/news/2026/october/10/team-news--town-vs-sheffield-wednesday--h-/",
     "excerpt": "- Huddersfield Town vs Sheffield Wednesday; Sky Bet League One - Saturday 10 October 2026; 3pm kick-off at Accu Stadium - Martin Drury names one change from away victory against Burton Albion Huddersfield Town Head...",
@@ -15501,6 +15875,20 @@
     "category": "match",
     "tier": "trusted",
     "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Team news: Rovers v Cardiff City",
+    "url": "https://www.rovers.co.uk/news/2026/october/10/team-news--rovers-v-cardiff-city/",
+    "excerpt": "Andri Gudjohnsen is back in the starting XI in the only change to the team that started at Portsmouth for today’s encounter against Cardiff City. Gudjohnsen, who was in excellent form for Iceland during the...",
+    "source": "Official site",
+    "published": "2026-10-10T12:45:00+00:00",
+    "clubs": [
+      "blackburn-rovers"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
     "scope": "club"
   },
   {
@@ -17075,247 +17463,6 @@
     "category": "news",
     "tier": "normal",
     "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Tackles per 90 - Preston North End stats for Championship 2025/2026",
-    "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPTnhIUFpMUkZ2NEgwNmdYT0tWSXNMWnZJS2tFUmt6ODVPOVFoZU9aYUI4a0xsTzFQUVNjU0ZVMl9MYmduUlZ2MXhhY0l1clZTa09HUUNQVW40SmJpa0tVNjRWLVVmaWFsZlVWT1NXSTBETEhPZTJtT1JuQkg3TG03MHkxaVFYQjhwUXlvQi1USC1JLUpaR3l3alZqZU9hemJsWkRzdjlLZm5hYXB5allsOWFEMmdsTmh4R2gwN24zWEVSNFhPSWdFZlc3OXlwY2twQm4ycmJXblQ0MlFWZEo3LTlZdXg3OXhqdnY4elVjVTdxNUZUbm50bUhXd05mR3VGZUVzRThQdDFKVV9iMzVLMDgtdXJ0MENxbllIRGFSMU42UHFDLVNqdmhmbDhqczRGcHAyX2VGN2RzUnJROC1qUTNtWWVyRENWLWc?oc=5",
-    "excerpt": "",
-    "source": "FotMob",
-    "published": "2026-10-10T01:48:10+00:00",
-    "clubs": [
-      "preston-north-end"
-    ],
-    "category": "news",
-    "tier": "low",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Goals conceded per 90 - West Bromwich Albion stats for Championship",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNWp3MW9kTFNYM3Y4VmswUFl0SzJLZEFRWjg2V1d6WFRqc0t2clNwVG5uRlBIRTRYLTUtT2dxZFZWVF9lT1hEaWJEOWd0eXJlaFdSTkNOeURWTmlrWkx5X2RPWVJhSGc3UWFBUlhhWmxNLWFxMkJVVnlQQmFsUU9IM084XzRBdmc2SEZHd005UUxhRVNVWXo1RXF3LU9ySUNQTElkNmNnQQ?oc=5",
-    "excerpt": "",
-    "source": "FotMob",
-    "published": "2026-10-10T01:47:57+00:00",
-    "clubs": [
-      "west-bromwich-albion"
-    ],
-    "category": "news",
-    "tier": "low",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Expected goals on target (xGOT) - Newport County stats for League Two 2026/2027",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDVuY1htRk9ZOWZoVmxpRXRtbXZHUlFueFE3clNlY1lHbFpiZGU0LTdKT2s5S3ZRbUExeTlRRGJ6d19MUVlNaFFSTk5rWlEwQWpXcUQ5WmFmU0tIeEJXYTZZeHVXaThOYVQwcTgxeDYtTXY0S2U0V0tfLWl1X2JjTTFnVl9qWEpOU2tEaHo0WFd2cnBINUlOX3BwZ0ZaMGtlcmlPTHBLRldtOGRRdjFZ?oc=5",
-    "excerpt": "",
-    "source": "FotMob",
-    "published": "2026-10-10T01:37:28+00:00",
-    "clubs": [
-      "newport-county"
-    ],
-    "category": "news",
-    "tier": "low",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Corners - Burnley stats for Championship 2026/2027",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcGFCS256bW4yRkFyNGdvQjg1V1UzZllta2ZVRzRqLUwzYU4tQnVIQURkUzBuNGpvSk9HM1dQTmtKMHpOWkNzZnI3NVdKelY1QWpSS0g2b25vci0wVUFrdzJsSV9PSFcxRkpiXzJLQmJqalFQZmxHQmNWQ0hjY1JCUXJQMF9GNlRFMlIyV3d2OVJrdVI2emFNblBVUVVKcDVpWWs0LTc1a1Q?oc=5",
-    "excerpt": "",
-    "source": "FotMob",
-    "published": "2026-10-10T01:17:16+00:00",
-    "clubs": [
-      "burnley"
-    ],
-    "category": "news",
-    "tier": "low",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Goals prevented - Birmingham City stats for Championship",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdFdON1BrT0RrQ2R6RmlZLXhQTkhtby00SFpFOGk4aDQzRXExVEFhWXo4SnQzTjE5LUFwUG1DNmVYVU02VkdnRVZsX1g5ZWJnRU1hbWk3U3hNNFoybG5XWHMwa2hNRms4VGN6Vi15ZmxnampGemRYNmY1Tmd0U0lBSER0UXNrRHc5VlgtVVdLa1Nfcl9jWmRaRlhJcUJvZWxyNXZnVWJR?oc=5",
-    "excerpt": "",
-    "source": "FotMob",
-    "published": "2026-10-10T01:15:12+00:00",
-    "clubs": [
-      "birmingham-city"
-    ],
-    "category": "news",
-    "tier": "low",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Clearances per 90 - Queens Park Rangers stats for Championship",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeHNRSlYxVVdkblNCOU1kQTBTOFdBbUMzbzNQX0ZhNkZDT1RYNDBCc0pCYi05Z3E0aTczRV8tdkloMmt4d25yLU03c2JDZndhTVRhVjZWaVJubUtOMFpDTFhfWGR5XzNjNWIydk5QSE91OVlwdE14Y0ZULXhiTGtnV25BR2pZa3U3RklVSU5JbFYzbnNnbm81eTFSY0VBMDI4TDRwMnJDYS1YUHo4WTFTWUR5N1lNUm5nYVVoaVlZa0xWdw?oc=5",
-    "excerpt": "",
-    "source": "FotMob",
-    "published": "2026-10-10T01:03:56+00:00",
-    "clubs": [
-      "queens-park-rangers"
-    ],
-    "category": "news",
-    "tier": "low",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Shots per 90 - Bolton Wanderers stats for Championship",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd1kxeV9CdXY0RmtQdkJqUm5oZ3dxOEVuaGNydWhOVTNGSDdaVnNjV0VsMUhzSUJoWU1PTHNBQ2FNaHVIZThpUXRPQ2tVTWNWWG00RURZRVlYTU85ajJScjkwUXBQdkJpTVR0bHFqV2E2NHA0VVktVFhMd042dDBMMTdiSWxjNTJXcGg1UWRLem9LQ09EcWZKZk5mVTF3Z3hVOWg1OVB4d1VPWm5YR0RSejdDdw?oc=5",
-    "excerpt": "",
-    "source": "FotMob",
-    "published": "2026-10-10T01:03:11+00:00",
-    "clubs": [
-      "bolton-wanderers"
-    ],
-    "category": "news",
-    "tier": "low",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Leicester City v Peterborough United",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdHhibGRNRE0zMUQxbzdoWEVIT1BvUlNZMWpWZTgwNTloVE92VTJjMFIza0h1LWMyMmY0eW1lZ2pJSlJ3Ull0Nll5TjNzdlViVlhXbnIxbHFxLVgtUlFOOWthZmctZFdEUUVtQ05zczQ2TGhPTFFLbG5CaXZMYnNvLVFkZw?oc=5",
-    "excerpt": "",
-    "source": "OneFootball",
-    "published": "2026-10-10T00:54:26+00:00",
-    "clubs": [
-      "peterborough-united",
-      "leicester-city"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Shots on target per match - Middlesbrough stats for Championship 2026/2027",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbHhzXzBTYm1vNXpPQjR0OFRuTkhiZ01fN093amlkLUtmaXVRdmpOUGVLeXlkdVpvZkE2N1J6SnhyWnduNWtEdVJYamcxV2lZZmw2V2stRXd6VWluSnBqb1F2WXM3SXlvcklKTGc4ckw5UFJaTFhkalRqNXF6VEtRU05CdkVLcDA2VjZXMUV0dmNmWEJIZW9zRnRiSldTQndaRE1idEg3WGpmWVhCTHZTbHRaQTFHUkNqZzYzT1B3Mk1NaE0?oc=5",
-    "excerpt": "",
-    "source": "FotMob",
-    "published": "2026-10-10T00:34:51+00:00",
-    "clubs": [
-      "middlesbrough"
-    ],
-    "category": "news",
-    "tier": "low",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Norwich City vs. Swansea City - October 10, 2026",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdmlMNFBsYm8xaG9MTEprSndSM1VHM0xzOHNaS3dPRERXM1BGbTgxZHB5UWUzbHdaOWNOZUtiUWM1M0FGOHlwV25TNG9TUWdveVI1NDM0aUJaR0tuRjdOQlhiQUR2X1o3OEVFNGFrUWxSWEx2Z3pqVGNCaFpkM0h4M1R3?oc=5",
-    "excerpt": "",
-    "source": "Bleacher Report",
-    "published": "2026-10-10T00:31:36+00:00",
-    "clubs": [
-      "norwich-city",
-      "swansea-city"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "FotMob rating - Shrewsbury Town stats for League Two 2026/2027",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZWpEdEx0cXBHbVkwVWFOYlNSXzJnQU9YLWRBREtaaGdMMXJjZXAtUFJNMUZOeG95bW5hQ2FWTW9OcXZWUS1yWGRpZml2M2RWYnR1dV9oczJVbU41UTlfbFlLRzJDQU9Vamx0aGJucjBjZV8ySW9OeWRJUUtNNjk0MjR5LUdHX3NYRnRNVUt5RXpPNTAya2E0SkVFY0ZfQTI3a1VNUGxkSnZBUQ?oc=5",
-    "excerpt": "",
-    "source": "FotMob",
-    "published": "2026-10-10T00:26:26+00:00",
-    "clubs": [
-      "shrewsbury-town"
-    ],
-    "category": "news",
-    "tier": "low",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Fouls per match - Stoke City stats for Championship",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPd3o1YzBJcVVBcVZyRkxTSmhYZUVPeHFIMW5VbTMtejM0TmZ4eC1HejhoVk5vdWVFMXgwUW1HOFVhbWUtNkVQOXdaZUx1ZmJYVWFyei1QOVBWcjZramxoTy1YTE9JRlQ4Y0N2SHFXQ0ZLeXM3VlpoNWJpbURqSS1fMVZDNTM4dkdQajdzYUtKdXQ1b0RvZ1pRTU5BVUpFbGhKVnlzRmUzYmRxeUllckJRdW9qNEd4aDVJVERZeU12dGhJR1lfZ2l3ZTBpbFM?oc=5",
-    "excerpt": "",
-    "source": "FotMob",
-    "published": "2026-10-10T00:21:09+00:00",
-    "clubs": [
-      "stoke-city"
-    ],
-    "category": "news",
-    "tier": "low",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Set piece goals conceded - Middlesbrough stats for Championship 2026/2027",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZjF4X3RUV0Y5cHlXX2d1akE0Y2dZWjFvSlN6a21xY2drZjZuX09wZkl2OWw2Y3I2aURvTFJHT3hFUklxd2M1bnM0Y0k1VW9KcDF4YnR3SDlNMEF1Q2NiU29ZdER4aTgzNGltZ2owVS00eTBiUV9nS21jOVM2SFNnZ2s1cEtnNVZhU0lOQTdGZ0tXbmI3Qm1Ed1Z6UTlsaGlTbVFnSnRIUHJubzVsNE1rNUpyemJPbHc5a0gyaEZfRGRhRlBLdFJUakRR?oc=5",
-    "excerpt": "",
-    "source": "FotMob",
-    "published": "2026-10-09T23:34:12+00:00",
-    "clubs": [
-      "middlesbrough"
-    ],
-    "category": "news",
-    "tier": "low",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Possession won final 3rd per match - Rochdale stats for League Two 2026/2027",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaEZ1eFVrX0dWLXZRQnR4OXNGU3hOQTMxWnFHcXBsbHppX0tobkFtSEVsN0J4WUllYWIzdThDbzNveUd6VG1LUWFLZXpYX2V6SnlFS1ZMYXd2X3Y4bFdYSFg3TTB1NUVaekJ4U3BpTVYxMUFEdGl3U2tUYTBONGVkY1V6WmJXb1RoYjVhTS1UUzZZV01mSlpaamJJOHc0RXV4RlpBUFlBRWZMUQ?oc=5",
-    "excerpt": "",
-    "source": "FotMob",
-    "published": "2026-10-09T23:32:12+00:00",
-    "clubs": [
-      "rochdale"
-    ],
-    "category": "news",
-    "tier": "low",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Recoveries per 90 - Northampton Town stats for League Two 2026/2027",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLXpTcVRkYkg1TDVObEdsMlNjRzlTOElWc0k1MlRKU2Uzc0hRYlNvQ3VvMExyeHNTeHJwQVdsS0x0T2Q2Y3I4eWxXYVQ0dDdDM0VvS0FmVXhXbmY1c1R1cUg2LUxTdG5ZWVpESjU4QzZnN0xEVlNsWi1WM0NtazJZUUpFcURlbmF6TFVaMHl3ZkxKWk55UWI1NVRSRHhxczNfNWtqMjZNSWM4OXJDVENZ?oc=5",
-    "excerpt": "",
-    "source": "FotMob",
-    "published": "2026-10-09T23:30:17+00:00",
-    "clubs": [
-      "northampton-town"
-    ],
-    "category": "news",
-    "tier": "low",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Accurate passes per match - Middlesbrough stats for Championship 2026/2027",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVTJYWVY0YmxUZEhOTHBPNDdmR2EwaEhKRGNPSll0U2FUcUJJS0xma3A3NUNSOFV6ZHQzd2dEaG9aSF9XZ0g4V2FWZDdNVk4xd0V3S0JVVjlmMmRiNWJMQ0NYMEdxN1hhSktWMnB4Y081d3BrUmtIQVBEQmJhX3pXcEdwdWlfdW5YOFpBWTdHR2owZG5rSjhLanhiMXAzbFNJZXBTTkpmR3B1cEh3cFJlUG9sLVI4cXV5VlE?oc=5",
-    "excerpt": "",
-    "source": "FotMob",
-    "published": "2026-10-09T23:22:42+00:00",
-    "clubs": [
-      "middlesbrough"
-    ],
-    "category": "news",
-    "tier": "low",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Extended Highlights | West Ham United 1-1 Queens Park Rangers",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZjVpLW1VaUlBSVhTcHJyQms3bndBMEJrWWtyTXRVREhfaEZUOHpoRG5CaEZhVzlXSkRIbHJfMDY1eFh3WXVvSjZxbExJTHpCR2wtMWZVODUyM1RITVdod29oNzVRNm1kek5tY3lYTXowQzdWSUtDQTVRSjE5d21KZ2hzUTV5SGM2M0xlVHloSXdiRV9hU3U4?oc=5",
-    "excerpt": "",
-    "source": "West Ham United",
-    "published": "2026-10-09T23:16:36+00:00",
-    "clubs": [
-      "queens-park-rangers",
-      "west-ham-united"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
     "scope": "club"
   }
 ]
