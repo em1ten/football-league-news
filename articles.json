@@ -1,5 +1,63 @@
 [
   {
+    "title": "Leyton Orient 2-0 Blackpool",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOa2NGS1k1NTJ5enFobk40QWM0bERfWW45bHVoeGZzeWJjNGtaSzI2QzUwMGhfOU5iSExPa2tLUXlscDBOdXFxWUNEcjRwNmlRWVBlazM1eDExM3ZScTBENEZWcW93LXNUWFJHelRWUHB5UmJTRnRpLXlQbUdGOWFoR2xB?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-18T04:18:44+00:00",
+    "clubs": [
+      "leyton-orient",
+      "blackpool"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Latics Ball Number 46 in Monday's Emirates FA Cup First Round Draw",
+    "url": "https://wiganathletic.com/news/2026/october/18/latics-ball-number-46-in-monday-s-emirates-fa-cup-first-round-draw/",
+    "excerpt": "Latics will be ball number 46 in Monday's Emirates FA Cup First Round draw, live on TNT Sports Emirates FA Cup First Round | Draw to take place on Monday, 19 October 2026 The draw will take place live on TNT Sports from...",
+    "source": "Official site",
+    "published": "2026-10-18T00:21:38+00:00",
+    "clubs": [
+      "wigan-athletic"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Extended Highlights | Swansea City 0-1 West Ham United",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSl9RY1FsazVFd3FYbTV0dUhqZXZzU01CNW56cTVCOVJRX3F3REs0N1FTOG1IMUZDNGpxcldzWDJJb2JHTjB3T1RXc2d0UzlMT2JxWG9paUllSTM2dkl1cmZXekxtOG0xaWd4ck93SF94NDBsMWJydlQ4Nk1jVUNtbGRnc2JxWDBTdUtIU2JR?oc=5",
+    "excerpt": "",
+    "source": "West Ham United",
+    "published": "2026-10-17T23:18:50+00:00",
+    "clubs": [
+      "west-ham-united",
+      "swansea-city"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Highlights: Boro 2 Cardiff City 2",
+    "url": "https://www.mfc.co.uk/news/2026/october/17/highlights--boro-2-cardiff-city-2/",
+    "excerpt": "Fixtures Middlesbrough Vs. Cardiff City - Sat, Oct 17 2026, 12:30",
+    "source": "Official site",
+    "published": "2026-10-17T23:01:00+00:00",
+    "clubs": [
+      "middlesbrough"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "Leicester City 2 Doncaster Rovers 1",
     "url": "https://www.lcfc.com/media-video/leicester-city-doncaster-rovers-extended-match-highlights-sky-bet-league-one",
     "excerpt": "",
@@ -11,6 +69,20 @@
     "category": "news",
     "tier": "trusted",
     "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Bristol City 0-1 Blades - full match video",
+    "url": "https://sufc.co.uk/news/2026/october/17/bristolcity-0-1-blades-video/",
+    "excerpt": "Fixtures Bristol City Vs. Sheffield United - Sat, Oct 17 2026, 15:00",
+    "source": "Official site",
+    "published": "2026-10-17T22:59:00+00:00",
+    "clubs": [
+      "sheffield-united"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
     "scope": "club"
   },
   {
@@ -193,6 +265,20 @@
       "sheffield-wednesday"
     ],
     "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "WATCH: DRURY AND HUMPHREYS ON STELLAR PERFORMANCE AT PLYMOUTH",
+    "url": "https://www.htafc.com/news/2026/october/17/watch--drury-and-humphreys-on-stellar-performance-at-plymouth/",
+    "excerpt": "- Plymouth Argyle 0-2 Huddersfield Town; Sky Bet League One - Martin Drury and Cameron Humphreys speak after full-time - Presented by SBK Huddersfield Town Head Coach Martin Drury and midfielder Cameron Humphreys joined...",
+    "source": "Official site",
+    "published": "2026-10-17T18:00:00+00:00",
+    "clubs": [
+      "huddersfield-town"
+    ],
+    "category": "transfer",
     "tier": "trusted",
     "division": "league-one",
     "scope": "club"
@@ -639,7 +725,7 @@
   {
     "title": "LANGSTAFF BRACE EXTENDS AMMIES UNBEATEN RUN",
     "url": "https://salfordcityfc.co.uk/news/2026/october/17/l/",
-    "excerpt": "Fixtures Salford City Vs. Crawley Town - Sat, Oct 17 2026, 15:00 Salford City secured all three points at AIG Stadium through a Macaulay Langstaff brace, beating Crawley Town 2-1 and making it eight unbeaten in Sky Bet...",
+    "excerpt": "Fixtures Salford City Vs. Crawley Town - Sat, Oct 17 2026, 15:00 Salford City secured all three points on Saturday afternoon at AIG Stadium thanks to a Macaulay Langstaff brace, defeating Crawley Town 2-1 to extend our...",
     "source": "Official site",
     "published": "2026-10-17T16:35:15+00:00",
     "clubs": [
@@ -1704,8 +1790,8 @@
     "scope": "club"
   },
   {
-    "title": "★ Bradford City vs Stevenage ★ Football Live Streams",
-    "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOSUtDQWhqdGJVdjdDcVBNN1pGZmtVT1otMVV6RElZWVpBQmJuTU4zTUFqcTBxT1Z1M3g5d05FUlJxQlJZenRFcW1wUjNyd0IteFg4Mk40c2hQSi1XcE9uSjVHclF3MjJhUEVrcTY0Ym5ZVWh4ei1oU1RKc253OEdaN2tiTFh5OEZXdmJMR0VFcy1DV09qa3Bldy0zZkg4NVcyNGlEcmFJQ2VMb01QMVk4TDlJRU5YM1NZcWF3TDdLdEFFT0JiN2JVdFVHcURzeXVvcVg2OWU2X3oxY0UyamY5cS1vczdWUkdqRGRnMl9DZUVjcjJhVHBDTHQ0WUJuaFR2bkRkcjM1WXZVSWNKVEh2dHBVY0lfMWgyX252NndzTi1IVkMxWDVMMFhrYmxBcmNBbmE1VUJKdnh0WlNOZnBnT211SQ?oc=5",
+    "title": "✦ Bradford City vs Stevenage ✦ Live Match Streams",
+    "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQSjNEVnRHdGhJX05lS0tMdDNUaGRMWGdZdXVyWURDNFNUZmVPWFRYbmlsdl9fakNxLWlodmVSM2FPMGJTWFlWYlp6ZGZ2XzRGY1NpYVBaVXkwcHBHdlFvS1ZzdlQ3M3RKdWFTVHFFY01WTmZIMTJUZlMxRF9xN2ZHSEpYbkRTRVR5dnJTeGNabUU4MGM1WEsyMl93R2VsNU16V09kNzdLQVh3eG0wY1hWa19tT0VZTzlsYzE5cWxGZGliQVFjR2JfdFhYRE8tMmZaUHZGSTZCa2drOWEyNllrTk9UYlVSTWxuMXh0N0ZRdmduOXRORUZQVmpPZWZ1WHZOcHZEdERJM3BpWmZfMHhDd2FGWU1WdU5sU180dERMelBTa3VvVUdPc0FZWEZZeWdEYlBQVThOdFJjOU0?oc=5",
     "excerpt": "",
     "source": "Universidad de Córdoba (UCO)",
     "published": "2026-10-17T13:52:18+00:00",
@@ -1719,8 +1805,8 @@
     "scope": "club"
   },
   {
-    "title": "✦ Bradford City vs Stevenage ✦ Live Match Streams",
-    "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQSjNEVnRHdGhJX05lS0tMdDNUaGRMWGdZdXVyWURDNFNUZmVPWFRYbmlsdl9fakNxLWlodmVSM2FPMGJTWFlWYlp6ZGZ2XzRGY1NpYVBaVXkwcHBHdlFvS1ZzdlQ3M3RKdWFTVHFFY01WTmZIMTJUZlMxRF9xN2ZHSEpYbkRTRVR5dnJTeGNabUU4MGM1WEsyMl93R2VsNU16V09kNzdLQVh3eG0wY1hWa19tT0VZTzlsYzE5cWxGZGliQVFjR2JfdFhYRE8tMmZaUHZGSTZCa2drOWEyNllrTk9UYlVSTWxuMXh0N0ZRdmduOXRORUZQVmpPZWZ1WHZOcHZEdERJM3BpWmZfMHhDd2FGWU1WdU5sU180dERMelBTa3VvVUdPc0FZWEZZeWdEYlBQVThOdFJjOU0?oc=5",
+    "title": "★ Bradford City vs Stevenage ★ Football Live Streams",
+    "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOSUtDQWhqdGJVdjdDcVBNN1pGZmtVT1otMVV6RElZWVpBQmJuTU4zTUFqcTBxT1Z1M3g5d05FUlJxQlJZenRFcW1wUjNyd0IteFg4Mk40c2hQSi1XcE9uSjVHclF3MjJhUEVrcTY0Ym5ZVWh4ei1oU1RKc253OEdaN2tiTFh5OEZXdmJMR0VFcy1DV09qa3Bldy0zZkg4NVcyNGlEcmFJQ2VMb01QMVk4TDlJRU5YM1NZcWF3TDdLdEFFT0JiN2JVdFVHcURzeXVvcVg2OWU2X3oxY0UyamY5cS1vczdWUkdqRGRnMl9DZUVjcjJhVHBDTHQ0WUJuaFR2bkRkcjM1WXZVSWNKVEh2dHBVY0lfMWgyX252NndzTi1IVkMxWDVMMFhrYmxBcmNBbmE1VUJKdnh0WlNOZnBnT211SQ?oc=5",
     "excerpt": "",
     "source": "Universidad de Córdoba (UCO)",
     "published": "2026-10-17T13:52:18+00:00",
@@ -14945,183 +15031,6 @@
     ],
     "category": "news",
     "tier": "low",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Premier League icon tips Oxford United striker for 25-goal haul in League One",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM0x4aVdPV3FkTDJWZU4tdy1lZWxZeDFXOVE2OTl1SXBHT2ZUSTlreWpMRFA5WWhHX3pObG1CNFViZ1R6eXlwNkpyMDBSQnVjTTc0WlhrZUN2dXVvVkNDV1pETnRUZEo0ZHBiYTctcTZEOEcycUpMWEhJUzBpQ0RyYTFPVEFDS1I2UGd5Ul95Z3BuZTg3Q2dlZlJyTFZPZGw0clNLd2Izc0FTcWs?oc=5",
-    "excerpt": "",
-    "source": "Witney Gazette",
-    "published": "2026-10-14T04:00:00+00:00",
-    "clubs": [
-      "oxford-united"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "EFL League One LIVE: Mansfield Town vs Oxford United - build-up, team news, score, text commentary & match stats",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8tMUN2WkNSNk1GSThEbF95dHp5QkFvTmVVQ3lxVHRHMUtWWVFPSU5aLWl4cFhMaTRWbFdZUTRDdGV6Y0hOT3Y2QWpGeHZnaVNlcWpLM3dSQ052dHhFaE5HZEpTOA?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-10-14T03:34:18+00:00",
-    "clubs": [
-      "mansfield-town",
-      "oxford-united"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Southampton FC predicted team lineup to take on Norwich: Championship",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNd3E4RTJ6MHEtV1J1cjRsX2pyZkpxUmV4d0hsWTRPc2JzTUxxaXNxN3VWU3lPVnlqUzc0cmprS3JYOTE1N2pqZEFTLS1Vb3BuVVRNaUNtdW1Kalo1VGFSOXl2dlRSeWlUSjNVa1JSRUt6ZXd1QlpHS0ZwalVhcldITFVYTS1UdHRMVXFUMzV6MTFVbC1JMGxHclNLRElCZF9SSjdBZE45eUxmZlBCOEE?oc=5",
-    "excerpt": "",
-    "source": "OneFootball",
-    "published": "2026-10-14T03:09:26+00:00",
-    "clubs": [
-      "southampton",
-      "norwich-city"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "How to watch Norwich City vs Southampton: TV channel, stream and radio for Championship tie",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdUJEM2M3ME5LczlrZmIwV1Z6bE5DNFFqXy1ZclRXYzlPZWJoc25IelVvcmItTkJUX1lKWDBFRzdOUVZaeVlLdGs1REhBSENmcEpyNGJwbXducXVRRGlVdUFwVDFZcjV2X3FfQ1RCUTdMQU5SQjRqX3BiU2lDV2RGaHo0Z2FYVzFBZ25NV3J6bTJzZnVXVFB0ZjdGMjhuU3RJVGhNTHhLZ2M1dUR4T1UtZzJya2cydUF0TVk4MEc3QXl3SjlqVHhtSUhB?oc=5",
-    "excerpt": "",
-    "source": "OneFootball",
-    "published": "2026-10-14T03:09:26+00:00",
-    "clubs": [
-      "norwich-city",
-      "southampton"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Where to watch Wrexham vs West Brom: TV channel, live stream and kick-off time | Goal.com US",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRkJDdlk3ZjNVVGMxamFmR1VpZHN1SnpJMVp0Z1VaSGxjcGtGZGd1dWF0M05nQmtpbENIdElrQlc0bVpmVmxKWHpLM05RYW4zT2pqRmFnUjFMLS1RcXljTm94ZWduSnhOTDFfZ2J1U0FmeXYzeGJwcU9YYlhxVjZNZWhjMDdzWFJYU3VHeTBBMFFDdmx5dmU4YjN2Wkp4OEZieHV6YVgxVVBsbHFGblhxRXowRmx1ZDQydHc?oc=5",
-    "excerpt": "",
-    "source": "Goal.com",
-    "published": "2026-10-14T01:41:56+00:00",
-    "clubs": [
-      "west-bromwich-albion",
-      "wrexham"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Birmingham City vs Preston North End Box Score - October 13, 2026 - The Athletic",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZjlhdVVPb3BpQlQtaE5HV1M4ZHBpWExhWWQ1WmwtRFgxZDU4SS1yLXBDeUFUS1RMOU02ZUlPTmRMZDBzTWRRNTM0S3U0UWlldDUxaExlWndWZldaVVVMZmMwYXVIY0FUNkVoMjB2YnB5Sk9wdW45dUJrWk1GV1dkbXRtOTBWd2hiejlrTlFCcV9xTGNlQUM4UmF6MWJvY1FCVFVhOEJqTXpEWUE?oc=5",
-    "excerpt": "",
-    "source": "The New York Times",
-    "published": "2026-10-14T01:39:00+00:00",
-    "clubs": [
-      "preston-north-end",
-      "birmingham-city"
-    ],
-    "category": "match",
-    "tier": "low",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Accrington Cheltenham 03 October 2026 Live Score and Match Summary",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWEJZQ3hrdVhVWmk0MXZHdm5zQkxLRTRxUEFEem14MU1tM3FuSE11N0hBdzdVRjBUbEFWTGZOcG9Zd1pyVTVpdzN1Umg2ejhjQUZMTzhqcFdmVENWRnVnM1BBRGVmeHMyWlJVUWdyUnNXejJXdEdEeGNmWVM0NkI5Y1lPdFJZekRL?oc=5",
-    "excerpt": "",
-    "source": "Yeni Şafak English",
-    "published": "2026-10-14T01:30:28+00:00",
-    "clubs": [
-      "accrington-stanley",
-      "cheltenham-town"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Blocks per 90 - Plymouth Argyle stats for League One 2026/2027",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWncxRXZRZFZmVEhSc1pCaTkyMHp4Rl9zSVVYbUZQNWRYMzNEaFFYYlNNNjM2QW5iZk5iZEctMGZPdFJHNWJ1RzBLYjRNN0EwVDJhd1loWVJIMDY5OU9sbGwyX1hIc193bkdzNmhIbk1IcDROMmNBbEpTMTN3NmREN2s3OS0yNWhBT1laRGhiQXRTLWpUN1ZXZ3pmeDllR1VXRnQtY0wwcVlibGpBOHowdkJn?oc=5",
-    "excerpt": "",
-    "source": "FotMob",
-    "published": "2026-10-14T00:35:05+00:00",
-    "clubs": [
-      "plymouth-argyle"
-    ],
-    "category": "news",
-    "tier": "low",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Lincoln City v West Ham (14/10/2026)",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVnVwalhGZTFkcl93MjdRblg2eGtCU3BrMkpGUXVCcTE1ekc4VUxmb2UtRGVCTkY2NlpUN0x6bWRvcVpXTlM0YWFqRkRndFh1NzVTeHg5cDhMNWpQNjQyODNjaTdxRi04NElLdjZ3MFZpVG9INHVxb2VMWk5DUXVHV29XaVM2dW1nTTJOclBSYVh4TjJpTkdaUlV6cTVISVVCa084?oc=5",
-    "excerpt": "",
-    "source": "Flashscore UK",
-    "published": "2026-10-14T00:25:13+00:00",
-    "clubs": [
-      "lincoln-city",
-      "west-ham-united"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Wigan Wycombe 19 September 2026 Live Score and Match Summary",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6WGhRZ19CaDdMRk80SklzdHRIQ1hvSU9TTzVxUXgxYnU1OFdTbmppUmNRQk9tY3FKc0RrMTVFY1FTQ1Vud0szaGpZbGpianNfbVg2MkNjc3BJQ3RybUhiTm9uQXNVS1VQMk9nalluZkpwY1RJeDU0eVkwanQ3QQ?oc=5",
-    "excerpt": "",
-    "source": "Yeni Şafak English",
-    "published": "2026-10-14T00:20:55+00:00",
-    "clubs": [
-      "wycombe-wanderers",
-      "wigan-athletic"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Sheffield United vs. Portsmouth Live Stream of English Football League",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBWcU5HUkIxNk5pYnBkbWhjVDdXOVhuc1VLZmV0b3lxd0ZxQXQ2a2g1ZWNDMDQ4dW42bExjSTlNdTJrcU1rT1hPUjduRFZac2R6elpIMXQ4Wko0UFJzdVE?oc=5",
-    "excerpt": "",
-    "source": "CBS Sports",
-    "published": "2026-10-14T00:15:04+00:00",
-    "clubs": [
-      "sheffield-united",
-      "portsmouth"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Sky Bet Championship: Swans flying, five-star Bluebirds and box office Boro",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVFhUc0I0U2V0Y0NQWG85blU4S25DdmpxZDdOYXhwWWlmNGRfZ0x5OG84bzZjdXpTU0RhQVlJMGFaMk1lWmVqamJ1STdyd19NXzNPTmpnSUpDV1R2YlBLbE5VQlM2V2FBbFpOaGtXMFR3eWE2d25Ta2FiREVDQkVTTUxtTWtKRUwxWDRRQVNzaUw4UHNRQUZTR0JYaVlCbWZNUVJCTndrSHdJQ05IQVR4dml5eHFLRVJU?oc=5",
-    "excerpt": "",
-    "source": "EFL",
-    "published": "2026-10-14T00:03:49+00:00",
-    "clubs": [
-      "middlesbrough"
-    ],
-    "category": "news",
-    "tier": "trusted",
     "division": "championship",
     "scope": "club"
   }
