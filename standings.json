@@ -62,6 +62,18 @@
         "position": 5
       },
       {
+        "slug": "west-bromwich-albion",
+        "played": 11,
+        "won": 6,
+        "drawn": 2,
+        "lost": 3,
+        "gf": 15,
+        "ga": 12,
+        "gd": 3,
+        "points": 20,
+        "position": 6
+      },
+      {
         "slug": "stoke-city",
         "played": 11,
         "won": 6,
@@ -71,19 +83,19 @@
         "ga": 16,
         "gd": 2,
         "points": 19,
-        "position": 6
+        "position": 7
       },
       {
         "slug": "wolverhampton-wanderers",
-        "played": 10,
+        "played": 11,
         "won": 5,
-        "drawn": 2,
+        "drawn": 3,
         "lost": 3,
-        "gf": 18,
-        "ga": 15,
+        "gf": 19,
+        "ga": 16,
         "gd": 3,
-        "points": 17,
-        "position": 7
+        "points": 18,
+        "position": 8
       },
       {
         "slug": "queens-park-rangers",
@@ -95,7 +107,7 @@
         "ga": 12,
         "gd": 3,
         "points": 17,
-        "position": 8
+        "position": 9
       },
       {
         "slug": "blackburn-rovers",
@@ -107,7 +119,7 @@
         "ga": 16,
         "gd": 1,
         "points": 15,
-        "position": 9
+        "position": 10
       },
       {
         "slug": "sheffield-united",
@@ -119,7 +131,7 @@
         "ga": 14,
         "gd": 1,
         "points": 15,
-        "position": 10
+        "position": 11
       },
       {
         "slug": "millwall",
@@ -131,19 +143,19 @@
         "ga": 18,
         "gd": 0,
         "points": 15,
-        "position": 11
+        "position": 12
       },
       {
         "slug": "portsmouth",
-        "played": 10,
+        "played": 11,
         "won": 4,
-        "drawn": 2,
+        "drawn": 3,
         "lost": 4,
-        "gf": 13,
-        "ga": 13,
+        "gf": 14,
+        "ga": 14,
         "gd": 0,
-        "points": 14,
-        "position": 12
+        "points": 15,
+        "position": 13
       },
       {
         "slug": "wrexham",
@@ -155,7 +167,7 @@
         "ga": 16,
         "gd": -1,
         "points": 14,
-        "position": 13
+        "position": 14
       },
       {
         "slug": "bolton-wanderers",
@@ -167,7 +179,7 @@
         "ga": 18,
         "gd": -3,
         "points": 14,
-        "position": 14
+        "position": 15
       },
       {
         "slug": "bristol-city",
@@ -179,7 +191,7 @@
         "ga": 15,
         "gd": -3,
         "points": 14,
-        "position": 15
+        "position": 16
       },
       {
         "slug": "charlton-athletic",
@@ -191,7 +203,7 @@
         "ga": 15,
         "gd": -5,
         "points": 14,
-        "position": 16
+        "position": 17
       },
       {
         "slug": "lincoln-city",
@@ -203,7 +215,7 @@
         "ga": 19,
         "gd": -10,
         "points": 12,
-        "position": 17
+        "position": 18
       },
       {
         "slug": "cardiff-city",
@@ -215,7 +227,7 @@
         "ga": 17,
         "gd": 1,
         "points": 11,
-        "position": 18
+        "position": 19
       },
       {
         "slug": "watford",
@@ -227,7 +239,7 @@
         "ga": 19,
         "gd": -9,
         "points": 11,
-        "position": 19
+        "position": 20
       },
       {
         "slug": "norwich-city",
@@ -239,7 +251,7 @@
         "ga": 21,
         "gd": -4,
         "points": 9,
-        "position": 20
+        "position": 21
       },
       {
         "slug": "burnley",
@@ -251,7 +263,7 @@
         "ga": 21,
         "gd": -5,
         "points": 8,
-        "position": 21
+        "position": 22
       },
       {
         "slug": "derby-county",
@@ -263,24 +275,36 @@
         "ga": 20,
         "gd": -11,
         "points": 6,
-        "position": 22
+        "position": 23
+      },
+      {
+        "slug": "preston-north-end",
+        "played": 11,
+        "won": 1,
+        "drawn": 1,
+        "lost": 9,
+        "gf": 9,
+        "ga": 24,
+        "gd": -15,
+        "points": 4,
+        "position": 24
       }
     ],
     "last_result": {
       "wolverhampton-wanderers": {
-        "result": "W",
-        "gf": 2,
+        "result": "D",
+        "gf": 1,
         "ga": 1,
-        "opponent_slug": "burnley",
-        "opponent_name": "Burnley",
-        "home_away": "A",
-        "date": "2026-10-16"
+        "opponent_slug": "portsmouth",
+        "opponent_name": "Portsmouth",
+        "home_away": "H",
+        "date": "2026-10-20"
       },
       "blackburn-rovers": {
         "result": "L",
         "gf": 2,
         "ga": 3,
-        "opponent_slug": null,
+        "opponent_slug": "west-bromwich-albion",
         "opponent_name": "West Brom",
         "home_away": "A",
         "date": "2026-10-17"
@@ -291,6 +315,15 @@
         "ga": 0,
         "opponent_slug": "southampton",
         "opponent_name": "Southampton",
+        "home_away": "A",
+        "date": "2026-10-17"
+      },
+      "preston-north-end": {
+        "result": "L",
+        "gf": 1,
+        "ga": 4,
+        "opponent_slug": "wrexham",
+        "opponent_name": "Wrexham",
         "home_away": "A",
         "date": "2026-10-17"
       },
@@ -357,14 +390,23 @@
         "home_away": "H",
         "date": "2026-10-17"
       },
-      "portsmouth": {
+      "west-bromwich-albion": {
         "result": "W",
-        "gf": 1,
-        "ga": 0,
-        "opponent_slug": "norwich-city",
-        "opponent_name": "Norwich",
-        "home_away": "A",
+        "gf": 3,
+        "ga": 2,
+        "opponent_slug": "blackburn-rovers",
+        "opponent_name": "Blackburn",
+        "home_away": "H",
         "date": "2026-10-17"
+      },
+      "portsmouth": {
+        "result": "D",
+        "gf": 1,
+        "ga": 1,
+        "opponent_slug": "wolverhampton-wanderers",
+        "opponent_name": "Wolverhampton Wanderers",
+        "home_away": "A",
+        "date": "2026-10-20"
       },
       "queens-park-rangers": {
         "result": "L",
@@ -460,7 +502,7 @@
         "result": "W",
         "gf": 4,
         "ga": 1,
-        "opponent_slug": null,
+        "opponent_slug": "preston-north-end",
         "opponent_name": "Preston",
         "home_away": "H",
         "date": "2026-10-17"
@@ -469,10 +511,10 @@
     "form": {
       "wolverhampton-wanderers": [
         "W",
+        "L",
+        "L",
         "W",
-        "L",
-        "L",
-        "W"
+        "D"
       ],
       "blackburn-rovers": [
         "W",
@@ -487,6 +529,13 @@
         "L",
         "W",
         "D"
+      ],
+      "preston-north-end": [
+        "L",
+        "D",
+        "L",
+        "L",
+        "L"
       ],
       "bristol-city": [
         "L",
@@ -537,12 +586,19 @@
         "L",
         "L"
       ],
-      "portsmouth": [
+      "west-bromwich-albion": [
         "D",
-        "D",
+        "L",
         "L",
         "W",
         "W"
+      ],
+      "portsmouth": [
+        "D",
+        "L",
+        "W",
+        "W",
+        "D"
       ],
       "queens-park-rangers": [
         "D",
@@ -626,64 +682,88 @@
   "league-one": {
     "table": [
       {
-        "slug": "bradford-city",
-        "played": 10,
+        "slug": "stockport-county",
+        "played": 11,
+        "won": 7,
+        "drawn": 1,
+        "lost": 3,
+        "gf": 23,
+        "ga": 11,
+        "gd": 12,
+        "points": 22,
+        "position": 1
+      },
+      {
+        "slug": "huddersfield-town",
+        "played": 11,
         "won": 6,
-        "drawn": 2,
+        "drawn": 4,
+        "lost": 1,
+        "gf": 22,
+        "ga": 10,
+        "gd": 12,
+        "points": 22,
+        "position": 2
+      },
+      {
+        "slug": "bradford-city",
+        "played": 11,
+        "won": 6,
+        "drawn": 3,
         "lost": 2,
         "gf": 10,
         "ga": 5,
         "gd": 5,
-        "points": 20,
-        "position": 1
-      },
-      {
-        "slug": "stockport-county",
-        "played": 10,
-        "won": 6,
-        "drawn": 1,
-        "lost": 3,
-        "gf": 21,
-        "ga": 11,
-        "gd": 10,
-        "points": 19,
-        "position": 2
-      },
-      {
-        "slug": "huddersfield-town",
-        "played": 10,
-        "won": 5,
-        "drawn": 4,
-        "lost": 1,
-        "gf": 18,
-        "ga": 9,
-        "gd": 9,
-        "points": 19,
+        "points": 21,
         "position": 3
       },
       {
         "slug": "cambridge-united",
-        "played": 10,
+        "played": 11,
         "won": 5,
-        "drawn": 4,
+        "drawn": 5,
         "lost": 1,
-        "gf": 16,
-        "ga": 12,
+        "gf": 18,
+        "ga": 14,
         "gd": 4,
-        "points": 19,
+        "points": 20,
         "position": 4
       },
       {
+        "slug": "plymouth-argyle",
+        "played": 12,
+        "won": 6,
+        "drawn": 1,
+        "lost": 5,
+        "gf": 18,
+        "ga": 17,
+        "gd": 1,
+        "points": 19,
+        "position": 5
+      },
+      {
         "slug": "sheffield-wednesday",
+        "played": 10,
+        "won": 5,
+        "drawn": 3,
+        "lost": 2,
+        "gf": 20,
+        "ga": 10,
+        "gd": 10,
+        "points": 18,
+        "position": 6
+      },
+      {
+        "slug": "oxford-united",
         "played": 9,
         "won": 5,
         "drawn": 3,
         "lost": 1,
-        "gf": 20,
-        "ga": 8,
-        "gd": 12,
+        "gf": 18,
+        "ga": 10,
+        "gd": 8,
         "points": 18,
-        "position": 5
+        "position": 7
       },
       {
         "slug": "reading",
@@ -695,19 +775,43 @@
         "ga": 12,
         "gd": 10,
         "points": 15,
-        "position": 6
+        "position": 8
       },
       {
-        "slug": "oxford-united",
-        "played": 8,
+        "slug": "stevenage",
+        "played": 10,
         "won": 4,
         "drawn": 3,
-        "lost": 1,
-        "gf": 16,
-        "ga": 9,
-        "gd": 7,
+        "lost": 3,
+        "gf": 15,
+        "ga": 10,
+        "gd": 5,
         "points": 15,
-        "position": 7
+        "position": 9
+      },
+      {
+        "slug": "leicester-city",
+        "played": 10,
+        "won": 4,
+        "drawn": 3,
+        "lost": 3,
+        "gf": 16,
+        "ga": 15,
+        "gd": 1,
+        "points": 15,
+        "position": 10
+      },
+      {
+        "slug": "mansfield-town",
+        "played": 10,
+        "won": 4,
+        "drawn": 3,
+        "lost": 3,
+        "gf": 16,
+        "ga": 15,
+        "gd": 1,
+        "points": 15,
+        "position": 11
       },
       {
         "slug": "leyton-orient",
@@ -719,213 +823,189 @@
         "ga": 11,
         "gd": 4,
         "points": 14,
-        "position": 8
+        "position": 12
+      },
+      {
+        "slug": "luton-town",
+        "played": 10,
+        "won": 4,
+        "drawn": 2,
+        "lost": 4,
+        "gf": 19,
+        "ga": 18,
+        "gd": 1,
+        "points": 14,
+        "position": 13
       },
       {
         "slug": "burton-albion",
-        "played": 11,
+        "played": 12,
         "won": 3,
-        "drawn": 4,
+        "drawn": 5,
         "lost": 4,
         "gf": 16,
         "ga": 18,
         "gd": -2,
-        "points": 13,
-        "position": 9
-      },
-      {
-        "slug": "wycombe-wanderers",
-        "played": 10,
-        "won": 3,
-        "drawn": 4,
-        "lost": 3,
-        "gf": 16,
-        "ga": 20,
-        "gd": -4,
-        "points": 13,
-        "position": 10
-      },
-      {
-        "slug": "stevenage",
-        "played": 9,
-        "won": 3,
-        "drawn": 3,
-        "lost": 3,
-        "gf": 12,
-        "ga": 10,
-        "gd": 2,
-        "points": 12,
-        "position": 11
-      },
-      {
-        "slug": "mansfield-town",
-        "played": 9,
-        "won": 3,
-        "drawn": 3,
-        "lost": 3,
-        "gf": 13,
-        "ga": 15,
-        "gd": -2,
-        "points": 12,
-        "position": 12
-      },
-      {
-        "slug": "leicester-city",
-        "played": 9,
-        "won": 3,
-        "drawn": 3,
-        "lost": 3,
-        "gf": 12,
-        "ga": 15,
-        "gd": -3,
-        "points": 12,
-        "position": 13
-      },
-      {
-        "slug": "afc-wimbledon",
-        "played": 10,
-        "won": 3,
-        "drawn": 3,
-        "lost": 4,
-        "gf": 7,
-        "ga": 15,
-        "gd": -8,
-        "points": 12,
+        "points": 14,
         "position": 14
       },
       {
-        "slug": "luton-town",
-        "played": 9,
+        "slug": "wycombe-wanderers",
+        "played": 11,
         "won": 3,
-        "drawn": 2,
-        "lost": 4,
-        "gf": 17,
-        "ga": 17,
-        "gd": 0,
-        "points": 11,
+        "drawn": 5,
+        "lost": 3,
+        "gf": 18,
+        "ga": 22,
+        "gd": -4,
+        "points": 14,
         "position": 15
       },
       {
-        "slug": "doncaster-rovers",
-        "played": 9,
-        "won": 2,
+        "slug": "afc-wimbledon",
+        "played": 11,
+        "won": 3,
         "drawn": 3,
-        "lost": 4,
-        "gf": 10,
-        "ga": 11,
-        "gd": -1,
-        "points": 9,
+        "lost": 5,
+        "gf": 7,
+        "ga": 18,
+        "gd": -11,
+        "points": 12,
         "position": 16
       },
       {
-        "slug": "milton-keynes-dons",
-        "played": 9,
-        "won": 1,
-        "drawn": 6,
-        "lost": 2,
-        "gf": 11,
+        "slug": "blackpool",
+        "played": 10,
+        "won": 3,
+        "drawn": 2,
+        "lost": 5,
+        "gf": 15,
         "ga": 16,
-        "gd": -5,
-        "points": 9,
+        "gd": -1,
+        "points": 11,
         "position": 17
       },
       {
-        "slug": "blackpool",
-        "played": 9,
+        "slug": "notts-county",
+        "played": 10,
         "won": 2,
-        "drawn": 2,
-        "lost": 5,
-        "gf": 13,
-        "ga": 16,
+        "drawn": 4,
+        "lost": 4,
+        "gf": 10,
+        "ga": 13,
         "gd": -3,
-        "points": 8,
+        "points": 10,
         "position": 18
       },
       {
-        "slug": "barnsley",
-        "played": 9,
+        "slug": "doncaster-rovers",
+        "played": 10,
         "won": 2,
-        "drawn": 2,
+        "drawn": 3,
         "lost": 5,
-        "gf": 9,
-        "ga": 17,
-        "gd": -8,
-        "points": 8,
+        "gf": 10,
+        "ga": 13,
+        "gd": -3,
+        "points": 9,
         "position": 19
       },
       {
-        "slug": "bromley",
-        "played": 9,
-        "won": 2,
-        "drawn": 2,
-        "lost": 5,
-        "gf": 9,
-        "ga": 21,
-        "gd": -12,
-        "points": 8,
+        "slug": "milton-keynes-dons",
+        "played": 10,
+        "won": 1,
+        "drawn": 6,
+        "lost": 3,
+        "gf": 11,
+        "ga": 18,
+        "gd": -7,
+        "points": 9,
         "position": 20
       },
       {
-        "slug": "notts-county",
-        "played": 9,
-        "won": 1,
-        "drawn": 4,
-        "lost": 4,
-        "gf": 8,
-        "ga": 13,
-        "gd": -5,
-        "points": 7,
+        "slug": "peterborough-united",
+        "played": 11,
+        "won": 2,
+        "drawn": 3,
+        "lost": 6,
+        "gf": 10,
+        "ga": 20,
+        "gd": -10,
+        "points": 9,
         "position": 21
       },
       {
+        "slug": "barnsley",
+        "played": 10,
+        "won": 2,
+        "drawn": 2,
+        "lost": 6,
+        "gf": 10,
+        "ga": 19,
+        "gd": -9,
+        "points": 8,
+        "position": 22
+      },
+      {
+        "slug": "bromley",
+        "played": 10,
+        "won": 2,
+        "drawn": 2,
+        "lost": 6,
+        "gf": 9,
+        "ga": 25,
+        "gd": -16,
+        "points": 8,
+        "position": 23
+      },
+      {
         "slug": "wigan-athletic",
-        "played": 9,
+        "played": 10,
         "won": 2,
         "drawn": 1,
-        "lost": 6,
-        "gf": 6,
-        "ga": 13,
-        "gd": -7,
+        "lost": 7,
+        "gf": 7,
+        "ga": 15,
+        "gd": -8,
         "points": 7,
-        "position": 22
+        "position": 24
       }
     ],
     "last_result": {
       "notts-county": {
-        "result": "L",
-        "gf": 0,
-        "ga": 2,
-        "opponent_slug": "wycombe-wanderers",
-        "opponent_name": "Wycombe",
-        "home_away": "A",
-        "date": "2026-10-17"
+        "result": "W",
+        "gf": 2,
+        "ga": 0,
+        "opponent_slug": "sheffield-wednesday",
+        "opponent_name": "Sheffield Wednesday",
+        "home_away": "H",
+        "date": "2026-10-20"
       },
       "leicester-city": {
         "result": "W",
-        "gf": 2,
-        "ga": 1,
-        "opponent_slug": "doncaster-rovers",
-        "opponent_name": "Doncaster",
-        "home_away": "H",
-        "date": "2026-10-17"
+        "gf": 4,
+        "ga": 0,
+        "opponent_slug": "bromley",
+        "opponent_name": "Bromley",
+        "home_away": "A",
+        "date": "2026-10-20"
       },
       "oxford-united": {
-        "result": "D",
-        "gf": 1,
-        "ga": 1,
-        "opponent_slug": "mansfield-town",
-        "opponent_name": "Mansfield",
-        "home_away": "A",
-        "date": "2026-10-15"
-      },
-      "milton-keynes-dons": {
         "result": "W",
         "gf": 2,
         "ga": 1,
-        "opponent_slug": "luton-town",
-        "opponent_name": "Luton",
+        "opponent_slug": "wigan-athletic",
+        "opponent_name": "Wigan Athletic",
         "home_away": "H",
-        "date": "2026-10-17"
+        "date": "2026-10-20"
+      },
+      "milton-keynes-dons": {
+        "result": "L",
+        "gf": 0,
+        "ga": 2,
+        "opponent_slug": "blackpool",
+        "opponent_name": "Blackpool",
+        "home_away": "A",
+        "date": "2026-10-20"
       },
       "reading": {
         "result": "L",
@@ -937,112 +1017,121 @@
         "date": "2026-10-17"
       },
       "luton-town": {
-        "result": "L",
-        "gf": 1,
-        "ga": 2,
-        "opponent_slug": "milton-keynes-dons",
-        "opponent_name": "Milton Keynes Dons",
-        "home_away": "A",
-        "date": "2026-10-17"
-      },
-      "barnsley": {
-        "result": "L",
-        "gf": 1,
-        "ga": 2,
-        "opponent_slug": "cambridge-united",
-        "opponent_name": "Cambridge",
-        "home_away": "H",
-        "date": "2026-10-17"
-      },
-      "bromley": {
-        "result": "L",
-        "gf": 0,
-        "ga": 1,
-        "opponent_slug": "stockport-county",
-        "opponent_name": "Stockport",
-        "home_away": "A",
-        "date": "2026-10-17"
-      },
-      "blackpool": {
-        "result": "L",
-        "gf": 0,
-        "ga": 2,
-        "opponent_slug": "leyton-orient",
-        "opponent_name": "Leyton Orient",
-        "home_away": "A",
-        "date": "2026-10-17"
-      },
-      "wycombe-wanderers": {
-        "result": "W",
-        "gf": 2,
-        "ga": 0,
-        "opponent_slug": "notts-county",
-        "opponent_name": "Notts County",
-        "home_away": "H",
-        "date": "2026-10-17"
-      },
-      "bradford-city": {
-        "result": "W",
-        "gf": 2,
-        "ga": 0,
-        "opponent_slug": "stevenage",
-        "opponent_name": "Stevenage",
-        "home_away": "H",
-        "date": "2026-10-17"
-      },
-      "burton-albion": {
-        "result": "D",
-        "gf": 2,
-        "ga": 2,
-        "opponent_slug": null,
-        "opponent_name": "Peterboro",
-        "home_away": "A",
-        "date": "2026-10-17"
-      },
-      "stevenage": {
-        "result": "L",
-        "gf": 0,
-        "ga": 2,
-        "opponent_slug": "bradford-city",
-        "opponent_name": "Bradford",
-        "home_away": "A",
-        "date": "2026-10-17"
-      },
-      "cambridge-united": {
         "result": "W",
         "gf": 2,
         "ga": 1,
         "opponent_slug": "barnsley",
         "opponent_name": "Barnsley",
-        "home_away": "A",
-        "date": "2026-10-17"
-      },
-      "wigan-athletic": {
-        "result": "W",
-        "gf": 1,
-        "ga": 0,
-        "opponent_slug": "reading",
-        "opponent_name": "Reading",
         "home_away": "H",
-        "date": "2026-10-17"
+        "date": "2026-10-20"
       },
-      "huddersfield-town": {
+      "barnsley": {
+        "result": "L",
+        "gf": 1,
+        "ga": 2,
+        "opponent_slug": "luton-town",
+        "opponent_name": "Luton Town",
+        "home_away": "A",
+        "date": "2026-10-20"
+      },
+      "bromley": {
+        "result": "L",
+        "gf": 0,
+        "ga": 4,
+        "opponent_slug": "leicester-city",
+        "opponent_name": "Leicester City",
+        "home_away": "H",
+        "date": "2026-10-20"
+      },
+      "blackpool": {
         "result": "W",
         "gf": 2,
         "ga": 0,
-        "opponent_slug": null,
-        "opponent_name": "Plymouth",
+        "opponent_slug": "milton-keynes-dons",
+        "opponent_name": "Milton Keynes Dons",
+        "home_away": "H",
+        "date": "2026-10-20"
+      },
+      "wycombe-wanderers": {
+        "result": "D",
+        "gf": 2,
+        "ga": 2,
+        "opponent_slug": "cambridge-united",
+        "opponent_name": "Cambridge United",
         "home_away": "A",
-        "date": "2026-10-17"
+        "date": "2026-10-20"
+      },
+      "bradford-city": {
+        "result": "D",
+        "gf": 0,
+        "ga": 0,
+        "opponent_slug": "burton-albion",
+        "opponent_name": "Burton Albion",
+        "home_away": "A",
+        "date": "2026-10-20"
+      },
+      "peterborough-united": {
+        "result": "L",
+        "gf": 1,
+        "ga": 4,
+        "opponent_slug": "huddersfield-town",
+        "opponent_name": "Huddersfield Town",
+        "home_away": "A",
+        "date": "2026-10-20"
+      },
+      "burton-albion": {
+        "result": "D",
+        "gf": 0,
+        "ga": 0,
+        "opponent_slug": "bradford-city",
+        "opponent_name": "Bradford City",
+        "home_away": "H",
+        "date": "2026-10-20"
+      },
+      "stevenage": {
+        "result": "W",
+        "gf": 3,
+        "ga": 0,
+        "opponent_slug": "plymouth-argyle",
+        "opponent_name": "Plymouth Argyle",
+        "home_away": "H",
+        "date": "2026-10-20"
+      },
+      "cambridge-united": {
+        "result": "D",
+        "gf": 2,
+        "ga": 2,
+        "opponent_slug": "wycombe-wanderers",
+        "opponent_name": "Wycombe Wanderers",
+        "home_away": "H",
+        "date": "2026-10-20"
+      },
+      "wigan-athletic": {
+        "result": "L",
+        "gf": 1,
+        "ga": 2,
+        "opponent_slug": "oxford-united",
+        "opponent_name": "Oxford United",
+        "home_away": "A",
+        "date": "2026-10-20"
+      },
+      "huddersfield-town": {
+        "result": "W",
+        "gf": 4,
+        "ga": 1,
+        "opponent_slug": "peterborough-united",
+        "opponent_name": "Peterborough United",
+        "home_away": "H",
+        "date": "2026-10-20"
       },
       "afc-wimbledon": {
         "result": "L",
         "gf": 0,
-        "ga": 5,
-        "opponent_slug": "sheffield-wednesday",
-        "opponent_name": "Sheffield Weds",
-        "home_away": "A",
-        "date": "2026-10-17"
+        "ga": 3,
+        "opponent_slug": "mansfield-town",
+        "opponent_name": "Mansfield Town",
+        "home_away": "H",
+        "date": "2026-10-20"
       },
       "leyton-orient": {
         "result": "W",
@@ -1054,70 +1143,79 @@
         "date": "2026-10-17"
       },
       "sheffield-wednesday": {
+        "result": "L",
+        "gf": 0,
+        "ga": 2,
+        "opponent_slug": "notts-county",
+        "opponent_name": "Notts County",
+        "home_away": "A",
+        "date": "2026-10-20"
+      },
+      "mansfield-town": {
         "result": "W",
-        "gf": 5,
+        "gf": 3,
         "ga": 0,
         "opponent_slug": "afc-wimbledon",
         "opponent_name": "AFC Wimbledon",
-        "home_away": "H",
-        "date": "2026-10-17"
-      },
-      "mansfield-town": {
-        "result": "D",
-        "gf": 1,
-        "ga": 1,
-        "opponent_slug": "oxford-united",
-        "opponent_name": "Oxford",
-        "home_away": "H",
-        "date": "2026-10-15"
+        "home_away": "A",
+        "date": "2026-10-20"
       },
       "doncaster-rovers": {
         "result": "L",
-        "gf": 1,
+        "gf": 0,
         "ga": 2,
-        "opponent_slug": "leicester-city",
-        "opponent_name": "Leicester",
+        "opponent_slug": "stockport-county",
+        "opponent_name": "Stockport County",
+        "home_away": "H",
+        "date": "2026-10-20"
+      },
+      "plymouth-argyle": {
+        "result": "L",
+        "gf": 0,
+        "ga": 3,
+        "opponent_slug": "stevenage",
+        "opponent_name": "Stevenage",
         "home_away": "A",
-        "date": "2026-10-17"
+        "date": "2026-10-20"
       },
       "stockport-county": {
         "result": "W",
-        "gf": 1,
+        "gf": 2,
         "ga": 0,
-        "opponent_slug": "bromley",
-        "opponent_name": "Bromley",
-        "home_away": "H",
-        "date": "2026-10-17"
+        "opponent_slug": "doncaster-rovers",
+        "opponent_name": "Doncaster Rovers",
+        "home_away": "A",
+        "date": "2026-10-20"
       }
     },
     "form": {
       "notts-county": [
-        "D",
         "L",
         "L",
         "L",
-        "L"
+        "L",
+        "W"
       ],
       "leicester-city": [
-        "L",
         "W",
         "D",
         "L",
+        "W",
         "W"
       ],
       "oxford-united": [
         "W",
-        "W",
         "D",
         "W",
-        "D"
+        "D",
+        "W"
       ],
       "milton-keynes-dons": [
         "D",
         "D",
-        "D",
         "L",
-        "W"
+        "W",
+        "L"
       ],
       "reading": [
         "W",
@@ -1127,86 +1225,93 @@
         "L"
       ],
       "luton-town": [
-        "D",
         "L",
         "L",
         "W",
-        "L"
+        "L",
+        "W"
       ],
       "barnsley": [
         "L",
-        "L",
         "D",
+        "L",
         "L",
         "L"
       ],
       "bromley": [
-        "L",
         "D",
         "W",
+        "L",
         "L",
         "L"
       ],
       "blackpool": [
-        "L",
         "D",
         "L",
         "L",
-        "L"
+        "L",
+        "W"
       ],
       "wycombe-wanderers": [
         "W",
-        "W",
         "D",
         "L",
-        "W"
+        "W",
+        "D"
       ],
       "bradford-city": [
         "W",
+        "D",
+        "D",
+        "W",
+        "D"
+      ],
+      "peterborough-united": [
+        "L",
+        "L",
         "W",
         "D",
-        "D",
-        "W"
+        "L"
       ],
       "burton-albion": [
-        "D",
         "W",
         "L",
         "L",
+        "D",
         "D"
       ],
       "stevenage": [
         "W",
+        "L",
         "W",
+        "L",
+        "W"
+      ],
+      "cambridge-united": [
+        "D",
+        "D",
+        "W",
+        "W",
+        "D"
+      ],
+      "wigan-athletic": [
+        "D",
+        "L",
         "L",
         "W",
         "L"
       ],
-      "cambridge-united": [
-        "W",
-        "D",
-        "D",
-        "W",
-        "W"
-      ],
-      "wigan-athletic": [
-        "L",
-        "D",
-        "L",
-        "L",
-        "W"
-      ],
       "huddersfield-town": [
-        "D",
         "L",
         "W",
         "D",
+        "W",
         "W"
       ],
       "afc-wimbledon": [
-        "W",
         "D",
         "D",
+        "L",
         "L",
         "L"
       ],
@@ -1218,29 +1323,36 @@
         "W"
       ],
       "sheffield-wednesday": [
-        "W",
         "D",
         "D",
         "D",
-        "W"
-      ],
-      "mansfield-town": [
-        "L",
-        "D",
-        "D",
-        "W",
-        "D"
-      ],
-      "doncaster-rovers": [
-        "L",
-        "L",
-        "W",
         "W",
         "L"
       ],
-      "stockport-county": [
-        "L",
+      "mansfield-town": [
         "D",
+        "D",
+        "W",
+        "D",
+        "W"
+      ],
+      "doncaster-rovers": [
+        "L",
+        "W",
+        "W",
+        "L",
+        "L"
+      ],
+      "plymouth-argyle": [
+        "L",
+        "W",
+        "W",
+        "L",
+        "L"
+      ],
+      "stockport-county": [
+        "D",
+        "W",
         "W",
         "W",
         "W"
@@ -1251,490 +1363,560 @@
     "table": [
       {
         "slug": "salford-city",
-        "played": 11,
-        "won": 7,
+        "played": 12,
+        "won": 8,
         "drawn": 1,
         "lost": 3,
-        "gf": 17,
-        "ga": 11,
-        "gd": 6,
-        "points": 22,
+        "gf": 19,
+        "ga": 12,
+        "gd": 7,
+        "points": 25,
         "position": 1
       },
       {
         "slug": "barnet",
-        "played": 9,
+        "played": 10,
         "won": 6,
         "drawn": 3,
-        "lost": 0,
-        "gf": 22,
-        "ga": 12,
-        "gd": 10,
+        "lost": 1,
+        "gf": 23,
+        "ga": 15,
+        "gd": 8,
         "points": 21,
         "position": 2
       },
       {
-        "slug": "york-city",
-        "played": 10,
-        "won": 4,
-        "drawn": 4,
-        "lost": 2,
-        "gf": 18,
-        "ga": 12,
-        "gd": 6,
-        "points": 16,
+        "slug": "crewe-alexandra",
+        "played": 12,
+        "won": 5,
+        "drawn": 6,
+        "lost": 1,
+        "gf": 15,
+        "ga": 11,
+        "gd": 4,
+        "points": 21,
         "position": 3
       },
       {
         "slug": "walsall",
-        "played": 10,
-        "won": 3,
+        "played": 11,
+        "won": 4,
         "drawn": 7,
         "lost": 0,
-        "gf": 13,
+        "gf": 16,
         "ga": 7,
-        "gd": 6,
-        "points": 16,
+        "gd": 9,
+        "points": 19,
         "position": 4
       },
       {
-        "slug": "gillingham",
-        "played": 11,
-        "won": 4,
-        "drawn": 4,
-        "lost": 3,
-        "gf": 16,
-        "ga": 13,
-        "gd": 3,
-        "points": 16,
+        "slug": "cheltenham-town",
+        "played": 12,
+        "won": 5,
+        "drawn": 3,
+        "lost": 4,
+        "gf": 21,
+        "ga": 22,
+        "gd": -1,
+        "points": 18,
         "position": 5
       },
       {
-        "slug": "chesterfield",
+        "slug": "york-city",
         "played": 11,
         "won": 4,
-        "drawn": 3,
-        "lost": 4,
-        "gf": 17,
-        "ga": 15,
-        "gd": 2,
-        "points": 15,
+        "drawn": 5,
+        "lost": 2,
+        "gf": 19,
+        "ga": 13,
+        "gd": 6,
+        "points": 17,
         "position": 6
       },
       {
-        "slug": "cheltenham-town",
-        "played": 11,
+        "slug": "gillingham",
+        "played": 12,
         "won": 4,
-        "drawn": 3,
-        "lost": 4,
+        "drawn": 5,
+        "lost": 3,
         "gf": 17,
-        "ga": 20,
-        "gd": -3,
-        "points": 15,
+        "ga": 14,
+        "gd": 3,
+        "points": 17,
         "position": 7
       },
       {
-        "slug": "newport-county",
-        "played": 11,
-        "won": 3,
-        "drawn": 5,
-        "lost": 3,
-        "gf": 14,
-        "ga": 13,
-        "gd": 1,
-        "points": 14,
+        "slug": "shrewsbury-town",
+        "played": 12,
+        "won": 5,
+        "drawn": 2,
+        "lost": 5,
+        "gf": 13,
+        "ga": 17,
+        "gd": -4,
+        "points": 17,
         "position": 8
       },
       {
-        "slug": "fleetwood-town",
-        "played": 11,
-        "won": 3,
-        "drawn": 5,
-        "lost": 3,
-        "gf": 12,
-        "ga": 11,
-        "gd": 1,
-        "points": 14,
+        "slug": "chesterfield",
+        "played": 12,
+        "won": 4,
+        "drawn": 4,
+        "lost": 4,
+        "gf": 18,
+        "ga": 16,
+        "gd": 2,
+        "points": 16,
         "position": 9
       },
       {
-        "slug": "rochdale",
-        "played": 11,
+        "slug": "exeter-city",
+        "played": 12,
         "won": 4,
-        "drawn": 2,
-        "lost": 5,
-        "gf": 13,
-        "ga": 15,
-        "gd": -2,
-        "points": 14,
+        "drawn": 4,
+        "lost": 4,
+        "gf": 8,
+        "ga": 6,
+        "gd": 2,
+        "points": 16,
         "position": 10
       },
       {
-        "slug": "shrewsbury-town",
-        "played": 11,
-        "won": 4,
-        "drawn": 2,
-        "lost": 5,
-        "gf": 10,
-        "ga": 15,
-        "gd": -5,
-        "points": 14,
+        "slug": "accrington-stanley",
+        "played": 12,
+        "won": 3,
+        "drawn": 6,
+        "lost": 3,
+        "gf": 17,
+        "ga": 16,
+        "gd": 1,
+        "points": 15,
         "position": 11
       },
       {
-        "slug": "grimsby-town",
-        "played": 11,
+        "slug": "newport-county",
+        "played": 12,
         "won": 3,
-        "drawn": 4,
-        "lost": 4,
-        "gf": 13,
-        "ga": 13,
-        "gd": 0,
-        "points": 13,
+        "drawn": 6,
+        "lost": 3,
+        "gf": 16,
+        "ga": 15,
+        "gd": 1,
+        "points": 15,
         "position": 12
       },
       {
-        "slug": "exeter-city",
-        "played": 11,
+        "slug": "tranmere-rovers",
+        "played": 12,
         "won": 3,
-        "drawn": 4,
-        "lost": 4,
-        "gf": 6,
-        "ga": 6,
+        "drawn": 6,
+        "lost": 3,
+        "gf": 15,
+        "ga": 15,
         "gd": 0,
-        "points": 13,
+        "points": 15,
         "position": 13
       },
       {
-        "slug": "tranmere-rovers",
-        "played": 11,
-        "won": 2,
-        "drawn": 6,
-        "lost": 3,
-        "gf": 14,
-        "ga": 15,
-        "gd": -1,
-        "points": 12,
+        "slug": "rochdale",
+        "played": 12,
+        "won": 4,
+        "drawn": 3,
+        "lost": 5,
+        "gf": 15,
+        "ga": 17,
+        "gd": -2,
+        "points": 15,
         "position": 14
       },
       {
         "slug": "swindon-town",
-        "played": 11,
-        "won": 3,
+        "played": 12,
+        "won": 4,
         "drawn": 3,
         "lost": 5,
-        "gf": 10,
-        "ga": 15,
-        "gd": -5,
-        "points": 12,
+        "gf": 13,
+        "ga": 16,
+        "gd": -3,
+        "points": 15,
         "position": 15
       },
       {
-        "slug": "oldham-athletic",
-        "played": 10,
-        "won": 3,
-        "drawn": 2,
-        "lost": 5,
-        "gf": 13,
-        "ga": 14,
-        "gd": -1,
-        "points": 11,
+        "slug": "bristol-rovers",
+        "played": 12,
+        "won": 5,
+        "drawn": 0,
+        "lost": 7,
+        "gf": 16,
+        "ga": 20,
+        "gd": -4,
+        "points": 15,
         "position": 16
       },
       {
-        "slug": "colchester-united",
-        "played": 10,
-        "won": 2,
+        "slug": "grimsby-town",
+        "played": 12,
+        "won": 3,
         "drawn": 5,
-        "lost": 3,
-        "gf": 10,
-        "ga": 13,
-        "gd": -3,
-        "points": 11,
+        "lost": 4,
+        "gf": 15,
+        "ga": 15,
+        "gd": 0,
+        "points": 14,
         "position": 17
       },
       {
-        "slug": "port-vale",
-        "played": 9,
+        "slug": "fleetwood-town",
+        "played": 12,
         "won": 3,
-        "drawn": 2,
+        "drawn": 5,
         "lost": 4,
-        "gf": 5,
-        "ga": 9,
-        "gd": -4,
-        "points": 11,
+        "gf": 14,
+        "ga": 15,
+        "gd": -1,
+        "points": 14,
         "position": 18
       },
       {
-        "slug": "northampton-town",
-        "played": 9,
+        "slug": "colchester-united",
+        "played": 11,
         "won": 2,
-        "drawn": 4,
+        "drawn": 6,
         "lost": 3,
-        "gf": 6,
-        "ga": 7,
-        "gd": -1,
-        "points": 10,
+        "gf": 11,
+        "ga": 14,
+        "gd": -3,
+        "points": 12,
         "position": 19
       },
       {
-        "slug": "rotherham-united",
-        "played": 11,
-        "won": 2,
-        "drawn": 4,
-        "lost": 5,
-        "gf": 12,
-        "ga": 18,
-        "gd": -6,
-        "points": 10,
+        "slug": "port-vale",
+        "played": 10,
+        "won": 3,
+        "drawn": 3,
+        "lost": 4,
+        "gf": 6,
+        "ga": 10,
+        "gd": -4,
+        "points": 12,
         "position": 20
       },
       {
-        "slug": "crawley-town",
-        "played": 9,
-        "won": 1,
+        "slug": "oldham-athletic",
+        "played": 11,
+        "won": 3,
         "drawn": 2,
         "lost": 6,
-        "gf": 9,
+        "gf": 13,
         "ga": 17,
-        "gd": -8,
-        "points": 5,
+        "gd": -4,
+        "points": 11,
         "position": 21
+      },
+      {
+        "slug": "rotherham-united",
+        "played": 12,
+        "won": 2,
+        "drawn": 5,
+        "lost": 5,
+        "gf": 14,
+        "ga": 20,
+        "gd": -6,
+        "points": 11,
+        "position": 22
+      },
+      {
+        "slug": "northampton-town",
+        "played": 10,
+        "won": 2,
+        "drawn": 4,
+        "lost": 4,
+        "gf": 6,
+        "ga": 8,
+        "gd": -2,
+        "points": 10,
+        "position": 23
+      },
+      {
+        "slug": "crawley-town",
+        "played": 10,
+        "won": 1,
+        "drawn": 2,
+        "lost": 7,
+        "gf": 11,
+        "ga": 20,
+        "gd": -9,
+        "points": 5,
+        "position": 24
       }
     ],
     "last_result": {
       "newport-county": {
         "result": "D",
+        "gf": 2,
+        "ga": 2,
+        "opponent_slug": "rotherham-united",
+        "opponent_name": "Rotherham United",
+        "home_away": "A",
+        "date": "2026-10-20"
+      },
+      "rochdale": {
+        "result": "D",
+        "gf": 2,
+        "ga": 2,
+        "opponent_slug": "grimsby-town",
+        "opponent_name": "Grimsby Town",
+        "home_away": "H",
+        "date": "2026-10-20"
+      },
+      "oldham-athletic": {
+        "result": "L",
+        "gf": 0,
+        "ga": 3,
+        "opponent_slug": "walsall",
+        "opponent_name": "Walsall",
+        "home_away": "A",
+        "date": "2026-10-20"
+      },
+      "port-vale": {
+        "result": "D",
+        "gf": 1,
+        "ga": 1,
+        "opponent_slug": "gillingham",
+        "opponent_name": "Gillingham",
+        "home_away": "A",
+        "date": "2026-10-20"
+      },
+      "accrington-stanley": {
+        "result": "D",
         "gf": 1,
         "ga": 1,
         "opponent_slug": "york-city",
-        "opponent_name": "York",
-        "home_away": "H",
-        "date": "2026-10-17"
-      },
-      "rochdale": {
-        "result": "L",
-        "gf": 2,
-        "ga": 3,
-        "opponent_slug": null,
-        "opponent_name": "Crewe",
+        "opponent_name": "York City",
         "home_away": "A",
-        "date": "2026-10-17"
-      },
-      "oldham-athletic": {
-        "result": "W",
-        "gf": 4,
-        "ga": 1,
-        "opponent_slug": "cheltenham-town",
-        "opponent_name": "Cheltenham",
-        "home_away": "H",
-        "date": "2026-10-17"
-      },
-      "port-vale": {
-        "result": "W",
-        "gf": 1,
-        "ga": 0,
-        "opponent_slug": "chesterfield",
-        "opponent_name": "Chesterfield",
-        "home_away": "H",
-        "date": "2026-10-17"
+        "date": "2026-10-20"
       },
       "colchester-united": {
         "result": "D",
-        "gf": 0,
-        "ga": 0,
-        "opponent_slug": "exeter-city",
-        "opponent_name": "Exeter",
-        "home_away": "H",
-        "date": "2026-10-17"
+        "gf": 1,
+        "ga": 1,
+        "opponent_slug": "chesterfield",
+        "opponent_name": "Chesterfield",
+        "home_away": "A",
+        "date": "2026-10-20"
       },
       "barnet": {
-        "result": "W",
-        "gf": 2,
-        "ga": 1,
-        "opponent_slug": "tranmere-rovers",
-        "opponent_name": "Tranmere",
-        "home_away": "A",
-        "date": "2026-10-17"
+        "result": "L",
+        "gf": 1,
+        "ga": 3,
+        "opponent_slug": "swindon-town",
+        "opponent_name": "Swindon Town",
+        "home_away": "H",
+        "date": "2026-10-20"
       },
       "salford-city": {
         "result": "W",
         "gf": 2,
         "ga": 1,
-        "opponent_slug": "crawley-town",
-        "opponent_name": "Crawley Town",
-        "home_away": "H",
-        "date": "2026-10-17"
+        "opponent_slug": "bristol-rovers",
+        "opponent_name": "Bristol Rovers",
+        "home_away": "A",
+        "date": "2026-10-20"
       },
       "cheltenham-town": {
-        "result": "L",
-        "gf": 1,
-        "ga": 4,
-        "opponent_slug": "oldham-athletic",
-        "opponent_name": "Oldham",
-        "home_away": "A",
-        "date": "2026-10-17"
-      },
-      "rotherham-united": {
-        "result": "L",
-        "gf": 0,
+        "result": "W",
+        "gf": 4,
         "ga": 2,
         "opponent_slug": "fleetwood-town",
         "opponent_name": "Fleetwood Town",
-        "home_away": "A",
-        "date": "2026-10-17"
+        "home_away": "H",
+        "date": "2026-10-20"
+      },
+      "rotherham-united": {
+        "result": "D",
+        "gf": 2,
+        "ga": 2,
+        "opponent_slug": "newport-county",
+        "opponent_name": "Newport County",
+        "home_away": "H",
+        "date": "2026-10-20"
       },
       "chesterfield": {
-        "result": "L",
-        "gf": 0,
+        "result": "D",
+        "gf": 1,
         "ga": 1,
-        "opponent_slug": "port-vale",
-        "opponent_name": "Port Vale",
-        "home_away": "A",
-        "date": "2026-10-17"
+        "opponent_slug": "colchester-united",
+        "opponent_name": "Colchester United",
+        "home_away": "H",
+        "date": "2026-10-20"
       },
       "fleetwood-town": {
-        "result": "W",
+        "result": "L",
         "gf": 2,
-        "ga": 0,
-        "opponent_slug": "rotherham-united",
-        "opponent_name": "Rotherham",
-        "home_away": "H",
-        "date": "2026-10-17"
+        "ga": 4,
+        "opponent_slug": "cheltenham-town",
+        "opponent_name": "Cheltenham Town",
+        "home_away": "A",
+        "date": "2026-10-20"
       },
       "crawley-town": {
         "result": "L",
-        "gf": 1,
+        "gf": 2,
+        "ga": 3,
+        "opponent_slug": "shrewsbury-town",
+        "opponent_name": "Shrewsbury Town",
+        "home_away": "H",
+        "date": "2026-10-20"
+      },
+      "crewe-alexandra": {
+        "result": "L",
+        "gf": 0,
         "ga": 2,
-        "opponent_slug": "salford-city",
-        "opponent_name": "Salford",
+        "opponent_slug": "exeter-city",
+        "opponent_name": "Exeter City",
         "home_away": "A",
-        "date": "2026-10-17"
+        "date": "2026-10-20"
       },
       "gillingham": {
-        "result": "L",
-        "gf": 1,
-        "ga": 3,
-        "opponent_slug": null,
-        "opponent_name": "Accrington",
-        "home_away": "A",
-        "date": "2026-10-17"
-      },
-      "walsall": {
         "result": "D",
         "gf": 1,
         "ga": 1,
-        "opponent_slug": "swindon-town",
-        "opponent_name": "Swindon",
-        "home_away": "A",
-        "date": "2026-10-17"
+        "opponent_slug": "port-vale",
+        "opponent_name": "Port Vale",
+        "home_away": "H",
+        "date": "2026-10-20"
+      },
+      "walsall": {
+        "result": "W",
+        "gf": 3,
+        "ga": 0,
+        "opponent_slug": "oldham-athletic",
+        "opponent_name": "Oldham Athletic",
+        "home_away": "H",
+        "date": "2026-10-20"
       },
       "grimsby-town": {
-        "result": "L",
-        "gf": 0,
+        "result": "D",
+        "gf": 2,
         "ga": 2,
-        "opponent_slug": "northampton-town",
-        "opponent_name": "Northampton",
-        "home_away": "H",
-        "date": "2026-10-17"
+        "opponent_slug": "rochdale",
+        "opponent_name": "Rochdale",
+        "home_away": "A",
+        "date": "2026-10-20"
       },
       "exeter-city": {
-        "result": "D",
-        "gf": 0,
-        "ga": 0,
-        "opponent_slug": "colchester-united",
-        "opponent_name": "Colchester",
-        "home_away": "A",
-        "date": "2026-10-17"
-      },
-      "northampton-town": {
         "result": "W",
         "gf": 2,
         "ga": 0,
-        "opponent_slug": "grimsby-town",
-        "opponent_name": "Grimsby",
-        "home_away": "A",
-        "date": "2026-10-17"
+        "opponent_slug": "crewe-alexandra",
+        "opponent_name": "Crewe Alexandra",
+        "home_away": "H",
+        "date": "2026-10-20"
+      },
+      "northampton-town": {
+        "result": "L",
+        "gf": 0,
+        "ga": 1,
+        "opponent_slug": "tranmere-rovers",
+        "opponent_name": "Tranmere Rovers",
+        "home_away": "H",
+        "date": "2026-10-20"
       },
       "swindon-town": {
-        "result": "D",
-        "gf": 1,
+        "result": "W",
+        "gf": 3,
         "ga": 1,
-        "opponent_slug": "walsall",
-        "opponent_name": "Walsall",
-        "home_away": "H",
-        "date": "2026-10-17"
-      },
-      "tranmere-rovers": {
-        "result": "L",
-        "gf": 1,
-        "ga": 2,
         "opponent_slug": "barnet",
         "opponent_name": "Barnet",
-        "home_away": "H",
-        "date": "2026-10-17"
+        "home_away": "A",
+        "date": "2026-10-20"
       },
-      "shrewsbury-town": {
+      "tranmere-rovers": {
         "result": "W",
         "gf": 1,
         "ga": 0,
-        "opponent_slug": null,
-        "opponent_name": "Bristol Rvs",
-        "home_away": "H",
-        "date": "2026-10-17"
+        "opponent_slug": "northampton-town",
+        "opponent_name": "Northampton Town",
+        "home_away": "A",
+        "date": "2026-10-20"
+      },
+      "shrewsbury-town": {
+        "result": "W",
+        "gf": 3,
+        "ga": 2,
+        "opponent_slug": "crawley-town",
+        "opponent_name": "Crawley Town",
+        "home_away": "A",
+        "date": "2026-10-20"
       },
       "york-city": {
         "result": "D",
         "gf": 1,
         "ga": 1,
-        "opponent_slug": "newport-county",
-        "opponent_name": "Newport County",
-        "home_away": "A",
-        "date": "2026-10-17"
+        "opponent_slug": "accrington-stanley",
+        "opponent_name": "Accrington Stanley",
+        "home_away": "H",
+        "date": "2026-10-20"
+      },
+      "bristol-rovers": {
+        "result": "L",
+        "gf": 1,
+        "ga": 2,
+        "opponent_slug": "salford-city",
+        "opponent_name": "Salford City",
+        "home_away": "H",
+        "date": "2026-10-20"
       }
     },
     "form": {
       "newport-county": [
-        "D",
         "W",
         "D",
         "W",
+        "D",
         "D"
       ],
       "rochdale": [
         "W",
         "W",
-        "W",
-        "D",
-        "L"
-      ],
-      "oldham-athletic": [
-        "L",
-        "L",
-        "L",
-        "D",
-        "W"
-      ],
-      "port-vale": [
-        "L",
-        "W",
-        "L",
-        "W",
-        "W"
-      ],
-      "colchester-united": [
-        "D",
-        "D",
         "D",
         "L",
         "D"
       ],
-      "barnet": [
+      "oldham-athletic": [
+        "L",
+        "L",
         "D",
         "W",
+        "L"
+      ],
+      "port-vale": [
+        "W",
+        "L",
         "W",
         "W",
-        "W"
+        "D"
+      ],
+      "accrington-stanley": [
+        "D",
+        "W",
+        "D",
+        "W",
+        "D"
+      ],
+      "colchester-united": [
+        "D",
+        "D",
+        "L",
+        "D",
+        "D"
+      ],
+      "barnet": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "L"
       ],
       "salford-city": [
         "W",
@@ -1744,102 +1926,116 @@
         "W"
       ],
       "cheltenham-town": [
-        "D",
         "W",
         "L",
         "L",
-        "L"
+        "L",
+        "W"
       ],
       "rotherham-united": [
-        "W",
         "D",
         "L",
         "L",
-        "L"
+        "L",
+        "D"
       ],
       "chesterfield": [
-        "W",
         "L",
         "W",
         "D",
-        "L"
+        "L",
+        "D"
       ],
       "fleetwood-town": [
         "L",
         "L",
-        "L",
         "D",
-        "W"
+        "W",
+        "L"
       ],
       "crawley-town": [
         "L",
         "L",
-        "L",
         "D",
+        "L",
+        "L"
+      ],
+      "crewe-alexandra": [
+        "D",
+        "W",
+        "W",
+        "W",
         "L"
       ],
       "gillingham": [
-        "W",
         "L",
         "D",
         "W",
-        "L"
+        "L",
+        "D"
       ],
       "walsall": [
-        "D",
         "W",
         "D",
         "D",
-        "D"
+        "D",
+        "W"
       ],
       "grimsby-town": [
-        "W",
         "L",
         "L",
         "L",
-        "L"
-      ],
-      "exeter-city": [
-        "D",
         "L",
-        "W",
-        "W",
         "D"
       ],
-      "northampton-town": [
+      "exeter-city": [
+        "L",
         "W",
+        "W",
+        "D",
+        "W"
+      ],
+      "northampton-town": [
+        "L",
+        "L",
+        "D",
+        "W",
+        "L"
+      ],
+      "swindon-town": [
+        "D",
         "L",
         "L",
         "D",
         "W"
-      ],
-      "swindon-town": [
-        "L",
-        "D",
-        "L",
-        "L",
-        "D"
       ],
       "tranmere-rovers": [
         "D",
-        "D",
         "L",
         "D",
-        "L"
-      ],
-      "shrewsbury-town": [
-        "D",
-        "D",
-        "W",
         "L",
         "W"
       ],
-      "york-city": [
+      "shrewsbury-town": [
+        "D",
         "W",
         "L",
         "W",
+        "W"
+      ],
+      "york-city": [
+        "L",
+        "W",
+        "D",
         "D",
         "D"
+      ],
+      "bristol-rovers": [
+        "W",
+        "L",
+        "L",
+        "L",
+        "L"
       ]
     }
   }
