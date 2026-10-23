@@ -2,6 +2,18 @@
   "championship": {
     "table": [
       {
+        "slug": "middlesbrough",
+        "played": 12,
+        "won": 7,
+        "drawn": 4,
+        "lost": 1,
+        "gf": 27,
+        "ga": 17,
+        "gd": 10,
+        "points": 25,
+        "position": 1
+      },
+      {
         "slug": "swansea-city",
         "played": 11,
         "won": 7,
@@ -11,7 +23,7 @@
         "ga": 8,
         "gd": 8,
         "points": 23,
-        "position": 1
+        "position": 2
       },
       {
         "slug": "west-ham-united",
@@ -22,18 +34,6 @@
         "gf": 30,
         "ga": 12,
         "gd": 18,
-        "points": 22,
-        "position": 2
-      },
-      {
-        "slug": "middlesbrough",
-        "played": 11,
-        "won": 6,
-        "drawn": 4,
-        "lost": 1,
-        "gf": 22,
-        "ga": 16,
-        "gd": 6,
         "points": 22,
         "position": 3
       },
@@ -170,18 +170,6 @@
         "position": 14
       },
       {
-        "slug": "bolton-wanderers",
-        "played": 11,
-        "won": 4,
-        "drawn": 2,
-        "lost": 5,
-        "gf": 15,
-        "ga": 18,
-        "gd": -3,
-        "points": 14,
-        "position": 15
-      },
-      {
         "slug": "bristol-city",
         "played": 11,
         "won": 4,
@@ -191,7 +179,7 @@
         "ga": 15,
         "gd": -3,
         "points": 14,
-        "position": 16
+        "position": 15
       },
       {
         "slug": "charlton-athletic",
@@ -202,6 +190,18 @@
         "gf": 10,
         "ga": 15,
         "gd": -5,
+        "points": 14,
+        "position": 16
+      },
+      {
+        "slug": "bolton-wanderers",
+        "played": 12,
+        "won": 4,
+        "drawn": 2,
+        "lost": 6,
+        "gf": 16,
+        "ga": 23,
+        "gd": -7,
         "points": 14,
         "position": 17
       },
@@ -310,13 +310,13 @@
         "date": "2026-10-17"
       },
       "bolton-wanderers": {
-        "result": "D",
-        "gf": 0,
-        "ga": 0,
-        "opponent_slug": "southampton",
-        "opponent_name": "Southampton",
-        "home_away": "A",
-        "date": "2026-10-17"
+        "result": "L",
+        "gf": 1,
+        "ga": 5,
+        "opponent_slug": "middlesbrough",
+        "opponent_name": "Middlesbrough",
+        "home_away": "H",
+        "date": "2026-10-23"
       },
       "preston-north-end": {
         "result": "L",
@@ -364,13 +364,13 @@
         "date": "2026-10-17"
       },
       "middlesbrough": {
-        "result": "D",
-        "gf": 2,
-        "ga": 2,
-        "opponent_slug": "cardiff-city",
-        "opponent_name": "Cardiff",
-        "home_away": "H",
-        "date": "2026-10-17"
+        "result": "W",
+        "gf": 5,
+        "ga": 1,
+        "opponent_slug": "bolton-wanderers",
+        "opponent_name": "Bolton Wanderers",
+        "home_away": "A",
+        "date": "2026-10-23"
       },
       "lincoln-city": {
         "result": "D",
@@ -525,10 +525,10 @@
       ],
       "bolton-wanderers": [
         "W",
-        "W",
         "L",
         "W",
-        "D"
+        "D",
+        "L"
       ],
       "preston-north-end": [
         "L",
@@ -567,10 +567,10 @@
       ],
       "middlesbrough": [
         "D",
+        "W",
+        "W",
         "D",
-        "W",
-        "W",
-        "D"
+        "W"
       ],
       "lincoln-city": [
         "W",
