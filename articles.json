@@ -1,12 +1,1303 @@
 [
   {
+    "title": "Weather made it 'really difficult' - Stoke boss Robins",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c8qln4377120o?at_medium=RSS&at_campaign=rss",
+    "excerpt": "Stoke boss Mark Robins blames the effects of Storm Boelo for their goalless draw against Bristol City in the Championship.",
+    "source": "BBC",
+    "published": "2026-10-24T18:45:42+00:00",
+    "clubs": [
+      "stoke-city"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Burnley: Nicky Hayen sacked after thrashing at Lincoln with Clarets in Championship relegation zone",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTFZTRFNNWlRaeVl0RXlxc0w4WmlkbkFNZlF4cld3ZHgyYTd2WTc2cEMtQTd3N0p0dlJMTmV3WFduYjNLaGtac1BFc2V3bHR4TzhPUnFyNUZYOXhMWjYxb08xaW8tZGxuMC14NEQxMmZMMnRSX1Zndzh3Y00wNlRpRUE4ajhEcWxZMWRZcUpnSHlOODFGRXpGcWc2M2NiM1NNUTBBRmpEX1MtcjNDbU5TNUhuMDdTUnZSZ05hYkpOcGRvSWY5NW13Mzd0UGg2TC1WdENjQkQ5MDlNUHk4QTlaYQ?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T18:33:50+00:00",
+    "clubs": [
+      "burnley"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Peixoto explains why attacker did not feature against Watford as he gives updates on Wolves trio",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPQ0kyYWs3Q2RYcTNrNVZHSVcxWEtsU0c5ZWoxZHZ6cHZJYjNJNVEzWE5KemlSWnZBZk8yR09SdTJ5OHRWTWpZMi15bkpvLVNTR0hzX004TmpxSXVBOUpXbVR2dTVuM2QxR19MSDB2T041TlJVWmRjZGVyU0N6cXpUSzRra3hxTTZHemt6a0RleGFfdl9kS05ERUtaQk1PRmZLNkE5bUMyTDBDblJkMWtaLVAzTVFUdDN1aHBIdDg0MXdKR2t2czMzNUpYOHc4WkxhSG8tTHVtWlRPOE1ZSHNJSW5sV0xMekw2azEtVkh4U2gyY0lyeVRSLTlIWXY4QQ?oc=5",
+    "excerpt": "",
+    "source": "LiveScore",
+    "published": "2026-10-24T18:32:51+00:00",
+    "clubs": [
+      "watford",
+      "wolverhampton-wanderers"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Rotherham United boss Alex Bruce relishes supporter 'connection' in Shrewsbury Town draw",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUTV3MUJvLThhREhwdExRN0I5b1BDTDFlWndEd1NnTEV5eDhCZmxQX1V2dzM4OE5FNlBEOWViRjhFX2dTNEp6dDRsUjFzUHBMaWl5Rm1uV1E2NHdDSUFZcmxsWHlhS3lwcGtFZWFfSHliQjY4LUNTRkFILWlDMkprZEJLMElPT2cwRHVlWkc2MExfYVBYbnEwVmRfWWdObWc?oc=5",
+    "excerpt": "",
+    "source": "Yorkshire Post",
+    "published": "2026-10-24T18:29:00+00:00",
+    "clubs": [
+      "rotherham-united",
+      "shrewsbury-town"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Burnley sack head coach Hayen after dismal start to season",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWUNRZjduaG9NZmxxbkdpMnotMXpTS3dkRzduSGtsNngwT1I4bmhQMW9OMGd0d19LaVdYMXJwWVdnUXo5OTJoYkJac2NJdWlnMjM4TXdyWERHUXQ2dHpoTEtiRGctcGxoUTB1OHJGTEZhejFEN3hwdjNTRm5sVkpTNEhCSlNrYjNJcW5LdGV2NHBHZHZnRWp6dTV2WExtbGFJc01kbTdlZGdzWXd6S0NFa3JadkNteHRYV1dsM2N0RjczUGg3RHB0MkpOZw?oc=5",
+    "excerpt": "",
+    "source": "LiveScore",
+    "published": "2026-10-24T18:21:32+00:00",
+    "clubs": [
+      "burnley"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Stevenage vs MK Dons",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5IdGlJaTAzMkFrdWdVSFZwcEpsUW5kd0Y3ZW1pNFdEaVBiQWRDRXV0WFV5eXFDSEFGeG1oNVlwVWZnSmJNVHNnMXcycVJZaVJ5T3JIQ3pTWkUta0YyVHpaLTFZaTRHaHgyRHpXMWlVcHZuaDBxNTVrTQ?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T18:19:02+00:00",
+    "clubs": [
+      "stevenage",
+      "milton-keynes-dons"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Sheffield United 1-1 Derby: Patrick Bamford strikes to hold 10-man Rams",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZWpacm5xaV9JcWoyX2NNZzF2TnlVbzQ2eTBrZnlUVnBjaDNGaEx4QkZ1ZE84dUx2eGI1SWxsaGZ3bkhheDJPTlhReEFQYUlCVHRSNTFKZ21PWVVXQ1l6aTloc3NnMjZ6Z09IVktDcVI2eUcyemR4QVZfWmREQy1YZkJ2OTJaVjA1NFdoaFRwRjdsTmF4OS1LUGJBZkNuc0tkdmdBcGJSUDZKb0JGTUlBRVZCSHNiOU9VdzVr?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T18:15:13+00:00",
+    "clubs": [
+      "sheffield-united"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Lincoln 4-1 Burnley: Imps thump four past sorry Clarets",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLU1pWkVhZFJJa2tGRHlDODVMZjVDLWtBb0kzWXNJeER1TjA3N1JJOG5KYkt6aS0xTF9hVFZwYnZGMGNMNUFRN2RuZ1JFY2QwLXdoNUN4UTFNUTZYOEh6c0Y3azZOYjAtczQ4eS1xQjZLZkFzMkpRNkZpdlhrcHJUOWR1YjBmYldWM0d0TjFDTVV1WnpmQnpGS0kwVksxSGNncGtySVBR?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T18:14:26+00:00",
+    "clubs": [
+      "burnley"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Burton vs Leyton Orient",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBEeHJJQm9mNVJ1VU5OZWQxZW9Ja2dEdTh3LXplZ0tZRkRBMU8zbkNJWVhqNktobDV0QXIzM0FrMU5OcDNwYlFmdjBwR2pkSWhHRUc0MlFJdEVISWg5WVhkOW5qeTR5VU1SNTFSSmI5d1RQQk5TbnZzWUJPSXM?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T18:12:14+00:00",
+    "clubs": [
+      "leyton-orient"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Eckert on Southampton’s win over West Ham and duo’s fitness",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUG5zaTQyU1NyZFNVaGJGdnNyNk1jTFBTZ1dxcmtrWXJfT2pnVkRKV0pENUh4S0pJZ2xYNDRWUnlLZm1GVjJSNE5sTU1KUEpnUU9xT3pSQmE5dFBCT2szSEZMaHcxU0lXSUI2S28xMWhuX2JmMEROaVZ3RU1JS0JXQWM5aFF3bkFnUW5SZDBSbFp5QlFSMzl5dWs2eHZyM3kyOV9WNm8zY2ZTaWdwU0oxeUZDbWhQbkZRa19SUnhkN1ZWTkFRMXNlSHBR?oc=5",
+    "excerpt": "",
+    "source": "LiveScore",
+    "published": "2026-10-24T18:10:25+00:00",
+    "clubs": [
+      "southampton",
+      "west-ham-united"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Doncaster vs Sheffield Wednesday",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUk1YZ1FlbDRQSHFrdE9KRm9WR1prM3dqZGlVUDVKZDFvTUItZGRDRFR1Ri1hdC1PeU51WGFnYUlBa3dsMzFHT09reUdSOHJrQktCOWMwZmxJUXNOSFBrSE51LXVGUzNhY0w0bll2ZVhua05COG1XNFlzTUNiTEkwQkxJSDkyZUpu?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T18:07:47+00:00",
+    "clubs": [
+      "sheffield-wednesday",
+      "doncaster-rovers"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Reading vs Barnsley",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE96emJCMXh3dS1lbUdQZ3ZzbnVMTkNIc1RkWG8tZ0hvNGRFdi15RG5hM21qLWVzMkMtR2R6bGQwRktJTk9SdXNsazhXTXczUkotb3NsejNfZjhrSzdmQVZCNzZaelhpQmJpTG5ReVktTXVYZ09paDVr?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T18:07:46+00:00",
+    "clubs": [
+      "barnsley"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Barnet vs Oldham",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5TZW53SFoxMW1QV3J1RWZwTFJBQXJNOS1OVHI2dmUwaXRfeVJxMVR1M1JkV2R1UUpxNXVkQ1JLRzQ3OTNuZUtzN1F2YnVuTDRWZ2JObkcyTjRFTllaUEtHME9XUkdQUHdwSlZOeU4yYlVKdjQ?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T18:06:54+00:00",
+    "clubs": [
+      "barnet",
+      "oldham-athletic"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Rochdale vs Accrington",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95UG96Ym9IN21fQ1NMQXZUM3M3R3dMMXRuanlKWmd5aVF5dFVwMDVyd2JZUHg1WE9zR2hFOS1CcmNndWpzTkJnOGxxdXkySWhWb0R2NTJxZnkzZGJBV0s4TURBemtQdHZjN0V1c2d2T2tuVFJMd1diU2JzVQ?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T18:06:54+00:00",
+    "clubs": [
+      "accrington-stanley",
+      "rochdale"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Chesterfield vs Crewe",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fbjRTTnhjeFVObmVMSUV5ZXNFQ1pLaDllWFB3Rk9xc2hfeEpUY2FBLWJJV1JkNXNKUHRDVmZfS3pTY0VuUUp1VXlhX2YtdWZYU3lnYk9XTExaSUZkMzdyaHh0UzA3b2xTY3ZxSmdaSDkxdmVaSGpLVnhB?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T18:06:54+00:00",
+    "clubs": [
+      "chesterfield",
+      "crewe-alexandra"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "HIGHLIGHTS: Wolves 1-0 Watford",
+    "url": "https://www.watfordfc.com/news/2026/october/24/highlights-wolves-watford-away/",
+    "excerpt": "A first-half strike from the hosts proves the difference as the Hornets slip to defeat at a windswept Molineux.",
+    "source": "Official site",
+    "published": "2026-10-24T17:59:29+00:00",
+    "clubs": [
+      "watford"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Peixoto | 'The three points are very important for us'",
+    "url": "https://www.wolves.co.uk/news/mens-first-team/20261024-peixoto-the-three-points-are-very-important-for-us/",
+    "excerpt": "Cesar Pexioto felt Wolves were very deserving of their three points at home to Watford having dominated their Championship battle.",
+    "source": "Official site",
+    "published": "2026-10-24T17:58:48+00:00",
+    "clubs": [
+      "wolverhampton-wanderers"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Nicky Hayen sacked as Burnley boss following Lincoln City defeat",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUVB2WVhlSFFzbVhlTTJJVXN5OTQwYWEtU3FXLVpQQTA0Q1Vta0dWYVQtZ1dpN3lzNXNheUUtR3NKLWNldHNQNnB3S3ozaS1vRTlCTkdNdnBMUy1YR3NweTljNzdYNkVHLUJHSnE1bmJnQUUyX3liaFZORFR5bzJVZU1FbUZRWHFLNmNuVjMxdjA3MlZIcmpLR0RjSGw5X190RF9yNmsyS0NDZEp4NC1OcFlxQjh3TWM?oc=5",
+    "excerpt": "",
+    "source": "Burnley Express",
+    "published": "2026-10-24T17:53:00+00:00",
+    "clubs": [
+      "lincoln-city",
+      "burnley"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Stoke 0-0 Bristol City: Goalless at the bet365 Stadium",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMUZYVGROcFBrWmRIS2FQbVhLd0R0ZjFJTnMxYnFrQ0Z0MENrZ1dPV1RkRjg0QXJJSWhYbUtVOWNjU2NLUV84b3o0Y0otbG85U21HUHRVM003SkVScXRDUjZ2SGNhNHN5aWlLRXdmMHJIaWhQdjF4eWhNM3V2OGIySEN5V2tSekRyeVVKeDZ5cG1wM1BXWDZiVUdaWG1SSkRZTWZNaw?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T17:50:12+00:00",
+    "clubs": [
+      "bristol-city"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "West Brom boss James Morrison reacts after draw against Preston North End",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5n49de8mepyo?at_medium=RSS&at_campaign=rss",
+    "excerpt": "West Brom boss James Morrison speaks to BBC WM after the 1-1 draw against Preston.",
+    "source": "BBC",
+    "published": "2026-10-24T17:46:04+00:00",
+    "clubs": [
+      "west-bromwich-albion"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "CLUB STATEMENT: NICKY HAYEN",
+    "url": "https://www.burnleyfootballclub.com/media-article/club-statement-nicky-hayen",
+    "excerpt": "Clarets confirm departure of Head Coach",
+    "source": "Official site",
+    "published": "2026-10-24T17:44:00+00:00",
+    "clubs": [
+      "burnley"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Pedersen: \"Now we want to punch back.\"",
+    "url": "https://www.swfc.co.uk/news/2026/october/24/pedersen---now-we-want-to-punch-back--/",
+    "excerpt": "Wednesday boss Henrik Pedersen wants to see his side bounce back from consecutive defeats to Doncaster Rovers and Notts County this week. Two first-half goals from Rovers captain Owen Bailey sealed all three points for...",
+    "source": "Official site",
+    "published": "2026-10-24T17:37:35+00:00",
+    "clubs": [
+      "sheffield-wednesday"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Blackburn 2-0 Wrexham: Andri Gudjohnsen double steers Rovers to victory",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTnJ6WnhPelp5ek1jbUkwYVBiNEpuSEdNVU5PVE51Mm1YQXZ0eVFfbkZpX3ZKd3hhMldxdVV6MW5jVFlqNklNMHAyS19xb2JVTDloLUtxMjhLLXhYNzQ1OUJYdlhuRVdvOTVScnE1dmUzVk1nbjNRb2dTVHYxYXZvWE5nc0NrRUhXY19EUTFkd0JzU21ZbHpJcF96bVZ4QVk3a0ZQZDI4RVlvRTR2Tkg0ejRpNmp3SGwtbDFV?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T17:37:30+00:00",
+    "clubs": [
+      "blackburn-rovers",
+      "wrexham"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "QPR 5-0 Swansea: Richard Kone hits early hat-trick in romp",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZmpOU3JUSTB6UUZSNV92N0FOUk54N1hJbXFQd3RyV3N0bHg1TXRPYldDRXE5QkZ4VGIwZUUxZnNNZG1QWGRfSkU3OHlON2FtZF8yd3NwREZkS0JsOGg2Vkpydi1vaS1vbGFnWFZVeTctYkwxVW4tTDhUdjZVU1ZteGV1ZjdVSGpnNkxZYXJ5SEU1MmhxYXFacDh3eFRFQ1dURU1McWxvQXpsZw?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T17:37:30+00:00",
+    "clubs": [
+      "swansea-city",
+      "queens-park-rangers"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Reaction: Dionisi On Wolves Defeat",
+    "url": "https://www.watfordfc.com/news/2026/october/24/reaction-wolves-watford-dionisi/",
+    "excerpt": "Watford Head Coach Alessio Dionisi reflected upon an improved second-half showing as his side were beaten 1-0 by Wolves. Adam Armstrong scored in the first half at Molineux, during a period in which Hornets striker Luca...",
+    "source": "Official site",
+    "published": "2026-10-24T17:35:00+00:00",
+    "clubs": [
+      "watford"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Lincoln's comeback against Burnley was 'relentless'",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmvg9qggdl39o?at_medium=RSS&at_campaign=rss",
+    "excerpt": "Lincoln co-head coach Tom Shaw was thrilled after his side secured the club's first ever home win in the championship.",
+    "source": "BBC",
+    "published": "2026-10-24T17:32:47+00:00",
+    "clubs": [
+      "lincoln-city"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "NEWPORT COUNTY (A) FA CUP TICKET DETAILS CONFIRMED",
+    "url": "https://www.saddlers.co.uk/news/2026/october/24/newport-county--a--fa-cup-ticket-details-confirmed/",
+    "excerpt": "Tickets for our trip to Newport County in the first round of the Emirates FA Cup on Saturday 7th November will go on sale to Season Ticket Holders at 9am on Monday 26th October. We have been given an allocation of 1,062...",
+    "source": "Official site",
+    "published": "2026-10-24T17:30:00+00:00",
+    "clubs": [
+      "walsall"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Harry Kite reflects on Fleetwood Town win",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5EU2FWVThKSzlfN2htUXB2VXN4WkNoazFVbW9CeWVYaHJYZExkQmRwZGlTdlpPZG5pWEZlRFVGemQzSnhIcTFTZ01weENQU2R3TjlkUWpldDBZTVBXb1A1SzRqX3RlY2ZoYVlfWG5JRFYwVmxaa2w2UTBEXzVqVEE?oc=5",
+    "excerpt": "",
+    "source": "Exeter City Football Club",
+    "published": "2026-10-24T17:29:14+00:00",
+    "clubs": [
+      "fleetwood-town"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "York vs Port Vale",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9QYXBaVXN5c1JDY3czUWVkekhOT1dvNWc1Qld6eGRGdi1iQm1oYk5MV0E0bkVUaVFZZ2NicDg0OFQ5OVFmZGxaem9PbTY3bzA5aTV0U0F3ZTlwcjFTc1Q5Y0hIUzdMS3doc0RkalJ2QmdvRThU?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T17:29:05+00:00",
+    "clubs": [
+      "port-vale"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
     "title": "Report | Wolves 1-0 Watford",
     "url": "https://www.wolves.co.uk/news/mens-first-team/20261024-report-wolves-1-0-watford/",
     "excerpt": "Wolves 1 (Armstrong 35) Watford 0",
     "source": "Official site",
-    "published": "2026-10-24T16:52:36+00:00",
+    "published": "2026-10-24T17:27:00+00:00",
     "clubs": [
       "wolverhampton-wanderers"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Norwich boss Philippe Clement reacts after win at Charlton",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cj5yn2yygpy5o?at_medium=RSS&at_campaign=rss",
+    "excerpt": "Norwich City boss Philippe Clement speaks to BBC Radio Norfolk after his side's 3-1 victory at Charlton Athletic.",
+    "source": "BBC",
+    "published": "2026-10-24T17:20:08+00:00",
+    "clubs": [
+      "norwich-city"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Charlton boss Nathan Jones reacts after defeat against Norwich",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckdd85d1m52jo?at_medium=RSS&at_campaign=rss",
+    "excerpt": "Charlton Athletic boss Nathan Jones speaks to BBC Radio London after his side's 3-1 defeat against Norwich.",
+    "source": "BBC",
+    "published": "2026-10-24T17:17:04+00:00",
+    "clubs": [
+      "charlton-athletic"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Cardiff City 1-0 Birmingham City: Salech scores to end Blues' unbeaten run",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1jME9McXItMkhtaENJVzZ3UFBDVlBRWFVBN1BxX1F4SmFzT2NNV2NFMGs5YnJaWXdEOTEySk1JUTdlMlNkczdRUll6Vm15bGJpUThnekNia0EwZnVDZFp6VVpZSQ?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-10-24T17:15:47+00:00",
+    "clubs": [
+      "birmingham-city",
+      "cardiff-city"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Barnet 1-1 Oldham Athletic | League Two highlights",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPamFtazM0Y0xSZGg4WG9WMW8zOUNCbmIzMjhLeHFESVc3WHpZNmpTRkpfVEpnV1lnSVo5Qkx1X3FrNWEzaU12RzY0LWM5d2FGSDNtTUZmak1CYjFCNEoxZEwwMmY5Q1VpVDlpOFg2d2UtSUtmOU1JWDR5OFFDTE4tb1U3V1R1UV9xLW9sQ2Y1aVZVSWlCbnlkWlI2SFEzSE0?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T17:13:32+00:00",
+    "clubs": [
+      "oldham-athletic",
+      "barnet"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Portsmouth boss John Mousinho reacts after win against Millwall",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cr78p32x3g89o?at_medium=RSS&at_campaign=rss",
+    "excerpt": "Portsmouth boss John Mousinho speaks to BBC Radio Solent after his side's 2-1 victory against Millwall.",
+    "source": "BBC",
+    "published": "2026-10-24T17:06:11+00:00",
+    "clubs": [
+      "portsmouth"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Report | Doncaster Rovers 2-0 Wednesday",
+    "url": "https://www.swfc.co.uk/news/2026/october/24/report---doncaster-rovers-2-0-wednesday/",
+    "excerpt": "Fixtures Doncaster Rovers Vs. Sheffield Wednesday - Sat, Oct 24 2026, 15:00 Wednesday were beaten 2-0 by Doncaster Rovers at Club Doncaster Sports Village on Saturday afternoon. Two goals from Rovers midfielder Owen...",
+    "source": "Official site",
+    "published": "2026-10-24T17:04:12+00:00",
+    "clubs": [
+      "sheffield-wednesday"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "QPR 5, Swansea City 0",
+    "url": "https://qprfc.co.uk/news/2026/october/24/report-swansea-home/",
+    "excerpt": "Fixtures Queens Park Rangers Vs. Swansea City - Sat, Oct 24 2026, 15:00 RICHARD Kone’s 15-minute hat-trick headlined a huge win over high-flying Swansea City. Goals poured down in W12 as Kone struck three times during a...",
+    "source": "Official site",
+    "published": "2026-10-24T17:03:00+00:00",
+    "clubs": [
+      "queens-park-rangers"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "GALLERY: LINCOLN CITY VBURNLEY",
+    "url": "https://www.burnleyfootballclub.com/media-gallery/gallery-lincoln-city-vburnley",
+    "excerpt": "Burnley were on the road on Saturday at Lincoln City",
+    "source": "Official site",
+    "published": "2026-10-24T17:00:00+00:00",
+    "clubs": [
+      "burnley"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Graham Alexander | West Brom performance 'A step forward'",
+    "url": "https://www.pnefc.net/news/2026/october/24/-a-step-forward----graham-alexander-on-west-brom-performance/",
+    "excerpt": "Graham Alexander was pleased with how his players competed in Preston North End's 1-1 draw with West Brom at Deepdale. North End battled all afternoon and took a deserved lead through Andrew Hughes 12 minutes from time...",
+    "source": "Official site",
+    "published": "2026-10-24T17:00:00+00:00",
+    "clubs": [
+      "preston-north-end"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Exeter City 2-1 Fleetwood Town | League Two highlights",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY2U3QzNpNmUwOWNCMUR4b2NHUW9nOUxMWWJFYVkySFFRVnhSMWlHQTRWZ1c0X0tMOThuc2lNei1falJZSkVmSVFvRjBEUVpWLTJhNE8tWjJ1dUVMcWpoX09rWnljaGJSaldXT2M1NDhtaFZaUnhGVHhWLXRzV0NzbHRlaHR4VG1oQlF6MGh4dTRoSi1nU005N09Takw3bzVSbXFPUw?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T16:59:20+00:00",
+    "clubs": [
+      "fleetwood-town",
+      "exeter-city"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Report: Blackpool 1-4 Stags",
+    "url": "https://www.mansfieldtown.net/news/2026/october/24/report--blackpool-1-4-stags/",
+    "excerpt": "Mansfield Town secured back-to-back away league victories with an emphatic 4-1 win in tempest-like conditions at Blackpool this afternoon. Michael Smith opened the scoring before Dion Charles equalised for the hosts...",
+    "source": "Official site",
+    "published": "2026-10-24T16:56:22+00:00",
+    "clubs": [
+      "mansfield-town"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "HIGHLIGHTS | LINCOLN CITY V BURNLEY",
+    "url": "https://www.burnleyfootballclub.com/media-video/highlights-lincoln-city-v-burnley",
+    "excerpt": "",
+    "source": "Official site",
+    "published": "2026-10-24T16:55:18+00:00",
+    "clubs": [
+      "burnley"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "REACTION: STOCKPORT (H)",
+    "url": "https://www.nottscountyfc.co.uk/news/2026/october/24/reaction--post-stockport-h/",
+    "excerpt": "Martin Paterson spoke to BBC Nottingham after the match.",
+    "source": "Official site",
+    "published": "2026-10-24T16:51:00+00:00",
+    "clubs": [
+      "notts-county"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "LIFELINE: WEEK 8",
+    "url": "https://www.nottscountyfc.co.uk/news/2026/october/24/lifeline-week--8/",
+    "excerpt": "This week's Lifeline winners are in - and only a few tickets remain for this year's Lifeline Christmas Party! Lifeline's festive celebration takes place on Friday 18 December in Club 1862. Guests can expect a drinks...",
+    "source": "Official site",
+    "published": "2026-10-24T16:50:00+00:00",
+    "clubs": [
+      "notts-county"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Nicky Hayen on Burnley's spineless defeat to Lincoln City and his job",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWHQwZjl4WVZaODU4S1I3ZlJ2OW9jWWdTRlZKa0xtYzZBdVNfWUVlM3NnV1JjS2NPdURuenExYldONEhHQ0tUVXRoZUROOTNXUW9xRDBtbTg5QTBfOUdmZVVOX0pmSW9WOVJIV3ljNGNBeXk4VGl1Tlg2SjZqdmlXT0xCdHlpcE5PVG9lNzhHeXdBaHR6b05WYVB4ODRtVTl5NkE?oc=5",
+    "excerpt": "",
+    "source": "Burnley Express",
+    "published": "2026-10-24T16:49:00+00:00",
+    "clubs": [
+      "lincoln-city",
+      "burnley"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Decisive figure edges Wolves past Watford",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOME5vQWdhQk1qNU1IVlhySXlweURubnMxMEtuNFdhQkZSMTNFTVNtN2xpQnBhVXdRbXYwWU5QUVJ6ajdxYVI0MXlsZjh3UFctMFVZT2ticV9iNWx5aXpzTjBoOEFiLVd2U1ZuNXBWbkxkTnlZaTFEeFd2dU9ZbTM0UFNKT0pOeDFyUmc?oc=5",
+    "excerpt": "",
+    "source": "OneFootball",
+    "published": "2026-10-24T16:48:51+00:00",
+    "clubs": [
+      "watford",
+      "wolverhampton-wanderers"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Oxford United Held To 0-0 Draw With Bradford City",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBwTTRXci10NjFYT3Utb1JreHB2SGMwRy0zSl93dDE4elhqRUJaYW81NEk1ZlM4WkU4VVVibld4bTltSmIzVnZaRG01MmFlQTJfOW5nUWFwLW1fTEY5a2dITE1DczFWUHpzWnN2QVJ2TndMSEdmM251VQ?oc=5",
+    "excerpt": "",
+    "source": "Oxford United",
+    "published": "2026-10-24T16:48:45+00:00",
+    "clubs": [
+      "bradford-city",
+      "oxford-united"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Not Acceptable – Watson",
+    "url": "https://rochdaleafc.co.uk/not-acceptable-watson/",
+    "excerpt": "Ian Watson says his side must address Saturday’s performance straight away. The post Not Acceptable – Watson appeared first on Rochdale AFC .",
+    "source": "Official site",
+    "published": "2026-10-24T16:48:13+00:00",
+    "clubs": [
+      "rochdale"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Stevenage 0-1 MK Dons | League One highlights",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVnNyTTdFbm5wbXpvQkZoVmxZaU56SFFxeXlvN0lGSFVUNk52Z3R2ZTNrZngtZFBKcE9VWWFvQXdFU05TYms5ZFpIc2NEUHBlMFFXd3FBZVNJbEd1cXdpejhObm1JQW5NanJXdjdYV3Rza0tQVi1EX0tUSUdKN0FqR2VnQ1gyb2lqNXF6R3VlZmhIT3FhQjlpVw?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T16:47:48+00:00",
+    "clubs": [
+      "stevenage",
+      "milton-keynes-dons"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "\"The resilience really pleased me\" - Bruce",
+    "url": "https://www.themillers.co.uk/news/2026/october/24/-postshrews---bruce/",
+    "excerpt": "",
+    "source": "Official site",
+    "published": "2026-10-24T16:45:02+00:00",
+    "clubs": [
+      "rotherham-united"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Kyreece Lisbie bags a brace as Reading beat struggling Barnsley",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTm5GM0VLQlRVYWM1VExqUjJocXlEbjdraUxUbFpIWmJ4cGhmcTh4MzJLZXFsTzdrMmQ1WDRlMExDOHZEZVFxeU9LNUlGNGoxckFudzE2WTBwMktLVDhMRTNEQmlQZGdVTnlLd2FGRjNQVk43SDlETFE1WkRPeGdXTUVuWE5BcktuTXBTU0NEWEgtdGhWLTcxak80VjdhdkFTSGh3bnVCdXNLMWptUlg0TWU4REg?oc=5",
+    "excerpt": "",
+    "source": "Somerset County Gazette",
+    "published": "2026-10-24T16:42:24+00:00",
+    "clubs": [
+      "barnsley"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Kyreece Lisbie bags a brace as Reading beat struggling Barnsley",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVU9MZTM5a0pYZEpZYklINVgxSWQ1R3FaRmJiNWhKMGJCNThZbi1TSTVzZHNYS0tYLUE0cFpiNkJJTzZSMTFJYzdCQVlZZzBNNElEbXFDZklrczBmaVJ2Ym5NaWxvbHBqWDVZdldtRERReDhZRWNDcUhRWVVEaVk2aUdJMVIxRXRXMWxQTllwY1dfbDBPWU1LUnRlcEJodFkyalYwMjNwOWZqaklVU0tOZ0oxcm4zTVB6bDc4?oc=5",
+    "excerpt": "",
+    "source": "Northwich Guardian",
+    "published": "2026-10-24T16:42:24+00:00",
+    "clubs": [
+      "barnsley"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Crawley vs Tranmere",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4RXJDV2FjNjlrNmlEUDU0X2ZkNGFhRFdrTHVoWkd2QVhBQnBPdkxyaUpKM1BUT1pwUmpLYWhKVkdsbWpiQ2FZNjJQS3ZYcm1lcUVBNEExeWRXampoVV80eXRULVpKVGxFVTZ1c1p4Zlg1T1YzN253?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T16:42:10+00:00",
+    "clubs": [
+      "tranmere-rovers",
+      "crawley-town"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "REPORT: NOTTS 1-1 STOCKPORT",
+    "url": "https://www.nottscountyfc.co.uk/news/2026/october/24/report--notts-v-stockport/",
+    "excerpt": "We were denied back-to-back wins in Sky Bet League One by a late Stockport equaliser. Scott Robertson had given us a first-half lead with a sweetly-struck effort from the edge of the area and we did well to keep our...",
+    "source": "Official site",
+    "published": "2026-10-24T16:40:00+00:00",
+    "clubs": [
+      "notts-county"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Match Report: Notts County 1-1 County",
+    "url": "https://stockportcounty.com/news/2026/october/24/match-report--notts-county---county/",
+    "excerpt": "Substitute Adama Sidibeh, with his first goal of the campaign, came to the Hatters’ rescue nine minutes from time at Notts County, as their second easterly away-assignment of the week saw them secure a deserved point...",
+    "source": "Official site",
+    "published": "2026-10-24T16:36:00+00:00",
+    "clubs": [
+      "stockport-county"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Cambridge United 2-3 Plymouth Argyle",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9jMUV0UXJIdmo3WXFRN2JNcnNTM1lwZWxLdHdNbnZxa1RoaTkycjJ6SkxBQllvMzYtVGRTcWg4eUVlTGVCMzNVVF9NNndKS3lYaVd6UjFaUGJYM0hMTEZSa3FhVjFMZw?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-10-24T16:35:42+00:00",
+    "clubs": [
+      "cambridge-united",
+      "plymouth-argyle"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Crawley 1-1 Tranmere | League Two highlights",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYmlzYk1tQTJqVXp0RzlKUlo1RF9vR0t0VGRZS1FvR1Z6ZkNJa3lZN2FDZVBaa3N3NWpnb2dtRjRWX0lLUHdJUjI0U2NWYzY2NW1TczBMeXFySzNTSHB2UFJSenk2LS1qLW44a2hIbXpWZFp2TGNLeWxDX3JCQkplUTM2QjJ0dWY4aWdPbUh3aEZUaWd3U2pZ?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T16:34:39+00:00",
+    "clubs": [
+      "tranmere-rovers",
+      "crawley-town"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Huddersfield Town boss Martin Drury makes 'totally different' admission after win over Wigan Athletic",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRjRfdXZPY0RRM2wwbkE0ZzEtWENBQ1poMGRmY0VpV1FhN0syT0xpTmRPTm5wOEZsRDYyTFFEVDU3N3M3cU9XYWphZmwxbWZ3amVyVWhOdmlaZXJqRTdxenhnczExeFlscXJrejFJUWhudk1ud283TVZwRHhka0I5VFZsdDNlMWR6aG1mZUhSemo2aUpEeVFYb1VYXzJnY3FGcXc?oc=5",
+    "excerpt": "",
+    "source": "Yorkshire Post",
+    "published": "2026-10-24T16:34:00+00:00",
+    "clubs": [
+      "huddersfield-town",
+      "wigan-athletic"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Doncaster 2-0 Sheffield Wed (24 Oct, 2026) Final Score - ESPN (UK)",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tRDBlczYyd2pqSEgyOU9Jb1JsbzZ1elJrOXJYNk9Nb0t3dEN6ZjkyX09NNHZJb2VZVkNiVFpTVFlDVUNQMl9Oc1lnRFlYVzFGZVdWRmNxNHBPOWtFUXFBa1AyWExKZWs?oc=5",
+    "excerpt": "",
+    "source": "ESPN",
+    "published": "2026-10-24T16:33:51+00:00",
+    "clubs": [
+      "doncaster-rovers"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Blackpool vs Mansfield",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4wdGhTTnZydW1uM25vSEMxdnFCZjd3ckhVNmZYYUM5LUpmVk9yMW9nemJ2azB5b3BTSzI3UW9hY2F6b0trN2hxRTVtdjZQV2o5ZW12UVNfSXJYcWNvZHh5Q0J1ZHczNTA4TlZrOHFGMENiNXJxNzkxZFJEUQ?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T16:33:40+00:00",
+    "clubs": [
+      "blackpool",
+      "mansfield-town"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Bromley v Peterborough United: League One stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBSMnc1Q2U3aS0xdk5tSnF6VkdfNFBfWkxfeFNROGRoNVVyaE15TjlkXzFjNGp6WHUxNzFfay1VWTNMUF9vYThOQVlab01mS1BhWVlQMk1QODBWT2F3cV9ZaEJya3VRUQ?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-10-24T16:29:58+00:00",
+    "clubs": [
+      "peterborough-united",
+      "bromley"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Swansea vs. Blackburn (31 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LZGxDNzFjYmthVkFkXzVZSUIyOUJpb3NiSmxKd3dYSVQycnZicTl5QW0tRk5Ic2RfZ3BwV3dZLUNpZnNfTjZkbG9OTzhGeXdXNmZCcFVTejhmZm1BVktMNFVHOXVWenRpb3BkcnBicTA2TEJldWc?oc=5",
+    "excerpt": "",
+    "source": "ESPN",
+    "published": "2026-10-24T16:25:25+00:00",
+    "clubs": [
+      "blackburn-rovers",
+      "swansea-city"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Accrington vs. Northampton (31 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9RUk95UHVHMllmamk3ZmU4S040akgtd1lVb2VKVi15UGJHUFVFV29oT21Yam5qRF9ibjYzTDZja1dlVVNIXzM0dGFqMDgxVzRsNkc1dXNrNGJIdlFrbVBlR3RYNGlpSlpob04yc1pWZUtxY2YyLXc?oc=5",
+    "excerpt": "",
+    "source": "ESPN",
+    "published": "2026-10-24T16:25:25+00:00",
+    "clubs": [
+      "northampton-town",
+      "accrington-stanley"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Norwich City vs. Watford (31 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zN21kemJINHY0MzBXeEx0Tk1uU05ncE1sWUhmU0VZNXBZNlQyTlZhT0lyOVBFYVRPZHB0U2MyQ1dvYUFObWZrdE1jcDZTSmRLMDdER0U5YzB3RFBkNC1xRnU3elVBOWxQTDVJYkpCT3MyNmFWZG13?oc=5",
+    "excerpt": "",
+    "source": "ESPN Singapore",
+    "published": "2026-10-24T16:25:12+00:00",
+    "clubs": [
+      "norwich-city",
+      "watford"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Match Report: Exeter City 2 Fleetwood Town 1",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9mOFh6Q2k1b3VLQUZlenZuZl9kZ0xQN2VrdHplOF9pLWRmSE1HbWNHY3E4dVJQZjlMeWY5dGVRQnM2NHpWcjFjWVBKZVVrQldSM2tnWnZVdTRualN2blE?oc=5",
+    "excerpt": "",
+    "source": "Exeter City Football Club",
+    "published": "2026-10-24T16:24:13+00:00",
+    "clubs": [
+      "fleetwood-town",
+      "exeter-city"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Swansea vs. Blackburn (31 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9xSmpiTjl4bzRueDA0N0szbXFPNFJ6VnR3MHFKM1d1bTVuS2FHMFU4TWM3elFJdGo4YXRrcTNkRXd6U1NKLTF0a3dmNU92OUx1aTlTMUIzcGZDVi0xa25CQ2dFYUdoMVhRcWxPRnRuaVBncUZRclZN?oc=5",
+    "excerpt": "",
+    "source": "ESPN Singapore",
+    "published": "2026-10-24T16:23:14+00:00",
+    "clubs": [
+      "blackburn-rovers",
+      "swansea-city"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Mansfield’s undefeated run continues with dominant win at Blackpool - Wrexham and Flintshire News, Sport, Events | The Leader",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNEZSYVNTcHJ3T3lLblBnbTFoMmQ3N2liYVpRTXFNTEc4cXVkNUQ4MHNMSUYwNHJPZUU0YzI2Tm9hNElzUG12YTVUMF9vRC16ZnhEajEtdm05aFFnM01oMXBRZlBjOWk4RkFvbU53OHRJRHc2MEJURlo0NTJKaG1tU0RyRHI2cWZwbWFJLVBvMmE4cUg2Y3hFb2lCdHJRZ0xoM1h0LXdWQUJ2UGtVQWQyQ1h3?oc=5",
+    "excerpt": "",
+    "source": "Google News",
+    "published": "2026-10-24T16:22:16+00:00",
+    "clubs": [
+      "blackpool",
+      "mansfield-town"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Oxford vs Bradford",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16cFhKWmZJaFNhSVFJZnVzQWNVdk5ObzJsQjlyMWt1RUs4S09GNWc4WjdzUGFtWDhhWG9UMVNJM1gwdTVJRzdJb3UyMHN6TkpYeGlib3pGbk5YNEo1MF9sc3RhTUpTWUptMlB4Ym5Ja3dicnY2Zmc?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T16:22:10+00:00",
+    "clubs": [
+      "bradford-city"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Preston 1-1 West Brom: Graham Alexander claims first point as North End boss",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSzQ1UmVFTVlLRkp0bmVFbXFLenNWNEN3akQxVHhSTE9GSEl0Q2s0ckE0ZHBReGpXRW1CVEhRZW43TXFTYm9LOUpNZXZSVV9rMU5BaXBIWFFJYjdVbG5NUXpRZ3F6MXpVcU01TWpVNHhZLTNYUnNmeUhlM2Y1MEwxUkJONkFfeXlUSm00QTZpVHozTXV5b1JMYmZ3bWhENS13TFh2aVFWLU83SUxBVGxfOGx6bGl2VXpodDZGbHFKbDRzdw?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T16:20:58+00:00",
+    "clubs": [
+      "west-bromwich-albion",
+      "preston-north-end"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Wrexham Made to Pay for Summer Transfer Decision in Blackburn Defeat",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQa29zRU5jUGkxMEpjbnFnVElsbVViTjZ5Qks1V2liX0JaYUthVUthNWhBWF84V01kTFhRVDZ0bGRQMXF1YXJMd2oya2lzaXA5TjQyS0NnZjEtYTJNUDdGUV9WcDRkMk0yVEVxMzE4WnhDYlZHZXdWcDFMa0liMDJwMUZaVGp6T0ZCZ05VclV1RnBmOWhCT2lQbmFQdFlrRkRVemlzMEFkSXpwU3ljcmluaGtDdzd6YVlENlR5R21QLU54eDk5ZmtCOHV3d1gtejhKaGc?oc=5",
+    "excerpt": "",
+    "source": "LiveScore",
+    "published": "2026-10-24T16:19:02+00:00",
+    "clubs": [
+      "blackburn-rovers",
+      "wrexham"
+    ],
+    "category": "transfer",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Preston North End 1–1 West Bromwich Albion | Championship highlights",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRXdKSzhYN1VqXzBMS2g2QXJmWV9rWnR5RTBVWkc5SmJ4cmRBQ2xKaHZhaVgxOVB4UFlEZXQxeXVuWFhQSldNdkRQWDVxZ3lDZkwzMXdaZVRsUHBHOFlLWC1iVThweFpIT21lY1pQTUM1WDdBMWthWW8xWjJ2OWdGMzNUZTJMWGpVcTVBRXRIYk5nQkExTXhvaHZNVkw4OU12SEtyRmROLWlVZXpWUkJSN25vcE1lZTg?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T16:16:38+00:00",
+    "clubs": [
+      "west-bromwich-albion",
+      "preston-north-end"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Oxford United 0-0 Bradford City | League One highlights",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQjhNRTdrWTd6dXV6TzdiYm9BYVdlb0F2LUdyQmY3S29mVEFlZlZGRjJzZnVmTjlxZGcwLXVLTzZGU0tvMkFDcHI5a1E3ZTVXbXlyZkkwTkZOdkVxR2hTd01lckNZRWlXb1lRWFJpMjIxNkxNWERURzRpbUIwdUxNWDRrb0JmUHJnLWZvWkRheW5RSF9ZcFFFeS1GeVhDaURuVHh1enZB?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T16:16:38+00:00",
+    "clubs": [
+      "bradford-city",
+      "oxford-united"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Cambridge United 2-3 Plymouth Argyle | League One highlights",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeVh1OVZCVGRnZXFLYUNZd2c4MnNRSlM0LTRHLXFYZXlYcFRvajVBOUxPUUliUmM0WEVZcUtHV3pubkUzYmxiUnh6MTNzTkpqN2o3MWlFRVg1blA4LVpHQ2hGVVFPMkdpU21Tb1pVanQ2TlZseGxkM0hrWkVraWxtbEFoWjZfd2h3bk9VemRGY2IyQ19CcjVpQnh0bjU1QWlWR0NzVzl3YXhqU3la?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T16:16:38+00:00",
+    "clubs": [
+      "cambridge-united",
+      "plymouth-argyle"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Doncaster Rovers 2-0 Sheffield Wednesday | League One highlights",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUFhJRUFsTnpPM0Z0TU1nYXJqY256Vi0tREJOVXNIQVpRaEJ3VTR6T2xXc3lzdXRSTm1DOXhIbEJxcDFFdjcxTGhPdE5iYnhuTERubXhNN2tjOVlORUVLeGZWY3c3cXA5LTZRMGQ4dnB5YUhTbE5FNUFtUEU2czNWZno4UWVNbnZuREdJSGxSVkswV0dUYnVXaU92Q212N3Ayb0lmdGJTWENaTm1BR056Q0ZR?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T16:16:38+00:00",
+    "clubs": [
+      "sheffield-wednesday",
+      "doncaster-rovers"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Wolves 1-0 Watford: Adam Armstrong steers Wanderers to victory",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBtU1ZuUjRETWRiUVNPTi1lRlNZc3Q2eUpUY0RUTjZyTnNxR0hnNVRuTXZOZ2REOTdjelNzWTZFWTdpSHphdGdzci01YVNlYmNxNTNIdXViTWkxVEdZTG0weHFIMWdjZEYzTXhLTEktQzFydUVy?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T16:16:17+00:00",
+    "clubs": [
+      "watford",
+      "wolverhampton-wanderers"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Stoke City 0–0 Bristol City | Championship highlights",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQjhXSG5RN0ZCbkU1YmRpRlB2TU9DRF94Zk05M2hDQmRjeUNBWW9tT0VRYTZXWXQ5NkdlRU9uZ2N1bnJYOVh6UlcxZTdISEN0TkxlR1Mwb3FZR1I0LTlpSFdXMi1EaXFkTVVsd05lYlVxR29hc1BraXp1eXNXY0FMYmZWVkdHeDhJTjFNanNTalJ4ZXRaUElzZzdBbVJhbGNPeWVB?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T16:16:08+00:00",
+    "clubs": [
+      "bristol-city",
+      "stoke-city"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "West Ham 2-3 Southampton: Saints claim thrilling win at the London Stadium",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaGlkVXc1WGd5RjU2SV9HQ0tlN2dPMVFLaGM5ZEZrYzR0YUgxZU11Qmd4Wm11ZkpwWXhCalFDTmFNOUFSaVRreE5WUnF0MDc0UFQyTDVONGlxekZfUFE1Q05UVk15WXM2b2kzdUtIbDZjcElRTXNhOFBrRGZvM2JNYWhpMWpMdw?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T16:16:02+00:00",
+    "clubs": [
+      "southampton",
+      "west-ham-united"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Lincoln City 4-1 Burnley | Championship highlights",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV0hCVEFIeWYwQU9NSGxoZkQyY2F3dHdUSGNMSmFLWFVILWw0QkdfN0NYWGlibVMyeExjREUwdUpVZ1NyRFNrUmltb1lxSzdINExpX081V3QzeWtfMkZpT2NERmY1Y0RlNVI5ZWtmOXlzMUNMa2Q4aE9OalZPaHduT3IzTnpnTVFlc3hyUHVwRDl6T05ZeFprMzlEUndDRjA?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T16:15:56+00:00",
+    "clubs": [
+      "lincoln-city",
+      "burnley"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Oxford unbeaten in seven league games after goalless Bradford draw",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNmc5UkhNaXhPZ3ltUFFTSnFUbFZOOGZjazNCQlI0aXJpbnhrdWlhaUtLNHI3Yk9XRG9JbHpucHI2Y0dVZXRIcEtTQ1pwN0ctdG1vbXFHVEd0V0Y3LTh1MkxXOC1qQ2daY09zc0Nqam5kbHpzX0pkcHMzaFRMS1FqQ2loVU5qUHN2Y09haGhHcVVCdVIyVFJETTV6cjllMlpRdV9HdHlWUE1acEl0NDFYdA?oc=5",
+    "excerpt": "",
+    "source": "Oxford Mail",
+    "published": "2026-10-24T16:12:34+00:00",
+    "clubs": [
+      "bradford-city"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Oxford unbeaten in seven league games after goalless Bradford draw",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQm5VM19NSnlyRDZGWGxjTm5nSWZFZnhKWmltTTRlclZLSU5tXzJXWHZCTzhINkl5RVlXUnYyenNSdE4tNEVmOEIzd2FkaGFQTTRGdVZvQ09BQmhzRG92M1BKNms3bE5CTU90MHVxbmUtTGxsS0pTbmUzTVIxb0NfYjdBN0R2ZXdjMjl4dXllVC1YRTl2OUJXMW0xc3J1SmJHdFVEMEgwLUF2Qi1vSWNOcEg4cVBXRGtXcDBn?oc=5",
+    "excerpt": "",
+    "source": "Wandsworth Times",
+    "published": "2026-10-24T16:12:34+00:00",
+    "clubs": [
+      "bradford-city"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Bromley pegged back by Peterborough as post-Andy Woodman era begins",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNU0tfT2s4Z29rZVhmc21RMHVuUTNkRkRYVmFjcVZOSkcydnJqdVZvV193aldrbUNEUUVuUzRZcHhZMFh1NnVjX2g0SHV3Y3N4dXdReENyUDlEdGlaM3doeDNjR3puTVQ2TGd0MU4wcG8yWEZsVFhFTFZkcHROVHFXXzlNb2FDYVN2Znl4UlI5UWV0ekF4c1VsS2wxdjRJUmNrWE4tQXNpQUU5NmhITk1jSkwwaU1KQQ?oc=5",
+    "excerpt": "",
+    "source": "Oxford Mail",
+    "published": "2026-10-24T16:12:15+00:00",
+    "clubs": [
+      "peterborough-united",
+      "bromley"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Gudjohnsen brace fires Blackburn Rovers as he climbs to second in Championship scoring",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd3lLekxid005THZEOEU2ZjhkRmlYczZJUEVkZTA0bjNKdmt4Y3JXSXRLaTBKaWZYbFVNQ2QydVNweUtNNDU4V2xUeDUyNGtSaWVaZEVWcTEtNndCSy1VN0lpdV9UUGdqUkE4S2l3SGI3c3Z1elFlU3JEdlNFQmRqTDhJdWRvb3B6Wm9YVnBCVUJ0MXROMXdldGtvS2UwZ2pUdXlHeVVIY0xscUVEZFVpQ3RMeHIxOEM0SzgyMWlsLURKTFVfUEE?oc=5",
+    "excerpt": "",
+    "source": "OneFootball",
+    "published": "2026-10-24T16:08:35+00:00",
+    "clubs": [
+      "blackburn-rovers"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "League Two: Rotherham United 3-3 Shrewsbury Town",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1XSVRSLXQxVVRpQnc5ZkM3c24yS205ak4xMU1jb2p6R0RyTC1fMHRNemg1NFZxZWZ3QlNHekk0RHNpa1ZWOV9QU2hOS21fNjlBU2R2ZWNsVVYzVHAzZ0R0NzhaQlUzUQ?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-10-24T16:08:00+00:00",
+    "clubs": [
+      "rotherham-united",
+      "shrewsbury-town"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Gillingham 1-4 Grimsby Town",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WU2RtZFNjTXZlTkhxdllFcUlzenhBNmRPMF9mQk92QVFubGd1dnFJdDlPOXVqZVdFVEVwZjBFdmVlZ0d0SUQ4Vjc4a1dDcWctc25sVTV1UndWVHJOYUtBWmRnUk1IZw?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-10-24T16:08:00+00:00",
+    "clubs": [
+      "grimsby-town",
+      "gillingham"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Sheffield Utd vs. Wrexham (31 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAxRFI0NEt3ZWV2OEdtRGlvS2JUV2lNZUlHaHYxS2xXYWw3bWZ4Y0JpZ1hXRmMzX3BHenBVeklPRXg3aG5GeUtRVl9fWEQ1OHFZcUh0bmoyQkpYNWtFbHJEX3JpU19sWWVEdkgtbkRvaWU3d1cwWWFZ?oc=5",
+    "excerpt": "",
+    "source": "ESPN Singapore",
+    "published": "2026-10-24T16:06:33+00:00",
+    "clubs": [
+      "wrexham"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Report: Rovers 2-0 Wrexham",
+    "url": "https://www.rovers.co.uk/news/2026/october/24/report--rovers-2-0-wrexham/",
+    "excerpt": "Andri Gudjohnsen completed a second successive brace as Rovers returned to winning ways with a comfortable 2-0 win over Wrexham at Ewood Park. Played in dreadful weather conditions, Gudjohnsen gobbled up a goal in each...",
+    "source": "Official site",
+    "published": "2026-10-24T16:06:14+00:00",
+    "clubs": [
+      "blackburn-rovers"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Match Wrap: Wolves 1-0 Watford",
+    "url": "https://www.watfordfc.com/news/2026/october/24/match-wrap-wolves-watford-away/",
+    "excerpt": "Watford were beaten at a rain-soaked Molineux as Adam Armstrong’s first-half goal gave all three points to Wolves. The Hornets delivered an improved performance after the break but were unable to find their way back...",
+    "source": "Official site",
+    "published": "2026-10-24T16:05:22+00:00",
+    "clubs": [
+      "watford"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Rochdale vs Accrington Stanley: League Two stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zZlptSDJhSGNUUWxfSUJhaXNkMlYwQkU0NUZNT3hzcW4yZmJTMXpidGRpbXlRRGpURVV1eC1GcjhLbDdVSTZVVFZWalZCaTkyN2hXb1lsWmV1di1XQ1dtdG1oUQ?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-10-24T16:03:25+00:00",
+    "clubs": [
+      "accrington-stanley",
+      "rochdale"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Lincoln City extend Burnley misery with comfortable 4-1 win",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbVRFakM1UzhKd0pKdDF1MHJTc3gzcnFfSEhUWVRKX3ZkSVNRdWFPaEVhOHdRU3U5YXE3TExtSkJMajEtTXVWSzhKaXVTZnpvRnUxeXFYdEo5TGRjZm1hTnlScEZLZE80QWNVZ0RpWTBUWTNITHpWbVJHdjJCSURrWUw4YzFuNU5TTVUtTEJ4cVFuemtN?oc=5",
+    "excerpt": "",
+    "source": "The Linc",
+    "published": "2026-10-24T16:00:05+00:00",
+    "clubs": [
+      "lincoln-city",
+      "burnley"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "MATCH REPORT: LINCOLN CITY 4 - 1 BURNLEY",
+    "url": "https://www.burnleyfootballclub.com/media-article/match-report-lincoln-city-4-1-burnley",
+    "excerpt": "Defeat in Lincoln",
+    "source": "Official site",
+    "published": "2026-10-24T16:00:00+00:00",
+    "clubs": [
+      "burnley"
     ],
     "category": "match",
     "tier": "trusted",
@@ -87,8 +1378,38 @@
     "scope": "club"
   },
   {
+    "title": "Crawley Town vs Tranmere Rovers: League Two stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4xVEJMQlZ1Vkc1ZVppa1RwRFJYX2VUNlpJeTlPZGxvTUhmcnBVWXo5TWdJYTk1V24zYWtUZTBXZ0VOR183TVNsckV0QWxPbFVyaktWQThBYW1IU0tLd2tIS0RBOXdzUQ?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-10-24T15:51:33+00:00",
+    "clubs": [
+      "tranmere-rovers",
+      "crawley-town"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Championship: Preston North End 1-1 West Bromwich Albion - Aune Heggebo earns draw for Baggies",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Dd24tdDRva2FtZVRlTUNYbkJaLWd0dzd4dlBrRURjRngyX082Q0hNUTRRaWxiQkkzellPenVNT0N2UFBDS2g1T25IQTNQRXY0NllqS2xBbWdBTDZNX1FQY2dveGY3VG9nX09qYnpFSQ?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-10-24T15:50:28+00:00",
+    "clubs": [
+      "west-bromwich-albion",
+      "preston-north-end"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "Match Report | Preston North End 1 - 1 West Brom",
-    "url": "https://www.pnefc.net/news/2026/october/24/match-report---preston-north-end-x---x-west-brom/",
+    "url": "https://www.pnefc.net/news/2026/october/24/match-report---preston-north-end-1---1-west-brom/",
     "excerpt": "Preston North End drew 1-1 with West Brom in the Sky Bet Championship at Deepdale. Andrew Hughes' goal put PNE in front with 12 minutes to go, but a response from Aune Heggebø saw the points shared. Graham Alexander...",
     "source": "Official site",
     "published": "2026-10-24T15:50:00+00:00",
@@ -101,16 +1422,61 @@
     "scope": "club"
   },
   {
-    "title": "Sheffield United 1-1 Derby: Patrick Bamford strikes to hold 10-man Rams",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZWpacm5xaV9JcWoyX2NNZzF2TnlVbzQ2eTBrZnlUVnBjaDNGaEx4QkZ1ZE84dUx2eGI1SWxsaGZ3bkhheDJPTlhReEFQYUlCVHRSNTFKZ21PWVVXQ1l6aTloc3NnMjZ6Z09IVktDcVI2eUcyemR4QVZfWmREQy1YZkJ2OTJaVjA1NFdoaFRwRjdsTmF4OS1LUGJBZkNuc0tkdmdBcGJSUDZKb0JGTUlBRVZCSHNiOU9VdzVr?oc=5",
+    "title": "QPR vs. Swansea (25 Oct, 2026) Team Stats",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOFZyT3RnNWh3N0hBVzFjRUZKS2V5cGZuUTR3SFRVN1BRdVlmOEgxQWhxMEwyMUFzZEZTcm9lSDlpdXlyZFpCaW9XV045Nm1PY0hXMmtZSDRaZHRseDhrY0lrRWlkQ05UVG9YTjNTd3B3ckVoUWk3cjc3NzhSeG9zSw?oc=5",
     "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-10-24T15:43:57+00:00",
+    "source": "ESPN",
+    "published": "2026-10-24T15:44:17+00:00",
     "clubs": [
-      "sheffield-united"
+      "swansea-city",
+      "queens-park-rangers"
     ],
     "category": "match",
-    "tier": "trusted",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Stoke vs. Bristol City (25 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8wbmo5Wm5QV0E2aDAtRm5BSWU5QU1LZFczRE5WdDFuWGxjU29sUnBROHVvRWdyZXBXYzBhU3NfQlhyNXFBc2RqdjMzVWhLdlZSOVJEWjlsdVFRb3VrdTdqU2JxX2gtZnNi?oc=5",
+    "excerpt": "",
+    "source": "ESPN",
+    "published": "2026-10-24T15:44:17+00:00",
+    "clubs": [
+      "bristol-city"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Preston vs. West Brom (25 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAwUmtxVjBoU0NsSFNoMmoybTY3eGFFS29tSTBXWFBEdG9xQ2lJR2lxNjEzT2c1UUVPbWJLMll3WmE1cjJkS3Y5SzZyZllJN2U5VGIzbXpqZDU1a0NyUllCQnh4VTNhdDc0?oc=5",
+    "excerpt": "",
+    "source": "ESPN",
+    "published": "2026-10-24T15:44:17+00:00",
+    "clubs": [
+      "west-bromwich-albion",
+      "preston-north-end"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Lincoln City vs. Burnley (25 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nbVlYR3dRV1YwTnlsMWtfbzM4eW5JZXhlcGVuTWQwN3Rwd3Z5YVFSVGdETzl0aVlXZ0RmWjlEMENfZWliOUxYdUZldUJwQWw4ckMtNmFuWW5OYmlpWEpkQ2dOVmJNMFVL?oc=5",
+    "excerpt": "",
+    "source": "ESPN",
+    "published": "2026-10-24T15:42:21+00:00",
+    "clubs": [
+      "lincoln-city",
+      "burnley"
+    ],
+    "category": "match",
+    "tier": "low",
     "division": "championship",
     "scope": "club"
   },
@@ -144,11 +1510,26 @@
     "scope": "club"
   },
   {
+    "title": "Rotherham United vs Shrewsbury Town: League Two stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xRGsyZVhxcVk0RDN6NU1VU29MR0VMYWRBWlk0bWEtcG1IbEcwM0hwVWFHVkdVaWktMTdsclUtNXZET2Z4LW5lYTZ2bkpJZjdtVWpUREVpUlIwVjhXQnR5dU15cw?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-10-24T15:30:01+00:00",
+    "clubs": [
+      "rotherham-united",
+      "shrewsbury-town"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
     "title": "Portsmouth 2-1 Millwall: Pompey hit back for victory",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeXlaM2FFbmZ0Mk9YU3lfR0JBbFV0Z1NEUXdRYWV4a1FJeWI0Z0s0SktJWFVRcXNYUGpUMHFXb2hWUGxnNjZrbUQtQ0h3cnZZNnVTQUlvV2w4VzhWTHR4Z1dVOF9kQTBBM25jUU5KYjVSWXZfU3BPOU5GajNYTGtrY3M3TUJvYW5XeWJkMnVLVXQwTXFfQkh0NmRzbHQ0eUpYTWc?oc=5",
     "excerpt": "",
     "source": "Sky Sports",
-    "published": "2026-10-24T15:22:30+00:00",
+    "published": "2026-10-24T15:28:25+00:00",
     "clubs": [
       "portsmouth",
       "millwall"
@@ -156,6 +1537,20 @@
     "category": "match",
     "tier": "trusted",
     "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Reading vs Barnsley: League One stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5uTTVUdHBCMUI1aHEwSVNpaldzQUtFZzFjeExYckRaaFY3S0puaEtNcFQyQTR1NlNUZmg3Mzd4bVlDSXdUUk5QTGtWNVpoaVJ4aEVrQVRfMFRiaEh2S2JSVEhxLVFPdw?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-10-24T15:26:54+00:00",
+    "clubs": [
+      "barnsley"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
     "scope": "club"
   },
   {
@@ -170,6 +1565,35 @@
     ],
     "category": "match",
     "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "West Ham vs. West Brom (31 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSUZxaVBnUzhVTFlfR1RYLUlWM2pPUURKUkhlVTA3N1ZIY05oM0hQMkhkY3k2WDZaRVFxLVRSck04aklfN1V4WF9kQXJ4UkFtWUpNOHpiUklrODYxdFF6VklSUnprTkIxUzdtSjE0TkNUdUt0QzFsei01OXBvbnQySFlsU3RvSldZbENDeVJjLWdJZw?oc=5",
+    "excerpt": "",
+    "source": "ESPN India",
+    "published": "2026-10-24T15:17:04+00:00",
+    "clubs": [
+      "west-bromwich-albion",
+      "west-ham-united"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Stoke vs. Preston (31 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUXAySlNwZkNIRFd6ZmN6b2JjVFQwbFZZR3duNGd5SVplZGxUaEJPUjZUTm5TckI5NmRscnZ0bTRMN09KSVdVVjk0T3FhaXhFQS1KRXlNRnM3WW90TGFjZDRVSTlyQnZMeHBsLWVEaXpNaXFrX3N1TldSTXlTQmk5UDBxUmZUOUE?oc=5",
+    "excerpt": "",
+    "source": "ESPN India",
+    "published": "2026-10-24T15:16:30+00:00",
+    "clubs": [
+      "preston-north-end"
+    ],
+    "category": "match",
+    "tier": "low",
     "division": "championship",
     "scope": "club"
   },
@@ -216,6 +1640,80 @@
     "scope": "club"
   },
   {
+    "title": "Luton 2, Leicester 1, Positives and Negatives, Player Ratings and Match Report, League One Fixture - tcf",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaGY2TF9yQ2o0eDB5UTZvTkE5dmNNVjN5Mzd0bTVNaEM0SjBqZEpaRjRzZXkwaWk2LVZBYU9iUlZUQ2hTdHNST2FZSlV5NXlBbTctbk9XS1lNckZxazR0RXItVXlvNW96NURtWG5nTllES2hWSFhSeDFsbUh6ZHZOZWlRT3RqQXZsam0wekFuTS1kY1dfMU96REFRZFZsYXprTVVmSUFBMkJfSDlTd0ZsazBkVmV5aGxrdVhtdFAySU1qM1g4dmNRSQ?oc=5",
+    "excerpt": "",
+    "source": "filbert way",
+    "published": "2026-10-24T15:01:16+00:00",
+    "clubs": [
+      "leicester-city",
+      "luton-town"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Karlan Grant: Charlton forward on returning to the club and facing Norwich on Red, White and Black weekend",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPbDlkYzJ2ZlFKVTQ3VEtxOFAxcWl0bk9DV1BQMnFQSjRfQi12VWZ1dS1rYUctYnVpMWIzUV9aWEw3Z3k1TXpMcW4zTkFBR0FjNlNUSDc2ZEZYNnRReUo0WDhfdXNVWm1CUVR5RG0xV0IxQmVZYWplcVM1WUZMSWV6b0ZGSUVGSlR0endvRVNhOG9JVEEzUjFqclRsZEs1REJtSHBjUW9wZ0FxUlU3bk96cVpYMUVybDV6TEJvWGE5cTRxOXBqdW5ORnNjLURlejhNei12djZvaHRvbmRXWmc0N1gySG5kZjg5?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T14:57:27+00:00",
+    "clubs": [
+      "charlton-athletic",
+      "norwich-city"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "'There is no foul' - Steve Evans on disallowed Joe Quigley header in Bristol Rovers' goalless draw",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZGRVS3lKcUt0dzdhUlFSMjlmbDBDd1l2ZHlMUk05LUtDb05WZ2Y3OVNlZjg2NThMRW95b2g5M2FKeUYyQ0IyVUxJNlZrcjUtempacVgxY0YxVVExMl9zd3V5SS15cDJVM21vY01MOElCajdMN0RXQXlGUEJPOXBMUmxJUkw4ekV3VXVDZ3pNZTFJZVV6d0hXTg?oc=5",
+    "excerpt": "",
+    "source": "Bristol Live",
+    "published": "2026-10-24T14:52:00+00:00",
+    "clubs": [
+      "bristol-rovers"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Blackburn vs. Wrexham (24 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93eHdKbzdXT1c0RjBRdjFyU0VyRkZqWWFET2E0WFNUWmdqTjQwN3paa2NQWmJmbEVLa0ZZTVMxdkc0bXA3RzJMSWRuOVFoVWR1ZS14MGhPU3BubTV3WFdzUDYyZzhhdWdx?oc=5",
+    "excerpt": "",
+    "source": "ESPN Singapore",
+    "published": "2026-10-24T14:50:53+00:00",
+    "clubs": [
+      "blackburn-rovers",
+      "wrexham"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Wolves vs. Watford (24 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDa2M5NnE1X2txQnF4MWpvam1iNjdWbEJoUmRaZEU0Ti1KMGxNdkdEM1VJTGxFWHFES3kxLUlwTjRhN1QxM0pZeWxSV2M2NktMU0ppUl9IbUcxZXh5ZW1tbm9oZGJxQUFP?oc=5",
+    "excerpt": "",
+    "source": "ESPN Singapore",
+    "published": "2026-10-24T14:50:52+00:00",
+    "clubs": [
+      "watford",
+      "wolverhampton-wanderers"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "Cardiff vs. Birmingham (24 Oct, 2026) Live Score",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UUTJnWU1oSWZjRU9KRzZwN3Mwa0haejBNU2pQVHNDOGRkSTJxUEV1a193RS1OQ3lBZDBfS1E1NHA1UHlYSVdyb0ZveVhhLVBVQXNXUG5KZmF1bkVlSWZRSkQ3Nl9XTHlZ?oc=5",
     "excerpt": "",
@@ -258,18 +1756,17 @@
     "scope": "club"
   },
   {
-    "title": "Luton 2, Leicester 1, Positives and Negatives, Player Ratings and Match Report, League One Fixture - tcf",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaGY2TF9yQ2o0eDB5UTZvTkE5dmNNVjN5Mzd0bTVNaEM0SjBqZEpaRjRzZXkwaWk2LVZBYU9iUlZUQ2hTdHNST2FZSlV5NXlBbTctbk9XS1lNckZxazR0RXItVXlvNW96NURtWG5nTllES2hWSFhSeDFsbUh6ZHZOZWlRT3RqQXZsam0wekFuTS1kY1dfMU96REFRZFZsYXprTVVmSUFBMkJfSDlTd0ZsazBkVmV5aGxrdVhtdFAySU1qM1g4dmNRSQ?oc=5",
-    "excerpt": "",
-    "source": "filbert way",
-    "published": "2026-10-24T14:48:19+00:00",
+    "title": "Rotherham 3 v 3 Shrewsbury Town - Report",
+    "url": "https://www.themillers.co.uk/news/2026/october/24/rotherham-v-shrewsbury-town---report/",
+    "excerpt": "Rotherham United added a home point to their Sky Bet League Two tally in an action-packed 3-3 draw against Shrewsbury Town at AESSEAL New York Stadium. Six goals, a red card for either side and an energetic display from...",
+    "source": "Official site",
+    "published": "2026-10-24T14:47:52+00:00",
     "clubs": [
-      "leicester-city",
-      "luton-town"
+      "rotherham-united"
     ],
     "category": "match",
-    "tier": "normal",
-    "division": "league-one",
+    "tier": "trusted",
+    "division": "league-two",
     "scope": "club"
   },
   {
@@ -287,8 +1784,23 @@
     "scope": "club"
   },
   {
+    "title": "Bolton vs. Bristol City (31 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZ0h2ejRNMEZtOUdqUlJIR2x1VlJRNjh3OURodWdWbWhTejlzNmFzT21GZUZqWXN4cWFoZmlDZlVqVkFxbE1zUVUxX0xKOGxDUXJTbEVLTERRUVJlaEJGcExiMEhuME5FVWJrQkk5RHZCb3RqYWVZcDNldzhKeWhDZlM3RVc1Vzc4?oc=5",
+    "excerpt": "",
+    "source": "ESPN India",
+    "published": "2026-10-24T14:43:59+00:00",
+    "clubs": [
+      "bristol-city",
+      "bolton-wanderers"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "Blackburn Rovers v Wrexham: Championship stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LYjNMMEoxZktsOUJCVEE3eXN5RkZzcGVYN0hEQWsyTTFIaThhUXhrdWFUaGkySUVFNkdteHUxWnoxM1NCTzFhWVhobVZyZ1ZBLUxxZ0wwdHRQa1ZIbDY4SXpoUDFjSWRtSUM1Qw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5mUzRGa3VOR0dZanpaeHdBNzdpYS1ZeEIzSDlsaXZzSGZKaGd5Y21hTENseTJxdW8tY0JYUF84Zmlnb0FnWk9KMzhKUzYwbWtuLV9nUGdqYjRsR3lNVEZETF9qZkZDTnFVdlFMNQ?oc=5",
     "excerpt": "",
     "source": "BBC",
     "published": "2026-10-24T14:42:26+00:00",
@@ -314,6 +1826,21 @@
     "category": "match",
     "tier": "trusted",
     "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Exeter City vs Fleetwood Town: League Two stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9veUJyWWwyRVA1bFdFX3ZXZzZOdXhqX0F5Nk5PamI4dWdPVzY4eVZTY3IyQ3VBMDVNZ0xURUgzVXBHZkNpR3FMS2syUGZiRURmb24xbnFBTjV3dlVKYWt5TGRVbEVIMFVoc1JHbzlzOA?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-10-24T14:38:00+00:00",
+    "clubs": [
+      "fleetwood-town",
+      "exeter-city"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
     "scope": "club"
   },
   {
@@ -346,6 +1873,21 @@
     "scope": "club"
   },
   {
+    "title": "Preston vs. West Brom (24 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5maV9WSF9xZlpMRlRwNkhndmlxUVJESWtZM2VhX0FaeFhCNVdNdzdOQkNkTTk5RWg4Z3hGX3pYQmotcVpaOFQ0X0M1dTNWRnJYblRDNzhra0RwTllVUmduc3hweEg3eGNn?oc=5",
+    "excerpt": "",
+    "source": "ESPN Singapore",
+    "published": "2026-10-24T14:32:58+00:00",
+    "clubs": [
+      "west-bromwich-albion",
+      "preston-north-end"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "Stoke vs. Bristol City (24 Oct, 2026) Live Score",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9RSDdWeXNDTkxrdnkxYXQtbm5jS1lkOTJfcjdxQ2JrWGE3NlZiN0lBOVJhcDY4UXpSQTRDRVJWQ2luLVRKdHB5X2xRdVpCdDdGQ1VQc0VHcFpfeUlhc0RzNXJVb24tbjQ?oc=5",
     "excerpt": "",
@@ -353,6 +1895,21 @@
     "published": "2026-10-24T14:31:45+00:00",
     "clubs": [
       "bristol-city"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "QPR vs. Swansea (24 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WdktZR055d3Z2QV9GMjMybGVmZzB1ckUwd3lTM05naXYwX2hfTENGOS1YWDduTk1nWkVYZTBQblNfRHlhLTNhZHR1S3ZtcG56eDNuUTVKMGt1UEhCMm1hZ0dvQ3BNbUpj?oc=5",
+    "excerpt": "",
+    "source": "ESPN Singapore",
+    "published": "2026-10-24T14:30:57+00:00",
+    "clubs": [
+      "swansea-city",
+      "queens-park-rangers"
     ],
     "category": "match",
     "tier": "low",
@@ -462,18 +2019,32 @@
     "scope": "club"
   },
   {
-    "title": "Exeter City vs Fleetwood Town: League Two stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE43c2ZIQVZsbS1xcWdxRllKTmx5Vnh6dFdfRHV1QnF2d2R5Y3VHaEdqUkRPWF9ibGhKREZnLU9iVnRyVmRZM2RiU0xjRUU0eWV1SmdSbEVibXF4ZmpIcXN1cnFMTnBFQQ?oc=5",
+    "title": "Northampton 2-0 Colchester",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWWNQNWtoZTdwX0N4a2xaaU1UVk4tUUdYSE5nWEJWV3IyZjZ5a1dYQzVvREhnUWpWRkNBREcySmZveWVyUkgwTGtCV3RtMEZDZjhJTFVrSFRVdGZKbmFHaVlPckpNQlR5c2s2UGZoRWJPU1VTaVRyUmViQUZFQldVZQ?oc=5",
     "excerpt": "",
-    "source": "BBC",
-    "published": "2026-10-24T14:20:49+00:00",
+    "source": "Sky Sports",
+    "published": "2026-10-24T14:23:50+00:00",
     "clubs": [
-      "fleetwood-town",
-      "exeter-city"
+      "northampton-town",
+      "colchester-united"
     ],
     "category": "match",
     "tier": "trusted",
     "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Oxford Utd vs. Stockport (27 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lUzZnZzZmVWp2TWY0U0pPeEdDSWJHVW9kQTlaNjkwekRDcDJWeC1fUzBsaHIzaHplenFVTDN6Q2RrZGtvMmZ3MlJiWGtOWUYxME9GOUpBRDNjdk5jbVpfbTdFaENFOG82dkMyMHJTeE5zSENMR0E?oc=5",
+    "excerpt": "",
+    "source": "ESPN",
+    "published": "2026-10-24T14:23:49+00:00",
+    "clubs": [
+      "stockport-county"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "league-one",
     "scope": "club"
   },
   {
@@ -521,8 +2092,52 @@
     "scope": "club"
   },
   {
+    "title": "!$+[WATCHLIVE]ESPN@] Wycombe Wanderers v AFC Wimbledon EFL League One game LIVE STreams",
+    "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxQMXU4aFBKZlhXT0NDUlJzTHZFQjJtUHgwLWRycDVJdUgwWVR3eVpSV1lKVW50YS0temJUM2hIX2pGX3dERF9ZekhZWnZWc2ExX1FmTFhLdnlha1hiRXpkeWNEcmFOZ2ltRFlxRzZLV291N21iZjNNdEd2VkNrTlB0c1ZtSVZpam9seUczcUhNRl9zMWllQmF6Yjk5aWNaOHVTRmQ0UXFrQW1aaDc3X3VHZFZCY0lNaW5JYkpjUmR4REtEUXNTRFg4ekhpODg3c1BJdUhvVkl3NEJVMGFwR3dZTm1PaVgzMzREc1lEZnViUEFCUlVzNUdYMUxVeUJjZjZwMW9qLWR2a2oxWGtrQjh0blRLYXdqQmt2cGpDLWFxdUYxLVRTQ3VaUWxjcnZpVUFQNm5UZ1BjX1pXdnR1MHZYTTVrT2k0SmllSmVFdG1xT3VrUm0tbTduNk14LTNIcFpQOWEwWWktalotdkRUSmVoeU1DMF8zZ1FldUcyLTUxZnZBZDZqQUxPSFB1RGhVcU10NjgxazRPbw?oc=5",
+    "excerpt": "",
+    "source": "小豆島町",
+    "published": "2026-10-24T14:14:57+00:00",
+    "clubs": [
+      "wycombe-wanderers",
+      "afc-wimbledon"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Stoke vs. Bristol City (24 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5TQUVEZENXeVJYR0ZFTzVtd3hFOHAzZHB2djVtcER1b2ZkU2FIYk0wM0NPOXRtOUhfeDEzaVVXWmxQN0J4THNVRHczNUY0a2NQRVVkV0RKRHVuUEljUXhvWEM4NHZFM1BF?oc=5",
+    "excerpt": "",
+    "source": "ESPN Singapore",
+    "published": "2026-10-24T14:14:32+00:00",
+    "clubs": [
+      "bristol-city"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "West Ham vs. Southampton (24 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ESm12ZWcwdEo4bzk2RjF1UWVNNG9rTW8wWU1DWjFlMVBYQWR4RkxEcGxESzNHNE0zTlN2TEZZTFl2Z21ha3g3QWRFUFdnX0xvLUJaSG8xdE9Pd0gzZUYzLWtjU0p0OEJz?oc=5",
+    "excerpt": "",
+    "source": "ESPN Singapore",
+    "published": "2026-10-24T14:14:27+00:00",
+    "clubs": [
+      "southampton",
+      "west-ham-united"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "Lincoln City vs. Birmingham (31 Oct, 2026) Live Score",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOU9jRHdDZ2RDTy05T2cxNTFESlJWdWk2d2pPMjVfd1I0M2NiRHVmRURXVThIb19YRVRYdm9lYmxOalR0a19EbjhORzlZdkFvemM4WWluVE8tdzJMTGVxWGY3bmlwaHEyejVuQXpQU1ZpbTc2endlQ1o3ZGgzamVOR2xkbTV2eU00dmNJ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9lYU1ZRFZDNHdzZWEzOTV5WnNWZjBiX3JmMTVpd3BtZGdyWUdqR1BGYTJpLWpiRWJqamh3M2xPSkMxczdiN0Y0c0JrWFhBMUV2dHJDNWI5N0dyM0tweDBxeWRlelJ2NVcwS0s0ZXIwYnlaeTdIYnc?oc=5",
     "excerpt": "",
     "source": "ESPN",
     "published": "2026-10-24T14:09:01+00:00",
@@ -572,6 +2187,21 @@
     "clubs": [
       "fleetwood-town",
       "exeter-city"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "(LIVESTREAMs!FREE)! Tranmere VS Crawley Town Live Free League Two ESPN Coverage",
+    "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxOSFJ2THBWZmxNV1ZQQkd1X1owSkVtWVBieVhFZE83NDNTQU8xN202Zm0zbUZ2Y0c2WTJ6V2hSRWstYzF5MVhXOUhGUEtEMnB0WHB2blpjNndiTlR2TGpMV25PUHpaSTNVMTczc1E4NTQ1a0RORkF3UmljQXc0em5kTTJ6U0o3SlV2ZlNIdUoxaWVubmFpakN3N2hydG9lUjRqcWhLUDZlUUtUdWVGeGdUV0JrbDlvWUtMNG9WMU9KeHZqQXNGR0lSOTRDbFIwdVUtNEx0ay1UUmt1NkdSSjFka2lwMkFQZnBwM0paV3lFRXdVNHpoYTd4NjZ6LUVWY1pWRV9ZOU5uMzVMcWZkR0RQcC1QLUZGODZmeVJOOTRFMk9TaWtHT1k5a2VPSWVxMVJEOFBEM3lmNm5BOGFSZklWWkQyMURxaGlEVEdHVFhKdU01YmIwTDM2Z1dTSk56SmVFcU5vU2hZcGQ?oc=5",
+    "excerpt": "",
+    "source": "小豆島町",
+    "published": "2026-10-24T14:06:24+00:00",
+    "clubs": [
+      "crawley-town",
+      "tranmere-rovers"
     ],
     "category": "match",
     "tier": "normal",
@@ -638,18 +2268,18 @@
     "scope": "club"
   },
   {
-    "title": "Gillingham vs Grimsby Town: League Two stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WU2RtZFNjTXZlTkhxdllFcUlzenhBNmRPMF9mQk92QVFubGd1dnFJdDlPOXVqZVdFVEVwZjBFdmVlZ0d0SUQ4Vjc4a1dDcWctc25sVTV1UndWVHJOYUtBWmRnUk1IZw?oc=5",
+    "title": "AFC Wimbledon 1-1 Wycombe Wanderers: Points shared at the Cherry Red Records Stadium",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBUb2I3Z1FiUGpKTmhBQThqOUdycDFZVk8ydWtOM2dDVUlfbGNiczNHSEJVbVZoNWxkQ3R6bERsRUJyWm51aXY3ZWlqdVhlX3FMekRTcmR0NEtPeVpFbDhDY2EyRFBPdw?oc=5",
     "excerpt": "",
     "source": "BBC",
-    "published": "2026-10-24T14:01:57+00:00",
+    "published": "2026-10-24T14:00:39+00:00",
     "clubs": [
-      "grimsby-town",
-      "gillingham"
+      "wycombe-wanderers",
+      "afc-wimbledon"
     ],
     "category": "match",
     "tier": "trusted",
-    "division": "league-two",
+    "division": "league-one",
     "scope": "club"
   },
   {
@@ -661,6 +2291,21 @@
     "clubs": [
       "leicester-city",
       "luton-town"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Oxford United vs Bradford City: League One stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE84RnRwVkRYRW5aZUJOMzhMZE90MjNaMkVYRzhDZUdBYkdxY0lUczg3Z0MycVVIQVRVT2kyRXpaU05WaDlmYmxCSUktSUVGOW91TENzcFpCRC1qNlc2MEFuTTd3NU95dw?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-10-24T14:00:28+00:00",
+    "clubs": [
+      "bradford-city",
+      "oxford-united"
     ],
     "category": "match",
     "tier": "trusted",
@@ -683,6 +2328,80 @@
     "scope": "club"
   },
   {
+    "title": "Doncaster Rovers vs Sheffield Wednesday: League One stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5SRURMZ1RZejUwSHI5WGRWTXhWVy03aG51SEZOY0YzTzd2MjRpcGc3QnFVQ29ETXhyUFExb3VfTEV6Y2N2Y3o0TUlwVUY0MVk4clpqT1Vjekswd1VONXFEenB2bGdhZw?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-10-24T14:00:19+00:00",
+    "clubs": [
+      "sheffield-wednesday",
+      "doncaster-rovers"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "PLAYER RATINGS | How the Wanderers players fared in the 5-1 defeat to Boro",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdmZkdDYybV92a1gwRUdKcUp1UWlrZ0FjYk8xcnJZSUttWVdCLU1jUEVidUZmNGI1cld4Q0VSaEJLelg2WVRFOXlGaVQ1OG5VendQYWF6X2tBS2dMQzA0MTR2MTRqOE1mTDdQYTM1Nm1lX1BCdEx2dWFNbDhEMXlodnpuM01UOVB1ODloVEZuTXFvaFJxTjYyYkQtR2lEa29BbTF3NWRqOFY?oc=5",
+    "excerpt": "",
+    "source": "The Bolton News",
+    "published": "2026-10-24T14:00:00+00:00",
+    "clubs": [
+      "middlesbrough"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "$+ +LIVE@sTRAmS]*Rochdale vs. Accrington ST National League Live free streams",
+    "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxONGNsbXdyMUZoUHJ4UGw0OE1YbWRQZXpsZ0RKV2FvZGNFMnczNHpRVmJfN3ZpYkdLUUJfYlFvRlNVM1d2REZrSDFEX0hHRVhEVFkzNXRXak55azRXVkRLVFpSWWJpeElxb29JcEFxX0VsX1Q3cXhIUDRJby1zMExFTjR4aTBjRmdjQTZaRU11a2lBNUxfLURLWHphQVZDbUt4TVhTcUM1M3M5TnlPUnhCY0wxSzFTbV9yREdibkhLN1lHWGNIbVFwcmpNRUJXMjRGUVRiYnRpeVFlLTJSSHJraHE4NnEwY0tqcmdWMUpBN3hnNjlWOVRzOUZBdG0xRlVVajktM1hsQ3hhRE1Rck5vN2dXTTJvVUJFWmg0bVhudTNZdmQ3ZnRIMXFvWlBQM2RxZVljN1FRQlZhajFDYjFPNWozNHdWRTVJZDh0UThR?oc=5",
+    "excerpt": "",
+    "source": "FC東京オフィシャルホームページ",
+    "published": "2026-10-24T13:59:45+00:00",
+    "clubs": [
+      "accrington-stanley",
+      "rochdale"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "*&TV~[LIVESTREAMs]!! Accrington ST VS Rochdale Live free stream",
+    "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQejFUYXJiaFlwNElvUG1TdUNxQkNMakpkalJZd0syYy1xdF9fQWtxR2RtTEd0RHV6Y25MdS1VRlNTZU5zb2pDbWRhNXRMWUV0d21GdmdYVkR6YUwyWGJSc212TlpkaW1tVmQxcUhUYUVicmhyTWhXTHdpY2JyMEVNVkx3bFJiSXNZZU1RdktXYzBCaWIzM2cteDd3N09ITnhmNl9hV2FNeXZKZVN1VjhVQ1pRd05Hai1YaUtLRkVTYVQ3b1ZCcVJhbVdQMjQybmxkQklscUU2SldocUc1dVdXdGNzSDBRS0lRdC1aYU5naG4zZHhSRHlSYUU1UVVzU05oYjllVUxxRDEtNWJDVDFRMmpub05NUGRvXzhfTGlMUnUyYm9xb1MteWtUa3R5MFVwbm84WnRyQWlMeW0zTGZGQTVmUi1iWWVZc24yNXRzRQ?oc=5",
+    "excerpt": "",
+    "source": "FC東京オフィシャルホームページ",
+    "published": "2026-10-24T13:59:44+00:00",
+    "clubs": [
+      "accrington-stanley",
+      "rochdale"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "$+ +LIVE@sTRAmS]*Gillingham vs. Grimsby League Two Live free streams",
+    "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQMjhIV3hyZk9HdDU3VDZoc0Z3STFLU1JobDNFRUhuNUZ5eTA3ZFhaNjJXTWlsZ2tCR2x3M1AwT0V3b2plRlNZS3BBY2FOU3ZXY1AwNUt0SmVjSjEyUE5JREpaOGxSUGR3S3MwSG01bmtoVHVFQWM5SS1leXNXeDZYaTZUR0JyaWI2Z3hSTk83d1BHbUpLUERsZUduQURpWFltdUwyU3Vqb09SNHA5a0hsVXk5YlFaOTNrYUhxd3JlWnlBbVZLLXVGbDdmVGdXeEJRLW1uQzV3T0Y5M2lRUmgyWDQ1c2wzamZ6S0l6Mlcya09zQXQ4UFFsampha2tmWEpJOE90alVYc2IwMXJCZUdpdFFnVlZOa2ZmeGYzQUV6emo1YjBJRXJMelBiZUJHQ251NFhVVVRiakZQTGJmRFNYR2ZQMkd1dWJvd3I0?oc=5",
+    "excerpt": "",
+    "source": "FC東京オフィシャルホームページ",
+    "published": "2026-10-24T13:59:43+00:00",
+    "clubs": [
+      "gillingham",
+      "grimsby-town"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
     "title": "(LIVESTREAMs!FREE)! Grimsby VS Gillingham Live Free League Two ESPN Coverage",
     "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxObS0xUlV1TXNHS2JkckNuY3R2SFNLc2NkckItYzZxWnlKR1c0RXZwTjNFZkdiSV9xUlQyZEJMVlVQTXVCZUpxS1ZFckcwQy1GNjI3YmdiNElLVndvTVFxekFPelJNQjBZaHFPZ2JsU2ptLVJrX0w2bk52VjZpbURCQjY2Z0w3OGVNNTlTNzNxb1F1Mk1pUFZpdHQ2cXlWMnpTNzlsVlVQVVhlY2dSeFZqT2ozR21zYkowWmdnMTh2YnVSdlhUR3NYaDhFRGMzUXcwRWxMN0xCcGNwTU94Mi1kNnltU2pZdUJsVEp6cmh1S3FOb3BxMUNiREJyOVA5b3B3ejY3bEZRUUQ5N3RrR19Kd3YxTzNUeHRKaHd1QU1zY3FReDAweUhPN2VUV2hXZ1F6SnpoM0N1MUp2d3BLRGJJUjR3?oc=5",
     "excerpt": "",
@@ -691,6 +2410,21 @@
     "clubs": [
       "gillingham",
       "grimsby-town"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "*&TV~[LIVESTREAMs]!! Crewe VS Chesterfield Live free stream",
+    "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxOUmJwaTVGd0tyNWN1Y09ZZ0NYUXo3VmVhTkVrX1R1dklqbXh5WGNXejhnLWU2ZHNhRTZHWWkyQi13Um5Vc3JlX0hxQUpSVEhPLVhTcHVkS3p1WU5QT1lPUkhueFpLd2hUNnFCTERKa1U3TW1BamcwME1fSGlqMjA2bXhCcHo0YVlMUjN2SjhfWTh1RlRCa2d6LXF1YkF1NTRlM0U3Wk5PcGRtN0dSakV0YUx3ckdlcTItUjdRU2k1RUFDaFJyajhzZW5iOEFmZjQ3a3B1T1BjeTdkclhYV1RCeEp6dV84UDJERk9IdG1QaFZ1T3R2VVFKREs4ZHNJRURTZXR0NVFXclR5ZUdGb016dThORXNtZUNfdTZLdjhfTWo5eFFYdVZGT1ZZOUtMaTd6YVBhLWxJcEVySG5NdEViV015WDNDWmt4VEE?oc=5",
+    "excerpt": "",
+    "source": "FC東京オフィシャルホームページ",
+    "published": "2026-10-24T13:59:39+00:00",
+    "clubs": [
+      "chesterfield",
+      "crewe-alexandra"
     ],
     "category": "match",
     "tier": "normal",
@@ -710,21 +2444,6 @@
     "category": "match",
     "tier": "normal",
     "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Bromley v Peterborough United: League One stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBSMnc1Q2U3aS0xdk5tSnF6VkdfNFBfWkxfeFNROGRoNVVyaE15TjlkXzFjNGp6WHUxNzFfay1VWTNMUF9vYThOQVlab01mS1BhWVlQMk1QODBWT2F3cV9ZaEJya3VRUQ?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-10-24T13:55:02+00:00",
-    "clubs": [
-      "peterborough-united",
-      "bromley"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
     "scope": "club"
   },
   {
@@ -816,6 +2535,21 @@
     "scope": "club"
   },
   {
+    "title": "Charlton 1-3 Norwich | Championship highlights",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORE52RVh0RTlxcHV6Q0UwNENFbm0tZU1GQ09hYjQ3aWVaM2RJLWVkSGIyaEZ3am5Mc2ljeUtTa1hzSDY5aXBZUEdiZFlhcjhrS0dsWEUtOFA2dUIzRzJPM1hIb2hSQXdPNEZsY2lPRzFnX2pTWXpQeElpZXpzOExTbmFsT1NqM190RXRwQ1ZQTTdfU1B3SEhwV1Fn?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-10-24T13:42:55+00:00",
+    "clubs": [
+      "charlton-athletic",
+      "norwich-city"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "Report: AFC Wimbledon 1-1 Wycombe",
     "url": "https://www.wwfc.com/news/2026/october/24/afc-wimbledon-vs-wycombe/",
     "excerpt": "Fixtures AFC Wimbledon Vs. Wycombe Wanderers - Sat, Oct 24 2026, 15:00 The Wanderers came back from behind with Fred Onyedinma levelling out Jayden Stockley’s first half opener to take a point home from an afternoon in...",
@@ -888,6 +2622,21 @@
     "scope": "club"
   },
   {
+    "title": "Huddersfield maintain promotion push with home win over Wigan",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMHd6YXF6WG01WVBaSkpJRXRBTnpmNFVlYnpzdWh3SkxULXhqdWt0MXhFY2RHd3A4ajlMRGRPeHJxZ0Rrek84Ml9mMXNwU0Nwd3llMnY5dGZ2eTJkUEJVQ1lRRk91NF93UXg1ckR2V3dZaWJzTlFSNjJoOEtSOF9GVHM0ZUZsbld6MGs0M1lWSWhHWWNEMjdMMzE1Z3MtTGRMOE9CN0ZCd3hTbUM2?oc=5",
+    "excerpt": "",
+    "source": "Lancashire Telegraph",
+    "published": "2026-10-24T13:32:22+00:00",
+    "clubs": [
+      "huddersfield-town",
+      "wigan-athletic"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
     "title": "‘Fairy-tale return, Dreadful mistake’: Neil Allen’s Pompey player ratings v Millwall",
     "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOWER0M1pIcFdaOEtqeURaai1kYzJETWw5VlVYbTRSTFN6aFJOM0xXWjJtV0gwakg2UWJHTVhhc1Z6VFNKa2xxRHFtVUFrLVN6OWFWZ3lULUdqUm5pWVVmVXpyb19FSENuckVVVVptSW9iVm5wWTljNTNUaEU1enJVNWtSVTM5UHc1NTdycXJlcTByV1dKdzJSWGRqUXF0aWpVYnA5a3k4T2hTMzhRMFRmMEZCMXprZmVKU2RJR1B1aWhCS1h3ZWlZZG9naE1uYnpBZzJnRkpZTzRIakF4Z1NGaWFxUWUxV3BIUFNqbzBHRmJ2bHVfem1oci1WRnNmNjFzTTJJbGJ3Qkc3NnhxYkpfcUtUSkRBQXF4Uk5pUy16aDBwUXcyQmNzNDFB?oc=5",
     "excerpt": "",
@@ -898,6 +2647,21 @@
       "portsmouth"
     ],
     "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "‘Fairy-tale return, Dreadful mistake, Defended heroically’: Neil Allen’s Portsmouth player ratings against Millwall",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS2tXd2E4bkhLUDRIRTU0WC1Pcm01Qm5XMk1JekNrZW1mNWpRb1BqdXVqam51TkNUV19jMFh4R1d1OW42Qk1sS01UaGcyRFIxYVZlcmJ0dkRSSEZnZWZyLUNEMWEyMTgwTmRMVU55OGxxMTBTcmhoYWtFX3l6d2I3cGZjLUdjSnFXSjVCd2xEenFPTzJVRUxOaXJBMXMyTFFOVFpZaHFEdHRTaEU?oc=5",
+    "excerpt": "",
+    "source": "Portsmouth News",
+    "published": "2026-10-24T13:32:00+00:00",
+    "clubs": [
+      "portsmouth",
+      "millwall"
+    ],
+    "category": "news",
     "tier": "normal",
     "division": "championship",
     "scope": "club"
@@ -1019,21 +2783,6 @@
     "scope": "club"
   },
   {
-    "title": "Rochdale vs Accrington Stanley: League Two stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tVnFnUW5JaTdvbEJ1dk9tWU0tcm55VHktRXBJbk03YzlzQkgwTXFBdnhTSDBNVktmeVZhV1JEaGM4NE5YY0dMR29iRVY0SXJEcFNGRk9yVGdQVWxaQjJldVE1TWx6Zw?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-10-24T13:20:04+00:00",
-    "clubs": [
-      "accrington-stanley",
-      "rochdale"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
     "title": "Lions beaten at Portsmouth",
     "url": "https://millwallfc.co.uk/news/2026/october/24/report---portsmouth-v-millwall/",
     "excerpt": "Millwall were beaten 2-1 at Portsmouth in the Sky Bet Championship on Saturday afternoon. Jenson Metcalfe's first goal for The Lions gave Alex Neil's side an early lead on the south coast, but two fortunate Pompey...",
@@ -1074,21 +2823,6 @@
     "category": "news",
     "tier": "normal",
     "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Crawley Town vs Tranmere Rovers: League Two stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4xVEJMQlZ1Vkc1ZVppa1RwRFJYX2VUNlpJeTlPZGxvTUhmcnBVWXo5TWdJYTk1V24zYWtUZTBXZ0VOR183TVNsckV0QWxPbFVyaktWQThBYW1IU0tLd2tIS0RBOXdzUQ?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-10-24T13:17:22+00:00",
-    "clubs": [
-      "tranmere-rovers",
-      "crawley-town"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-two",
     "scope": "club"
   },
   {
@@ -1218,6 +2952,35 @@
     "scope": "club"
   },
   {
+    "title": "‍[WATℂℍLIVE]DAℤℕ!] Oxford Utd vs Bradford City EFL League One game LIvE FrEe StReAm",
+    "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxNOUNxUnpfS3JqaElnWldueFBzc0hoODBGSnFPcmR3V0JibW15R3dTUGNNMGlna19qdTlGYzM4c2NDOFB5eEF3ZmJlaGZ6N29KR094MFgyQkZzUjIxanRjMmJLNGRxcUNPOTlvTExtRWVPQW4wZUI1bkFrRV92cU5zcnhOQzJwUWM3N3NfcGktSFJXVkw0TTZaMVl4QVhGS09zMFNqRHF6RXNrVXo1djB3dmwtWUMwVk9iUk0ycTlhLTBlZ0RONGhSWVpFTW9mMmVVTmlZNjJlUkdpWlpXM1FKM2FpaGFXSWFjYTBFcWx3eU41RWU5OEVZNWFYdkdDUGw1dVh1VnRvdHZ3QlZ2RWsyOVZIM2VxQzZ1Z1JqRHdvMmVPWXJnUW9nbEtyR0ludDY4TDQ4OFBELVZRYzZ1OC1pV29zbzJvaERVaGZuaXhiY2gybHRXdndpNFdpLXYzQXFTNVVNSW8wa3Q1VkxuOFp0VmtpaXVGQUxFbFBtTHVsNnVBbU56SnZYNDJrU2hGYTAyREhv?oc=5",
+    "excerpt": "",
+    "source": "小豆島町",
+    "published": "2026-10-24T12:52:06+00:00",
+    "clubs": [
+      "bradford-city"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "AFC Wimbledon v Wycombe Wanderers EFL League One game live: AFC Wimbledon v Wycombe Wanderers EFL League One game look to seize control of thrilling AFC Wimbledon v Wycombe Wanderers EFL League One game. Every team in...",
+    "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxNUkVpc0V5Um9SU1djdjM1dDdSVndram5JWFBBUVBFVFZoaEJmcFFRUlNsc0h0eERPU09QUTM0dmRfUGtKSy00cGh1MHB1ZnE1bm1DTlg5YWIzaGRVUk5JaW9Rak10R2hseEdXeUtiWDZsSDRiaXk4RXRTX09ka1Nvd2g3YjlfZ3RIWTJFT29Na25xSXJwc2lBVTN2amFUZTByUTctblhHWGJpbTl0WVFNQ1NTVDVtUk9rQkxkeU5JV0ZyT2NBRUNLdmtGSmJaeGtZSkY5V3I1QXJ0NlM2eXZobFNlSkFLOFg3RGZ5R2JQMjMzYW5KVzdROGdvWEhMTndTcjR6Z2doQVV4YnhhblNoS2ZLZ1VrR2FSTFVzaV9oTVBIMHliM2JEUFM2SnJZUi02dVhNM1pwZUp1elU0NFQ5ekdwTnp4UEVaV2x4NWVUSDVIYlVQRFNtX1BJeldTckFyYUNNZHRqVVI2S29HSWNzNVE3a08zSlpKX3ZKOE9wLU1sa0VteFRjNHVoeUFhMXhvREo5bUwtbw?oc=5",
+    "excerpt": "",
+    "source": "Google News",
+    "published": "2026-10-24T12:51:39+00:00",
+    "clubs": [
+      "wycombe-wanderers",
+      "afc-wimbledon"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
     "title": "[WATCHLIVE]TV!] Wycombe Wanderers vs AFC Wimbledon EFL League One game LIVE STreams",
     "url": "https://news.google.com/rss/articles/CBMimANBVV95cUxNekw2S3NXRldRQ3VGRzA4b2pucTM0ZzVoS29DTEEyOWZncnNrSDNDRk9LbHVubkdnX2E2RTJaQ203b0ZMbUdoQWpvT2dkbXQ0VFFVS3dYd1NiMlAzcUd3SDFBcV8yRW1NS2xHU1o1NkdPOEh5RzNHbUVmSnQ2bzhMZkhsTy1zNUV2akJWUnh6bWR4dk8wWkRQSkNqbG5COEp3REo2VkhpWFJiWTVwOWY3Y0ZoQXRzWEdTcU9henlYdklSY3kyeHNVLTlFYlVWbUEtbEh0OEJiSkJfWkZWU3lDV01KWlpZNmtUYjRHVHI3UXpsYkFiY21aR0Z5SzFLc1BDcllhSG1YeEd3Q2pvU3Ewck5OdWZiUXpoaUlsc0Q4dHpvT0dTTi1jT1dSdUpkSmU4cFFDQ1ZKLTVEOTVnazQ3dkZab096SGxlNHhhZjFpVzQ1M1FFc21lb3J0aUxwR0RlM25CeXZuOFpYTkhSMmNaYVQxSDJlTUZzc0NocllkYWJxTGtYY0p3UDgxUjByajhveDFZaG1lbVo?oc=5",
     "excerpt": "",
@@ -1258,6 +3021,21 @@
     "category": "news",
     "tier": "trusted",
     "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "(LIVESTREAMs!)tv* AFC Wimbledon vs Wycombe Wanderers EFL League One game LIVE STREAM Free REDDIT",
+    "url": "https://news.google.com/rss/articles/CBMimANBVV95cUxPUHBXQzBHV29sME1ya1RFQWkyODBRR2NYc3pDaFdVRGRhbGZPLXVYVU5tQWRONnFVbk1fb0NVOE1pQVczQTJxUFhhVGhwS3c4OWRydTBJUy1VaVZOS1RWZTFCYXNnRjE0YlRreXRrdExLeFpUNmdpTDZndlJVejJpdVpyZkNzYlVOTnpwWjhJbXV1dVlYRjZfSkJfb3M3OEZQWk5hRHR2dVYxVkxHeFhJT0ZVZ3RwSWtRT20tbW5vbHNfNmFERjR3S1RDZXZJLWx1bDRya2lmSEM0ck1XZTA3VGVmeGNhbmQweWZJbUFRSFFjYTRBRmNwc01fZ1FyU0MyaGpTV0ZreThMSVMyc2FmM0xwSzViNHNUZmxIMEVfc1U0NElGZlhNc3d0bXlFN2lkNFBpc21NMEVqNnBKX3VUU3ZpS3VYZWUwV2Q1R2Fwa0h0VUh0SHlZckFrZTBvVkVWNS05cVFHbTBmejhabTd2TURZSHpIODh1Wm9Gb0lLckNnTUxYX1hWd1hIYWc0VlJWNm1adkVJaEU?oc=5",
+    "excerpt": "",
+    "source": "小豆島町",
+    "published": "2026-10-24T12:48:38+00:00",
+    "clubs": [
+      "wycombe-wanderers",
+      "afc-wimbledon"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-one",
     "scope": "club"
   },
   {
@@ -1362,20 +3140,6 @@
     "scope": "club"
   },
   {
-    "title": "Reading vs Barnsley: League One stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5uTTVUdHBCMUI1aHEwSVNpaldzQUtFZzFjeExYckRaaFY3S0puaEtNcFQyQTR1NlNUZmg3Mzd4bVlDSXdUUk5QTGtWNVpoaVJ4aEVrQVRfMFRiaEh2S2JSVEhxLVFPdw?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-10-24T12:37:21+00:00",
-    "clubs": [
-      "barnsley"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
     "title": "Cheltenham vs. Newport (24 Oct, 2026) Live Score",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sWUpydkpiTjhMS1dDU1VEVXZHd3NQRUsyeEtYVlk0bzBxcE9vc3ZnNDB5S3VFSUgxVnA4V1Iyb3lQTDl1N1dfdWNUWXJEemdoTk1kQTc4dmZlYkxSTmpTNUJ4SDA1bkVK?oc=5",
     "excerpt": "",
@@ -1405,6 +3169,21 @@
     "scope": "club"
   },
   {
+    "title": "Northampton vs. Colchester (24 Oct, 2026) Team Stats",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPd052MEZJcTB3U1VrSDNzYUczbXFtNDFfYV9zVDBVMVFDWmhVY1BRQmVYTHc4VHJNUVNOaTZKMFlFYlJKQTZYQ0IxVmVlR1BVeUloa2VGLVY5RFkyeFJ0T2R4dThBU3JYZGR2LVptWlpRcXpzS0Z5U0JMekJZRU5KdQ?oc=5",
+    "excerpt": "",
+    "source": "ESPN",
+    "published": "2026-10-24T12:37:20+00:00",
+    "clubs": [
+      "northampton-town",
+      "colchester-united"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
     "title": "Bristol Rovers vs. Swindon (24 Oct, 2026) Team Stats",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZkg3SE13c3dKQ3lRaHZmWkVZUXA1SWRUdlJPY3ZFZGE0UnlMeDdFSnFNQXh1R0pmV3REbjFqeVJ0Rnl1azVJbDFjejdkY3R4VXEwRHI3M1VYOEF2aEpzTV91YkIwRmRLdllJNmJIbGlFcHl4S0JTRkh3Vjk1Q3IwWQ?oc=5",
     "excerpt": "",
@@ -1420,7 +3199,22 @@
     "scope": "club"
   },
   {
-    "title": "Live Blog: Watford Beaten By Wolves",
+    "title": "Huddersfield vs. Wigan (24 Oct, 2026) Team Stats",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZzFIdGo3aU1DQi1HdEwxTkZyZzhOWkhRVS1LYW5RRDN0cTdYTUE5NC1LbmNaUFptNnBUc2R6YlY4NHhpRmRvTGk5TXpkWlJzU0hnQ09Lb1VtaGNSdXhZcElUd1NZeHdKeTNvRGtNZDB1MVlrWVl6ZTNXbHdETzU0TA?oc=5",
+    "excerpt": "",
+    "source": "ESPN",
+    "published": "2026-10-24T12:37:19+00:00",
+    "clubs": [
+      "huddersfield-town",
+      "wigan-athletic"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "As It Happened: Watford Beaten By Wolves",
     "url": "https://www.watfordfc.com/news/2026/october/24/live-blog--wolverhampton-wanderers-v-watford/",
     "excerpt": "",
     "source": "Official site",
@@ -1431,6 +3225,21 @@
     "category": "news",
     "tier": "trusted",
     "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "LIVE: Oxford United 0-0 Bradford City - U's brave Bantams storm in second half",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNR1FISUtpdjdPNmRENnUyNnN5WTdnVTNWeHpqVFdkWHlPdVZXZldtR0VOVzZUOHFEV05saXZQMjBoOHpFRDluUHJwaHhUb3pIVHpSVFJGV1dEZHdRSnpHcFF4MHVPQWR6ZDZYbDNjcVVnejE5d2QzREM5dFZiYlU2SFg0Tk84Sk9RMWFIUlhhUHdVVzN3VEZfcVFR?oc=5",
+    "excerpt": "",
+    "source": "Oxford Mail",
+    "published": "2026-10-24T12:30:00+00:00",
+    "clubs": [
+      "bradford-city",
+      "oxford-united"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-one",
     "scope": "club"
   },
   {
@@ -1450,9 +3259,9 @@
   },
   {
     "title": "LIVE: Oxford United 0-0 Bradford City - U's start well in high quality contest",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNR1FISUtpdjdPNmRENnUyNnN5WTdnVTNWeHpqVFdkWHlPdVZXZldtR0VOVzZUOHFEV05saXZQMjBoOHpFRDluUHJwaHhUb3pIVHpSVFJGV1dEZHdRSnpHcFF4MHVPQWR6ZDZYbDNjcVVnejE5d2QzREM5dFZiYlU2SFg0Tk84Sk9RMWFIUlhhUHdVVzN3VEZfcVFR?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ3A1SE1jUHlzVHNuemNVbGdaQl9HVTFOT1F1eExwVnZSWWY4OGU4blU0X2JCbjZocVc4R0VWaXlqdHdOOHNwMVdGQ3hPTFVndDJHR3V3bml0UWdyNjE3MTlPMDVCSUJzNkV0dk40UC1PRDRxV2MtUVJoT0FEd09TdWNGVmhzZDJnMkQ5Yi1LSlhIWUJ5SEdfT1Fia3czdC1iYjkw?oc=5",
     "excerpt": "",
-    "source": "Oxford Mail",
+    "source": "This Is Oxfordshire",
     "published": "2026-10-24T12:30:00+00:00",
     "clubs": [
       "bradford-city",
@@ -1464,18 +3273,33 @@
     "scope": "club"
   },
   {
-    "title": "Rotherham United vs Shrewsbury Town: League Two stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xRGsyZVhxcVk0RDN6NU1VU29MR0VMYWRBWlk0bWEtcG1IbEcwM0hwVWFHVkdVaWktMTdsclUtNXZET2Z4LW5lYTZ2bkpJZjdtVWpUREVpUlIwVjhXQnR5dU15cw?oc=5",
+    "title": "LIVE: Oxford United vs Bradford City - Ramsey's men face third-placed Bantams",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMFM3LW5SZmFyXzNGN21xcUZIbkhuOWtIdFJMUzRCcUlYX1Jld3pYNnJhRkJyTjYyZ1JWc1JXLUFIOG9YN3lMWE1vZjVZaWNXNWZpWVRYR0pCSWtNd2ROUEVteC1vT2htQ01JZTg1UjlnbG9aNE9fenNWbzNZcmV6X3lxY0tRNG03TkY0Zk9jNVZJSVJaeUJBbm80bGdaZlByVnc?oc=5",
     "excerpt": "",
-    "source": "BBC",
-    "published": "2026-10-24T12:27:10+00:00",
+    "source": "This Is Oxfordshire",
+    "published": "2026-10-24T12:30:00+00:00",
     "clubs": [
-      "rotherham-united",
-      "shrewsbury-town"
+      "bradford-city",
+      "oxford-united"
     ],
     "category": "match",
-    "tier": "trusted",
-    "division": "league-two",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Blackburn v Wrexham - Live matchday blog - Wrexham and Flintshire News, Sport, Events | The Leader",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSW1nTXgyWmtNOHVqU1c3Rm5nUDJPY0p4LVZFV1ZJd1lYeTQxejhDNUdTcDRmYkJqZGVlOEM4dDgxcEg0RUVGYTdmMkJicF9XaDBLTS1KTkxHSTJpY3BFRlhNTUxJR0Q5aldJcmk2b1ZONTJ2RVA3RnBEbW8wZVBxUGZtWkxSRTRYYXdnenJ3?oc=5",
+    "excerpt": "",
+    "source": "Google News",
+    "published": "2026-10-24T12:26:53+00:00",
+    "clubs": [
+      "blackburn-rovers",
+      "wrexham"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
     "scope": "club"
   },
   {
@@ -1508,21 +3332,6 @@
     "scope": "club"
   },
   {
-    "title": "Oxford United vs Bradford City: League One stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE84RnRwVkRYRW5aZUJOMzhMZE90MjNaMkVYRzhDZUdBYkdxY0lUczg3Z0MycVVIQVRVT2kyRXpaU05WaDlmYmxCSUktSUVGOW91TENzcFpCRC1qNlc2MEFuTTd3NU95dw?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-10-24T12:08:39+00:00",
-    "clubs": [
-      "bradford-city",
-      "oxford-united"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
     "title": "Blackburn Rovers vs. Wrexham Lineups, Live Streams, How & Where to Watch on TV In USA and Other Countries",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMERZQjRMdUFUN3FQczFwWDc2dXhIeGs3bHhiS1dwbG8yTzRBcnNBVjMtR0oyZzZrWjZCYXFBQU90YWJaVVlqQnYzaHRLOHM0X0pIbVpXYWpVejljMWJMMEtTeEVFUEUxMkFCWWhoSWQ0eWVydlY4d0ctYmdRZnBIeHY0bER6bU5ncVhLbQ?oc=5",
     "excerpt": "",
@@ -1550,6 +3359,21 @@
     "category": "match",
     "tier": "low",
     "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Bradford vs. Huddersfield (31 Oct, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9XNlJVa242ODUweEl1RjBkb05KVVVQM3V0anQxTmwtazFPZjlPZkYzVWYzQ19jb0FuTnFlWWc1YW43NWo0RHJXLUNmWUZVTk9KRHBqT1gwWGk4SXdDTGdwWnA1UU9kVTdRT3FaQ3QzRUNXemhTaWc?oc=5",
+    "excerpt": "",
+    "source": "ESPN",
+    "published": "2026-10-24T11:56:26+00:00",
+    "clubs": [
+      "huddersfield-town",
+      "bradford-city"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "league-one",
     "scope": "club"
   },
   {
@@ -1608,6 +3432,21 @@
     "category": "match",
     "tier": "low",
     "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Huddersfield vs Wigan predictions today: 29/20 win-to-nil tip and our 2-0 score call",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcXY0cHlqNDAwanFSN1RMNVotd1JibE8wdjgxT1dDbVpyemhwaWZVdWxYVlJBZEtOX3BYcjRyUVRUWkFZOTBjNVk2ei1GaU95TkJFOFlsMWg3azRNMVZWMTFDNlAyVE5iZHBIb1hLbXlreHNxYV9RNzVMazc0TFNoSWdmU2tDd3hkRGZB?oc=5",
+    "excerpt": "",
+    "source": "Squawka",
+    "published": "2026-10-24T11:48:59+00:00",
+    "clubs": [
+      "huddersfield-town",
+      "wigan-athletic"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-one",
     "scope": "club"
   },
   {
@@ -1711,6 +3550,21 @@
     "category": "match",
     "tier": "low",
     "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Charlton 1-3 Norwich City (24 Oct, 2026) Final Score - ESPN (UK)",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5keWVTcmNaVUdWbDVtTWN6TU00dzV0My1uaVRLdXd2b2pQQTl4RlB0blZrSVR5WmZ6dnE4RHpHSWdsS2NLdDFvSmMwOUpOU0FNRHF0N1RFUFdrb3k5ZV9ORzFiZk1tSW8?oc=5",
+    "excerpt": "",
+    "source": "ESPN",
+    "published": "2026-10-24T11:35:48+00:00",
+    "clubs": [
+      "norwich-city",
+      "charlton-athletic"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
     "scope": "club"
   },
   {
@@ -1905,21 +3759,6 @@
     "scope": "club"
   },
   {
-    "title": "Cambridge United vs Plymouth Argyle: League One stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9jMUV0UXJIdmo3WXFRN2JNcnNTM1lwZWxLdHdNbnZxa1RoaTkycjJ6SkxBQllvMzYtVGRTcWg4eUVlTGVCMzNVVF9NNndKS3lYaVd6UjFaUGJYM0hMTEZSa3FhVjFMZw?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-10-24T10:24:52+00:00",
-    "clubs": [
-      "cambridge-united",
-      "plymouth-argyle"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
     "title": "Luton v Leicester – Team Sheets Revealed",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaDFuUXJoQzNSU1dTaDhFR0VfYmU4OVVJOUpSXzhELURnWmo0SGx5eFUyQjdXN01fTVdQUmVPMGp4M2dCd0xNMGh3WW82SnE4bzRwVjktQV9kM3RqRmRBalotdXAya0JZaDZDdUYxUTE0Ukt1bU1YWGZfZlFuLUo5NHFQYw?oc=5",
     "excerpt": "",
@@ -1949,18 +3788,18 @@
     "scope": "club"
   },
   {
-    "title": "AFC Wimbledon v Wycombe Wanderers: League One stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBUb2I3Z1FiUGpKTmhBQThqOUdycDFZVk8ydWtOM2dDVUlfbGNiczNHSEJVbVZoNWxkQ3R6bERsRUJyWm51aXY3ZWlqdVhlX3FMekRTcmR0NEtPeVpFbDhDY2EyRFBPdw?oc=5",
+    "title": "Northampton vs Colchester predictions today: 9/4 win-to-nil tip and a 1-0 home win",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQjVFeUktZ1lhMk5JQXptLWxZcWlNMkd1MUtScnZWdHBNaHhOb1cwLVpOeHVaajF0Zkg1Q24ya0thb010MkVxSkQ4Sm50QVNsam9kSG51bU9sYWZ2eVBJRzM4VHFVMTdmZW1ZRXcycjIybVlyNlJwak82NnNjRGNtWjgxaDY3LTh6QWdadTMzVFI?oc=5",
     "excerpt": "",
-    "source": "BBC",
-    "published": "2026-10-24T10:19:52+00:00",
+    "source": "Squawka",
+    "published": "2026-10-24T10:20:47+00:00",
     "clubs": [
-      "wycombe-wanderers",
-      "afc-wimbledon"
+      "northampton-town",
+      "colchester-united"
     ],
     "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
+    "tier": "normal",
+    "division": "league-two",
     "scope": "club"
   },
   {
@@ -2108,21 +3947,6 @@
     "scope": "club"
   },
   {
-    "title": "Huddersfield vs Wigan predictions today: 29/20 win-to-nil tip and our 2-0 score call",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcXY0cHlqNDAwanFSN1RMNVotd1JibE8wdjgxT1dDbVpyemhwaWZVdWxYVlJBZEtOX3BYcjRyUVRUWkFZOTBjNVk2ei1GaU95TkJFOFlsMWg3azRNMVZWMTFDNlAyVE5iZHBIb1hLbXlreHNxYV9RNzVMazc0TFNoSWdmU2tDd3hkRGZB?oc=5",
-    "excerpt": "",
-    "source": "Squawka",
-    "published": "2026-10-24T09:23:39+00:00",
-    "clubs": [
-      "huddersfield-town",
-      "wigan-athletic"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
     "title": "Portsmouth v Millwall: Championship stats & head-to-head",
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBibFB4NmNFdTBva09KcEZUQ1RCNU52WmNSZktDdFlmeWNPdE93X2lfbVAzcE4tMWJTRHFNR1RRZGduQnJJbzNZbWs0MmZzMXVDel9kc25RaFlfckxPOWNpck5xV0Iydw?oc=5",
     "excerpt": "",
@@ -2219,21 +4043,6 @@
     ],
     "category": "news",
     "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Karlan Grant: Charlton forward on returning to the club and facing Norwich on Red, White and Black weekend",
-    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPbDlkYzJ2ZlFKVTQ3VEtxOFAxcWl0bk9DV1BQMnFQSjRfQi12VWZ1dS1rYUctYnVpMWIzUV9aWEw3Z3k1TXpMcW4zTkFBR0FjNlNUSDc2ZEZYNnRReUo0WDhfdXNVWm1CUVR5RG0xV0IxQmVZYWplcVM1WUZMSWV6b0ZGSUVGSlR0endvRVNhOG9JVEEzUjFqclRsZEs1REJtSHBjUW9wZ0FxUlU3bk96cVpYMUVybDV6TEJvWGE5cTRxOXBqdW5ORnNjLURlejhNei12djZvaHRvbmRXWmc0N1gySG5kZjg5?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-10-24T08:15:46+00:00",
-    "clubs": [
-      "charlton-athletic",
-      "norwich-city"
-    ],
-    "category": "news",
-    "tier": "trusted",
     "division": "championship",
     "scope": "club"
   },
@@ -2694,21 +4503,6 @@
     "scope": "club"
   },
   {
-    "title": "Doncaster Rovers vs Sheffield Wednesday: League One stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5SRURMZ1RZejUwSHI5WGRWTXhWVy03aG51SEZOY0YzTzd2MjRpcGc3QnFVQ29ETXhyUFExb3VfTEV6Y2N2Y3o0TUlwVUY0MVk4clpqT1Vjekswd1VONXFEenB2bGdhZw?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-10-24T05:00:07+00:00",
-    "clubs": [
-      "sheffield-wednesday",
-      "doncaster-rovers"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
     "title": "Clement wants Norwich to 'block out the noise'",
     "url": "https://www.bbc.co.uk/sport/football/articles/cwn8der0je32o?at_medium=RSS&at_campaign=rss",
     "excerpt": "Norwich City boss Philippe Clement is trying to halt a run of six consecutive defeats.",
@@ -2812,6 +4606,20 @@
     "scope": "club"
   },
   {
+    "title": "Oxford United winger at his 'best' after League One injury 'frustration'",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa1dhbHo0YklWMmRsVC1Rb3lZWVVJOFZkME9uVmNOcEtHdGJyRHIxRGplcmxCQ1Y5d016N3hIM3dSY2hKTjZSTHZsX0thdnkwU3BzcGltLXJzazlUM0ZqdXBaX2ktNkNQRmc2OUNoMk5YRF9yYlJzcGYwVVJzaE5oOFQ4S2xFUHg2dzRadEJ6dEpqLTFqWGc?oc=5",
+    "excerpt": "",
+    "source": "This Is Oxfordshire",
+    "published": "2026-10-24T04:00:00+00:00",
+    "clubs": [
+      "oxford-united"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
     "title": "Southampton predicted team for West Ham trip in Championship",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQclNHLUVWTlhKNTBqWm1mWGtwUkEyb3NDTUdqcjJmdlNhVGtTc2MwSFNuT3dlR1lOY2x0UlhJZFpkRGFGQWRKOTVUOXJvdTMxVnRqQVFFMm5YbXFMZzA3VzdxcEhWWlFHcEI0MzhjWmoxRm91T1ZaQV95WHdyZWhDd3diczZLcTRDcXNXS0RaUEEwMG1kNUpaV3NBUWs0MEluUzU0?oc=5",
     "excerpt": "",
@@ -2824,6 +4632,21 @@
     "category": "news",
     "tier": "normal",
     "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Stevenage FC - Milton Keynes Dons, 24/10/2026 - League One - Match sheet",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9LYlIybjJfb25mQTc5QUFhR1lQc2p4UXJZblI4NmYzanVVVFg3eDYwWC1QSWw5ZXFhczFHdU15MElCamJPNGNZWDhLbDVqMkRsRC1od09VNDhrYzMxdzNxbmt3YU9HOGdnOHV0bElxVFJjeTg2dG5ERw?oc=5",
+    "excerpt": "",
+    "source": "Transfermarkt",
+    "published": "2026-10-24T03:51:39+00:00",
+    "clubs": [
+      "milton-keynes-dons",
+      "stevenage"
+    ],
+    "category": "news",
+    "tier": "low",
+    "division": "league-one",
     "scope": "club"
   },
   {
@@ -16472,870 +18295,6 @@
     "category": "match",
     "tier": "low",
     "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Chesterfield vs. Colchester (21 Oct, 2026) Live Score",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5uV0pIb2NaZkxqRWxnekhMbEpWaDlnbzhFZFJQRG15UXJJVXF2UTFYY3ZMTW5lOWJRQlNzOHRtOGw1amRFYXIzRVdyeUI2X0hJX0UtdHhJdjNvZzdQQzRTSkRDQQ?oc=5",
-    "excerpt": "",
-    "source": "ESPN India",
-    "published": "2026-10-20T18:55:38+00:00",
-    "clubs": [
-      "chesterfield",
-      "colchester-united"
-    ],
-    "category": "match",
-    "tier": "low",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Burton Albion vs. Bradford (21 Oct, 2026) Live Score",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8yQlpYR2otelVYa0JhUkMxdDdaNGF6N2Y0Y2xRMXNjVjRMMlRFZlFMb0xRQmVUMlkzbE9FZnM0N3ZzQU5SaExCRDNFbVhwYkZqRDhsbkNmQlhxZFNiY0NhVjlsUQ?oc=5",
-    "excerpt": "",
-    "source": "ESPN India",
-    "published": "2026-10-20T18:55:37+00:00",
-    "clubs": [
-      "burton-albion",
-      "bradford-city"
-    ],
-    "category": "match",
-    "tier": "low",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Barnet vs. Swindon (21 Oct, 2026) Live Score",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB0N1BJbWZjQzBqclBNMTdEa3RfMFYyR0JXVlZ3bjExaHQ3UVJldndWRzROVmlvQXhwTDJDN0k0X2VqbXBHT1JCZjlleW5sY1IxWTBWSU5zcFhLb0VDUThPWUpXTQ?oc=5",
-    "excerpt": "",
-    "source": "ESPN India",
-    "published": "2026-10-20T18:55:37+00:00",
-    "clubs": [
-      "swindon-town",
-      "barnet"
-    ],
-    "category": "match",
-    "tier": "low",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Northampton vs. Tranmere (21 Oct, 2026) Live Score",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1CeXlQbk1ZcEhFQzlvR05wa204OHgweTk5MVBtenVIRmgxbGYtNXBOVEcxdTJqUTlGMWFnY3kxMU01cTdiVEdjd1NXbEZPVk54aHlnWDQwenQ2aVN4VlBTMlFmaw?oc=5",
-    "excerpt": "",
-    "source": "ESPN India",
-    "published": "2026-10-20T18:55:37+00:00",
-    "clubs": [
-      "northampton-town",
-      "tranmere-rovers"
-    ],
-    "category": "match",
-    "tier": "low",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Exeter vs. Crewe (21 Oct, 2026) Live Score",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBlZXJIVmdxS0tDcE16T3lDZnBpbjhyMjhNOWdULS16Wlo2ai1zSmt4QUxUZFNacDZoeFNyLVJMUmpkbXdSVjEyRlRMQVpUTWhxOEZvTS1mcFpsQ2FjbWV0WmQ5cw?oc=5",
-    "excerpt": "",
-    "source": "ESPN India",
-    "published": "2026-10-20T18:55:37+00:00",
-    "clubs": [
-      "exeter-city",
-      "crewe-alexandra"
-    ],
-    "category": "match",
-    "tier": "low",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Stevenage vs. Plymouth (21 Oct, 2026) Live Score",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBxQURJb1VneFhCNkxoXzV2N1dGSTFFVDA4LWQzWmVxbGk4TjlmaWVjWXJfWlA1RXdKQk1BaFc4dzdQTl9BVFlPTWV2VFFvUXdFb1BrTXAzMEd4Q2g4blRiLWhRTQ?oc=5",
-    "excerpt": "",
-    "source": "ESPN India",
-    "published": "2026-10-20T18:55:36+00:00",
-    "clubs": [
-      "stevenage",
-      "plymouth-argyle"
-    ],
-    "category": "match",
-    "tier": "low",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Luton vs. Barnsley (21 Oct, 2026) Live Score",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5DZ2VWQVVNQWQwN1FvT2t6M0E4RGU4VHEwb0VNRVFmSmtuWVh3SUtkM2ptU1NWbUJ5amM1VnFMNDc0R0NoNlNfX3dsMTBrV0ZibnluR0kwOHZGXzJVbnp5akw0Yw?oc=5",
-    "excerpt": "",
-    "source": "ESPN India",
-    "published": "2026-10-20T18:55:36+00:00",
-    "clubs": [
-      "barnsley",
-      "luton-town"
-    ],
-    "category": "match",
-    "tier": "low",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Blackpool vs. MK Dons (21 Oct, 2026) Live Score",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4tMjFRaWhvU1UzQm5rWVhNaFNsaG16NUpUTk1CdldLQ1Z3Zk8zQW9zenhkVldlSlJvSFlhOEV6aGZ3Mkk2UGtjbzdOc2hTV3NVSnMtaXVTVzdDSk9NZkozTFgycw?oc=5",
-    "excerpt": "",
-    "source": "ESPN India",
-    "published": "2026-10-20T18:55:36+00:00",
-    "clubs": [
-      "blackpool",
-      "milton-keynes-dons"
-    ],
-    "category": "match",
-    "tier": "low",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Crawley vs. Shrewsbury (21 Oct, 2026) Live Score",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Sa2lnVWt4S2hLejdaNndZV0hmbDM0NFN0dGVrTzVJVUdpdm1HMHFNSkNjVWx5aEN1US1udW55ZzczcGROYUtzSVBZTlRxVmx2M2lTWEhfXzZSdTdDb3JKb1NMWQ?oc=5",
-    "excerpt": "",
-    "source": "ESPN India",
-    "published": "2026-10-20T18:55:36+00:00",
-    "clubs": [
-      "shrewsbury-town",
-      "crawley-town"
-    ],
-    "category": "match",
-    "tier": "low",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "More QPR injury blows revealed following Mbengue confirmation",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNamJwcWNpOW5JaFRBX0dSckZVVG9xeWhXUGdfZHByNDZmeWJVVXFxaDcwVVREVlMwM2V4XzRDMlRSamZCMTJhR2RXdlVlQW8tYU5lbzM3TFhHNGRUTFZVRFRHN1N0UnVzUjNPQjlTRmVfWC1TNF84TDRtaHVQRzd0Z2c3cHdGZ25mT1BqVF9iRXRKRjRaNEpwVTNyTkVmS1c0WklRdFZ2eERvYUpNMGRHcU1pSDBXQkhONm4ya2VnWmtqQkxYTElub2NLb3pveGM?oc=5",
-    "excerpt": "",
-    "source": "LiveScore",
-    "published": "2026-10-20T18:55:15+00:00",
-    "clubs": [
-      "queens-park-rangers"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Barnet 1-3 Swindon (21 Oct, 2026) Final Score",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDUUVFSjJTSG1UYlN2VlJaUnBEWWI2VUdsc21pOHAwakRsNHNiNTUwX0dEd2ljTVI3UHVUN0Vud0ZKT0NnOXBaNFpTcjZkek52Tlo2Rk1MSnFZeEZiREgwckEzU0VUNzlD?oc=5",
-    "excerpt": "",
-    "source": "ESPN",
-    "published": "2026-10-20T18:55:02+00:00",
-    "clubs": [
-      "swindon-town",
-      "barnet"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Bristol Rovers vs Salford City: League Two stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTR0dQT19JSWZGcV9YaldDcE9wbVFjMU9PLV9Lc2VLYkNpYzZKYXhGWEpKNjZRb3RrSFNDSVpsai1qdmZNOG9WczZwelR4eEItSTR0aU5POXc0M2l1ZXBLMlk4RQ?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-10-20T18:54:50+00:00",
-    "clubs": [
-      "bristol-rovers",
-      "salford-city"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Luton Town vs Barnsley: League One stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9WbmttY050bHNGWkJPdWNEelkwS2dBbWVsNzlqVzNqb09xNFh6VTZOQnNfbjJNMnFTNmYzZ0NULTA1dnRGQTYySUFpZmFJZ2MwMnA1a0p2RnBVNktzekhfNWtJSQ?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-10-20T18:50:37+00:00",
-    "clubs": [
-      "luton-town",
-      "barnsley"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Crawley Town vs Shrewsbury Town: League Two stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRR1VkODFHU2JuSTQwaGl6XzNkaEJHX2RPbVM5ekswSlh4eS1uRFFyUWQ1d1NUcFVRLW9NbU9TbUZtNDgzUEI0X1hQNm8taXZ6N1hYTUQ5Vjkwd2tucDZmZXV1RlpKUQ?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-10-20T18:49:34+00:00",
-    "clubs": [
-      "shrewsbury-town",
-      "crawley-town"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Why new Man City revelations hand West Ham major transfer boost",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQd3MwcUc1UU9VUFFuSkE4eFU1a1Fvb1UwSmtHNllHbGNFTmE0LTg5by1YNjVXbGR2WUJrd1ZkTEhabUdOeG1NY3RuNE5RSUFvYU1yMXVwZVJWeDhzNWR3ZVR2X0JCdy1TRjFhVl80T0kzaVIyUkIwYXFzY1FCeTRUb1RqMUZrbEtDY3JhUkk5M2k1dFFkQzlSclJZSm93Yjg?oc=5",
-    "excerpt": "",
-    "source": "Football League World",
-    "published": "2026-10-20T18:45:12+00:00",
-    "clubs": [
-      "west-ham-united"
-    ],
-    "category": "transfer",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Bromley vs. Leicester City",
-    "url": "https://www.lcfc.com/media-gallery/bromley-vs-leicester-city-sky-bet-league-one-image-gallery",
-    "excerpt": "Imagery from our Sky Bet League One encounter with Bromley at Copperjax Community Stadium.",
-    "source": "Official site",
-    "published": "2026-10-20T18:45:00+00:00",
-    "clubs": [
-      "leicester-city"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Rochdale Hosts Grimsby Town After Four Straight League Defeats",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1aUURBM1d2aDJxcWswYnRXNVEzUExfMFBZdkZEdk55akZtNkhfVEY0OFpJS1p2TnQ3eGZzai1iZk4yeVZjNFczLWZvYk9mUTFvX01fZ18xdmZ4U1hPUG9qYzhR?oc=5",
-    "excerpt": "",
-    "source": "SuaraGarut.ID",
-    "published": "2026-10-20T18:39:00+00:00",
-    "clubs": [
-      "grimsby-town",
-      "rochdale"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Bromley - Leicester",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOVMzUmVOaU9DM0djYUk5R3ZqLXp2MHNUbnRndlVfNzRlTmdMTE9lTW5uMlloU01rY3RUdHNZclMybVZhNWtaeFVDTTh3dk1DbVlFSlNCVWVRa0Y4d2RoMzJvU0NDVWxDQm80MEUzQ1pEWmFjb1NaamVsRU9wbVd1QnpyTjM?oc=5",
-    "excerpt": "",
-    "source": "Flashscore.com",
-    "published": "2026-10-20T18:38:56+00:00",
-    "clubs": [
-      "leicester-city",
-      "bromley"
-    ],
-    "category": "news",
-    "tier": "low",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Oxford United beat ten-man Wigan to extend League One unbeaten run",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONHNBcFB2RmE5S2FLblB0WlhxZVJEbXVYRXI3T29aLWNvUVM1TGdvWnRZcU05UmprdnJRWWtDdGVHdlJIQUtsVjB6b3l3QlFFbUUxb1JIU3BvN29uNnlYRWdvellPTXV5WjdaSFNyNWJtN1B4LW9ud05RdDcyUHpVVUdwTDlDeUg4ZHhYLUlJa1ZQRWM3eXNyUzFkV1Vad0QxZXJfT1RSMEUtSHlXT0E?oc=5",
-    "excerpt": "",
-    "source": "Oxford Mail",
-    "published": "2026-10-20T18:37:08+00:00",
-    "clubs": [
-      "oxford-united",
-      "wigan-athletic"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Under 21s v Sheffield United postponed",
-    "url": "https://millwallfc.co.uk/news/2026/october/20/under-21s-v-sheffield-united-postponed/",
-    "excerpt": "Regrettably, due to technical issues with the stadium’s floodlights, tonight’s Under 21s fixture against Sheffield United has been postponed. The Ticket Office has now refunded all card payments. Anyone who purchased...",
-    "source": "Official site",
-    "published": "2026-10-20T18:33:40+00:00",
-    "clubs": [
-      "millwall"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "League One & Two: Huddersfield, Leicester, Salford & Rotherham take early leads",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWjJhbzZJU1cwN3liTGlKdUtTU2tDVUdUd0pDWG5yX0V3TVA3RXFZaUM4UEtJN080X0Z1WEprN0cxbTBvWFBYNldPa2c4Zm9Lem55bUlqalhCSDBaVW5PX3hpWnF4ZnVuQjN4SHdoUDJnRTBGeC1jT3lJcE81T1FmWThhbHgyS1JO?oc=5",
-    "excerpt": "",
-    "source": "Yahoo Sports",
-    "published": "2026-10-20T18:30:19+00:00",
-    "clubs": [
-      "huddersfield-town",
-      "leicester-city"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Sheffield United’s transfer risk is paying off - Leeds fans will love it too",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNVpWakNJVHFrQVVBZ2JscS00SGVmY2dQNWJsVE9BM0VWb25TVTljUXNJZ0wxeDR6bi1zSVEtNDhPN003WHduRTRSdDU2dUdTNGx6SkE4N1dJWGJHWU5UNzJBekk2R2plSWNaMXJyU18wcDNvaE1oOWM3MVpTd29UTUZ6YTJPTG5uSTlCNXdDbGZYMzA1LWlyWV9ZTHRHd1lGdEhqSA?oc=5",
-    "excerpt": "",
-    "source": "Football League World",
-    "published": "2026-10-20T18:30:12+00:00",
-    "clubs": [
-      "sheffield-united"
-    ],
-    "category": "transfer",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Gallery | Wolves vs Portsmouth",
-    "url": "https://www.wolves.co.uk/news/mens-first-team/20261020-gallery-wolves-vs-portsmouth/",
-    "excerpt": "Action shots from Molineux under the lights where Wolves host Portsmouth in the Championship.",
-    "source": "Official site",
-    "published": "2026-10-20T18:14:00+00:00",
-    "clubs": [
-      "wolverhampton-wanderers"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "How to watch Wolves vs Portsmouth | Men's First-Team | Latest News",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYzUwNTBQYkEybjUwN3libldxM1g4ZDZfay15SV9kemlXLXRmOXZ2TGNqR3c1Um9yTVJfeHZ2UGZvUmktMDFNaUZFdHZ1VG02R2pudERhRmV2ZDFjckE5Z1hsX1RyVlpKOGxqV1lpempxVjR0MlNNM2E5bGNjbXY1bi1HeXZ3dnRXQmwtSzJweGUtTTA?oc=5",
-    "excerpt": "",
-    "source": "Wolverhampton Wanderers FC",
-    "published": "2026-10-20T18:11:31+00:00",
-    "clubs": [
-      "portsmouth",
-      "wolverhampton-wanderers"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "AFC Wimbledon v Mansfield Town: League One stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1HT2g5dnI2S19WMHNZbmhXdTExZ2JDQnRGNzhEMEpGUHlIb0JjY0VaUXpkd0RaNkItTWl2bmtpdzY0SVBVRjdqaGlkNTVTTDdIaDkwenJEQTRIUWNIRFdxYlVyNA?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-10-20T18:00:39+00:00",
-    "clubs": [
-      "mansfield-town",
-      "afc-wimbledon"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Celtic & Rangers must pounce on Derby County situation - they can smell blood",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM0tJOFhxdVdleGIyWWxGcUJrbk9jVi1ybmpwYzlGRkppaDJVb3UyU2hncEJ0NlEzY3NhQW9Qb0FCcEhYY3pqQ193OEwyMVRXbHotaWtnQ1NabVdhRXZURjlzd3lLOFdYWmZHVi1KWFFDaGg1YjMxRGpFbmRLV2pwZTJUV0lDTlhzcU9leThZekpUTWdmV1ZqdXFYNjBlZ2VMRUxReWZn?oc=5",
-    "excerpt": "",
-    "source": "Football League World",
-    "published": "2026-10-20T18:00:12+00:00",
-    "clubs": [
-      "derby-county"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Pundit warns West Ham against repeating David Moyes mistake",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWFdJVUl1Qm9tdW4xS0dQUjNWbXpYeVJKN3hwakstRDNyV2RNNnhySWtFeTZvZzVUaW5GV0dPVEpicVZUN0ZQQ1FKamhlWUtxZ1ZmWk1aV202VHhHMWNpLVdBdmZUa3MwelhNWDN4am5iQU9za1BuYjE4QVJzWEZKVE50WExhSWx6M1lMM3VEVTdLb0c5SEFXTVV3?oc=5",
-    "excerpt": "",
-    "source": "Football League World",
-    "published": "2026-10-20T17:45:12+00:00",
-    "clubs": [
-      "west-ham-united"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Live Blog | Wolves vs Portsmouth",
-    "url": "https://www.wolves.co.uk/news/mens-first-team/20261020-live-blog-wolves-vs-portsmouth/",
-    "excerpt": "Follow all of the action on Tuesday night from Molineux on wolves.co.uk and the Wolves App.",
-    "source": "Official site",
-    "published": "2026-10-20T17:45:00+00:00",
-    "clubs": [
-      "wolverhampton-wanderers"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Matchday Blog | Wolves vs Portsmouth",
-    "url": "https://www.wolves.co.uk/news/mens-first-team/20261020-matchday-blog-wolves-vs-portsmouth/",
-    "excerpt": "Follow all of the action on Tuesday night from Molineux on wolves.co.uk and the Wolves App.",
-    "source": "Official site",
-    "published": "2026-10-20T17:45:00+00:00",
-    "clubs": [
-      "wolverhampton-wanderers"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Chesterfield FC v Colchester United (20/10/2026)",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZEV1T1dqY2hBOTBRNnZHbUJIQTVad053V3N6RFl5UWxKUDdnMmNzSTNqajh0R1gyNlZzdFFnQkJkMkdaMG91T0loaEtRcXFfTjVQNHduQ2hpQkItX21ZdVNPMmlYVnN3UlNpc1llVlJLWkYyYzdZZ3l0QVphSzZUUTczdHVrTWNKTzNkakRwU0hWRk9DUDBhTXhuWnVqRnltUTlDU3V3?oc=5",
-    "excerpt": "",
-    "source": "Flashscore UK",
-    "published": "2026-10-20T17:40:29+00:00",
-    "clubs": [
-      "colchester-united",
-      "chesterfield"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Luton Town v Barnsley – Team Sheets Revealed",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5lU2c4Q0VHLTF0bE91aVB5LWZCZHF1VEwzVXVQai1kWVJJRHRqWC01S3Z5N25MWFY2RmMweTdpSUZwRWxRRFRaRXFRMFhFaFJ6VlZjczVDTHVDcGlDLVp6ZEl6N1IxLW8tcVU1bzc0bFVFUWEwV2RWSy16WlJNQQ?oc=5",
-    "excerpt": "",
-    "source": "Vital Football",
-    "published": "2026-10-20T17:39:29+00:00",
-    "clubs": [
-      "luton-town",
-      "barnsley"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Birmingham star baffled as Wolves fan bizarrely brands him an 'NPC' with social media jibes shared in dressing room",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcGt6a1FjYklQOVJYV2o1MnFxZ2VxR0NMRkVhSUUxMzFRcEwxOE1sR0Nkd2YzN3o4SmFzbXhVUFpjS3FEM1ozUnpGVUN2MmJMcG1vMEYtTDgwS2NMU1IxZ2hycURPNlFTN21JVXZ4N2VfT2tBeThDWlVoYk96RmotTG9LbUxTVkh2UGJOQzFxV2E5MW8xTTZCYTZR?oc=5",
-    "excerpt": "",
-    "source": "The Sun",
-    "published": "2026-10-20T17:39:00+00:00",
-    "clubs": [
-      "wolverhampton-wanderers"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Owls unchanged at Meadow Lane",
-    "url": "https://www.swfc.co.uk/news/2026/october/20/owls-unchanged-at-meadow-lane/",
-    "excerpt": "Fixtures Notts County Vs. Sheffield Wednesday - Tue, Oct 20 2026, 19:45 Manager Henrik Pedersen has named an unchanged starting line-up for Wednesday’s League One clash with Notts County at Meadow Lane this evening. The...",
-    "source": "Official site",
-    "published": "2026-10-20T17:38:57+00:00",
-    "clubs": [
-      "sheffield-wednesday"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Wolves vs Pompey match lineup | EFL Championship · 20 Oct 2026",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaHR2Ni03cGtHQVNlSlA2TlUxZkRSOWZuR0xZOFRmMkdfTEZmRW5icy04ZjdiYUtYOGp5OTJWRWRyVFdHSVFlbjZnMVAyeWM0d2FmUjhDdUtMamRKS2N5VFVvSExjaWpMcFU4My1nNzliQmpXak9ScDVfbkxBM1FZdkpwb1JPVzFzdGFF?oc=5",
-    "excerpt": "",
-    "source": "YSscores",
-    "published": "2026-10-20T17:36:05+00:00",
-    "clubs": [
-      "portsmouth",
-      "wolverhampton-wanderers"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Team news: AFC Wimbledon v Stags",
-    "url": "https://www.mansfieldtown.net/news/2026/october/20/team-news--afc-wimbledon-v-stags/",
-    "excerpt": "Nigel Clough makes two changes to the side that drew 1-1 with Oxford United at One Call Stadium in Sky Bet League One action last Thursday. Jordan Bowery and Stephen McLaughlin come into the XI while Elliott Hewitt...",
-    "source": "Official site",
-    "published": "2026-10-20T17:35:47+00:00",
-    "clubs": [
-      "mansfield-town"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "MATCHDAY LIVE | Walsall v Oldham Athletic - updates as they happen",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVkhYa2ZQU0V5cjd3NzVRMXpRSXZlMnR6enVnWnpTb2tsRlEzelBkbncxMGM4Rm9iUlRPQUVMNGNIeXpBeWZPR2FMaUhPZWFFcWpfcDlGSDBaZ09oSzNvUHVxRzFRS0xZV0xzTkFvNE9nb1Y4RHp4d08zUnIzb1ptcEhFMEp2SG5ROVBKc0xlMW1RclZlYVQxTXZLanVWZGdRNkE?oc=5",
-    "excerpt": "",
-    "source": "Oldham Times",
-    "published": "2026-10-20T17:33:26+00:00",
-    "clubs": [
-      "oldham-athletic",
-      "walsall"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Gillingham vs Port Vale: League Two stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9DNkNWYUo4c0ZTOGZmUkF2Si1CX18xcjRwOFNFdEZhaDRuSlpSTkdtelJGQnUxZERHRDBqaTRQaDJERzJsbzItZHQ0QlNYblZXX2dDRnBLSlhJLXBISGdUNU5CYVYtQQ?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-10-20T17:31:26+00:00",
-    "clubs": [
-      "gillingham",
-      "port-vale"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "TEAM NEWS | BRISTOL ROVERS VS SALFORD CITY",
-    "url": "https://salfordcityfc.co.uk/news/2026/october/20/team-news-bristol-rovers-vs-salford-city/",
-    "excerpt": "Fixtures Bristol Rovers Vs. Salford City - Tue, Oct 20 2026, 19:45 Peter Cklamovski has made five changes to his Salford City starting XI for tonight's visit to the Memorial Stadium to face Bristol Rovers. Ryan Graydon...",
-    "source": "Official site",
-    "published": "2026-10-20T17:30:25+00:00",
-    "clubs": [
-      "salford-city"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "TEAM NEWS FROM KENILWORTH ROAD",
-    "url": "https://www.barnsleyfc.co.uk/news/2026/october/20/team-news-from-kenilworth-road/",
-    "excerpt": "Fixtures Luton Town Vs. Barnsley - Tue, Oct 20 2026, 19:45 Daniel Stendel has selected his starting eleven to face Luton Town this evening in Sky Bet League One. The headline news is the return of Cieran Slicker, who...",
-    "source": "Official site",
-    "published": "2026-10-20T17:30:00+00:00",
-    "clubs": [
-      "barnsley"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Team News | Oxford United V Latics",
-    "url": "https://wiganathletic.com/news/2026/october/20/team-news-oxford-united-v-latics/",
-    "excerpt": "Breaking team news from the Kassam Stadium as Latics face Oxford United in Sky Bet League One Team News | Latics name side to face Oxford in Sky Bet League One Caldwell's side are looking to build on Saturday's victory...",
-    "source": "Official site",
-    "published": "2026-10-20T17:30:00+00:00",
-    "clubs": [
-      "wigan-athletic"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "TEAM NEWS: TOWN vs PETERBOROUGH UNITED",
-    "url": "https://www.htafc.com/news/2026/october/20/team-news--town-vs-peterborough-united/",
-    "excerpt": "- Huddersfield Town vs Peterborough United; Sky Bet League One - Tuesday 20 October 2026; 7.45pm kick-off at Accu Stadium - Head Coach Martin Drury names one change from win at the weekend Huddersfield Town Head Coach...",
-    "source": "Official site",
-    "published": "2026-10-20T17:30:00+00:00",
-    "clubs": [
-      "huddersfield-town"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Team News: Bromley vs. Leicester City",
-    "url": "https://www.lcfc.com/media-article/team-news-bromley-vs-leicester-city-sky-bet-league-one",
-    "excerpt": "We’ve named an unchanged side for this evening’s visit to Bromley in Sky Bet League One.",
-    "source": "Official site",
-    "published": "2026-10-20T17:30:00+00:00",
-    "clubs": [
-      "leicester-city"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Match Officials confirmed for Southampton fixture",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZjM3TzV5NzlleE0xQ01wVmxXdU1NaWpMNkFudzlucGNsbGk4UGdMVHJ6S2lGd1N4ZFVCZnJBRWtfTE5Id2t1b2s3R2Z3WEpTLWlnanBxREVqQ2lHcW9hMlZMdm9SSmZ3bWNFbzZVYlpQdlZJcmJhRkI1R0tJVUVaRENMT0JtUG9qYXFqVnFNeVFMQQ?oc=5",
-    "excerpt": "",
-    "source": "West Ham United",
-    "published": "2026-10-20T17:07:23+00:00",
-    "clubs": [
-      "southampton"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Wolverhampton vs. Portsmouth Lineups, Live Streaming, How and Where to Watch on TV",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYUFIVm9VSEFKbDluX29HdlR2Rlo3SzRuVzFVMWl6TXJxV2JLNW1EdFpHM3R6WFFNZ0VHZ0s0QXRwYUxWVGRNTVJLUm9vYXhOTng4RVFoQmpXWUpiSzczU3V6U0RHZ09oRXI3MjY3RzRRYXdoVm1wNkhLd3FGNGVodktGYzI2YVJaMFdweEh4WDF6NjQ2aEI5b1N2Y19mbUluY0xTTnpmbEVuWUdxMGpGRWZ6alJia3BTYXpITnVVdkJtcGdnSnJxQW5hZWhGYTFXM19lWDk5QQ?oc=5",
-    "excerpt": "",
-    "source": "Yardbarker",
-    "published": "2026-10-20T17:02:11+00:00",
-    "clubs": [
-      "portsmouth"
-    ],
-    "category": "match",
-    "tier": "low",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "LIVE: Oxford United 2-1 Wigan Athletic - Andrews scores after Wigan red card",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTWNwRkRCUWRZd2VEMGE0dGlyaVVlNXpTZ0E0QTJVd0ZuMEFqUXdGU0pOcVhtcUw3Q0owU1p1T2FUbmxxS0Z1clpKblp3YUhaclRyVlBVMnpXUHBZb0VzazNoYWNBdTNmWFJoNDNrdzJ2S0pkaHNGYlhtc0UwOVNKZGJxVXBNWUppLWhLOXItWVQ5NHdtWWh3VzZnUmZxVmM?oc=5",
-    "excerpt": "",
-    "source": "Oxford Mail",
-    "published": "2026-10-20T17:00:00+00:00",
-    "clubs": [
-      "wigan-athletic",
-      "oxford-united"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "LIVE: Oxford United 1-0 Wigan Athletic - Helik puts U's ahead before half time",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOVBNX0l5bnlvZmZQZWdpQmZWdjVyaVNITGtlLVZPckVxWGlXTzFzbEpwVjVjZXpCOUxPV3M4SVNYeE1meks0RmVNdG9ZN1pxV1RCeWpPWkJzOTNGSW93QXVUUkotN1QtLU9oQkRtVFpTSUxvX0EwVzV6YVJFUGdtenZPbGxVZzluTGZVeEs3OHZwZXlJYUpaMHBQTmxoNEVybEJvaDZZbU5CaUNuQUE?oc=5",
-    "excerpt": "",
-    "source": "This Is Oxfordshire",
-    "published": "2026-10-20T17:00:00+00:00",
-    "clubs": [
-      "wigan-athletic",
-      "oxford-united"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "LIVE: Oxford United 2-1 Wigan Athletic - Andrews bags winner after Tics red card",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQXg2N3NGMVJLQUhzdFlESGtkbHlIbWZLNmY5el9BVUI3bXp1TzNnbmd4WW1IWG1ORjBlTUE4TkFvaGVEV1JWRkExcFFYQU0xMktLaGU5REJMZEUtaTl3NzloWkdnUUtNN3lydGNLRTU5REVoZFREZHdwZGx5QXdsYkhVLVFDZkNlQWtSTnFSTl9kUUF3WGI4dmVmV09VbXpfT2p6ZUJMVQ?oc=5",
-    "excerpt": "",
-    "source": "Herald Series",
-    "published": "2026-10-20T17:00:00+00:00",
-    "clubs": [
-      "wigan-athletic",
-      "oxford-united"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "LIVE: Oxford United vs Wigan Athletic - Three changes for Ramsey's Yellows",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUXFDSmtzZDBsV1VJdVhYbGFHMk85YzgxNEZ0dXBLMFpUSG9jYlJ0cGZUNTdYUFdpa1RCMlI0dndNRmhQTjJhMThtcF9WLWhPWV9tM25KVXEzVlRmMmNPelVQTW1ZVGhXSk1aY2s5MEVPLXdoc0RvaWZDbUx1SnVnNm96Z0ZYS3lzU2FRR1N2Vm1ERjdzWGtnaFVFZ1FjYlU3S09JQjRmM21SQy1s?oc=5",
-    "excerpt": "",
-    "source": "This Is Oxfordshire",
-    "published": "2026-10-20T17:00:00+00:00",
-    "clubs": [
-      "wigan-athletic",
-      "oxford-united"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "LIVE: Oxford United 2-1 Wigan Athletic - Andrews scores after Wigan red card",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcXR6bjkzSGpIa3dBSE5wSk9xRkdVaDRJaU1WVXVhMThNcFFfT1puUWF4YmJCeDZlR25QVEVqZUhVeC1NeHNIN3hyOVQ2RU56X1ZDM1VtcEVrcU9lZE81eWZHQVhkVHE2WUhFVlVrZVdqX0FqRll5aUZKeHFyeW1Sd25kVDUzbmpvR3BQcGpwTl9JWWY0dUNqQnprUmR4Z24wVmxOc29aOFlBeGc5WkE?oc=5",
-    "excerpt": "",
-    "source": "This Is Oxfordshire",
-    "published": "2026-10-20T17:00:00+00:00",
-    "clubs": [
-      "wigan-athletic",
-      "oxford-united"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "LIVE: Oxford United 1-1 Wigan Athletic - U's concede screamer after Helik strike",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONkkwMnI3OTEwNExOcE9ZZ0M0aWdVVHlubUNyOTd1N1Z1dmJsWm0ybEZZTHhxdVA4NmN2SVVRQVFYd2R2b0RVQ0xaT08zV0VMaVNDMF9Cc2xBczhicVdkdGJYTWp6eTRpQW41SzJzVGp0QXJuQkxCMWxkalB5Y2xlZ0xqbE5qNE9zTnB0RnFnbzRSV2x3Qjc5aktobWtQZUpqU1FQMA?oc=5",
-    "excerpt": "",
-    "source": "Oxford Mail",
-    "published": "2026-10-20T17:00:00+00:00",
-    "clubs": [
-      "wigan-athletic",
-      "oxford-united"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "LIVE: Oxford United 2-1 Wigan Athletic - Andrews bags winner after Tics red card",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObk84Q2xFb3FxSEYzRVN4MFBmZHJUeVdDc1J1SXVFMkZiQ1ZVLXN2bWdOYV9GVkczZU12VXdzaGlJU0NHcnBVc24xT2JVdWthX2QzMHJPOWU4Q2N2b1ZXTzlHTGptb3pqT0NTT0U0TTRxZk1iWDJaR3NuSDZILWlNaFNJNlB0TWJyc1otSm1WYzlydmJVUFp0MVdqa0k2QXlLZjNwaw?oc=5",
-    "excerpt": "",
-    "source": "Oxford Mail",
-    "published": "2026-10-20T17:00:00+00:00",
-    "clubs": [
-      "wigan-athletic",
-      "oxford-united"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "LIVE: Oxford United 2-1 Wigan Athletic - Andrews bags winner after Tics red card",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYk9EZ2JTbjZxNHlEeGlMV1ZXV1Uxc1R0V1ExU3E4dkZrUUJwMjhvNXU4YXZ3SWxaNTV3c0tlSHlsTTRfR0RyQjFmSGhkS25JbThabEtWRDJ2V21jVFhWbGVlUlJnS1JqSVp3ZFczRlVwbHdHUWczbUlnb1BJZ2M0ajZ1S3BfeTdCVWh1ck01SVhoU3E0OTdVbmhTbzgzT0h5N24xQ1lOV2pRaGdpeXc?oc=5",
-    "excerpt": "",
-    "source": "This Is Oxfordshire",
-    "published": "2026-10-20T17:00:00+00:00",
-    "clubs": [
-      "wigan-athletic",
-      "oxford-united"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "LIVE: Oxford United 2-1 Wigan Athletic - Andrews bags winner after Tics red card",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS1I4cDlTT1dsRjVTQnVwUjUtUDgzMExod2JvdktRU3hYd2xDV2xvLXhpUURaVDA1ZkxlSDUxM3hSMEIzUG5SbGZJaHhrdVhIOVNWQTRONnRxd0dIV29uYW9LVV9sWksxWnhMQWVkUE9EcEFSR1hPNzV3T2pucFBCSXE0VUFtVG5hd015R3p4d2tTWW1NUEhGcjIxTmlwclBtSVhwYmMxX0o?oc=5",
-    "excerpt": "",
-    "source": "Witney Gazette",
-    "published": "2026-10-20T17:00:00+00:00",
-    "clubs": [
-      "wigan-athletic",
-      "oxford-united"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "LIVE: Oxford United 1-0 Wigan Athletic - Helik puts U's ahead before half time",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMi1CMDlhWlhyaFFmdmVBa2FJQmU3Zi1SS2loRFE3V2R6V25TOGswai11Q1NIWFYzWGJoZHpCZl9IcG9CU3dKV1FQR1Jwazk4NTUyU3BDQ2dwbzU3RmJ0OTZWVll0c3NTRzhpNjdIMFd1RnctZFE1aVZQajUyZXNLMmRmNjZWaURfWVBwX2dUOUZfQmRkaXZqbFk3cXN3MXZKbDctc0VlMHY?oc=5",
-    "excerpt": "",
-    "source": "Witney Gazette",
-    "published": "2026-10-20T17:00:00+00:00",
-    "clubs": [
-      "wigan-athletic",
-      "oxford-united"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "LIVE: Oxford United 1-0 Wigan Athletic - Helik puts U's ahead before half time",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcHF5RzR0TFpNc1FYZVo2S1ZyU1VJTU9fSDE3bWI4ZHNtWHFoODNOVTNUY1E2SWFqMm9DYXpQZXhFcVEyNElNNXVBSEowLWItQ21sU2dycEpyNUZDR01ONWM4ZVh5TldKUzlXVlRDQUd6c1pISFJocDVyNU9iOUF4UDVjU2h5dnZFdzAwMjhHRGhuR19hZzdHVFdPU0RPQlh1ZmVVTGNzbw?oc=5",
-    "excerpt": "",
-    "source": "Herald Series",
-    "published": "2026-10-20T17:00:00+00:00",
-    "clubs": [
-      "wigan-athletic",
-      "oxford-united"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Wrexham Injury Update Ahead of Blackburn",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSU1KVkJCd0FDQlJ5MHRNTXotN2hmZWE5Sm9NTUw1Q1JDd1U0cWQzTllrR3FUbmIzV3F6MjZhbTBmTDZxTDduY3RKVmdzcWU3V2t1S2ZJZUZ0ai0yVXQ2UzFaY2VVVXVIOVp5WVQ5Ui1aZk9NVVFaYWxkckp3Vl9fTDZzeE1NSldNNXRzeXgtcEpXUDZ6TnpQYg?oc=5",
-    "excerpt": "",
-    "source": "roundtable.io",
-    "published": "2026-10-20T16:59:35+00:00",
-    "clubs": [
-      "blackburn-rovers",
-      "wrexham"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Chesterfield 1 Colchester United 1 - as it happened",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcjRmVUVEOVh2NUNTSmJRaTRpS2tLNzcyQ1RJVC1CM19EZTZTaDlhTTNISGhuYko5RlV3OFZLS2JxZmM4MDNMU09uSVdNN01MY09jemlwYlJVTTN0MWlIU09HV3NjX1hPbFQyQmFtZ1d4MUp6Uk5QMzRONnlpQWhnNThUcTBtTEtOc3JpQ0ZrU09lc0tialNTSEJCd2dMTUdEWm5WUTNDT2V5ei1SS1VB?oc=5",
-    "excerpt": "",
-    "source": "Colchester Gazette",
-    "published": "2026-10-20T16:58:34+00:00",
-    "clubs": [
-      "colchester-united",
-      "chesterfield"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Cardiff Rugby appoint Barnsley's Flatman as CEO",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOERvV3dpaDREUUdacUlNbmRlM2lHb2FxajVwMndDSGlOc282akpVbmhFRUlmWWQ3VGxJeDRHYTdiY0FwMEJnOFhPd2lLOXpXT1dQSnpKSU1qd0dJTFJScUFyZ0pVWjRhTFpiRElKa2ctREVQd2doMkNfNUJqTDRSakpiZ0N3S3k4RHRHTG1pcEViUQ?oc=5",
-    "excerpt": "",
-    "source": "Yahoo Sports",
-    "published": "2026-10-20T16:39:13+00:00",
-    "clubs": [
-      "barnsley"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Exeter City vs Crewe Alexandra: League Two stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5HT01PSHVmZUJzbWk0ZE1XLWVVbGZrcW1jQm1oX0lyTk94VEx2X3plZHdublRhc3hoSVNReXk2ZkhBa3F5ZzdacUxSNi10NUxCZThRNUFleDlaUjYtVktlaHl6Vy04QQ?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-10-20T16:31:55+00:00",
-    "clubs": [
-      "crewe-alexandra",
-      "exeter-city"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-two",
     "scope": "club"
   }
 ]
