@@ -985,7 +985,7 @@
         "gf": 3,
         "ga": 0,
         "opponent_slug": "wigan-athletic",
-        "opponent_name": "Wigan Athletic",
+        "opponent_name": "Wigan",
         "home_away": "H",
         "date": "2026-10-27"
       },
@@ -994,7 +994,7 @@
         "gf": 1,
         "ga": 0,
         "opponent_slug": "stockport-county",
-        "opponent_name": "Stockport County",
+        "opponent_name": "Stockport",
         "home_away": "H",
         "date": "2026-10-27"
       },
@@ -1021,7 +1021,7 @@
         "gf": 3,
         "ga": 1,
         "opponent_slug": "doncaster-rovers",
-        "opponent_name": "Doncaster Rovers",
+        "opponent_name": "Doncaster",
         "home_away": "H",
         "date": "2026-10-27"
       },
@@ -1102,7 +1102,7 @@
         "gf": 1,
         "ga": 1,
         "opponent_slug": "sheffield-wednesday",
-        "opponent_name": "Sheffield Wednesday",
+        "opponent_name": "Sheffield Weds",
         "home_away": "A",
         "date": "2026-10-27"
       },
@@ -1111,7 +1111,7 @@
         "gf": 0,
         "ga": 3,
         "opponent_slug": "leicester-city",
-        "opponent_name": "Leicester City",
+        "opponent_name": "Leicester",
         "home_away": "A",
         "date": "2026-10-27"
       },
@@ -1147,7 +1147,7 @@
         "gf": 1,
         "ga": 1,
         "opponent_slug": "cambridge-united",
-        "opponent_name": "Cambridge United",
+        "opponent_name": "Cambridge",
         "home_away": "H",
         "date": "2026-10-27"
       },
@@ -1165,7 +1165,7 @@
         "gf": 1,
         "ga": 3,
         "opponent_slug": "luton-town",
-        "opponent_name": "Luton Town",
+        "opponent_name": "Luton",
         "home_away": "A",
         "date": "2026-10-27"
       },
@@ -1183,7 +1183,7 @@
         "gf": 0,
         "ga": 1,
         "opponent_slug": "oxford-united",
-        "opponent_name": "Oxford United",
+        "opponent_name": "Oxford",
         "home_away": "A",
         "date": "2026-10-27"
       }
@@ -1710,7 +1710,7 @@
         "gf": 3,
         "ga": 1,
         "opponent_slug": "york-city",
-        "opponent_name": "York City",
+        "opponent_name": "York",
         "home_away": "H",
         "date": "2026-10-27"
       },
