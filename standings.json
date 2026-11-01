@@ -779,14 +779,14 @@
       },
       {
         "slug": "sheffield-wednesday",
-        "played": 12,
+        "played": 13,
         "won": 5,
-        "drawn": 4,
+        "drawn": 5,
         "lost": 3,
-        "gf": 21,
-        "ga": 13,
+        "gf": 22,
+        "ga": 14,
         "gd": 8,
-        "points": 19,
+        "points": 20,
         "position": 9
       },
       {
@@ -898,6 +898,18 @@
         "position": 18
       },
       {
+        "slug": "blackpool",
+        "played": 12,
+        "won": 3,
+        "drawn": 3,
+        "lost": 6,
+        "gf": 17,
+        "ga": 21,
+        "gd": -4,
+        "points": 12,
+        "position": 19
+      },
+      {
         "slug": "doncaster-rovers",
         "played": 13,
         "won": 3,
@@ -907,18 +919,6 @@
         "ga": 22,
         "gd": -8,
         "points": 12,
-        "position": 19
-      },
-      {
-        "slug": "blackpool",
-        "played": 11,
-        "won": 3,
-        "drawn": 2,
-        "lost": 6,
-        "gf": 16,
-        "ga": 20,
-        "gd": -4,
-        "points": 11,
         "position": 20
       },
       {
@@ -1044,13 +1044,13 @@
         "date": "2026-10-31"
       },
       "blackpool": {
-        "result": "L",
+        "result": "D",
         "gf": 1,
-        "ga": 4,
-        "opponent_slug": "mansfield-town",
-        "opponent_name": "Mansfield",
-        "home_away": "H",
-        "date": "2026-10-24"
+        "ga": 1,
+        "opponent_slug": "sheffield-wednesday",
+        "opponent_name": "Sheffield Wednesday",
+        "home_away": "A",
+        "date": "2026-11-01"
       },
       "wycombe-wanderers": {
         "result": "W",
@@ -1146,10 +1146,10 @@
         "result": "D",
         "gf": 1,
         "ga": 1,
-        "opponent_slug": "cambridge-united",
-        "opponent_name": "Cambridge",
+        "opponent_slug": "blackpool",
+        "opponent_name": "Blackpool",
         "home_away": "H",
-        "date": "2026-10-27"
+        "date": "2026-11-01"
       },
       "mansfield-town": {
         "result": "L",
@@ -1248,9 +1248,9 @@
       "blackpool": [
         "L",
         "L",
-        "L",
         "W",
-        "L"
+        "L",
+        "D"
       ],
       "wycombe-wanderers": [
         "L",
@@ -1323,10 +1323,10 @@
         "W"
       ],
       "sheffield-wednesday": [
-        "D",
         "W",
         "L",
         "L",
+        "D",
         "D"
       ],
       "mansfield-town": [
