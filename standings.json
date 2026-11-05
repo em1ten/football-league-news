@@ -323,7 +323,7 @@
         "gf": 2,
         "ga": 3,
         "opponent_slug": "sheffield-united",
-        "opponent_name": "Sheffield Utd",
+        "opponent_name": "Sheffield United",
         "home_away": "H",
         "date": "2026-11-03"
       },
@@ -706,6 +706,18 @@
         "position": 2
       },
       {
+        "slug": "oxford-united",
+        "played": 13,
+        "won": 7,
+        "drawn": 5,
+        "lost": 1,
+        "gf": 22,
+        "ga": 11,
+        "gd": 11,
+        "points": 26,
+        "position": 3
+      },
+      {
         "slug": "luton-town",
         "played": 14,
         "won": 7,
@@ -715,18 +727,6 @@
         "ga": 21,
         "gd": 6,
         "points": 24,
-        "position": 3
-      },
-      {
-        "slug": "oxford-united",
-        "played": 12,
-        "won": 6,
-        "drawn": 5,
-        "lost": 1,
-        "gf": 20,
-        "ga": 11,
-        "gd": 9,
-        "points": 23,
         "position": 4
       },
       {
@@ -990,13 +990,13 @@
         "date": "2026-10-31"
       },
       "oxford-united": {
-        "result": "D",
-        "gf": 1,
-        "ga": 1,
-        "opponent_slug": "barnsley",
-        "opponent_name": "Barnsley",
-        "home_away": "A",
-        "date": "2026-10-31"
+        "result": "W",
+        "gf": 2,
+        "ga": 0,
+        "opponent_slug": "reading",
+        "opponent_name": "Reading",
+        "home_away": "H",
+        "date": "2026-11-04"
       },
       "milton-keynes-dons": {
         "result": "W",
@@ -1011,8 +1011,8 @@
         "result": "L",
         "gf": 0,
         "ga": 2,
-        "opponent_slug": null,
-        "opponent_name": "Oxford Utd",
+        "opponent_slug": "oxford-united",
+        "opponent_name": "Oxford",
         "home_away": "A",
         "date": "2026-11-04"
       },
@@ -1204,11 +1204,11 @@
         "D"
       ],
       "oxford-united": [
-        "D",
         "W",
         "D",
         "W",
-        "D"
+        "D",
+        "W"
       ],
       "milton-keynes-dons": [
         "W",
