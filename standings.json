@@ -26,6 +26,18 @@
         "position": 2
       },
       {
+        "slug": "wolverhampton-wanderers",
+        "played": 14,
+        "won": 8,
+        "drawn": 3,
+        "lost": 3,
+        "gf": 25,
+        "ga": 17,
+        "gd": 8,
+        "points": 27,
+        "position": 3
+      },
+      {
         "slug": "birmingham-city",
         "played": 14,
         "won": 7,
@@ -35,7 +47,7 @@
         "ga": 13,
         "gd": 13,
         "points": 26,
-        "position": 3
+        "position": 4
       },
       {
         "slug": "stoke-city",
@@ -47,7 +59,7 @@
         "ga": 17,
         "gd": 5,
         "points": 26,
-        "position": 4
+        "position": 5
       },
       {
         "slug": "swansea-city",
@@ -59,7 +71,7 @@
         "ga": 16,
         "gd": 5,
         "points": 26,
-        "position": 5
+        "position": 6
       },
       {
         "slug": "west-bromwich-albion",
@@ -71,18 +83,6 @@
         "ga": 15,
         "gd": 5,
         "points": 25,
-        "position": 6
-      },
-      {
-        "slug": "wolverhampton-wanderers",
-        "played": 13,
-        "won": 7,
-        "drawn": 3,
-        "lost": 3,
-        "gf": 23,
-        "ga": 16,
-        "gd": 7,
-        "points": 24,
         "position": 7
       },
       {
@@ -171,13 +171,13 @@
       },
       {
         "slug": "bristol-city",
-        "played": 13,
+        "played": 14,
         "won": 5,
         "drawn": 3,
-        "lost": 5,
-        "gf": 15,
-        "ga": 17,
-        "gd": -2,
+        "lost": 6,
+        "gf": 16,
+        "ga": 19,
+        "gd": -3,
         "points": 18,
         "position": 15
       },
@@ -293,19 +293,19 @@
     "last_result": {
       "wolverhampton-wanderers": {
         "result": "W",
-        "gf": 3,
-        "ga": 0,
-        "opponent_slug": "cardiff-city",
-        "opponent_name": "Cardiff",
-        "home_away": "H",
-        "date": "2026-10-31"
+        "gf": 2,
+        "ga": 1,
+        "opponent_slug": "bristol-city",
+        "opponent_name": "Bristol City",
+        "home_away": "A",
+        "date": "2026-11-04"
       },
       "blackburn-rovers": {
         "result": "L",
         "gf": 1,
         "ga": 2,
         "opponent_slug": "stoke-city",
-        "opponent_name": "Stoke City",
+        "opponent_name": "Stoke",
         "home_away": "H",
         "date": "2026-11-03"
       },
@@ -314,7 +314,7 @@
         "gf": 1,
         "ga": 0,
         "opponent_slug": "charlton-athletic",
-        "opponent_name": "Charlton Athletic",
+        "opponent_name": "Charlton",
         "home_away": "A",
         "date": "2026-11-03"
       },
@@ -323,25 +323,25 @@
         "gf": 2,
         "ga": 3,
         "opponent_slug": "sheffield-united",
-        "opponent_name": "Sheffield United",
+        "opponent_name": "Sheffield Utd",
         "home_away": "H",
         "date": "2026-11-03"
       },
       "bristol-city": {
-        "result": "W",
-        "gf": 3,
+        "result": "L",
+        "gf": 1,
         "ga": 2,
-        "opponent_slug": "bolton-wanderers",
-        "opponent_name": "Bolton",
-        "home_away": "A",
-        "date": "2026-10-31"
+        "opponent_slug": "wolverhampton-wanderers",
+        "opponent_name": "Wolves",
+        "home_away": "H",
+        "date": "2026-11-04"
       },
       "millwall": {
         "result": "L",
         "gf": 0,
         "ga": 3,
         "opponent_slug": "birmingham-city",
-        "opponent_name": "Birmingham City",
+        "opponent_name": "Birmingham",
         "home_away": "A",
         "date": "2026-11-03"
       },
@@ -350,7 +350,7 @@
         "gf": 0,
         "ga": 1,
         "opponent_slug": "bolton-wanderers",
-        "opponent_name": "Bolton Wanderers",
+        "opponent_name": "Bolton",
         "home_away": "H",
         "date": "2026-11-03"
       },
@@ -359,7 +359,7 @@
         "gf": 0,
         "ga": 4,
         "opponent_slug": "norwich-city",
-        "opponent_name": "Norwich City",
+        "opponent_name": "Norwich",
         "home_away": "H",
         "date": "2026-11-03"
       },
@@ -386,7 +386,7 @@
         "gf": 4,
         "ga": 0,
         "opponent_slug": "derby-county",
-        "opponent_name": "Derby County",
+        "opponent_name": "Derby",
         "home_away": "A",
         "date": "2026-11-03"
       },
@@ -404,7 +404,7 @@
         "gf": 3,
         "ga": 1,
         "opponent_slug": "swansea-city",
-        "opponent_name": "Swansea City",
+        "opponent_name": "Swansea",
         "home_away": "H",
         "date": "2026-11-03"
       },
@@ -422,7 +422,7 @@
         "gf": 2,
         "ga": 1,
         "opponent_slug": "blackburn-rovers",
-        "opponent_name": "Blackburn Rovers",
+        "opponent_name": "Blackburn",
         "home_away": "A",
         "date": "2026-11-03"
       },
@@ -440,7 +440,7 @@
         "gf": 3,
         "ga": 2,
         "opponent_slug": "preston-north-end",
-        "opponent_name": "Preston North End",
+        "opponent_name": "Preston",
         "home_away": "A",
         "date": "2026-11-03"
       },
@@ -458,7 +458,7 @@
         "gf": 1,
         "ga": 0,
         "opponent_slug": "lincoln-city",
-        "opponent_name": "Lincoln City",
+        "opponent_name": "Lincoln",
         "home_away": "H",
         "date": "2026-11-03"
       },
@@ -467,7 +467,7 @@
         "gf": 1,
         "ga": 1,
         "opponent_slug": "west-bromwich-albion",
-        "opponent_name": "West Bromwich Albion",
+        "opponent_name": "West Brom",
         "home_away": "A",
         "date": "2026-11-03"
       },
@@ -476,7 +476,7 @@
         "gf": 1,
         "ga": 1,
         "opponent_slug": "queens-park-rangers",
-        "opponent_name": "Queens Park Rangers",
+        "opponent_name": "QPR",
         "home_away": "A",
         "date": "2026-11-03"
       },
@@ -485,7 +485,7 @@
         "gf": 3,
         "ga": 3,
         "opponent_slug": "cardiff-city",
-        "opponent_name": "Cardiff City",
+        "opponent_name": "Cardiff",
         "home_away": "A",
         "date": "2026-11-04"
       },
@@ -494,7 +494,7 @@
         "gf": 3,
         "ga": 3,
         "opponent_slug": "west-ham-united",
-        "opponent_name": "West Ham United",
+        "opponent_name": "West Ham",
         "home_away": "H",
         "date": "2026-11-04"
       },
@@ -510,9 +510,9 @@
     },
     "form": {
       "wolverhampton-wanderers": [
-        "L",
         "W",
         "D",
+        "W",
         "W",
         "W"
       ],
@@ -538,11 +538,11 @@
         "L"
       ],
       "bristol-city": [
-        "D",
         "L",
         "L",
         "D",
-        "W"
+        "W",
+        "L"
       ],
       "millwall": [
         "L",
@@ -706,18 +706,6 @@
         "position": 2
       },
       {
-        "slug": "oxford-united",
-        "played": 13,
-        "won": 7,
-        "drawn": 5,
-        "lost": 1,
-        "gf": 22,
-        "ga": 11,
-        "gd": 11,
-        "points": 26,
-        "position": 3
-      },
-      {
         "slug": "luton-town",
         "played": 14,
         "won": 7,
@@ -727,6 +715,18 @@
         "ga": 21,
         "gd": 6,
         "points": 24,
+        "position": 3
+      },
+      {
+        "slug": "oxford-united",
+        "played": 12,
+        "won": 6,
+        "drawn": 5,
+        "lost": 1,
+        "gf": 20,
+        "ga": 11,
+        "gd": 9,
+        "points": 23,
         "position": 4
       },
       {
@@ -990,13 +990,13 @@
         "date": "2026-10-31"
       },
       "oxford-united": {
-        "result": "W",
-        "gf": 2,
-        "ga": 0,
-        "opponent_slug": "reading",
-        "opponent_name": "Reading",
-        "home_away": "H",
-        "date": "2026-11-04"
+        "result": "D",
+        "gf": 1,
+        "ga": 1,
+        "opponent_slug": "barnsley",
+        "opponent_name": "Barnsley",
+        "home_away": "A",
+        "date": "2026-10-31"
       },
       "milton-keynes-dons": {
         "result": "W",
@@ -1011,8 +1011,8 @@
         "result": "L",
         "gf": 0,
         "ga": 2,
-        "opponent_slug": "oxford-united",
-        "opponent_name": "Oxford United",
+        "opponent_slug": null,
+        "opponent_name": "Oxford Utd",
         "home_away": "A",
         "date": "2026-11-04"
       },
@@ -1021,7 +1021,7 @@
         "gf": 1,
         "ga": 1,
         "opponent_slug": "huddersfield-town",
-        "opponent_name": "Huddersfield Town",
+        "opponent_name": "Huddersfield",
         "home_away": "A",
         "date": "2026-11-03"
       },
@@ -1111,7 +1111,7 @@
         "gf": 0,
         "ga": 0,
         "opponent_slug": "mansfield-town",
-        "opponent_name": "Mansfield Town",
+        "opponent_name": "Mansfield",
         "home_away": "H",
         "date": "2026-11-03"
       },
@@ -1120,7 +1120,7 @@
         "gf": 1,
         "ga": 1,
         "opponent_slug": "luton-town",
-        "opponent_name": "Luton Town",
+        "opponent_name": "Luton",
         "home_away": "H",
         "date": "2026-11-03"
       },
@@ -1156,7 +1156,7 @@
         "gf": 0,
         "ga": 0,
         "opponent_slug": "wigan-athletic",
-        "opponent_name": "Wigan Athletic",
+        "opponent_name": "Wigan",
         "home_away": "A",
         "date": "2026-11-03"
       },
@@ -1204,11 +1204,11 @@
         "D"
       ],
       "oxford-united": [
-        "W",
         "D",
         "W",
         "D",
-        "W"
+        "W",
+        "D"
       ],
       "milton-keynes-dons": [
         "W",
@@ -1674,7 +1674,7 @@
         "gf": 1,
         "ga": 0,
         "opponent_slug": "northampton-town",
-        "opponent_name": "Northampton Town",
+        "opponent_name": "Northampton",
         "home_away": "A",
         "date": "2026-11-03"
       },
@@ -1818,7 +1818,7 @@
         "gf": 0,
         "ga": 1,
         "opponent_slug": "oldham-athletic",
-        "opponent_name": "Oldham Athletic",
+        "opponent_name": "Oldham",
         "home_away": "H",
         "date": "2026-11-03"
       },
