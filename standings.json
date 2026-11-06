@@ -195,13 +195,13 @@
       },
       {
         "slug": "bolton-wanderers",
-        "played": 14,
+        "played": 15,
         "won": 5,
         "drawn": 2,
-        "lost": 7,
-        "gf": 19,
-        "ga": 26,
-        "gd": -7,
+        "lost": 8,
+        "gf": 20,
+        "ga": 29,
+        "gd": -9,
         "points": 17,
         "position": 17
       },
@@ -267,14 +267,14 @@
       },
       {
         "slug": "derby-county",
-        "played": 14,
-        "won": 1,
+        "played": 15,
+        "won": 2,
         "drawn": 4,
         "lost": 9,
-        "gf": 11,
-        "ga": 29,
-        "gd": -18,
-        "points": 7,
+        "gf": 14,
+        "ga": 30,
+        "gd": -16,
+        "points": 10,
         "position": 23
       },
       {
@@ -310,13 +310,13 @@
         "date": "2026-11-03"
       },
       "bolton-wanderers": {
-        "result": "W",
+        "result": "L",
         "gf": 1,
-        "ga": 0,
-        "opponent_slug": "charlton-athletic",
-        "opponent_name": "Charlton",
+        "ga": 3,
+        "opponent_slug": "derby-county",
+        "opponent_name": "Derby County",
         "home_away": "A",
-        "date": "2026-11-03"
+        "date": "2026-11-06"
       },
       "preston-north-end": {
         "result": "L",
@@ -355,13 +355,13 @@
         "date": "2026-11-03"
       },
       "derby-county": {
-        "result": "L",
-        "gf": 0,
-        "ga": 4,
-        "opponent_slug": "norwich-city",
-        "opponent_name": "Norwich",
+        "result": "W",
+        "gf": 3,
+        "ga": 1,
+        "opponent_slug": "bolton-wanderers",
+        "opponent_name": "Bolton Wanderers",
         "home_away": "H",
-        "date": "2026-11-03"
+        "date": "2026-11-06"
       },
       "middlesbrough": {
         "result": "L",
@@ -524,11 +524,11 @@
         "L"
       ],
       "bolton-wanderers": [
-        "W",
         "D",
         "L",
         "L",
-        "W"
+        "W",
+        "L"
       ],
       "preston-north-end": [
         "L",
@@ -560,10 +560,10 @@
       ],
       "derby-county": [
         "L",
-        "L",
         "D",
         "L",
-        "L"
+        "L",
+        "W"
       ],
       "middlesbrough": [
         "W",
