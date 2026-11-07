@@ -2,6 +2,18 @@
   "championship": {
     "table": [
       {
+        "slug": "stoke-city",
+        "played": 15,
+        "won": 9,
+        "drawn": 2,
+        "lost": 4,
+        "gf": 24,
+        "ga": 18,
+        "gd": 6,
+        "points": 29,
+        "position": 1
+      },
+      {
         "slug": "southampton",
         "played": 14,
         "won": 8,
@@ -11,7 +23,7 @@
         "ga": 14,
         "gd": 15,
         "points": 28,
-        "position": 1
+        "position": 2
       },
       {
         "slug": "middlesbrough",
@@ -23,19 +35,19 @@
         "ga": 19,
         "gd": 11,
         "points": 28,
-        "position": 2
+        "position": 3
       },
       {
         "slug": "wolverhampton-wanderers",
-        "played": 14,
+        "played": 15,
         "won": 8,
-        "drawn": 3,
+        "drawn": 4,
         "lost": 3,
-        "gf": 25,
-        "ga": 17,
+        "gf": 26,
+        "ga": 18,
         "gd": 8,
-        "points": 27,
-        "position": 3
+        "points": 28,
+        "position": 4
       },
       {
         "slug": "birmingham-city",
@@ -46,18 +58,6 @@
         "gf": 26,
         "ga": 13,
         "gd": 13,
-        "points": 26,
-        "position": 4
-      },
-      {
-        "slug": "stoke-city",
-        "played": 14,
-        "won": 8,
-        "drawn": 2,
-        "lost": 4,
-        "gf": 22,
-        "ga": 17,
-        "gd": 5,
         "points": 26,
         "position": 5
       },
@@ -111,15 +111,27 @@
       },
       {
         "slug": "portsmouth",
-        "played": 14,
+        "played": 15,
         "won": 6,
         "drawn": 4,
-        "lost": 4,
-        "gf": 19,
-        "ga": 16,
-        "gd": 3,
+        "lost": 5,
+        "gf": 20,
+        "ga": 18,
+        "gd": 2,
         "points": 22,
         "position": 10
+      },
+      {
+        "slug": "norwich-city",
+        "played": 15,
+        "won": 7,
+        "drawn": 0,
+        "lost": 8,
+        "gf": 32,
+        "ga": 24,
+        "gd": 8,
+        "points": 21,
+        "position": 11
       },
       {
         "slug": "queens-park-rangers",
@@ -131,18 +143,6 @@
         "ga": 17,
         "gd": 5,
         "points": 21,
-        "position": 11
-      },
-      {
-        "slug": "norwich-city",
-        "played": 14,
-        "won": 6,
-        "drawn": 0,
-        "lost": 8,
-        "gf": 27,
-        "ga": 24,
-        "gd": 3,
-        "points": 18,
         "position": 12
       },
       {
@@ -170,27 +170,27 @@
         "position": 14
       },
       {
-        "slug": "bristol-city",
-        "played": 14,
-        "won": 5,
-        "drawn": 3,
-        "lost": 6,
-        "gf": 16,
-        "ga": 19,
-        "gd": -3,
+        "slug": "wrexham",
+        "played": 15,
+        "won": 4,
+        "drawn": 6,
+        "lost": 5,
+        "gf": 18,
+        "ga": 20,
+        "gd": -2,
         "points": 18,
         "position": 15
       },
       {
-        "slug": "wrexham",
-        "played": 14,
-        "won": 4,
-        "drawn": 5,
-        "lost": 5,
-        "gf": 17,
-        "ga": 19,
-        "gd": -2,
-        "points": 17,
+        "slug": "bristol-city",
+        "played": 15,
+        "won": 5,
+        "drawn": 3,
+        "lost": 7,
+        "gf": 16,
+        "ga": 24,
+        "gd": -8,
+        "points": 18,
         "position": 16
       },
       {
@@ -292,13 +292,13 @@
     ],
     "last_result": {
       "wolverhampton-wanderers": {
-        "result": "W",
-        "gf": 2,
+        "result": "D",
+        "gf": 1,
         "ga": 1,
-        "opponent_slug": "bristol-city",
-        "opponent_name": "Bristol City",
+        "opponent_slug": "wrexham",
+        "opponent_name": "Wrexham",
         "home_away": "A",
-        "date": "2026-11-04"
+        "date": "2026-11-07"
       },
       "blackburn-rovers": {
         "result": "L",
@@ -329,12 +329,12 @@
       },
       "bristol-city": {
         "result": "L",
-        "gf": 1,
-        "ga": 2,
-        "opponent_slug": "wolverhampton-wanderers",
-        "opponent_name": "Wolves",
+        "gf": 0,
+        "ga": 5,
+        "opponent_slug": "norwich-city",
+        "opponent_name": "Norwich City",
         "home_away": "H",
-        "date": "2026-11-04"
+        "date": "2026-11-07"
       },
       "millwall": {
         "result": "L",
@@ -383,12 +383,12 @@
       },
       "norwich-city": {
         "result": "W",
-        "gf": 4,
+        "gf": 5,
         "ga": 0,
-        "opponent_slug": "derby-county",
-        "opponent_name": "Derby",
+        "opponent_slug": "bristol-city",
+        "opponent_name": "Bristol City",
         "home_away": "A",
-        "date": "2026-11-03"
+        "date": "2026-11-07"
       },
       "west-bromwich-albion": {
         "result": "D",
@@ -400,13 +400,13 @@
         "date": "2026-11-03"
       },
       "portsmouth": {
-        "result": "W",
-        "gf": 3,
-        "ga": 1,
-        "opponent_slug": "swansea-city",
-        "opponent_name": "Swansea",
+        "result": "L",
+        "gf": 1,
+        "ga": 2,
+        "opponent_slug": "stoke-city",
+        "opponent_name": "Stoke City",
         "home_away": "H",
-        "date": "2026-11-03"
+        "date": "2026-11-07"
       },
       "queens-park-rangers": {
         "result": "D",
@@ -421,10 +421,10 @@
         "result": "W",
         "gf": 2,
         "ga": 1,
-        "opponent_slug": "blackburn-rovers",
-        "opponent_name": "Blackburn",
+        "opponent_slug": "portsmouth",
+        "opponent_name": "Portsmouth",
         "home_away": "A",
-        "date": "2026-11-03"
+        "date": "2026-11-07"
       },
       "swansea-city": {
         "result": "L",
@@ -499,22 +499,22 @@
         "date": "2026-11-04"
       },
       "wrexham": {
-        "result": "W",
-        "gf": 2,
-        "ga": 0,
-        "opponent_slug": "middlesbrough",
-        "opponent_name": "Middlesbrough",
+        "result": "D",
+        "gf": 1,
+        "ga": 1,
+        "opponent_slug": "wolverhampton-wanderers",
+        "opponent_name": "Wolverhampton Wanderers",
         "home_away": "H",
-        "date": "2026-11-04"
+        "date": "2026-11-07"
       }
     },
     "form": {
       "wolverhampton-wanderers": [
-        "W",
         "D",
         "W",
         "W",
-        "W"
+        "W",
+        "D"
       ],
       "blackburn-rovers": [
         "W",
@@ -539,9 +539,9 @@
       ],
       "bristol-city": [
         "L",
-        "L",
         "D",
         "W",
+        "L",
         "L"
       ],
       "millwall": [
@@ -581,7 +581,7 @@
       ],
       "norwich-city": [
         "L",
-        "L",
+        "W",
         "W",
         "W",
         "W"
@@ -594,11 +594,11 @@
         "D"
       ],
       "portsmouth": [
-        "W",
         "D",
         "W",
         "D",
-        "W"
+        "W",
+        "L"
       ],
       "queens-park-rangers": [
         "W",
@@ -608,9 +608,9 @@
         "D"
       ],
       "stoke-city": [
-        "L",
         "W",
         "D",
+        "W",
         "W",
         "W"
       ],
@@ -671,11 +671,11 @@
         "D"
       ],
       "wrexham": [
-        "L",
         "W",
         "L",
         "L",
-        "W"
+        "W",
+        "D"
       ]
     }
   },
