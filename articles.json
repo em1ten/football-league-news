@@ -1,31 +1,30 @@
 [
   {
-    "title": "Blues top the table, Cardiff edge dramatic NINE goal thriller - Sky Bet Championship results, table and stats!",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQX3RqYmpVenZONkRRYUxTQ0U2Z0lJeFlFSFJBSWNjRWdYdkVYSnYyZ0hiWDdJeDZjYjIza1BwSV84YXk0ZThPTC14NF9FdHMyRnJQR2xQNzd2emtxeENaVGQ5Wk04Q3FKbDJkVG9pa3lOUUV1ZWlHSk5Ha0NwMGRkMkltRW1tcEFOa3dMMXp6dTlBbEJrN3JFMldsWE5UNWI1VkRhdkJqN1VBZy1L?oc=5",
-    "excerpt": "",
-    "source": "EFL",
-    "published": "2026-11-07T20:45:37+00:00",
+    "title": "'It's Savage junior's night' - Charlie scores against dad Robbie's side",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cmx2d76znxe1o?at_medium=RSS&at_campaign=rss",
+    "excerpt": "Robbie Savage's son Charlie scores for Reading against Peterborough United, the side his father manages in the first round of the FA Cup.",
+    "source": "BBC",
+    "published": "2026-11-08T00:13:34+00:00",
     "clubs": [
-      "cardiff-city"
+      "peterborough-united"
     ],
     "category": "news",
     "tier": "trusted",
-    "division": "championship",
+    "division": "league-one",
     "scope": "club"
   },
   {
-    "title": "Wrexham 1-1 Wolves: Lewis O'Brien earns a point for the Red Dragons",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOTdXeVJidzBERkZ6TF94czhNQjdNSmpYMzdaZTlQVTl6b0p5c2hzejJsaXN1NFB5Z09YQnhOSWRRWEpMN3Y2eXkyY2pPeWNWX04zb1JaV24tSmZDY05Da0o4dE5YbjhiY01kZEVGYWdqeU1feW9WZjVSTXJldDVESndxSzlieE1nMHZOU0ZaZEFpU2dINGFiWnRpN29acEVKNnRlUm9mSldfNG1wZ2U3WS1KOUI?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-07T20:43:13+00:00",
+    "title": "Charlie Savage shines for Reading to beat dad Robbie's Peterborough",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cqx29ey1m9zpo?at_medium=RSS&at_campaign=rss",
+    "excerpt": "Charlie Savage scores his first goal of the season and puts in a man-of-the-match performance for Reading who knock out dad Robbie's Peterborough United in the FA Cup first round.",
+    "source": "BBC",
+    "published": "2026-11-08T00:12:24+00:00",
     "clubs": [
-      "wrexham",
-      "wolverhampton-wanderers"
+      "peterborough-united"
     ],
-    "category": "match",
+    "category": "news",
     "tier": "trusted",
-    "division": "championship",
+    "division": "league-one",
     "scope": "club"
   },
   {
@@ -33,10 +32,183 @@
     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNS2g3TV9yYThrYmhjTUc0ZUh6RW9WT0VsVW42dURpNnQ3aGhyd092ODlDLTJWTkxwa0JzWExXUVhPZlE3Mk5kbUs0MXJhRDlLSTdWMUFGMXhNN3FPSERUWmpNdU15Rk0yX2RTanBkSkZxU2w0dXI2Y3hHbmtJMlhxdnRWRVVKaVFYY25PTDRoVmdPcHZiTW43RlZteGZsWEZFcEZKVzJrbURDOXBrc25jbUJRNDkxVFA2aWlNd3JibmRFSHRhdnNNdTgwb1E3Uk9XYzVaRDhNVkNvSXR6ZFFIX0Z3ODUzLU9vdFFfVnB3?oc=5",
     "excerpt": "",
     "source": "Sky Sports",
-    "published": "2026-11-07T20:35:11+00:00",
+    "published": "2026-11-08T00:11:20+00:00",
     "clubs": [
       "bristol-city",
       "norwich-city"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "'Wonderful goal' - Crewe's McNeill scores from halfway line",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cmkgekn1007qo?at_medium=RSS&at_campaign=rss",
+    "excerpt": "Charlie McNeill scores from the halfway line in the 12th minute to open the scoring for Crewe Alexandra against AFC Wimbledon in the first round of the FA Cup.",
+    "source": "BBC",
+    "published": "2026-11-08T00:07:11+00:00",
+    "clubs": [
+      "afc-wimbledon"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Match Highlights Charlton - Sheffield | EFL Championship | Yalla Shoot",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95Yl91dFo1S2psZ0RnZTBnVV9EMUs2eHVYY1Y0VTlobEdCTjl0cjhZbTR4ZkkwSC1NNzBJOHJ4STZsOU9OaGpkbEE5SXQwaldpZGc?oc=5",
+    "excerpt": "",
+    "source": "YSscores",
+    "published": "2026-11-08T00:05:51+00:00",
+    "clubs": [
+      "charlton-athletic"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Match Highlights QPR - Lincoln City | EFL Championship | Yalla Shoot",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ORFJwQTlvTXZYd0VPRHAtZE0xVThlaktXckhjWVJyak13RWxPR2pUZWROWFM4UEJSRGlvanFwSUNDSG5zTHFMeWNrYm42andJS2c?oc=5",
+    "excerpt": "",
+    "source": "YSscores",
+    "published": "2026-11-08T00:01:28+00:00",
+    "clubs": [
+      "lincoln-city",
+      "queens-park-rangers"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Match Highlights Pompey - Stoke City | EFL Championship | Yalla Shoot",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1lckN3S1hrNGExa1VYVkdIOUZfeFRveGhzT2c0YWlsUURRejR3c0hNLXZ5ZFJoc2hfeGRPRjc3eXRWZmpHRmxXa3czZDZnNFpfQWc?oc=5",
+    "excerpt": "",
+    "source": "YSscores",
+    "published": "2026-11-08T00:01:13+00:00",
+    "clubs": [
+      "stoke-city",
+      "portsmouth"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Match Highlights Watford - Middlesbrough",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1JYTVlNEtmMWdfZHR2MHZucmF0cnI3T1hOQk9VVEk4eHo3U1NfYTZXdHpzRFNzUkFNeHg0U3ZiZnBpREp5cFpnV1hmVGVCSXJwR1E?oc=5",
+    "excerpt": "",
+    "source": "YSscores",
+    "published": "2026-11-08T00:00:57+00:00",
+    "clubs": [
+      "middlesbrough",
+      "watford"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Match Highlights Wrexham - Wolves | EFL Championship | Yalla Shoot",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9yN3QxQkNrWG1tX0xVVUlTRlFGeS01SWlSQURGZmFxbUVSbzJHam9FcGRNRG55Vi1hdkJ2dl9Hakh2WTcyaDVudWJWaFl6QnNLZWc?oc=5",
+    "excerpt": "",
+    "source": "YSscores",
+    "published": "2026-11-08T00:00:42+00:00",
+    "clubs": [
+      "wrexham",
+      "wolverhampton-wanderers"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Match Highlights Birmingham - Swansea | EFL Championship | Yalla Shoot",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1nQzlpRWIydkEwYXQtS0o5ZzZUdDQyckFTM3l0aTEwNnhVam50VGRqVHNNMldmaVRrS25VUy1zaEFOMGo3VnJRRUpFY0hic0RSUHc?oc=5",
+    "excerpt": "",
+    "source": "YSscores",
+    "published": "2026-11-08T00:00:27+00:00",
+    "clubs": [
+      "swansea-city"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Charlton 2-1 Blades - full match video",
+    "url": "https://sufc.co.uk/news/2026/november/07/charlton-2-1-blades-video/",
+    "excerpt": "Fixtures Charlton Athletic Vs. Sheffield United - Sat, Nov 07 2026, 15:00",
+    "source": "Official site",
+    "published": "2026-11-07T23:59:00+00:00",
+    "clubs": [
+      "sheffield-united"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Plymouth cruise past Alvechurch to reach FA Cup second round",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cwp9gdzj705lo?at_medium=RSS&at_campaign=rss",
+    "excerpt": "League One Plymouth ease into the second round of the FA Cup second round with a 4-0 win against Southern League Premier Central side Alvechurch.",
+    "source": "BBC",
+    "published": "2026-11-07T23:49:25+00:00",
+    "clubs": [
+      "plymouth-argyle"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Birmingham 2-1 Swansea: Jay Stansfield scores twice as Blues go top of the Championship",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQR1ppSE1tNGczYk9fMV9QRGN4dDAyZ205UkZIUkJNZUl6WVV2UTd4aTJmZGhwa1ZXeEctZXNZU2RPX1cyTkZCMWZ0S0diNXNuVlBqaml4WjJ3amxvS3RuczBkRTBuaHhEalZtc1lha0Ruc1hTemZidndwZGthM0cyVlUtYk04T2JpTEhjSDVma3lJVkVDSE5lTjRzcHRDMWRBQVNNaFpxUy1BMGkxRWtZN2ZGUXFicHpMQ2RicVg3TjIzdjNEck5ySnd5UW96MTQt?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-11-07T23:45:08+00:00",
+    "clubs": [
+      "swansea-city"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Wilshere's Luton into round two after win against Forest Green",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cmlyl724508eo?at_medium=RSS&at_campaign=rss",
+    "excerpt": "Luton navigate their way into the FA Cup second round after seeing off National League side Forest Green Rovers 2-0 at Kenilworth Road.",
+    "source": "BBC",
+    "published": "2026-11-07T23:44:28+00:00",
+    "clubs": [
+      "luton-town"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Wrexham 1-1 Wolves: Lewis O'Brien earns a point for the Red Dragons",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOTdXeVJidzBERkZ6TF94czhNQjdNSmpYMzdaZTlQVTl6b0p5c2hzejJsaXN1NFB5Z09YQnhOSWRRWEpMN3Y2eXkyY2pPeWNWX04zb1JaV24tSmZDY05Da0o4dE5YbjhiY01kZEVGYWdqeU1feW9WZjVSTXJldDVESndxSzlieE1nMHZOU0ZaZEFpU2dINGFiWnRpN29acEVKNnRlUm9mSldfNG1wZ2U3WS1KOUI?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-11-07T23:43:14+00:00",
+    "clubs": [
+      "wrexham",
+      "wolverhampton-wanderers"
     ],
     "category": "match",
     "tier": "trusted",
@@ -48,25 +220,10 @@
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOFhGYmx6aGpwU3BDMkFwRFp3MHk5SFFFSDY0TWVjby1janVmMTlzcHFLbDRXLUxaazdzS2NISWJhbEkzSjZsWERrUHZwaERiVEtGVjdXVXhrVEI1bUZVRUxHLVNHWXpVQUlwVjR2MjRtc3JjaUFESGZMNlp3SWZHU0xvanJid0F4RXM0a0JaUGxHa0VmS1E1aEZsaTVMVXk0clJNU2FQTnFtZGxLY3BIYnpXcDN6NW5SNTdlY3h6Wm5LZ1hZRXc?oc=5",
     "excerpt": "",
     "source": "Sky Sports",
-    "published": "2026-11-07T20:27:08+00:00",
+    "published": "2026-11-07T23:27:08+00:00",
     "clubs": [
       "sheffield-united",
       "charlton-athletic"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Cardiff 5-4 Burnley: Bluebirds hit back from 4-1 down to claim astonishing comeback win",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYUpPZ2VEVlViVVhGWEVGdFE3cFFlSkRBc0pfZlQ5NUx5bTYzLU4xdzVwQmpmZ1FPX1FWMklaUWNFTVNNbUFnOW5VYjY2ZFRuTWI3QTlJNkVydVFIZnVlZlRsemRzTHpybUxFdUFqWHYxZUtRVGhDTzZ1eUdYVmFMNFVzeDd3Y096ekt4MUJTY0RXcThSU2hVdV9DMnVRZ2RFLWFJQVEyeWE0X3NMVzkzU1loTmNUSkdTR0RwcmxZcXR1SUtNb0xleER4UVpVenJI?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-07T20:25:09+00:00",
-    "clubs": [
-      "burnley",
-      "cardiff-city"
     ],
     "category": "match",
     "tier": "trusted",
@@ -78,12 +235,326 @@
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSE9EMWZWVzNwajZDTkVwYXRMbFl1dWZ0MmE2WTE5MWk5RDdZd2x4bFBwb2hrSU9vUzRzR2ktSDZxNkZNZm1KbXRwNzBva1VtNk5SbjRET0dkZDFaRnJSVTVNNnNuMXB5T3NnWU9WSndBdjdwUm11RTl5UHYtaWNmY2I0bWhiYnRuUGs0X1QyWVJmbnJab2Z0WHBETHlTdWJQamg1UXNKOUFEWnhhc3k3am1wYWUyY2xHSTlDdS1Pc1Y4dFpiZjBpeg?oc=5",
     "excerpt": "",
     "source": "Sky Sports",
-    "published": "2026-11-07T20:25:05+00:00",
+    "published": "2026-11-07T23:25:05+00:00",
     "clubs": [
       "blackburn-rovers",
       "west-ham-united"
     ],
     "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "QPR 2-1 Lincoln: Glen Kamara seals late win for Julien Stephan's side",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdlJkcDhYYXVsU0N6c191S1AxX0J5S0NTeENJUFljOEpjMVhFMkdYcU9SSXR1dTBxeUx2YUN6TzJaMWF5NTNXZVduTFk1YXhISjU1RVhvS3liNTRNdlkwX2xlSjJsT1NKODRFdEpLSkVIQ0Z4MHNscWxYRmcxcGNnOWl1LXVZM1J6SFdwVGN4UTNzMzY3bXFmQTRrYXBSQk5GcXpaSzhuSHF0S3Jra0dVR1ZVb2V2eEk?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-11-07T23:18:44+00:00",
+    "clubs": [
+      "queens-park-rangers"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Non-league Barrow beat League Two Gillingham with injury-time winner",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cm5yn1xqv686o?at_medium=RSS&at_campaign=rss",
+    "excerpt": "Innes Cameron's 92nd minute goal sends National League side Barrow into the second round of the FA Cup, as they snatch a 1-0 victory at Gillingham.",
+    "source": "BBC",
+    "published": "2026-11-07T23:15:30+00:00",
+    "clubs": [
+      "gillingham"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Highlights: Exeter shock League One leaders Huddersfield",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cq8rz7lyl5g8o?at_medium=RSS&at_campaign=rss",
+    "excerpt": "League Two Exeter City pull off an upset 2-1 win away to League One leaders Huddersfield Town to progress into the second round of the FA Cup.",
+    "source": "BBC",
+    "published": "2026-11-07T23:08:32+00:00",
+    "clubs": [
+      "exeter-city"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "McNeill's superb halfway goal sparks Crewe upset over Wimbledon",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cv5yn15k5pz0o?at_medium=RSS&at_campaign=rss",
+    "excerpt": "Charlie McNeill's strike from the halfway line helps League Two frontrunners Crewe progress to the second round of the FA Cup, with a 2-1 win over League One AFC Wimbledon.",
+    "source": "BBC",
+    "published": "2026-11-07T23:05:36+00:00",
+    "clubs": [
+      "afc-wimbledon"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Charlton reaction",
+    "url": "https://sufc.co.uk/news/2026/november/07/charlton-reaction/",
+    "excerpt": "",
+    "source": "Official site",
+    "published": "2026-11-07T23:00:00+00:00",
+    "clubs": [
+      "sheffield-united"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Randall's last-gasp winner sends Chesterfield past Yeovil in seven-goal thriller",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cky937j8vxxeo?at_medium=RSS&at_campaign=rss",
+    "excerpt": "Chesterfield fend off a Yeovil Town second-half fightback before scoring a late winner to secure a 4-3 victory in the first round of the FA Cup.",
+    "source": "BBC",
+    "published": "2026-11-07T22:35:13+00:00",
+    "clubs": [
+      "chesterfield"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "REACTION: ALTRINCHAM (A)",
+    "url": "https://www.nottscountyfc.co.uk/news/2026/november/07/reaction--post-altrincham-a/",
+    "excerpt": "Martin Paterson and shoot-out hero, James Belshaw, looked back on the game with BBC Nottingham.",
+    "source": "Official site",
+    "published": "2026-11-07T22:35:00+00:00",
+    "clubs": [
+      "notts-county"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Wycombe through with comfortable win over Accrington",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cwvgr24eppvgo?at_medium=RSS&at_campaign=rss",
+    "excerpt": "A goal in each half gives League One Wycombe victory at League Two Accrington in the FA Cup first round.",
+    "source": "BBC",
+    "published": "2026-11-07T22:24:26+00:00",
+    "clubs": [
+      "accrington-stanley"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Charlie Savage triumphs against dad Robbie as five-star Reading smash Peterborough",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRnduMzlfUUE0anJJZlVjbEYzNzFuZXQzNEwwc3JQLV9lLXhjZExCS3JxUEpxaVU0UDE3T1N3NFFuWFduX2did2hvd1BHMldJazdwNHg4ekhBY05nRjY1X0I1b2pvbGhmUHNQU3JlMy1rT0FQaW1neTE3Ym5wbzQzZmJ6MXNiN2NsYjlrUmpaUGUwZDk0QVFJeVdYcEx6VUctMnZwMDFNbTlYSUNOeWpPNDkzS25fZw?oc=5",
+    "excerpt": "",
+    "source": "The Independent",
+    "published": "2026-11-07T22:22:00+00:00",
+    "clubs": [
+      "peterborough-united"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Rotherham end 10-game losing run with FA Cup win over Bromley",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cm93zr7lnqvko?at_medium=RSS&at_campaign=rss",
+    "excerpt": "Goals from Sonny Aljofree and Tom Bradshaw earn Rotherham a 2-0 victory over Bromley in the FA Cup first round.",
+    "source": "BBC",
+    "published": "2026-11-07T22:19:46+00:00",
+    "clubs": [
+      "bromley"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Match Highlights Preston - Southampton",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OclR1OXdHSVFITXNqODEyZk9WWVRBRGdhRXVvZk56a09ZSHVyUHNPX2tSeEVIbm5FOWVhaERLSmZ0ZzVpTlE5dzhVamt2aDBUWmc?oc=5",
+    "excerpt": "",
+    "source": "YSscores",
+    "published": "2026-11-07T22:14:56+00:00",
+    "clubs": [
+      "southampton",
+      "preston-north-end"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Adeeko's extra-time winner sends Fleetwood Town past Rochdale",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cr5yn1xlzv27o?at_medium=RSS&at_campaign=rss",
+    "excerpt": "Substitute Baba Adeeko nets an extra-time winner as Rochdale progress into the second round of the FA Cup, beating Fleetwood Town 2-1.",
+    "source": "BBC",
+    "published": "2026-11-07T22:08:06+00:00",
+    "clubs": [
+      "fleetwood-town"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Match Highlights Bristol City - Norwich City",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE45YkJJRXRkbGxJMXQ1UEN5c3Q2VUU4U3V4V0MyUUh1VllGcGkxVWFZWmRpdllWeXVNRXZQZkZYNlpSb3B3d2Z6Y1Q3UVEwMk51dXc?oc=5",
+    "excerpt": "",
+    "source": "YSscores",
+    "published": "2026-11-07T21:58:25+00:00",
+    "clubs": [
+      "bristol-city",
+      "norwich-city"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Port Vale defeat non-league Scunthorpe in FA Cup",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cm78p29vp706o?at_medium=RSS&at_campaign=rss",
+    "excerpt": "Last season's quarter-finalists Port Vale book their place in the FA Cup second round with victory over National League side Scunthorpe United at Vale Park.",
+    "source": "BBC",
+    "published": "2026-11-07T21:53:36+00:00",
+    "clubs": [
+      "port-vale"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Match Highlights Cardiff City - Burnley",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50R2NjemtDWlgya1J1T09ObUdqU29tRm1FN2trZU9UNXRIOEl0QTJnY04ySXVsb3RlenBoZlBGSXowcHZHRkpuakJVSkVOUUpxVkE?oc=5",
+    "excerpt": "",
+    "source": "YSscores",
+    "published": "2026-11-07T21:53:06+00:00",
+    "clubs": [
+      "cardiff-city",
+      "burnley"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Match Highlights Blackburn - West Ham | EFL Championship | Yalla Shoot",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMUUhGTnMzR0RoNVlWR1FBYnpEaEJPVTVoSXF3Rmx6ejE5X0ZOa2JHM3RuXzkwUW8tYkdKTGRQTjhrZUh0U0YzbHQweVpTUG1sRVE?oc=5",
+    "excerpt": "",
+    "source": "YSscores",
+    "published": "2026-11-07T21:40:47+00:00",
+    "clubs": [
+      "blackburn-rovers",
+      "west-ham-united"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "MK Dons edge past Swindon to progress",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cm2kel0415e1o?at_medium=RSS&at_campaign=rss",
+    "excerpt": "League One side MK Dons see off Swindon Town of League Two to progress into the second round of the FA Cup.",
+    "source": "BBC",
+    "published": "2026-11-07T21:40:42+00:00",
+    "clubs": [
+      "milton-keynes-dons"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Cardiff 5-4 Burnley: Bluebirds hit back from 4-1 down to claim astonishing comeback win",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYUpPZ2VEVlViVVhGWEVGdFE3cFFlSkRBc0pfZlQ5NUx5bTYzLU4xdzVwQmpmZ1FPX1FWMklaUWNFTVNNbUFnOW5VYjY2ZFRuTWI3QTlJNkVydVFIZnVlZlRsemRzTHpybUxFdUFqWHYxZUtRVGhDTzZ1eUdYVmFMNFVzeDd3Y096ekt4MUJTY0RXcThSU2hVdV9DMnVRZ2RFLWFJQVEyeWE0X3NMVzkzU1loTmNUSkdTR0RwcmxZcXR1SUtNb0xleER4UVpVenJI?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-11-07T21:18:38+00:00",
+    "clubs": [
+      "burnley",
+      "cardiff-city"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Rotherham vs. Crawley (Nov 14, 2026) Postponed",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wR2wwYzhLNzM3M1pIUXZZRVRMR1NhdlhUbjJnQ3lYTnFCNTdqTUNEY3dIQktRR3BZa2R1Yk9YOTlmNVk3VjUxQmZSWTlsbWh0a3pjZkJydWdhMy1UNEdNZTV3?oc=5",
+    "excerpt": "",
+    "source": "ESPN",
+    "published": "2026-11-07T21:06:07+00:00",
+    "clubs": [
+      "rotherham-united",
+      "crawley-town"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "REPORT: ALTRINCHAM 2-2 [2-3 PENS] NOTTS",
+    "url": "https://www.nottscountyfc.co.uk/news/2026/november/07/report--altrincham-v-notts/",
+    "excerpt": "We secured passage to the second round of the Emirates FA Cup with a penalty shootout victory over Altrincham. In increasingly difficult conditions due to heavy fog descending on the J Davidson Stadium, Rosaire Longelo...",
+    "source": "Official site",
+    "published": "2026-11-07T21:00:00+00:00",
+    "clubs": [
+      "notts-county"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Ollie Pearce becomes third-fastest FA Cup scorer in history",
+    "url": "undefined/news/2026/november/07/ollie-pearce-becomes-third-fastest-fa-cup-scorer-in-history/",
+    "excerpt": "Fixtures York City Vs. Northampton Town - Sat, Nov 07 2026, 15:00 Ollie Pearce made history on Saturday afternoon, scoring after just 9.5 seconds against Northampton Town to become the third-fastest goalscorer in the...",
+    "source": "Official site",
+    "published": "2026-11-07T20:57:21+00:00",
+    "clubs": [
+      "york-city"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Blues top the table, Cardiff edge dramatic NINE goal thriller - Sky Bet Championship results, table and stats!",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQX3RqYmpVenZONkRRYUxTQ0U2Z0lJeFlFSFJBSWNjRWdYdkVYSnYyZ0hiWDdJeDZjYjIza1BwSV84YXk0ZThPTC14NF9FdHMyRnJQR2xQNzd2emtxeENaVGQ5Wk04Q3FKbDJkVG9pa3lOUUV1ZWlHSk5Ha0NwMGRkMkltRW1tcEFOa3dMMXp6dTlBbEJrN3JFMldsWE5UNWI1VkRhdkJqN1VBZy1L?oc=5",
+    "excerpt": "",
+    "source": "EFL",
+    "published": "2026-11-07T20:45:37+00:00",
+    "clubs": [
+      "cardiff-city"
+    ],
+    "category": "news",
     "tier": "trusted",
     "division": "championship",
     "scope": "club"
@@ -111,6 +582,21 @@
     "clubs": [
       "middlesbrough",
       "watford"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Preston 1-0 Southampton: Jordan Thompson steers North End to victory",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLWpfb2NMcDAzN1F6Uk9lVThNblhwNnlZWklqaDJkdi1MNHNXamdwWUZyQ2lSWkUyajlvRWhTakFPZVdCa1lJVERCOUowNF9XSnYtZnlSWDBTMl9iaGtJYVc5UHJXVGRPa2NiOWVoZXZYZ09rZkdvQWdESklRM0dWRzVucnQzWEpmaXJ4Yjd2RlpnSzN0WWt6Z1lXU3BQazNSdDExcFlPR0p6TFFOdHRmdTJGTXVqd2M?oc=5",
+    "excerpt": "",
+    "source": "Sky Sports",
+    "published": "2026-11-07T19:55:16+00:00",
+    "clubs": [
+      "southampton",
+      "preston-north-end"
     ],
     "category": "match",
     "tier": "trusted",
@@ -193,11 +679,25 @@
     "scope": "club"
   },
   {
-    "title": "Cyle Larin news offers Southampton fans a welcome lift after Preston loss",
-    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPNUxZOFRKVWNJZ0lNdy1zUVRjTzkya1YwYWxsU1dZR0NVdlM2SGFJaUpzVkpkT1MwbkVleUNYdGI1N0JuLXVfVjlfTlVXc0Y5YmI1T0hsajFzb0E2bm1qaEllZmU2a0JXdU9SUHBVTnZwN0w0QllfOWJXRWhPWTA3X3VUUXhQcmlqNjRGaUk0SDltSlUyRzllOEwwTUEtZlczNUpabGpheDFseDV0TUhKZEYtQUJJeGZWb2dieEtiR1V0aEpGVHdtOW41MmpUSk82VTFMNU9scHFXbll2OG9pMGRfekxBb1FBNFE?oc=5",
+    "title": "Charlie Austin reacts to awkward Derby County, Sammie Szmodics interview",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcEZNZktmbV8wRUJKSjdFQ29LaWpfY0lJcWlBbllTUHZTXzRKc0tjMWJYSTNlb0o3andEaHpRSE13cmlHdVJWeHhpbDE4NTRSV05acmFNeGM5azdWTlBvM2ZRejJ3R01lR2dIZzBtLVZhYmROdk91cUVlMkRpUWJHbDBWM3BLWEdpX2JhSnQzM29LQ1hsNklydFVvd2h1eC1JV3A3YjY5VUpKUQ?oc=5",
     "excerpt": "",
-    "source": "LiveScore",
-    "published": "2026-11-07T19:17:40+00:00",
+    "source": "Football League World",
+    "published": "2026-11-07T19:31:13+00:00",
+    "clubs": [
+      "derby-county"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Southampton star Keven Schlotterbeck given oxygen on pitch after suffering nasty injury in Preston clash",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZW1veXhvOGU4Yk00Wm1Cby1SNk9PTlp3MkhIMVdCc1R3bWlFNXVreFhMUEEycDRVc3owMHpoSUpNWUFCam9lbVMtWk5VMXphdE5OLUF0ZlI4SlM4UVRIVG9qM01tdVlhMU5XRE5FNTBMVGlJeUx0WlduS2RyVTdYYnA3a2FXTUFSc013V0RSSnRIT29ZOHdNVHBDZGFxcDJhNnEzTWItZkJYMFBRUWlz?oc=5",
+    "excerpt": "",
+    "source": "The Irish Sun",
+    "published": "2026-11-07T19:31:09+00:00",
     "clubs": [
       "southampton",
       "preston-north-end"
@@ -222,6 +722,21 @@
     "scope": "club"
   },
   {
+    "title": "Cyle Larin news offers Southampton fans a welcome lift after Preston loss",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPNUxZOFRKVWNJZ0lNdy1zUVRjTzkya1YwYWxsU1dZR0NVdlM2SGFJaUpzVkpkT1MwbkVleUNYdGI1N0JuLXVfVjlfTlVXc0Y5YmI1T0hsajFzb0E2bm1qaEllZmU2a0JXdU9SUHBVTnZwN0w0QllfOWJXRWhPWTA3X3VUUXhQcmlqNjRGaUk0SDltSlUyRzllOEwwTUEtZlczNUpabGpheDFseDV0TUhKZEYtQUJJeGZWb2dieEtiR1V0aEpGVHdtOW41MmpUSk82VTFMNU9scHFXbll2OG9pMGRfekxBb1FBNFE?oc=5",
+    "excerpt": "",
+    "source": "LiveScore",
+    "published": "2026-11-07T19:17:40+00:00",
+    "clubs": [
+      "southampton",
+      "preston-north-end"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "A Victory We Needed – Hannant",
     "url": "https://rochdaleafc.co.uk/a-victory-we-needed-hannant/",
     "excerpt": "Luke Hannant says Dale have to keep up the momentum that Saturday’s Emirates FA Cup win can bring. The post A Victory We Needed – Hannant appeared first on Rochdale AFC .",
@@ -233,20 +748,6 @@
     "category": "news",
     "tier": "trusted",
     "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Birmingham 2-1 Swansea: Jay Stansfield scores twice as Blues go top of the Championship",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQR1ppSE1tNGczYk9fMV9QRGN4dDAyZ205UkZIUkJNZUl6WVV2UTd4aTJmZGhwa1ZXeEctZXNZU2RPX1cyTkZCMWZ0S0diNXNuVlBqaml4WjJ3amxvS3RuczBkRTBuaHhEalZtc1lha0Ruc1hTemZidndwZGthM0cyVlUtYk04T2JpTEhjSDVma3lJVkVDSE5lTjRzcHRDMWRBQVNNaFpxUy1BMGkxRWtZN2ZGUXFicHpMQ2RicVg3TjIzdjNEck5ySnd5UW96MTQt?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-07T19:15:04+00:00",
-    "clubs": [
-      "swansea-city"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
     "scope": "club"
   },
   {
@@ -436,6 +937,20 @@
     "scope": "club"
   },
   {
+    "title": "Crewe hold off League One AFC Wimbledon to reach FA Cup second round",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMGNJZUd3Y0htYV95TS1TNi1YUlp3UWdaX2FfMW5OZVppYXZ0cC05Rmt0VVZHclVlSG5HOHFXRS1TUkVWekIzcmF1RWU0YXhueUM4ZDJPemNXVGRkcVNlbWh2N2d2Rjg3SnNiSUgxcXJhb3FOYUs4aHk5c3BsZWgtX0RydVVlRXh1NzFjeVVhVTNFOHg4X2FLeUdpMG10alM3bVA3Ui1zWjFJcXktdm5LMWk5ODVnenZqNmhEenNZcw?oc=5",
+    "excerpt": "",
+    "source": "Fakenham & Wells Times",
+    "published": "2026-11-07T18:42:14+00:00",
+    "clubs": [
+      "crewe-alexandra"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
     "title": "Swans boss Matos defends Stamenic over red card",
     "url": "https://www.bbc.co.uk/sport/football/articles/c3lylrrrkre2o?at_medium=RSS&at_campaign=rss",
     "excerpt": "Vitor Matos defends Marko Stamenic after the midfielder's sending off during Swansea City's defeat at Birmingham City.",
@@ -548,21 +1063,6 @@
     "scope": "club"
   },
   {
-    "title": "Match Highlights Blackburn - West Ham | EFL Championship | Yalla Shoot",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83MnpMR1VHVFFKMnFFUzQ0UjdaR3M5S0dIQ1BINjNYWTV3WG1ST3EwSmI5MlRDNWtvSFdXMlJxY3RnRU5pMGhCeDlhQ2w3eFdiVEE?oc=5",
-    "excerpt": "",
-    "source": "YSscores",
-    "published": "2026-11-07T18:27:58+00:00",
-    "clubs": [
-      "blackburn-rovers",
-      "west-ham-united"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
     "title": "Gary Caldwell | Boreham Wood (A) FA Cup First Round Reaction",
     "url": "https://wiganathletic.com/news/2026/november/07/gary-caldwell---Boreham-Wood-A-reaction/",
     "excerpt": "Gary Caldwell reacts following Latics’ 3-0 victory over Boreham Wood in the FA Cup First Round Gary Caldwell | Boreham Wood (A) FA Cup First Round reaction Latics safely through to the next round of the FA Cup against a...",
@@ -588,6 +1088,20 @@
     "category": "match",
     "tier": "trusted",
     "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Report: Oxford United 0-1 Stevenage",
+    "url": "https://www.stevenagefc.com/news/2026/november/07/report--oxford-united-0-1-stevenage-/",
+    "excerpt": "A dominant performance in Oxfordshire secured Stevenage a place in the second round of the Emirates FA Cup, with captain Carl Piergianni’s early header proving decisive. Stevenage travelled to the Kassam Stadium to face...",
+    "source": "Official site",
+    "published": "2026-11-07T18:23:00+00:00",
+    "clubs": [
+      "stevenage"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
     "scope": "club"
   },
   {
@@ -662,6 +1176,20 @@
     "scope": "club"
   },
   {
+    "title": "FA Cup roundup: Charlie Savage gets one over dad Robbie as Reading thrash Peterborough",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaWRQZ056a2hWNWg5S3RzQUpZaE1XTlNjWGkwYlBDa2NyYlcydUlobkd3Nk91U0VnclpjMWdUUkxVX1NocmhzaGlKLXEwVFYzdGRHSkZtZG01YTdXS21Vc3VvWHRUTjVuVzBKa1JnTUdMUERlaVU5aXdJSUFBY19LelhydnhMaXRON0JYVUl3TmtJbllwazN3al8wWFlmS3J4aktYdWR3SUwyeENTdmZUaDktVnN5dEV1Wmc?oc=5",
+    "excerpt": "",
+    "source": "The Guardian",
+    "published": "2026-11-07T18:15:00+00:00",
+    "clubs": [
+      "peterborough-united"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
     "title": "Match Report | Boreham Wood 0 Latics 3",
     "url": "https://wiganathletic.com/news/2026/november/07/match-report-Boreham-Wood-V-Latics/",
     "excerpt": "Latics booked their place in the Emirates FA Cup Second Round with a victory over Boreham Wood Match Report | Boreham Wood 0 Latics 3 Jon Mellish & Morgan Fox's goals help Latics into the Second Round Latics end Boreham...",
@@ -687,21 +1215,6 @@
     "category": "match",
     "tier": "trusted",
     "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Match Highlights Watford - Middlesbrough",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95SUxUZVAzUjJ5NUIzX2lmdjFKTXFIMzdrX2JIVnQ2anduLWNIU3ZEcDRSWVZmM0lEWkVvZ1dIeVo4cGxERDRSRHdYMzNCdlVDVmc?oc=5",
-    "excerpt": "",
-    "source": "YSscores",
-    "published": "2026-11-07T18:10:29+00:00",
-    "clubs": [
-      "middlesbrough",
-      "watford"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "championship",
     "scope": "club"
   },
   {
@@ -744,21 +1257,6 @@
     "category": "match",
     "tier": "trusted",
     "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Match Highlights Preston - Southampton",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3bF80QTJJdXNXbUhhOWZBTTVRWlN4dFU4Z1dzYzk3X1haai0yTnQ4UlVCdmFXanl6YVJXTjNiTjJUcU5SLVdseGJrUW5kYUcwU2c?oc=5",
-    "excerpt": "",
-    "source": "YSscores",
-    "published": "2026-11-07T18:01:20+00:00",
-    "clubs": [
-      "southampton",
-      "preston-north-end"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "championship",
     "scope": "club"
   },
   {
@@ -1016,6 +1514,20 @@
     "scope": "club"
   },
   {
+    "title": "NEWPORT COUNTY 3-1 WALSALL",
+    "url": "https://www.saddlers.co.uk/news/2026/november/07/newport-county-3-1-walsall/",
+    "excerpt": "Walsall saw their progression in the 2026/27 Emirates FA Cup come to an end following a 3-1 defeat away at Rodney Parade against Newport County in the first round. The Saddlers’ loss sees them bow out of this year's...",
+    "source": "Official site",
+    "published": "2026-11-07T17:14:00+00:00",
+    "clubs": [
+      "walsall"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
     "title": "Aidan Morris: Post-Match Reaction - Watford",
     "url": "https://www.mfc.co.uk/news/2026/november/07/aidan-morris--post-match-reaction---watford/",
     "excerpt": "Fixtures Watford Vs. Middlesbrough - Sat, Nov 07 2026, 15:00 Aidan Morris stressed the positives after Boro's 0-0 draw with Watford. Here is our post-match interview with the American midfielder...",
@@ -1044,6 +1556,20 @@
     "scope": "club"
   },
   {
+    "title": "Scott Parker undone by former West Ham duo as ‘curse of the ex’ strikes",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZjYtLXVzb3kzQS1vRUJwbDdnWTJ0T1ZtR3pJa1MtMFhVdUx2RmdPOFhhZmIydHU3WGpJU3pfaXFEVFRpYktPVDFFWHh5eFB0aHdRcnNHdlo1U2dnOUE1TUJxSXdpUE1BT1F4VnluNDhIckdnZ2VENlh4Y3RieG1JU05tQ3dTVDNSeDV2cnhPQVNTSXNFR09pVzF6bGM2UkFLRXRDc3pGOFNWLS0z?oc=5",
+    "excerpt": "",
+    "source": "Hammers News",
+    "published": "2026-11-07T17:09:27+00:00",
+    "clubs": [
+      "west-ham-united"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "Match Report | Hammers suffer defeat at Blackburn",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOenZqYl9QOUJ3Z2plWkltbmZoWEpaN2lIZHRnc3FCMkxPQzM3UzBRempuQ3hvYVAtSFJha253S1l6MU4zRlhoS2xxeWJKSThUOEptRC1xeGtsS3Q0WnRWVU5UeDdVRzMzaHpueXA0Rk1mTnk2NGJjb2VNMWFsbUpoQnpjMXg5dWs?oc=5",
     "excerpt": "",
@@ -1062,20 +1588,6 @@
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOFdCQ3JpdUFqT05FeDZFQzcxVTB2RU1zaTJ2LTYtU0hxbHBzWXVqTE0zZW8tblhZX0RoSHZ4RkdKd0ROSlR4WkVCZzh2XzNCVTBLXzNZbVhrME4xLThUcVJHREw0NDltV0kwRmdmMHlEWVN6aE04LWJMYkJjU1djSXlhOEJaQkc5TGRfRzNlM01Rdmg2MGFXQnBfMWhscGlLcFJjYWtZeDd2TTFQRDVRaXVZSXVlYUFmbl9v?oc=5",
     "excerpt": "",
     "source": "Oxford Mail",
-    "published": "2026-11-07T17:02:30+00:00",
-    "clubs": [
-      "afc-wimbledon"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Crewe hold off League One AFC Wimbledon to reach FA Cup second round",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOGJNaHVJMFVFWThoZTNtU0tzblJGd0NWaWpJc2ZLMHdXSlR1X1N1X1IxTG93R0l4Y0RUaHN2ckRDOHdUTHA0TC1PQVBaQ1RtYld1dWs3elQ0eFN6c2Q5NFNGVHR4VFhWTzJNMklDWjhzdkVxMUVReUNzamhPdzRzWTdNN3VEb1BBM3VJZlhkbEFkYXpCM09iNmhoWG9hZU5PNnVTekxkYzdZZUtPNEstWHREcDZBT2xpaUdJQUFObw?oc=5",
-    "excerpt": "",
-    "source": "Lancashire Telegraph",
     "published": "2026-11-07T17:02:30+00:00",
     "clubs": [
       "afc-wimbledon"
@@ -1118,6 +1630,20 @@
     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOakRtMGdBTXBLRzQ1U2QzZ0dpdjN0Y1d5UnNiYzNKZnZQVkZzdzQ5NV9mZ3Y2WEVLdWxBRnpSY0s2dW1rTWJSR0tndGNFSk9uUEswVmJGVl8xZ0FjZkZmOUtZdjhDR1l6REpDRERTekFPVi1nSGtCdWQ2WDF5bHZpVGc2MFc0UGUtbUhneWdLY0o4TUlDa3VTN1V1dG9HbHdseUdRY250TU50U3FMb1BwamYtbzNWTWJDOHktMEQ2X2J2MWpkN3E0dVlzRWFWcW9R?oc=5",
     "excerpt": "",
     "source": "The Bury Times",
+    "published": "2026-11-07T17:02:30+00:00",
+    "clubs": [
+      "afc-wimbledon"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Crewe hold off League One AFC Wimbledon to reach FA Cup second round",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOGJNaHVJMFVFWThoZTNtU0tzblJGd0NWaWpJc2ZLMHdXSlR1X1N1X1IxTG93R0l4Y0RUaHN2ckRDOHdUTHA0TC1PQVBaQ1RtYld1dWs3elQ0eFN6c2Q5NFNGVHR4VFhWTzJNMklDWjhzdkVxMUVReUNzamhPdzRzWTdNN3VEb1BBM3VJZlhkbEFkYXpCM09iNmhoWG9hZU5PNnVTekxkYzdZZUtPNEstWHREcDZBT2xpaUdJQUFObw?oc=5",
+    "excerpt": "",
+    "source": "Lancashire Telegraph",
     "published": "2026-11-07T17:02:30+00:00",
     "clubs": [
       "afc-wimbledon"
@@ -1397,6 +1923,20 @@
     "scope": "club"
   },
   {
+    "title": "Charlton vs. Sheffield Utd (7 Nov, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Ia1gyUHVCM1ZWUGJLa3pHUVZjWWxCSWl3bklpaW9FU09tOGpuQVNIbjV1WFRTb05wV1JhWFA1ZTdXTWViYlVRdXhXYW1zNGpIMjNVOFVPWVhycWJVR3BJVktsYXM3OW5H?oc=5",
+    "excerpt": "",
+    "source": "ESPN",
+    "published": "2026-11-07T16:14:05+00:00",
+    "clubs": [
+      "charlton-athletic"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "JAMES MAXWELL'S YORK CITY REACTION",
     "url": "https://www.ntfc.co.uk/news/2026/november/07/york-city-reaction/",
     "excerpt": "James Maxwell reflects on the Emirates FA Cup tie at York City.",
@@ -1482,20 +2022,6 @@
     "scope": "club"
   },
   {
-    "title": "Charlton vs. Sheffield Utd (7 Nov, 2026) Live Score",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE83TnVqbzBVMWZGUVBPWHE3UDB5bzFjVW5iS3RsOW94TnRHNXlQMDNMTkEyeDNjckpKTlowWEtySFVIVU5UZFBRUlNoUng2amhXZnlKWUtwb0EyMHdDN09CRnZOd0JoYlU?oc=5",
-    "excerpt": "",
-    "source": "ESPN",
-    "published": "2026-11-07T16:03:38+00:00",
-    "clubs": [
-      "charlton-athletic"
-    ],
-    "category": "match",
-    "tier": "low",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
     "title": "Port Vale vs. Scunthorpe (7 Nov, 2026) Live Score",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDUzdoNXNEbWZZYUlnamstaG9ENGRVUVpmdHBnemNZaWpQWjZ4aUgxV1RIaUhPV2Y2VW0zWGh0WWRhYk4zQnUyVXpjY3J1ZHpNQjhQRHk2NHVlRTlHajc4elpaLWlOYkU?oc=5",
     "excerpt": "",
@@ -1521,21 +2047,6 @@
     "category": "match",
     "tier": "low",
     "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Southampton star Keven Schlotterbeck given oxygen on pitch after suffering nasty injury in Preston clash",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZW1veXhvOGU4Yk00Wm1Cby1SNk9PTlp3MkhIMVdCc1R3bWlFNXVreFhMUEEycDRVc3owMHpoSUpNWUFCam9lbVMtWk5VMXphdE5OLUF0ZlI4SlM4UVRIVG9qM01tdVlhMU5XRE5FNTBMVGlJeUx0WlduS2RyVTdYYnA3a2FXTUFSc013V0RSSnRIT29ZOHdNVHBDZGFxcDJhNnEzTWItZkJYMFBRUWlz?oc=5",
-    "excerpt": "",
-    "source": "The Irish Sun",
-    "published": "2026-11-07T16:00:57+00:00",
-    "clubs": [
-      "southampton",
-      "preston-north-end"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
     "scope": "club"
   },
   {
@@ -1682,21 +2193,6 @@
     "scope": "club"
   },
   {
-    "title": "Blackburn vs. West Ham (7 Nov, 2026) Live Score",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GRWtlZVk1SUY4YXM2SHFCNzhndWVySS1TUlkyc28xaTVhRmpsX1NVbnN2UEJUXzk0XzNTUGc3MnpULXpnN01IT3B5NTNDdGJtM1Y5YjA0SXExY0xpV09pOVpJVXNtemUz?oc=5",
-    "excerpt": "",
-    "source": "ESPN Singapore",
-    "published": "2026-11-07T15:35:46+00:00",
-    "clubs": [
-      "blackburn-rovers",
-      "west-ham-united"
-    ],
-    "category": "match",
-    "tier": "low",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
     "title": "Cardiff vs. Burnley (7 Nov, 2026) Live Score",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9yN0M3LXRodXdyQ2VESW0wRWQzSmlBVmNScWlTSXlSM3JCN0tkQmpEUmRwZTVVX2xuZDBuc1ZydXZ2anNlM3BiTWllSTJXWmRpN3kyMWJYbS1fSlViVUpGV1VUOGpSdlF3?oc=5",
     "excerpt": "",
@@ -1705,6 +2201,21 @@
     "clubs": [
       "burnley",
       "cardiff-city"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Blackburn vs. West Ham (7 Nov, 2026) Live Score",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GRWtlZVk1SUY4YXM2SHFCNzhndWVySS1TUlkyc28xaTVhRmpsX1NVbnN2UEJUXzk0XzNTUGc3MnpULXpnN01IT3B5NTNDdGJtM1Y5YjA0SXExY0xpV09pOVpJVXNtemUz?oc=5",
+    "excerpt": "",
+    "source": "ESPN Singapore",
+    "published": "2026-11-07T15:35:46+00:00",
+    "clubs": [
+      "blackburn-rovers",
+      "west-ham-united"
     ],
     "category": "match",
     "tier": "low",
@@ -1814,21 +2325,6 @@
     "scope": "club"
   },
   {
-    "title": "Match Highlights Pompey - Stoke City | EFL Championship | Yalla Shoot",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2NmdQd2RHTWI2eTYtVjF6Vi1fZE5HU05oQzl6XzZfcVl5eC1kSk85Qmh1UHdPVGFqNTU3Ry1RZl9wQ3RnY1VzZ0tHVDdWTTJKSWc?oc=5",
-    "excerpt": "",
-    "source": "YSscores",
-    "published": "2026-11-07T15:33:48+00:00",
-    "clubs": [
-      "stoke-city",
-      "portsmouth"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
     "title": "Blackburn vs. West Ham (8 Nov, 2026) Live Score",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9kVFVHSDltYWxDNEx6UTZRWTRQMTgxZlNyLTY1STh3c29VZGVnYTVpQUF0SEZqd19IQmxBYktlQzRTSkNPUUVvQmh5dzdjNURCUExRZzhyNHdueG1zNmlDZ3RaUmJKYlAx?oc=5",
     "excerpt": "",
@@ -1857,6 +2353,20 @@
     "category": "news",
     "tier": "normal",
     "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "'Hopefully I Can Get One Over Him' - Charlie Savage on clash with dad's Peterborough",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcF9CUEZ5MldEdU5jZnlzUl9ua2J4bFpYYkxUTklzYXBWVnZoMi1waWRxVHNyMWk1Zno3YUhFSy1OWU5pTkpBSWloY0VmQ3l6LWxHcnRoczFuZHgwbHRWNVpVS1BQdUFZRUJCbVBlMmZUeUJ5eUFIT18zajVTSWpUY1BIeFQ?oc=5",
+    "excerpt": "",
+    "source": "Yahoo Sports",
+    "published": "2026-11-07T15:27:36+00:00",
+    "clubs": [
+      "peterborough-united"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-one",
     "scope": "club"
   },
   {
@@ -1977,7 +2487,7 @@
   },
   {
     "title": "Burnley vs. Blackburn (Nov 22, 2026) Live Score",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TQ1U0bDZjZ0xRbzBuSEZDNWZVcGZ5Wm5IWXpnb3hsWEx5QTFDRmwxblcwZ1p1LWJTenNrZTk1SDFzaUtFazNkanRhbW1LeHlIdC1iVmhmalBDWkRCbnUyTkRn?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96QVlhM0x2X0J5M1R4S0lFMVNWcURkYXFHQndFT0R5UDdta01pMFc4Z3ViclRYNkM3MlJ1MUFBMWpuVFAydUpvNWpVc2R1d25hSzFhR0dYbk5Pbnh5RVlvX2p1S1VBMGFuMDhiVEt1dVM?oc=5",
     "excerpt": "",
     "source": "ESPN",
     "published": "2026-11-07T15:10:15+00:00",
@@ -3645,6 +4155,20 @@
     "published": "2026-11-07T03:51:21+00:00",
     "clubs": [
       "bolton-wanderers"
+    ],
+    "category": "news",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Expected goals on target (xGOT) - Cardiff City stats for Championship 2026/2027",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNa3J0V3B4dVQ2eG9HUFZPLVdCSTRBOHF4U1ltNUdKdDZlWHhPczNyRmRuMFdralRWS3ozQmNFUUFqeEtCSVB6SFZxTWMyQmpjZWszNkdvSUVPSEJRbk0zQ2wzazJqZk1CU2lpSS1mdXEtZWNvdnRheEJ3QVBtQWtmNUVRUmx3MDVMU2YwclpmRlZJTTdwdG9iNWppMVJ0UTFfSHFFdDJZeUVfYTd6ZXFIRQ?oc=5",
+    "excerpt": "",
+    "source": "FotMob",
+    "published": "2026-11-07T00:50:54+00:00",
+    "clubs": [
+      "cardiff-city"
     ],
     "category": "news",
     "tier": "low",
@@ -15196,1152 +15720,6 @@
     "category": "match",
     "tier": "normal",
     "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Nigel Clough match reaction | Wigan 0-0 Stags",
-    "url": "https://www.mansfieldtown.net/news/2026/november/04/nigel-clough-match-reaction---wigan-0-0-stags/",
-    "excerpt": "",
-    "source": "Official site",
-    "published": "2026-11-04T00:08:18+00:00",
-    "clubs": [
-      "mansfield-town"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "REPLAY | QUEENS PARK RANGERS V BURNLEY",
-    "url": "https://www.burnleyfootballclub.com/media-video/replay-queens-park-rangers-v-burnley-2",
-    "excerpt": "",
-    "source": "Official site",
-    "published": "2026-11-04T00:00:00+00:00",
-    "clubs": [
-      "burnley"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Eckert explains star man’s absence in Southampton’s draw with West Brom",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSDQzMzkzNTYxamQtNklqSjJWTndaRHo1clQ2bnZ5RG91N0Q5VlhKVlVmVEZ2Uy1tcWZTLWgweTZhZE5OTU8zUU9QMmoxYzhfYWF4amh1eFNTbDRvNGlqcUc5X1hKeUpLQ3V1ZDhReld3amoyb0l1N0FZWHU1OUdEbjV6S2p5M0M4bkJyeUJEWFRocUVWTkRNVHZFTFhiVUpiOFJMcVBVb00zOUN4TDM5X0xTYjdwZjY3NV9rRzJHZzM0UklBbVg2eXl1Yy11TDh3TlV6bmtJLWxjdw?oc=5",
-    "excerpt": "",
-    "source": "LiveScore",
-    "published": "2026-11-03T23:59:27+00:00",
-    "clubs": [
-      "southampton",
-      "west-bromwich-albion"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Mousinho on double Portsmouth injury worry and ‘magnificent’ win over Swansea",
-    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOVVKeW5UNExhZWtqTDlqTVdiR0FEZkpZQ0EtcnRMTDB4TGhKQzFDVzVTRHJieWFLLUp0OGc1VDBRdnJLLWUzUFdlRk50M1MxRlBIdTAxdmo5ZkJUWXE0M1JVZk05VjJmZTBrd19jVVBqa1RPMUNrbU9SQkd2Um12ck55YTFQcVJKM2xHaDFYSVljaEZNQnZiaGd0Y1pHczYteXBwZXlIb0lZTXNXNzJxOWlLMG9lR3dkTXc0ZXhrdkU5UmVCbXFHWTFleGZ3ZWcwelNvS3g2MmNJcF9rZEplMm5R?oc=5",
-    "excerpt": "",
-    "source": "LiveScore",
-    "published": "2026-11-03T23:59:22+00:00",
-    "clubs": [
-      "portsmouth",
-      "swansea-city"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Preston 2-3 Blades - full match video",
-    "url": "https://sufc.co.uk/news/2026/november/03/preston-2-3-blades-video/",
-    "excerpt": "Fixtures Preston North End Vs. Sheffield United - Tue, Nov 03 2026, 19:45",
-    "source": "Official site",
-    "published": "2026-11-03T23:59:00+00:00",
-    "clubs": [
-      "sheffield-united"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Watford 1-0 Lincoln: Stephy Mavididi steers Hornets to victory",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaXFoQ1J0dy1xQjdSWWxTckJvMkZyeUpkaWpZT0I4SHhBMGVpRlNJWVpvbzUwejJpT0tZWTc5dGpqQ3VYTTBYdXRrYWxrVUFCSkQ2TmszLV9YaTJBMkVYLXFoTEU5Tnlqdjh2TzhRT3lkRFM0Mk42cGpqWWhCNGRmMHdvdTdkbXdUa0RoOWJJSGJNc0thdHdrVnF5amRqOUY1WUJ0MGtUdnpWZUo3VHRZ?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-03T23:57:51+00:00",
-    "clubs": [
-      "watford"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Mowbray: It was a frustrating night for us",
-    "url": "https://www.rovers.co.uk/news/2026/november/03/mowbray--it-was-a-frustrating-night-for-us/",
-    "excerpt": "Tony Mowbray said his overriding feeling was one of frustration following the narrow 2-1 defeat to Stoke City on Tuesday night. The result ended Rovers’ three-match winning run on home soil, with the Potters victorious...",
-    "source": "Official site",
-    "published": "2026-11-03T23:56:41+00:00",
-    "clubs": [
-      "blackburn-rovers"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Blackburn 1-2 Stoke City: Jack McGlynn steers Potters to victory",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS2JQUk9WSkJBY0U5Q2VWNFNsODBhWGJGUlhOOS16b1MtRjVIVEY2aHNlc3hJQlBXaEVWV2g3b21lMnU4eDBLNkZKTENRMEYtS1dpYXpIN1Fsd0RKU2x0ZmJranAwVE1JUUhhNjlmM05zdlJUUGRiT3BCMG1jcU5wMWVrTDZtODNEZUhleEpodml0M3gxY1hkR3lMNWlZUlY5QWZxWkROUFozN3JjTnNiX21R?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-03T23:55:40+00:00",
-    "clubs": [
-      "stoke-city",
-      "blackburn-rovers"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Dionisi On Lincoln: “A Good Night”",
-    "url": "https://www.watfordfc.com/news/2026/november/03/reaction-dionisi-lincoln/",
-    "excerpt": "Alessio Dionisi told his players to find something extra at half-time of the 1-0 win over Lincoln City. The Golden Boys made it back-to-back home wins in the Sky Bet Championship and clinched the Graham Taylor Cup...",
-    "source": "Official site",
-    "published": "2026-11-03T23:47:39+00:00",
-    "clubs": [
-      "watford"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Charlton 0-1 Bolton: Sam Dalby scores Trotters winner as poor run goes on for Addicks",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMl9UcFlDbWV0TGdqaFp1bDRKdlFURXRyaXRkV21QZTlzZWVBYnYyT1g4MFhVZE1ZMWNiV1dDNDN4RWhwdS11NnVJNzhUWEkwZ3BGbzZHa05sc2VvRDczY3Uwem91ci04VWZhYl9WNTFLeDhsTnAxT1hGaDlGUWhrMUFmWkdGdURuQ3RVOXFNbWFBOXVRTmlUcUp4MkRBS3c4d2Z0OUJDQzR2aFhXLTNwZlg0MldoMjdpTlJ2ODNFN0o2bHdlUjByb29ZTENmUQ?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-03T23:45:51+00:00",
-    "clubs": [
-      "charlton-athletic",
-      "bolton-wanderers"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Morrison reacts as Albion draw with Saints",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c8wy94ykyy2go?at_medium=RSS&at_campaign=rss",
-    "excerpt": "West Bromwich Albion head coach James Morrison gives his reaction after the Baggies draw with Southampton.",
-    "source": "BBC",
-    "published": "2026-11-03T23:30:51+00:00",
-    "clubs": [
-      "west-bromwich-albion"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "We were outstanding",
-    "url": "https://sufc.co.uk/news/2026/november/03/preston-reaction/",
-    "excerpt": "Chris Wilder hailed his team as 'outstanding' following Tuesday night's victory at Deepdale. Despite the concession of an early goal that gave Preston a lift, United would go on to control the majority of the contest...",
-    "source": "Official site",
-    "published": "2026-11-03T23:30:00+00:00",
-    "clubs": [
-      "sheffield-united"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Match Highlights | Latics 0 Mansfield Town 0",
-    "url": "https://wiganathletic.com/news/2026/november/03/Match-highlights-latics-v-mansfield-town/",
-    "excerpt": "",
-    "source": "Official site",
-    "published": "2026-11-03T23:30:00+00:00",
-    "clubs": [
-      "wigan-athletic"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "HJALMAR EKDAL | REACTION | QPR V BURNLEY",
-    "url": "https://www.burnleyfootballclub.com/media-video/hjalmar-ekdal-reaction-qpr-v-burnley",
-    "excerpt": "",
-    "source": "Official site",
-    "published": "2026-11-03T23:29:03+00:00",
-    "clubs": [
-      "burnley"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "MATCH REACTION | Steven Schumacher on Wanderers' 1-0 win at Charlton Athletic",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQkdUV3RhTThDUDVJaEFWN0JMVjU4dnFuUHE0eHItbEh1UVc0YmRmR0d3NzF2bVFVLWxvWFVWU0lCRUtxR0VDZEtSZV9YbDFRMktLWERIMWVvUlJUR2NiX2NKaEZWbTBhUkpjOUlxd01tdlNXZjJ4cmxPakRTN1hhSC00TEZRU1pYMThJSndPV2p2X25Fekg4blphcl9Vdlc1VHdibkFMWGU?oc=5",
-    "excerpt": "",
-    "source": "The Bolton News",
-    "published": "2026-11-03T23:20:16+00:00",
-    "clubs": [
-      "charlton-athletic"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "FABIO CELESTINI | REACTION | QUEENS PARK RANGERS V BURNLEY",
-    "url": "https://www.burnleyfootballclub.com/media-video/fabio-celestini-reaction-queens-park-rangers-v-burnley",
-    "excerpt": "",
-    "source": "Official site",
-    "published": "2026-11-03T23:19:58+00:00",
-    "clubs": [
-      "burnley"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Clement reacts as Norwich win third game in a row",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6y8lm8npzddo?at_medium=RSS&at_campaign=rss",
-    "excerpt": "Norwich City head coach Philippe Clement is delighted with his side's first clean sheet of the season as the Canaries crush Derby 4-0.",
-    "source": "BBC",
-    "published": "2026-11-03T23:17:44+00:00",
-    "clubs": [
-      "norwich-city"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "CELESTINI'S POST-MATCH POINTS: QPR",
-    "url": "https://www.burnleyfootballclub.com/media-article/celestinis-post-match-points-qpr",
-    "excerpt": "Head Coach reflects on point on the road",
-    "source": "Official site",
-    "published": "2026-11-03T23:15:00+00:00",
-    "clubs": [
-      "burnley"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "‘Want More From Him’ – Watford Boss On Leicester City Loanee",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPS3lBaVN1ZTJpZ1hKOHFLUnNfOXZybzlDaTlTVGhyY0Ztb2ZlZ3R6SFFxRTdGc2JKajNDWjB1c0ZnU2tDTVZpbU1iM2ZtSXZKT1FUdElraUV2eUd5R3lkUjZqQlRqVGRjc0tlQWZ5Y244enpwSktQSnV5ejZqZWJTNnZNUUY4amt5MFE5VXJn?oc=5",
-    "excerpt": "",
-    "source": "Football Lowdown",
-    "published": "2026-11-03T23:14:31+00:00",
-    "clubs": [
-      "watford"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Lincoln joint head coach Tom Shaw reacts to Watford defeat",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqj9kd97zr71o?at_medium=RSS&at_campaign=rss",
-    "excerpt": "Lincoln City joint head coach Tom Shaw speaks to BBC Radio Lincolnshire after his side's 1-0 defeat at Watford",
-    "source": "BBC",
-    "published": "2026-11-03T23:14:08+00:00",
-    "clubs": [
-      "lincoln-city"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Report: Wigan 0-0 Stags",
-    "url": "https://www.mansfieldtown.net/news/2026/november/03/report--wigan-0-0-stags/",
-    "excerpt": "Mansfield Town extended their unbeaten away league run to four matches following a goalless draw against Wigan Athletic at The Brick Community Stadium. Both sides had opportunities to break the deadlock in a closely...",
-    "source": "Official site",
-    "published": "2026-11-03T23:14:06+00:00",
-    "clubs": [
-      "mansfield-town"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "HIGHLIGHTS | QUEENS PARK RANGERS V BURNLEY",
-    "url": "https://www.burnleyfootballclub.com/media-video/higlights-queens-park-rangers-v-burnley",
-    "excerpt": "",
-    "source": "Official site",
-    "published": "2026-11-03T23:10:58+00:00",
-    "clubs": [
-      "burnley"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "ANNUAL SERVICE OF REMEMBRANCE HELD AT THE OLDHAM ATHLETIC GAME",
-    "url": "https://www.ntfc.co.uk/news/2026/november/03/annual-service-of-remembrance-held-at-the-oldham-athletic-game/",
-    "excerpt": "Northampton Town Football Club staged the club's annual service of remembrance at the Oldham Athletic game on Tuesday evening. Club Chaplain Haydon Spenceley led the service at the Walter Tull Memorial, as Co-Chairman...",
-    "source": "Official site",
-    "published": "2026-11-03T23:00:00+00:00",
-    "clubs": [
-      "northampton-town"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "HIGHLIGHTS: Watford 1-0 Lincoln City",
-    "url": "https://www.watfordfc.com/news/2026/november/03/highlights-watford-lincoln/",
-    "excerpt": "Stephy Mavididi scored the only goal as Watford beat Lincoln City 1-0 to win the Graham Taylor Cup and collect three Championship points.",
-    "source": "Official site",
-    "published": "2026-11-03T23:00:00+00:00",
-    "clubs": [
-      "watford"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Eustace 'not giving up' despite four-goal humbling",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqn73n7m6leeo?at_medium=RSS&at_campaign=rss",
-    "excerpt": "Derby head coach John Eustace insists he will not walk away as the Rams' Championship plight worsens after another heavy defeat.",
-    "source": "BBC",
-    "published": "2026-11-03T22:54:51+00:00",
-    "clubs": [
-      "derby-county"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Charlton boss Nathan Jones reacts after loss against Bolton",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cxm23g2135y8o?at_medium=RSS&at_campaign=rss",
-    "excerpt": "Charlton manager Nathan Jones regrets a lack of quality in the final third after his side's defeat by Bolton Wanderers.",
-    "source": "BBC",
-    "published": "2026-11-03T22:49:21+00:00",
-    "clubs": [
-      "charlton-athletic"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Midweek match action",
-    "url": "https://millwallfc.co.uk/news/2026/november/03/midweek-match-action/",
-    "excerpt": "Millwall were beaten by Birmingham City on Tuesday night. A selection of images from St Andrew's @ Knighthead Park can be seen below.",
-    "source": "Official site",
-    "published": "2026-11-03T22:46:00+00:00",
-    "clubs": [
-      "millwall"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Graham Alexander reacts to Sheffield United loss",
-    "url": "https://www.pnefc.net/news/2026/november/03/graham-alexander-reacts-to-sheffield-united-loss/",
-    "excerpt": "Graham Alexander was frustrated with Preston North End’s performance in their 3-2 defeat against Sheffield United. The Lilywhites led through Léo Leroy inside two minutes, but a first-half hat-trick from Sydie Peck put...",
-    "source": "Official site",
-    "published": "2026-11-03T22:45:00+00:00",
-    "clubs": [
-      "preston-north-end"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Northampton Town 0-1 Oldham Athletic | League Two highlights",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZjdaQS1FSnJWOXBXalF4d3NnaEFERVRuR1YxZHIyZmE3bmxRdUYzRVNtUFpVcTlld01naWRsaVhXMnhiQzN3NWY5NG8tVVJudExiTmxadWdQbHd5SW9rVEFqLVdLOGtlQkxzdXVxNE42ZDR5UmxLcnRaeUVZbk02MVdISlJCb2hya2pWSHBBUEhnV0NGbkZCTHRvVjVrVENNQ2NjcWlDRWRuRThZ?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-03T22:42:15+00:00",
-    "clubs": [
-      "northampton-town",
-      "oldham-athletic"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Blackburn Rovers 0-2 Stoke City: Potters win to go third in table",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sbXpsX2JQbnJPMGtFampSZThWdUJSam9SZ09yOEl6M2tzOVA2TzJrLW9laFVlUlVXYUxNX3k5SDEtbnVkTjNWcDYxMGhJLU15TEQyTVUtUVljM3BlNzAyVUtrdU1IUQ?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-11-03T22:40:00+00:00",
-    "clubs": [
-      "blackburn-rovers",
-      "stoke-city"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Reaction from Birmingham",
-    "url": "https://millwallfc.co.uk/news/2026/november/03/all-the-reaction-from-birmingham/",
-    "excerpt": "Alex Neil and Jake Cooper spoke to Millwall TV+ following The Lions' Sky Bet Championship defeat at Birmingham City on Tuesday night. Watch the Head Coach and captain's post-match interviews below by logging into your...",
-    "source": "Official site",
-    "published": "2026-11-03T22:35:00+00:00",
-    "clubs": [
-      "millwall"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "WATCH: DRURY AND ROUGHAN REFLECT ON LUTON DRAW",
-    "url": "https://www.htafc.com/news/2026/november/03/watch--drury-and-roughan-reflect-on-luton-draw/",
-    "excerpt": "- Huddersfield Town 1-1 Luton Town; Sky Bet League One - Martin Drury and Seán Roughan speak to HTTV after full-time - Presented by SBK Huddersfield Town Head Coach Martin Drury and defender Seán Roughan joined HTTV...",
-    "source": "Official site",
-    "published": "2026-11-03T22:30:00+00:00",
-    "clubs": [
-      "huddersfield-town"
-    ],
-    "category": "transfer",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "EKDAL'S POST-MATCH POINTS: QPR",
-    "url": "https://www.burnleyfootballclub.com/media-article/ekdals-post-match-points-qpr",
-    "excerpt": "Defender reflects on Loftus Road draw",
-    "source": "Official site",
-    "published": "2026-11-03T22:30:00+00:00",
-    "clubs": [
-      "burnley"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Wigan 0-0 Mansfield | League One highlights",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONTM4d1RoYW94WVRyX0pMblZ5RGVRbV82M0dpTW9iY2ZZaHFvM0M0S29HVUV4Tm5sQlFGYy0wSmRkRWtWNVR3MDFiU1VPRDRJaVFCb0F3RkNWb2lyd05JSEFfU3A5cE5MdS1MQVN5VEVVZjViMmFIaktiZkVvRjlQaGN4NFJTSDFyWWIyUlVUYVhSY0M4U2c?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-03T22:26:45+00:00",
-    "clubs": [
-      "mansfield-town",
-      "wigan-athletic"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "GOLDEN GAMBLE: LUTON TOWN RESULTS",
-    "url": "https://www.htafc.com/news/2026/november/03/golden-gamble--luton-town-results-/",
-    "excerpt": "- Golden Gamble results from Huddersfield Town vs Luton Town - Draw to return on Saturday 21 November vs Leicester City - Tickets available online for just £1; CLICK HERE to purchase today! Were you the lucky winner in...",
-    "source": "Official site",
-    "published": "2026-11-03T22:25:00+00:00",
-    "clubs": [
-      "huddersfield-town"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Queens Park Rangers 1-1 Burnley: Jonathan Varane earns a point for QPR",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMDVyTGhmS1lyd0Y4SFdyMl9oUktyZDk5NVg5WXh4WHBzMndkVDJzUExvWEdHaHdDSVpNdnF4V3BaM1I1Snl1XzJnZ2dlWnF2akdpV2lzQUxLMzRoUlBlNWE1RFNyTTdVMEhsazA1RkNRQXJwTkRyM1ZGZ0llQWxnWUVSRG54Q041X0tlN1RfbUt4c0J2T3pBTjNwLVQ2VHQyc3RReFY3ZTZsQm9UUjRBd09fMUNEUTRCRlE?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-03T22:24:39+00:00",
-    "clubs": [
-      "queens-park-rangers",
-      "burnley"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Portsmouth 3-1 Swansea City: Swans miss chance to go top after late defeat",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8ybmJaRUZMNXBnNmxjRW1UdEk4Y1RzeDRpaXdkR1dSSFR2RzRhb1g5OTM2SnhYdDFnMnRndVZOYm9WejBScnZSSjJ5Q1JDYVoxRDFJVWVCb0xzbWdmdWp5UGdmekhUdw?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-11-03T22:23:18+00:00",
-    "clubs": [
-      "swansea-city",
-      "portsmouth"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Eustace unsure of Derby County future after another defeat",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMDRndGNpQXo3LW5oMVFFMHpmUngzUVVBMWFDYzNZX3FPYUk1ZFJ0dVE0YVdLbXRxc3pFVV9vR0xHTTNTQzNlS2p4Q2JtVm1fQ2k2bVZNNjY3bVIzSk1SanE5WklGRkl5X242aFJzeHZGaEJ3R0JVLTRLemJ2dm83UFRpaEZnMWlTWXBYVUNicDByakF0X3JFUkdQSFZkRjByNkMtZnh2VmZnYjhPLTdtYWNDdVI0NkNELThCcUMtdEdWeGtFeXBmTVZrNA?oc=5",
-    "excerpt": "",
-    "source": "LiveScore",
-    "published": "2026-11-03T22:20:44+00:00",
-    "clubs": [
-      "derby-county"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Matchday Edition: Get Your Graham Taylor Cup Copy Now!",
-    "url": "https://www.watfordfc.com/news/2026/november/03/matchday-edition-get-your-graham-taylor-cup-copy-now/",
-    "excerpt": "Watford beat Lincoln City to win the Graham Taylor Cup at The Vic - and the perfect souvenir from the special game is available now. The award-nominated Matchday Edition is a unique post-match publication which serves...",
-    "source": "Official site",
-    "published": "2026-11-03T22:20:00+00:00",
-    "clubs": [
-      "watford"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Birmingham 3-0 Millwall | Championship highlights",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdG9MdXFuT013bTYxVmhlRnNUdUpXTzRIUjBxbmpjZm1lZTUzellMemt2Tkd2dFJPX2hOcWhnMEZuZDUxbEczMlpKVFpJTmJ5TjJtbnc3cXQ4WWF5LUVLdTZZWlp0VDJSWnh6emVCWHlIVGJTdzlXMTNPWHF5MHYzdnB3RUg0WV9RTU9xdWtrWGhTWnZFQUVoX0g2enA2dw?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-03T22:15:08+00:00",
-    "clubs": [
-      "millwall"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "West Bromwich Albion 1-1 Southampton | Championship highlights",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeXB2cmg0STEwVXZlems1dzlUZDViYTdoUXFUMDRvWTZqbzlWNWN4MHVROEZIWWJsNF9BQ21DUllzenFqNFNlQnpRZGhxaGhVQWNJa2E1MzViOW9YQ2o0OTVjT3hveThnaF8zQW1CUkFHZWFidnYxWDZzMGlZeWlPdnhlZ19OZHpHcE9WY0pYSzBpS3FGbk81MENnMjhsNF9aV3BOc3B4dmRhcTdBRndj?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-03T22:09:08+00:00",
-    "clubs": [
-      "west-bromwich-albion",
-      "southampton"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Blackburn Rovers 1-2 Stoke City | Championship highlights",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS051NlpvQ09vcVBNbUQwNGNOVm9PZWFfV2E2Y0hQMjZ2SXd2STJDaHNldnFvLVRvOUNld2ZOWGozaHhmYU90Qi1mZU8xbjNGd2hZWDZYY25ZTy1nZEx6dlJIQl9sSHBKNmYyb3RWcnZoYThjZzl4MktROFVObkVSOU5RZjJ0N0lQcm5GX2tZdWo2NW9GdGpWNXVXR2Z5S0hDZDFMTVJlX0g?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-03T22:05:06+00:00",
-    "clubs": [
-      "blackburn-rovers",
-      "stoke-city"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Watford 1-0 Lincoln City | Championship highlights",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUjNzdF9FQnNiUlU0cUJYbndJZDJ2aGRNR0FsSmtNRlRxVmdqemF1UjhNSXB0bDJQMkdDREVpSkVvZmJNblhsd2paTWY3SGoyUTBDa1pmaDNPb3N6bnhvS193ejl3NUVxTWhIeW1pTDlzdmNtUWVKaTdzWDhlU0VYLVlwcXdhZExNWXhRY2NNb2htNnlNY0RvUHQtb1Z5X0U?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-03T22:05:06+00:00",
-    "clubs": [
-      "lincoln-city",
-      "watford"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Championship highlights: Birmingham go second as struggling Derby, Preston lose again",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORTVhbENPUzBBNE5SS0lYRmxtQUZuUXRwVGZ6ZnNxNEtpVElQVVZTNll0T2VpUFVfTGUySUhDeG9NY0xJNTNUVHpfWW5IbGx6UW1BSy1valRpSWl2SlhmNEp1ZlhEQTh3U1ZiSkZpYXZBVUdYanptWTBMUUNBaTV0V3BRa1RoYnlDaG5XVktmenJRd0sySVpYRTEzeU4zNHRUaEpZMXExOXlZZnhIajNCbHdwMnYzSDJVTXpNR1pLd1VPbWUtcUpTRF9qeGs4NFlhejBUSVE2S0xZQ28?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-03T22:04:59+00:00",
-    "clubs": [
-      "preston-north-end"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Huddersfield 1-1 Luton | League One highlights",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZTBqOTJhR2diRkFHSjRlaHVZUFJYLWdGVEF2aVdXcmJBcHc4TzlqQkRVSWFaLTdIcm9Oa0t0b3hVcXBPUG9ra2VpUFZaaXh6eUpJVUpqTUV0cFFPN3dtRWZSYVRwQlRFYXhqNDZtdUxhV3ZNOUtmam5tYnMwdmJSUFRuVkpDOGlDVUlzV0c1dUx6TGZNRVBqQXRB?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-03T22:03:56+00:00",
-    "clubs": [
-      "huddersfield-town",
-      "luton-town"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Portsmouth 3-1 Swansea City | Championship highlights",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaF9Ld1JRTVUxRUg3THo5NWJYTWIzMmlKYWRqS1dkaG5BWnBsWE5zY2RpekttZHQyaWx1U2FqNmtWX1FfSmlpcFdMUTNyNmRoNHNaNmQ1WWsweDFZRjRMaG03bWdHZlRuRUhKZ2JWQWNyN0EzN21fSVFjTUpyTV9sZGF2NnlCemlqMEF4OC01Tm1IVHdpOEZjRnU1bVB0ZU5HSkxB?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-03T22:01:23+00:00",
-    "clubs": [
-      "swansea-city",
-      "portsmouth"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Queens Park Rangers 1-1 Burnley | Championship highlights",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUF9jX1hFbW9zdnAwaGJveWh3NHFGNzdSZ25jVFhWX0lwTVBhejEyU0FueU1DY284Rld5eEl4Y1hqVjQtZXV0Q2lqWjdLalM5d2ExOUpfMTduX05mWFVPZDJabFhXU0dUaXF4dG83YW5oa19SeFJrNTVSNkx5MEFDdjNsVmFQZjBab1hmd2R1Y2h3SFRfY0hJdzAxaW5rZVFxMXplYlh3V2g?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-03T22:01:23+00:00",
-    "clubs": [
-      "queens-park-rangers",
-      "burnley"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Derby County 0-4 Norwich City | Championship highlights",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaHhURGhnakEyVmppU191YVdLS1h6UDZiOS14MjJFUFlIU1hxR21vNXl0U1pUX3JDNThmTmgwZXIyeEl0VTRGUXltY202MFJZN2VHZW5jaEhmMmhCWTJ1dm5vMkotS2R6RGRNbkxEclZUU3pWVFEtQS1zMFlnMmdPZmVZLW5jLVNLeEJhdHltSjQ0YlpJWU1BVXFIeVF2WXItWEVoVld3?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-03T22:00:56+00:00",
-    "clubs": [
-      "derby-county",
-      "norwich-city"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Report: Rovers 1-2 Stoke City",
-    "url": "https://www.rovers.co.uk/news/2026/november/03/report--stoke-city--h-/",
-    "excerpt": "Andri Gudjohnsen scored late on, but it wasn’t enough as Rovers’ winning run at Ewood Park came to an end following a 2-1 defeat to Stoke City. Gudjohnsen scored goal number 10 for the season with three minutes left and...",
-    "source": "Official site",
-    "published": "2026-11-03T22:00:00+00:00",
-    "clubs": [
-      "blackburn-rovers"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "GALLERY: QPR V BURNLEY",
-    "url": "https://www.burnleyfootballclub.com/media-gallery/gallery-qpr-v-burnley",
-    "excerpt": "Burnley travelled to QPR on Tuesday evening",
-    "source": "Official site",
-    "published": "2026-11-03T22:00:00+00:00",
-    "clubs": [
-      "burnley"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Plenty To Build On – Watson",
-    "url": "https://rochdaleafc.co.uk/watson-post-doncaster-031126/",
-    "excerpt": "Ian Watson says there is plenty to build on from Tuesday night’s Jersey Mike’s Trophy tie against Doncaster Rovers. The post Plenty To Build On – Watson appeared first on Rochdale AFC .",
-    "source": "Official site",
-    "published": "2026-11-03T21:58:07+00:00",
-    "clubs": [
-      "rochdale"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Charlton Athletic 0-1 Bolton Wanderers | Championship highlights",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUlB4M3hUZDRBdElXNXllOGo0bWo1YXpuM3VKQVN1NFpiRFJhaFRhaFBsZGZwa3dING1pLWhLdmhXUHhDVVpWaUNxXzVKMElPcWRnZmNvNkVWcDlCWmlpWDZYQWlQUkpNcGZFUWpIblE3M3dBVXVnMGd6RXhSZ1k3UkJ1Sk5zdnczbkxHWEI2dk0tS2U0Nk9mZ1IzVklrckgzRzFMc0pkMWVfV1FzYlE?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-03T21:58:06+00:00",
-    "clubs": [
-      "charlton-athletic",
-      "bolton-wanderers"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Bristol City vs. Norwich City (7 Nov, 2026) Live Score",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWENVX04xSkd1VEVzUGkwTG1kSEdrZFU4NW5vc2xZSTNJM1U0VEhnNnlUNTZFNU9SUlpEeExRNnlMOXJ1ZlZqUWg3M1pDcFU2YWkwNzlnVG95S0xqOWI4R3k2Rnh3dVMtUER4TkZleWZaLW9ZdktJM0hxVGxoZVVtLVZ0VQ?oc=5",
-    "excerpt": "",
-    "source": "ESPN India",
-    "published": "2026-11-03T21:55:24+00:00",
-    "clubs": [
-      "bristol-city",
-      "norwich-city"
-    ],
-    "category": "match",
-    "tier": "low",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Preston 2-3 Sheff Utd | Championship highlights",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX19JUkR0RU9QYVFWZXZKSlRDbml3ZWNTZE1Qa1J3elJYOW4yMzVmc0Q3WlBvUlNwSjFVRVZpb0NxN3hLdFBqMUM5M1N0dFA2QndGYktDRWpUTkhGdkFQZS1nWHhlVkdDSkc0SHFXcmxEelNQeENiTDZuN0hpWHFXYkFYTTRsQTAzc2ptOFFCdVhUNDhIYnpIX2Njcw?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-03T21:54:42+00:00",
-    "clubs": [
-      "preston-north-end"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Match Wrap: Watford 1-0 Lincoln City",
-    "url": "https://www.watfordfc.com/news/2026/november/03/match-wrap-watford-lincoln-home/",
-    "excerpt": "Stephy Mavididi exploded from the traps in the second half to earn Watford a valuable three points against Lincoln. The winger's first goal for the Hornets - in the opening minute following the restart - handed the...",
-    "source": "Official site",
-    "published": "2026-11-03T21:52:12+00:00",
-    "clubs": [
-      "watford"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Lincoln City stung by the Hornets in difficult away day",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVVJhNEZFZjlZUEJ2WkRxcXItVlFkWmxweG1UcWhzS2x2eTJ1UHFrV0YtSTlFVHlzR29leUcxRjFsb1ZMUjJDaFNqSlJOZW81YTd5VldOcENBRUdYTFVCSXYtUGg0a0h3b3k2OG1KM2tFTWNVUTUxMjhndExyRWR1dGs5S3BjQ2pzWDNBMmMySQ?oc=5",
-    "excerpt": "",
-    "source": "The Linc",
-    "published": "2026-11-03T21:51:04+00:00",
-    "clubs": [
-      "lincoln-city",
-      "watford"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Match Report | Latics 0 Mansfield Town 0",
-    "url": "https://wiganathletic.com/news/2026/november/03/match-report-Latics-V-Mansfield-Town/",
-    "excerpt": "Latics were left to settle for a point after drawing 0-0 with Mansfield Town at the Brick Community Stadium Match Report | Latics 0 Mansfield Town 0 Latics left to settle for a point at the Brick Next up is Boreham Wood...",
-    "source": "Official site",
-    "published": "2026-11-03T21:50:24+00:00",
-    "clubs": [
-      "wigan-athletic"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Wigan Athletic vs Mansfield Town: League One stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aejI2M21HS1pWVVN0bkFOWDNFVTBqaWNQWDBha0o5THB5bGlxRnAyV01ZZlFZay10QVNYb3lmd2o2bXB5RDdNWlVpb3phQ1lHbnF4RzhyYjNvZGlNY1VFY214MA?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-11-03T21:47:27+00:00",
-    "clubs": [
-      "mansfield-town",
-      "wigan-athletic"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Lions beaten at Birmingham",
-    "url": "https://millwallfc.co.uk/news/2026/november/03/report---birmingham-city-v-millwall/",
-    "excerpt": "Millwall were beaten 3-0 by Birmingham City in the Sky Bet Championship on Tuesday night. First-half goals from Alex Cochrane, Max Bird and Jay Stansfield saw The Blues to the three points at St Andrew's @ Knighthead...",
-    "source": "Official site",
-    "published": "2026-11-03T21:47:00+00:00",
-    "clubs": [
-      "millwall"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "REPORT: TOWN 1-1 LUTON TOWN",
-    "url": "https://www.htafc.com/news/2026/november/03/report--town-0-0-luton-town/",
-    "excerpt": "- Huddersfield Town 1-1 Luton Town; Sky Bet League One - Joe Taylor nets tenth goal of the season - Martin Drury’s side come back from behind to secure a point Our Men’s First Team shared the points with Luton Town...",
-    "source": "Official site",
-    "published": "2026-11-03T21:45:00+00:00",
-    "clubs": [
-      "huddersfield-town"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "MATCH REPORT: QPR 1 - 1 BURNLEY",
-    "url": "https://www.burnleyfootballclub.com/media-article/match-report-qpr-1-1-burnley",
-    "excerpt": "Honours even at Loftus Road",
-    "source": "Official site",
-    "published": "2026-11-03T21:45:00+00:00",
-    "clubs": [
-      "burnley"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "MATCH REPORT | Wanderers bounce back with hard-fought win at Charlton Athletic",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb3o4NVFrM1MwOXFVY2FSNkEtUG91d2pWUlJvbTF5VFg4RHlSNTMxLTM0WmY1OEpTc0NhZzNaMVBlV0V6T0dKdkdrdjFJRURHZkwwU0UxTms5MW9XWTZDZEFyb0lSLWx2dm1wT0dXY0RPenpQdi0yVlNKOXNoY3QyNFNhNGMzYTNNVUlucl93SEwzNlJYa0daQ0tvUHFDMFF2Nzdr?oc=5",
-    "excerpt": "",
-    "source": "The Bolton News",
-    "published": "2026-11-03T21:41:23+00:00",
-    "clubs": [
-      "charlton-athletic"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Preston 2-3 Blades - report",
-    "url": "https://sufc.co.uk/news/2026/november/03/preston-2-3-blades-report/",
-    "excerpt": "Fixtures Preston North End Vs. Sheffield United - Tue, Nov 03 2026, 19:45 Sydie Peck bagged a first half hat-trick as United came from behind to secure another away maximum at Deepdale on Tuesday night. Léo Leroy scored...",
-    "source": "Official site",
-    "published": "2026-11-03T21:40:00+00:00",
-    "clubs": [
-      "sheffield-united"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Match Report | Preston North End 2 - 3 Sheffield United",
-    "url": "https://www.pnefc.net/news/2026/november/03/match-report---preston-north-end-x---x-sheffield-united/",
-    "excerpt": "Preston North End were beaten 3-2 by Sheffield United in the Sky Bet Championship at Deepdale. Léo Leroy opened the scoring within two minutes, but a first-half hat-trick from Sydie Peck put Sheffield United in control...",
-    "source": "Official site",
-    "published": "2026-11-03T21:40:00+00:00",
-    "clubs": [
-      "preston-north-end"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "MATCH REPORT: NORTHAMPTON TOWN 0 OLDHAM ATHLETIC 1",
-    "url": "https://www.ntfc.co.uk/news/2026/november/03/match-report--northampton-town-v-oldham-athletic/",
-    "excerpt": "Fixtures Northampton Town Vs. Oldham Athletic - Tue, Nov 03 2026, 19:45 SKY BET LEAGUE TWO Tuesday November 3rd 2026 Sixfields NORTHAMPTON TOWN 0 OLDHAM ATHLETIC 1 Oliver Norburn 70 Attendance: 5,098 (365 away fans) Joe...",
-    "source": "Official site",
-    "published": "2026-11-03T21:35:00+00:00",
-    "clubs": [
-      "northampton-town"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "QPR 1, Burnley 1",
-    "url": "https://qprfc.co.uk/news/2026/november/03/report-burnley-home/",
-    "excerpt": "JONATHAN Varane’s first goal of the season saw QPR draw with Burnley on Tuesday night. Julien Stéphan's side dominated proceedings in W12 before being rocked by Largie Ramazani’s 38th-minute long-ranger. The R’s...",
-    "source": "Official site",
-    "published": "2026-11-03T21:35:00+00:00",
-    "clubs": [
-      "queens-park-rangers"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "EFL Trophy round-up: Newcastle, Crystal Palace, Cambridge United progress",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HOFltdzQyWmhJbWFSZFJaemx6cFRTRUFqQUhRSndiTWZCRndWbzNQN3Zsb1pxVFJEZFhvTmdNSy12WldSOXlBZDdPd2hPUVJCUDdNNGZJTUM2cGNNa3JrT2xGRHlndUN6?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-11-03T21:34:28+00:00",
-    "clubs": [
-      "cambridge-united"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "West Ham Sack Head Coach Nuno After Poor Start to Championship Season",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYWFtcTJOY21pZW0tWWlYTjh0LUVlM1VKV29WRU9QaHJXaUZPWjVCazF0UEZETENRR0J5VkUzaTFqSE5VbVcwdWp3N0J2UTBaZkNWdldHTTNxU0xtbUZDdVY4WEJEbVY2eE5PeVFQM3VkMkxZUU1QR0hMMVAzWlhaZE40SWtXc0UyR0FieFlKak5rVnZnbUlTakY4aU9kOHVMSEM4b2pMNzZxNGJY?oc=5",
-    "excerpt": "",
-    "source": "ASHARQ AL-AWSAT English",
-    "published": "2026-11-03T21:31:13+00:00",
-    "clubs": [
-      "west-ham-united"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Championship: Samuel Edozie equalises for Southampton vs West Brom",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQWlIRnZxNW9pUjhRY1lpMzh0WC1ya2VvTDhPQldQalkyZW5JNFR1cHRWZjU3SXljLXRIeUc1cFNPcDlZZVFlc0pUbU5yX0c2LUlRTjF4bTdOakFHdzRmd3dSTzJiRzBXdnhrMDVGaWZGd2E4SG1qMl9iUWdYX1ZnVXR1QmtDLURraGgyU2xDQjI5eE1fbE03SUM5RV9vMWc4aXhfNXFDN080RHdvSVhLUWRqT0VOUQ?oc=5",
-    "excerpt": "",
-    "source": "Sky Sports",
-    "published": "2026-11-03T21:27:59+00:00",
-    "clubs": [
-      "southampton",
-      "west-bromwich-albion"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Dale Exit Trophy",
-    "url": "https://rochdaleafc.co.uk/report-doncaster-home-031126/",
-    "excerpt": "Dale exited the Jersey Mike’s Trophy after a 4-1 defeat at home to Doncaster Rovers on Tuesday evening. The post Dale Exit Trophy appeared first on Rochdale AFC .",
-    "source": "Official site",
-    "published": "2026-11-03T21:22:52+00:00",
-    "clubs": [
-      "rochdale"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "\"We needed to show more\" - Bruce",
-    "url": "https://www.themillers.co.uk/news/2026/november/03/-insert-quote-here----bruce/",
-    "excerpt": "",
-    "source": "Official site",
-    "published": "2026-11-03T21:21:00+00:00",
-    "clubs": [
-      "rotherham-united"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "ELLIOTT MOORE'S OLDHAM ATHLETIC REACTION",
-    "url": "https://www.ntfc.co.uk/news/2026/november/03/oldham-athletic-reaction/",
-    "excerpt": "Elliott Moore reflects on Tuesday's visit of Oldham Athletic.",
-    "source": "Official site",
-    "published": "2026-11-03T21:15:00+00:00",
-    "clubs": [
-      "northampton-town"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Northwest Football Awards - Winners for the second consecutive year!",
-    "url": "https://www.rovers.co.uk/news/2026/november/03/northwest-football-awards---winners-for-the-second-consecutive-year-/",
-    "excerpt": "Blackburn Rovers Community Trust is proud to be named as Community Club of the Season – All Other Leagues at the Northwest Football Awards for the second consecutive year, becoming the first-ever back-to-back winners of...",
-    "source": "Official site",
-    "published": "2026-11-03T21:14:14+00:00",
-    "clubs": [
-      "blackburn-rovers"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Northampton vs. Oldham (4 Nov, 2026) Live Score",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1XVGpCYlRPbHEwRzZyZ1hZallVWUJlX29ISEdZMHp2S2pObE1HRXRnZXd2ZjdtSnVnbWw1aDdacUJDT08weGs2TVlfMnJraDJxTHZFWHNVVm5LaUtLbTJxcUJVbGxLN0JL?oc=5",
-    "excerpt": "",
-    "source": "ESPN Singapore",
-    "published": "2026-11-03T21:06:49+00:00",
-    "clubs": [
-      "northampton-town",
-      "oldham-athletic"
-    ],
-    "category": "match",
-    "tier": "low",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Wigan vs. Mansfield (4 Nov, 2026) Live Score",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92cGt4d094bzJJSzQyQ1Ayd1dvLW5BSGJoai0tcGUzRzRMX1g5bDZNXzNRa1B3VzNuNTdaQm1pRWdFUG5QTXVlVVhNSi13OWVfamp6Q1dKbFFVZnZUNnFCa0lqZlZXUDRl?oc=5",
-    "excerpt": "",
-    "source": "ESPN Singapore",
-    "published": "2026-11-03T21:06:48+00:00",
-    "clubs": [
-      "mansfield-town",
-      "wigan-athletic"
-    ],
-    "category": "match",
-    "tier": "low",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Huddersfield vs. Luton (4 Nov, 2026) Live Score",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5NGJNWTg2NVpkWWUycEtrU3ZKU2ZWVnVwQzNTZldWYnBKY194TFJYZDFoWFNuY05qVkVBdVZzbGIwVjRZeWtsUkZVMkFHRXUxX2RnenQzMTdkZkhqWnNDbzBiZUd5Wnkz?oc=5",
-    "excerpt": "",
-    "source": "ESPN Singapore",
-    "published": "2026-11-03T21:06:44+00:00",
-    "clubs": [
-      "huddersfield-town",
-      "luton-town"
-    ],
-    "category": "match",
-    "tier": "low",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Huddersfield vs. Luton (4 Nov, 2026) Team Stats",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZVdoRXlKbldDc2V6REpOVkdXUlpmdkJkSUZULV9CajRhUW9KaFRWMUVSd1VXa0pvWXVXd0VwMHdoTmU1UFlQQ1I4UHRGSlNlM0Z0QzRzRFlleUxIQkNTaHhqcThZRWREQlBWQWV6OGROZkJsRzZPUTVUbEFQV0Y1YQ?oc=5",
-    "excerpt": "",
-    "source": "ESPN Singapore",
-    "published": "2026-11-03T21:06:40+00:00",
-    "clubs": [
-      "huddersfield-town",
-      "luton-town"
-    ],
-    "category": "match",
-    "tier": "low",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "West Bromwich Albion vs Southampton - Highlight | EFL Championship 2026/27",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdWRmTE83cGpqRFQ5TUFNQmpVa3RCbGZDbnJ6WTdUYnQxWU5qMTF0dENsNUdmVmducldVazVLQ1RHSmNRVkxERFF0ZmFWeFdxV2x5MlVzRG5CQ1lWZUZiQ3NJbjB4OHdYUFdYOEtSTlZXUXJ5d1I3RUNsdTE1WFB1cXR5Sks0N0tYVUNNVXNRLXE3b3o1d21UMUtUdTZTenJQLWU5UjhYVVJGdw?oc=5",
-    "excerpt": "",
-    "source": "Vidio",
-    "published": "2026-11-03T21:01:11+00:00",
-    "clubs": [
-      "west-bromwich-albion",
-      "southampton"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "'Played with intent', 'A true captain's performance': Doncaster Rovers player ratings from EFL Trophy win at Rochdale",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcEgxLWtIZFdGZU0xdEVGQjBBNXJqckRNYTVsOGdHWUdBZTczc0JwWUZTcFlTYUNLdWtEcTF5TVdqakc1eU5KLTRqcm8xM0JIUTAwT1dMMkhMUWJiRGowNTFWVUo2QTBneG1qcVRCX1Z0TXUtM1d3YjI1TmNNTEtScGpCMktSdDBmZnlkYi0yLVNYS0ZKM3BzbFVRRkJPLVhnY0MzMW9RakJ2UXFMTjNSRTAyN3ppTlo3eUtscVRUVC1ScnBKR05GZVlxT2xaNHM1VXdLbEFzQk0zdw?oc=5",
-    "excerpt": "",
-    "source": "Doncaster Free Press",
-    "published": "2026-11-03T20:58:00+00:00",
-    "clubs": [
-      "rochdale"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Report: Kidderminster 1-4 Stevenage",
-    "url": "https://www.stevenagefc.com/news/2026/november/03/report--kidderminster-1-4-stevenage/",
-    "excerpt": "Kidderminster Harriers 1 - 4 Stevenage FCW 1st November 2026 - WNL Plate 1st Round Stevenage travelled to the home of Division 1 Midlands side, Kidderminster Harriers, on Sunday and returned with a four goal haul and...",
-    "source": "Official site",
-    "published": "2026-11-03T20:52:04+00:00",
-    "clubs": [
-      "stevenage"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-one",
     "scope": "club"
   }
 ]
