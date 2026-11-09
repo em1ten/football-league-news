@@ -305,7 +305,7 @@
         "gf": 2,
         "ga": 1,
         "opponent_slug": "west-ham-united",
-        "opponent_name": "West Ham United",
+        "opponent_name": "West Ham",
         "home_away": "H",
         "date": "2026-11-07"
       },
@@ -314,7 +314,7 @@
         "gf": 1,
         "ga": 3,
         "opponent_slug": "derby-county",
-        "opponent_name": "Derby County",
+        "opponent_name": "Derby",
         "home_away": "A",
         "date": "2026-11-06"
       },
@@ -332,7 +332,7 @@
         "gf": 0,
         "ga": 5,
         "opponent_slug": "norwich-city",
-        "opponent_name": "Norwich City",
+        "opponent_name": "Norwich",
         "home_away": "H",
         "date": "2026-11-07"
       },
@@ -341,7 +341,7 @@
         "gf": 0,
         "ga": 3,
         "opponent_slug": "west-bromwich-albion",
-        "opponent_name": "West Bromwich Albion",
+        "opponent_name": "West Brom",
         "home_away": "A",
         "date": "2026-11-07"
       },
@@ -359,7 +359,7 @@
         "gf": 3,
         "ga": 1,
         "opponent_slug": "bolton-wanderers",
-        "opponent_name": "Bolton Wanderers",
+        "opponent_name": "Bolton",
         "home_away": "H",
         "date": "2026-11-06"
       },
@@ -377,7 +377,7 @@
         "gf": 1,
         "ga": 2,
         "opponent_slug": "queens-park-rangers",
-        "opponent_name": "Queens Park Rangers",
+        "opponent_name": "QPR",
         "home_away": "A",
         "date": "2026-11-07"
       },
@@ -404,7 +404,7 @@
         "gf": 1,
         "ga": 2,
         "opponent_slug": "stoke-city",
-        "opponent_name": "Stoke City",
+        "opponent_name": "Stoke",
         "home_away": "H",
         "date": "2026-11-07"
       },
@@ -413,7 +413,7 @@
         "gf": 2,
         "ga": 1,
         "opponent_slug": "lincoln-city",
-        "opponent_name": "Lincoln City",
+        "opponent_name": "Lincoln",
         "home_away": "H",
         "date": "2026-11-07"
       },
@@ -431,7 +431,7 @@
         "gf": 1,
         "ga": 2,
         "opponent_slug": "birmingham-city",
-        "opponent_name": "Birmingham City",
+        "opponent_name": "Birmingham",
         "home_away": "A",
         "date": "2026-11-07"
       },
@@ -440,7 +440,7 @@
         "gf": 1,
         "ga": 2,
         "opponent_slug": "charlton-athletic",
-        "opponent_name": "Charlton Athletic",
+        "opponent_name": "Charlton",
         "home_away": "A",
         "date": "2026-11-07"
       },
@@ -449,7 +449,7 @@
         "gf": 2,
         "ga": 1,
         "opponent_slug": "swansea-city",
-        "opponent_name": "Swansea City",
+        "opponent_name": "Swansea",
         "home_away": "H",
         "date": "2026-11-07"
       },
@@ -467,7 +467,7 @@
         "gf": 0,
         "ga": 1,
         "opponent_slug": "preston-north-end",
-        "opponent_name": "Preston North End",
+        "opponent_name": "Preston",
         "home_away": "A",
         "date": "2026-11-07"
       },
@@ -476,7 +476,7 @@
         "gf": 4,
         "ga": 5,
         "opponent_slug": "cardiff-city",
-        "opponent_name": "Cardiff City",
+        "opponent_name": "Cardiff",
         "home_away": "A",
         "date": "2026-11-07"
       },
@@ -485,7 +485,7 @@
         "gf": 1,
         "ga": 2,
         "opponent_slug": "blackburn-rovers",
-        "opponent_name": "Blackburn Rovers",
+        "opponent_name": "Blackburn",
         "home_away": "A",
         "date": "2026-11-07"
       },
@@ -503,7 +503,7 @@
         "gf": 1,
         "ga": 1,
         "opponent_slug": "wolverhampton-wanderers",
-        "opponent_name": "Wolverhampton Wanderers",
+        "opponent_name": "Wolves",
         "home_away": "H",
         "date": "2026-11-07"
       }
