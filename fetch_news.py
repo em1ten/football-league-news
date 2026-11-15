@@ -117,7 +117,52 @@ CLUB_FEEDS = {
     "wrexham": ["https://feeds.bbci.co.uk/sport/football/teams/wrexham/rss.xml"],
     "wycombe-wanderers": ["https://www.wwfc.com/rss.xml"],
     "york-city": ["https://yorkcityfootballclub.co.uk/rss.xml"],
+    # Premier League (added November 2026). BBC team feeds only, on
+    # purpose: 20 Premier League clubs generate more coverage than the 72
+    # EFL clubs put together, and the BBC's feed is already an editor's
+    # pick. These addresses follow the BBC's team-page names but could not
+    # be test-fetched when they were added -- a wrong one shows up as a
+    # warning on the workflow run (see fetch_club_feeds).
+    "arsenal": ["https://feeds.bbci.co.uk/sport/football/teams/arsenal/rss.xml"],
+    "aston-villa": ["https://feeds.bbci.co.uk/sport/football/teams/aston-villa/rss.xml"],
+    "bournemouth": ["https://feeds.bbci.co.uk/sport/football/teams/afc-bournemouth/rss.xml"],
+    "brentford": ["https://feeds.bbci.co.uk/sport/football/teams/brentford/rss.xml"],
+    "brighton-and-hove-albion": ["https://feeds.bbci.co.uk/sport/football/teams/brighton-and-hove-albion/rss.xml"],
+    "chelsea": ["https://feeds.bbci.co.uk/sport/football/teams/chelsea/rss.xml"],
+    "coventry-city": ["https://feeds.bbci.co.uk/sport/football/teams/coventry-city/rss.xml"],
+    "crystal-palace": ["https://feeds.bbci.co.uk/sport/football/teams/crystal-palace/rss.xml"],
+    "everton": ["https://feeds.bbci.co.uk/sport/football/teams/everton/rss.xml"],
+    "fulham": ["https://feeds.bbci.co.uk/sport/football/teams/fulham/rss.xml"],
+    "hull-city": ["https://feeds.bbci.co.uk/sport/football/teams/hull-city/rss.xml"],
+    "ipswich-town": ["https://feeds.bbci.co.uk/sport/football/teams/ipswich-town/rss.xml"],
+    "leeds-united": ["https://feeds.bbci.co.uk/sport/football/teams/leeds-united/rss.xml"],
+    "liverpool": ["https://feeds.bbci.co.uk/sport/football/teams/liverpool/rss.xml"],
+    "manchester-city": ["https://feeds.bbci.co.uk/sport/football/teams/manchester-city/rss.xml"],
+    "manchester-united": ["https://feeds.bbci.co.uk/sport/football/teams/manchester-united/rss.xml"],
+    "newcastle-united": ["https://feeds.bbci.co.uk/sport/football/teams/newcastle-united/rss.xml"],
+    "nottingham-forest": ["https://feeds.bbci.co.uk/sport/football/teams/nottingham-forest/rss.xml"],
+    "sunderland": ["https://feeds.bbci.co.uk/sport/football/teams/sunderland/rss.xml"],
+    "tottenham-hotspur": ["https://feeds.bbci.co.uk/sport/football/teams/tottenham-hotspur/rss.xml"],
 }
+
+# Fan media: podcasts, fanzines and blogs run by supporters. The big
+# aggregators bury these; here each club gets a labelled slot for them.
+# Sheffield Wednesday is the test club. To add one: the show or site's
+# name, its RSS feed address, and what it is ("podcast", "blog",
+# "fanzine"). Ask the people who run it first -- it's a friendly way in.
+#   The Wednesday Week: feed checked live 15 Nov 2026 (newest episode 13 Nov).
+#   Talking Wednesday: standard Podbean feed address, not test-fetched.
+FAN_FEEDS = {
+    "sheffield-wednesday": [
+        {"name": "The Wednesday Week", "kind": "podcast",
+         "url": "https://feeds.acast.com/public/shows/64abd7bfd593820011a68d78"},
+        {"name": "Talking Wednesday", "kind": "podcast",
+         "url": "https://feed.podbean.com/talkingwednesday/feed.xml"},
+    ],
+}
+# A podcast feed carries its whole back catalogue (The Wednesday Week: 600+
+# episodes). Only the newest few entries are even looked at.
+FAN_FEED_MAX_ENTRIES = 5
 
 # One Google News query per division, cheap and league-wide.
 DIVISION_FEEDS = {
@@ -218,7 +263,7 @@ def _entry_to_article(entry, source):
     else:
         excerpt = clean_excerpt(entry.get("summary", ""))
     return {
-        "title": clean_excerpt(entry.get("title", "")),
+        "title": tidy_title(clean_excerpt(entry.get("title", ""))),
         "url": entry.get("link", ""),
         "excerpt": excerpt,
         "source": source,
@@ -227,6 +272,34 @@ def _entry_to_article(entry, source):
 
 
 
+
+
+# Publisher tails that survive the " - Publisher" split because they use a
+# different separator or come before it: "MK Dons 6-2 Burton | Football
+# News", "...team news - Sports & Betting News".
+_TITLE_TAIL_RE = re.compile(
+    r"\s*[|\-\u2013]\s*(football news|sports? (&|and) betting news|sky sports( football)?|"
+    r"latest news|news)\s*$", re.I)
+# Words that stay in capitals when a shouted headline is calmed down.
+_KEEP_UPPER = {"FC", "AFC", "EFL", "QPR", "MK", "VAR", "TV", "UK", "USA", "FA", "EPL", "PL", "U21", "U23",
+               "BBC", "ITV", "CEO", "SWFC", "II", "III", "OK", "H", "A"}
+
+
+def tidy_title(title):
+    """Strip publisher tails, and turn an ALL-CAPS headline into ordinary
+    capitalisation. Several club sites publish every headline in capitals
+    ("CESAY STRIKES AS SALFORD EXTEND UNBEATEN RUN"), which reads as
+    shouting in a list of normal headlines. Only fires when at least 80%
+    of the letters are capitals and the headline is more than two words,
+    so "QPR" or "VAR drama" are left alone."""
+    t = _TITLE_TAIL_RE.sub("", (title or "").strip())
+    letters = [ch for ch in t if ch.isalpha()]
+    if len(letters) >= 12 and len(t.split()) > 2 and sum(ch.isupper() for ch in letters) / len(letters) >= 0.8:
+        def calm(m):
+            w = m.group(0)
+            return w if w in _KEEP_UPPER else w[0] + w[1:].lower()
+        t = re.sub(r"[A-Za-z][A-Za-z']*", calm, t)
+    return t
 
 
 def is_empty_excerpt(title, excerpt):
@@ -356,8 +429,17 @@ _TIPS_WORD_RE = re.compile(r"(?i)\btips?\b")
 _ODDS_WORD_RE = re.compile(r"(?i)\bodds\b")
 
 
+# Bookmakers publish "news" as marketing. Matched anywhere in the source
+# name, any capitalisation: "bet365" got through for weeks because the
+# blocklist above only had the exact spelling "news.bet365.com".
+_BOOKMAKER_SOURCE_RE = re.compile(
+    r"(?i)bet365|betfair|betway|betfred|ladbrokes|paddy power|william hill|unibet|"
+    r"888sport|betvictor|boylesports"
+)
+
+
 def is_gambling_content(title, source):
-    if source in GAMBLING_SOURCES:
+    if source in GAMBLING_SOURCES or _BOOKMAKER_SOURCE_RE.search(source or ""):
         return True
     if _GAMBLING_TITLE_RE.search(title):
         return True
@@ -517,6 +599,37 @@ _BOILERPLATE_TITLE_RE = re.compile(
 )
 
 
+# Pages with no reporting at all: a live-score widget, a stats table, a
+# "how to watch" template. These used to be kept as "low" tier, which only
+# stopped them leading a group -- they still filled the feed (24 of 676
+# stories on 15 Nov 2026). Now dropped. Each pattern is a template seen
+# live, not a guess at a topic.
+_STAT_PAGE_TITLE_RE = re.compile(
+    r"(?i)\(\d{1,2} \w+,? \d{4}\) (live score|team stats|player stats|commentary|line-?ups|match stats)\s*$|"
+    r"\bstats for (the )?(premier league|championship|league one|league two) 20\d\d/(20)?\d\d|"
+    r"^how to watch\b.*\b(live stream|tv channel)"
+)
+
+
+def is_stat_page(title):
+    return bool(_STAT_PAGE_TITLE_RE.search(title or ""))
+
+
+# Club websites publish plenty that isn't news: ticket details, shop
+# offers, hospitality, sponsors. Fine for someone following that club,
+# so these are kept but marked "low", which keeps them out of the top
+# stories view.
+_CLUB_ADMIN_TITLE_RE = re.compile(
+    r"(?i)\btickets?\b|\bticketing\b|\bmatchday guide\b|\bhospitality\b|\bsponsor(s|ed|ship)?\b|"
+    r"\bparty night\b|\blottery\b|\bclub shop\b|\bretail\b|\bon sale\b|\bgallery\b|"
+    r"\bsupporters'? coach(es)?\b|\bcoach travel\b|\bmascots?\b|\bgift (ideas|guide)\b|\bblack friday\b"
+)
+
+
+def is_club_admin(title):
+    return bool(_CLUB_ADMIN_TITLE_RE.search(title or ""))
+
+
 def source_tier(source, title):
     src = (source or "").strip().lower()
     if _BOILERPLATE_TITLE_RE.search(title or ""):
@@ -595,6 +708,7 @@ def _mentions_distinguishing_marker(title, excerpt):
                 return True
     return False
 OFFICIAL_CLUB_NAMES = {c["name"].lower() for c in _BY_SLUG.values()}
+_BY_SLUG_BY_NAME = {c["name"].lower(): c["name"] for c in _BY_SLUG.values()}
 
 # A "headline" that is nothing but a club's name is a directory/profile
 # page, never a story: BBC team feeds include entries titled just
@@ -681,6 +795,8 @@ def passes_quality_filters(article, from_google_news, strict_homonym=False):
         return False
     if is_bare_club_title(title):
         return False
+    if is_stat_page(title):
+        return False
     if is_gambling_content(title, source):
         return False
     if is_womens_football(title, article.get("excerpt", "")):
@@ -714,18 +830,40 @@ def normalise_source(name):
     # fragmenting the source label shown on each card.
     if "google news" in name.lower():
         return "Google News"
+    # A club's own site arriving via Google News calls itself "Fleetwood
+    # Town Football Club"; show the plain club name.
+    bare = re.sub(r"\s+(football club|f\.?c\.?|a\.?f\.?c\.?)$", "", name.strip(), flags=re.I)
+    if bare.lower() in OFFICIAL_CLUB_NAMES:
+        return _BY_SLUG_BY_NAME[bare.lower()]
     return SOURCE_ALIASES.get(name, name)
+
+
+def warn_feed_problems(label, failed, empty):
+    """One ::warning:: line per kind of problem (GitHub shows only the
+    first ten warnings per step, so never one per feed). A feed that
+    fails or comes back empty used to be a line in a log nobody reads --
+    which is how a club can sit at zero stories for weeks."""
+    if failed:
+        print(f"::warning::{len(failed)} {label} feed(s) failed to load: " + "; ".join(failed[:25]))
+    if empty:
+        print(f"::warning::{len(empty)} {label} feed(s) loaded but had no entries "
+              f"(address may have changed): " + ", ".join(empty[:40]))
 
 
 def fetch_club_feeds():
     articles = []
+    failed, empty = [], []
     for slug, urls in CLUB_FEEDS.items():
+        if slug not in _BY_SLUG:
+            continue  # feed listed for a club that isn't in clubs.json (yet)
         for url in urls:
             try:
                 feed = _parse(url)
             except Exception as e:
-                print(f"[club-feed] {slug} {url} failed: {e}")
+                failed.append(f"{slug} ({e})")
                 continue
+            if not feed.entries:
+                empty.append(slug)
             # Label by where the feed actually lives, not the feed's own
             # <title> -- club CMSs call themselves things like "Latest News -
             # Sheffield Wednesday FC", which read badly on a card and never
@@ -744,10 +882,48 @@ def fetch_club_feeds():
                 a["category"] = categorise(a["title"], a.get("excerpt", ""))
                 # Official club + BBC team feeds are trusted by construction
                 # (URL-scoped to the club). Template boilerplate still demotes.
-                a["tier"] = "low" if source_tier(a["source"], a["title"]) == "low" else "trusted"
+                is_low = source_tier(a["source"], a["title"]) == "low" or is_club_admin(a["title"])
+                a["tier"] = "low" if is_low else "trusted"
                 a["division"] = division_of(slug)
                 a["scope"] = "club"
                 articles.append(a)
+    warn_feed_problems("club", failed, empty)
+    return articles
+
+
+def fetch_fan_feeds():
+    """Supporter-run podcasts, blogs and fanzines (FAN_FEEDS). Tagged
+    category "fan" and tier "fan" so the page can label them and give
+    them their own slot, separate from news reporting."""
+    articles = []
+    failed, empty = [], []
+    for slug, feeds in FAN_FEEDS.items():
+        if slug not in _BY_SLUG:
+            continue
+        for f in feeds:
+            try:
+                feed = _parse(f["url"])
+            except Exception as e:
+                failed.append(f"{f['name']} ({e})")
+                continue
+            if not feed.entries:
+                empty.append(f["name"])
+            for entry in feed.entries[:FAN_FEED_MAX_ENTRIES]:
+                a = _entry_to_article(entry, f["name"])
+                if a is None or not a["title"] or not a["url"]:
+                    continue
+                if is_stream_spam(a["title"], a["url"], a["source"]) or is_gambling_content(a["title"], a["source"]):
+                    continue
+                if is_empty_excerpt(a["title"], a["excerpt"]):
+                    a["excerpt"] = ""
+                a["clubs"] = [slug]
+                a["category"] = "fan"
+                a["tier"] = "fan"
+                a["fan_kind"] = f.get("kind", "")
+                a["division"] = division_of(slug)
+                a["scope"] = "club"
+                articles.append(a)
+    warn_feed_problems("fan media", failed, empty)
     return articles
 
 
@@ -770,7 +946,7 @@ def fetch_division_feeds():
             # a club marker (e.g. a site literally called "...City...")
             # can't falsely tag the story.
             clean_title, publisher = split_google_news_title(a["title"])
-            a["title"] = clean_title
+            a["title"] = tidy_title(clean_title)
             if publisher:
                 a["source"] = normalise_source(publisher)
             if is_empty_excerpt(a["title"], a["excerpt"]):
@@ -814,7 +990,7 @@ def fetch_rotation_club_queries(n_slices=3):
             if a is None:
                 continue
             clean_title, publisher = split_google_news_title(a["title"])
-            a["title"] = clean_title
+            a["title"] = tidy_title(clean_title)
             if publisher:
                 a["source"] = normalise_source(publisher)
             if is_empty_excerpt(a["title"], a["excerpt"]):
@@ -847,6 +1023,12 @@ def dedupe(articles):
         # duplicates, while the title+source key catches Google News repeats.
         keys = {a["url"]} if a["url"] else set()
         keys.add(dedupe_key(a))
+        # The same headline for the same club(s) from a second outlet is
+        # syndication (Yahoo republishing a local paper), not a second
+        # story. Only for headlines long enough to be distinctive.
+        bare = re.sub(r"[^a-z0-9]+", " ", a["title"].lower()).strip()
+        if len(bare) >= 30:
+            keys.add((bare, tuple(sorted(a.get("clubs", [])))))
         if keys & seen:
             continue
         seen |= keys
@@ -883,12 +1065,24 @@ def load_previous():
         old = json.loads(OUT.read_text(encoding="utf-8"))
     except Exception:
         return []
-    return within_age_window(old)
+    # Re-check saved stories against rules added since they were saved,
+    # so a new junk rule cleans the page now rather than in four days.
+    kept = []
+    for a in within_age_window(old):
+        a["title"] = tidy_title(a.get("title", ""))
+        if is_stat_page(a["title"]) or is_gambling_content(a["title"], a.get("source", "")):
+            continue
+        if a.get("source") == "Official site" and a.get("tier") == "trusted" and is_club_admin(a["title"]):
+            a["tier"] = "low"
+        a["source"] = normalise_source(a.get("source", ""))
+        kept.append(a)
+    return kept
 
 
 def main():
     fresh = []
     fresh += fetch_club_feeds()
+    fresh += fetch_fan_feeds()
     fresh += fetch_division_feeds()
     fresh += fetch_rotation_club_queries()
 

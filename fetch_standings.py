@@ -54,6 +54,7 @@ USER_AGENT = "Mozilla/5.0 (compatible; FootballLeagueNewsBot/1.0; +https://em1te
 
 SEASON_CODE = "2627"  # 2026-27. Update each July when the new season starts.
 DIVISION_CODES = {
+    "premier-league": "E0",
     "championship": "E1",
     "league-one": "E2",
     "league-two": "E3",
@@ -62,13 +63,14 @@ CSV_URL_TMPL = "https://www.football-data.co.uk/mmz4281/{season}/{code}.csv"
 FORM_LENGTH = 5  # results shown in each club's form guide on the page
 
 ESPN_LEAGUES = {
+    "premier-league": "eng.1",
     "championship": "eng.2",
     "league-one": "eng.3",
     "league-two": "eng.4",
 }
 ESPN_URL_TMPL = "https://site.api.espn.com/apis/site/v2/sports/soccer/{league}/scoreboard?dates={day}"
 # Covers football-data's normal lag with room to spare. One request per
-# day per division: 3 x 14 = 42 small requests a run.
+# day per division: 4 x 14 = 56 small requests a run.
 ESPN_LOOKBACK_DAYS = 14
 
 # Short forms that the generic suffix-stripping below can't reach. Keys
@@ -86,6 +88,22 @@ TEAM_ALIASES = {
     "sheff utd": "sheffield-united",
     "sheffield utd": "sheffield-united",
     "wimbledon": "afc-wimbledon",
+    # Premier League (added November 2026). football-data's long-standing
+    # short forms plus ESPN's names; not yet confirmed against the 2026-27
+    # E0 file -- an unmatched name raises a warning on the run.
+    "man city": "manchester-city",
+    "man united": "manchester-united",
+    "man utd": "manchester-united",
+    "nottm forest": "nottingham-forest",
+    "nottingham": "nottingham-forest",
+    "forest": "nottingham-forest",
+    "spurs": "tottenham-hotspur",
+    "tottenham": "tottenham-hotspur",
+    "brighton": "brighton-and-hove-albion",
+    "brighton and hove albion": "brighton-and-hove-albion",
+    "afc bournemouth": "bournemouth",
+    "newcastle": "newcastle-united",
+    "leeds": "leeds-united",
 }
 
 _SUFFIXES = (" city", " town", " united", " rovers", " wanderers", " albion",

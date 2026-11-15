@@ -1,7 +1,7 @@
 {
   "season": "2026-27",
   "verified": "2026-09-04",
-  "source": "Wikipedia division pages for 2026-27",
+  "source": "Wikipedia division pages for 2026-27 (EFL); Premier League 20 added November 2026",
   "review": "Re-verify every June after playoffs. Promotion/relegation changes 9-12 clubs a year.",
   "marker_rules": [
     "Markers are full club names, unambiguous abbreviations, unambiguous nicknames, or grounds.",
@@ -10,6 +10,287 @@
     "Where an obvious short form was deliberately left out, the reason is in 'note'. Do not add it back."
   ],
   "clubs": [
+    {
+      "slug": "arsenal",
+      "name": "Arsenal",
+      "division": "premier-league",
+      "town": "London",
+      "stadium": "Emirates Stadium",
+      "markers": [
+        "arsenal",
+        "the gunners"
+      ],
+      "exclude": [],
+      "site": "https://www.arsenal.com",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
+    {
+      "slug": "aston-villa",
+      "name": "Aston Villa",
+      "division": "premier-league",
+      "town": "Birmingham",
+      "stadium": "Villa Park",
+      "markers": [
+        "aston villa",
+        "avfc"
+      ],
+      "exclude": [],
+      "site": "https://www.avfc.co.uk",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
+    {
+      "slug": "bournemouth",
+      "name": "Bournemouth",
+      "division": "premier-league",
+      "town": "Bournemouth",
+      "stadium": "Vitality Stadium",
+      "markers": [
+        "afc bournemouth"
+      ],
+      "exclude": [],
+      "site": "https://www.afcb.co.uk",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
+    {
+      "slug": "brentford",
+      "name": "Brentford",
+      "division": "premier-league",
+      "town": "London",
+      "stadium": "Gtech Community Stadium",
+      "markers": [
+        "brentford"
+      ],
+      "exclude": [],
+      "site": "https://www.brentfordfc.com",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
+    {
+      "slug": "brighton-and-hove-albion",
+      "name": "Brighton & Hove Albion",
+      "division": "premier-league",
+      "town": "Brighton",
+      "stadium": "Amex Stadium",
+      "markers": [
+        "brighton & hove albion",
+        "brighton and hove albion"
+      ],
+      "exclude": [],
+      "site": "https://www.brightonandhovealbion.com",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
+    {
+      "slug": "chelsea",
+      "name": "Chelsea",
+      "division": "premier-league",
+      "town": "London",
+      "stadium": "Stamford Bridge",
+      "markers": [
+        "chelsea"
+      ],
+      "exclude": [],
+      "site": "https://www.chelseafc.com",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
+    {
+      "slug": "coventry-city",
+      "name": "Coventry City",
+      "division": "premier-league",
+      "town": "Coventry",
+      "stadium": "Coventry Building Society Arena",
+      "markers": [
+        "coventry city",
+        "the sky blues"
+      ],
+      "exclude": [],
+      "site": "https://www.ccfc.co.uk",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
+    {
+      "slug": "crystal-palace",
+      "name": "Crystal Palace",
+      "division": "premier-league",
+      "town": "London",
+      "stadium": "Selhurst Park",
+      "markers": [
+        "crystal palace",
+        "cpfc"
+      ],
+      "exclude": [],
+      "site": "https://www.cpfc.co.uk",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
+    {
+      "slug": "everton",
+      "name": "Everton",
+      "division": "premier-league",
+      "town": "Liverpool",
+      "stadium": "Hill Dickinson Stadium",
+      "markers": [
+        "everton",
+        "the toffees"
+      ],
+      "exclude": [],
+      "site": "https://www.evertonfc.com",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
+    {
+      "slug": "fulham",
+      "name": "Fulham",
+      "division": "premier-league",
+      "town": "London",
+      "stadium": "Craven Cottage",
+      "markers": [
+        "fulham"
+      ],
+      "exclude": [],
+      "site": "https://www.fulhamfc.com",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
+    {
+      "slug": "hull-city",
+      "name": "Hull City",
+      "division": "premier-league",
+      "town": "Hull",
+      "stadium": "MKM Stadium",
+      "markers": [
+        "hull city"
+      ],
+      "exclude": [],
+      "site": "https://www.hullcitytigers.com",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
+    {
+      "slug": "ipswich-town",
+      "name": "Ipswich Town",
+      "division": "premier-league",
+      "town": "Ipswich",
+      "stadium": "Portman Road",
+      "markers": [
+        "ipswich town",
+        "portman road"
+      ],
+      "exclude": [],
+      "site": "https://www.itfc.co.uk",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
+    {
+      "slug": "leeds-united",
+      "name": "Leeds United",
+      "division": "premier-league",
+      "town": "Leeds",
+      "stadium": "Elland Road",
+      "markers": [
+        "leeds united",
+        "lufc",
+        "elland road"
+      ],
+      "exclude": [],
+      "site": "https://www.leedsunited.com",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
+    {
+      "slug": "liverpool",
+      "name": "Liverpool",
+      "division": "premier-league",
+      "town": "Liverpool",
+      "stadium": "Anfield",
+      "markers": [
+        "liverpool fc",
+        "anfield"
+      ],
+      "exclude": [],
+      "site": "https://www.liverpoolfc.com",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
+    {
+      "slug": "manchester-city",
+      "name": "Manchester City",
+      "division": "premier-league",
+      "town": "Manchester",
+      "stadium": "Etihad Stadium",
+      "markers": [
+        "manchester city",
+        "man city",
+        "mcfc"
+      ],
+      "exclude": [],
+      "site": "https://www.mancity.com",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
+    {
+      "slug": "manchester-united",
+      "name": "Manchester United",
+      "division": "premier-league",
+      "town": "Manchester",
+      "stadium": "Old Trafford",
+      "markers": [
+        "manchester united",
+        "man united",
+        "man utd",
+        "mufc",
+        "old trafford"
+      ],
+      "exclude": [],
+      "site": "https://www.manutd.com",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
+    {
+      "slug": "newcastle-united",
+      "name": "Newcastle United",
+      "division": "premier-league",
+      "town": "Newcastle upon Tyne",
+      "stadium": "St James' Park",
+      "markers": [
+        "newcastle united",
+        "nufc"
+      ],
+      "exclude": [],
+      "site": "https://www.newcastleunited.com",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
+    {
+      "slug": "nottingham-forest",
+      "name": "Nottingham Forest",
+      "division": "premier-league",
+      "town": "Nottingham",
+      "stadium": "City Ground",
+      "markers": [
+        "nottingham forest",
+        "nffc"
+      ],
+      "exclude": [],
+      "site": "https://www.nottinghamforest.co.uk",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
+    {
+      "slug": "sunderland",
+      "name": "Sunderland",
+      "division": "premier-league",
+      "town": "Sunderland",
+      "stadium": "Stadium of Light",
+      "markers": [
+        "sunderland afc",
+        "stadium of light"
+      ],
+      "exclude": [],
+      "site": "https://www.safc.com",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
+    {
+      "slug": "tottenham-hotspur",
+      "name": "Tottenham Hotspur",
+      "division": "premier-league",
+      "town": "London",
+      "stadium": "Tottenham Hotspur Stadium",
+      "markers": [
+        "tottenham hotspur",
+        "tottenham",
+        "spurs"
+      ],
+      "exclude": [],
+      "site": "https://www.tottenhamhotspur.com",
+      "note": "Premier League club. Covered by its BBC team feed only; markers here are used just to recognise the club when an EFL story mentions it."
+    },
     {
       "slug": "birmingham-city",
       "name": "Birmingham City",
