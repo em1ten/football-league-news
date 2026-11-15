@@ -50,12 +50,12 @@ SITE_DIR = HERE / "site"
 # the sitemap, and the Open Graph tags used for link previews.
 SITE_URL = "https://em1ten.github.io/football-league-news"
 SITE_TITLE = "Football League News"
-SITE_TAGLINE = "All 72 clubs. One feed. No ads."
-SITE_ABOUT = "Made by a fan, for fans. Independent and unofficial, not affiliated with the EFL or any club."
+SITE_TAGLINE = "All 92 clubs. One feed. No ads."
+SITE_ABOUT = "Made by a fan, for fans. Independent and unofficial, not affiliated with the Premier League, the EFL or any club."
 KOFI_URL = "https://ko-fi.com/footballnewsfeed"
 
-DIVISION_ORDER = ["championship", "league-one", "league-two"]
-DIVISION_LABEL = {"championship": "Championship", "league-one": "League One", "league-two": "League Two"}
+DIVISION_ORDER = ["premier-league", "championship", "league-one", "league-two"]
+DIVISION_LABEL = {"premier-league": "Premier League", "championship": "Championship", "league-one": "League One", "league-two": "League Two"}
 
 
 def load():
@@ -222,6 +222,8 @@ def cluster_by_clubs(articles):
     clusters_by_key = {}
     for a in articles:
         key = tuple(sorted(a.get("clubs", [])))
+        if a.get("tier") == "fan":
+            key += ("fan-media",)  # fan pieces group with each other, never into a news report
         try:
             t = datetime.fromisoformat(a["published"])
         except Exception:
@@ -281,6 +283,94 @@ def _promote_best_primary(cluster):
     cluster["more"] = members[1:]
 
 
+# ------------------------------------------------------------ top stories
+#
+# The "Top stories" view shows at most DIGEST_PER_CLUB stories per club per
+# day, so 92 clubs fit on one readable page and no club (or division) can
+# crowd the rest out. "My clubs" is unaffected: it shows everything.
+#
+# WHICH story a club gets is decided by who published it and how many
+# outlets covered it -- never by reading the headline. Guessing importance
+# from headline text was tried four times and removed; see LEARNINGS.md.
+#   rank 0  BBC, Sky, or a local/regional newspaper (the club's own reporters)
+#   rank 1  the club's own website, or a story at least three outlets ran
+#   rank 2  a story two outlets ran
+#   never   a single aggregator piece, a "low" tier page, club admin
+# Ties go to wider coverage, then to the newest.
+DIGEST_PER_CLUB = 1
+FAN_PER_CLUB = 1
+
+# National titles whose names would otherwise look local ("Daily Star").
+_NATIONAL_TITLES = {"daily mail", "daily star", "daily express", "daily mirror", "the sun", "the mirror",
+                    "mail online", "mailonline", "daily record", "metro", "the independent", "the times",
+                    "the telegraph", "the guardian", "evening standard", "the standard", "the athletic",
+                    "football league world", "the league paper", "yahoo news", "yahoo sports", "msn",
+                    "sky news", "bbc news", "itv news", "gb news", "sports mole", "football news"}
+# How local and regional papers name themselves: "Yorkshire Post",
+# "Shropshire Star", "Plymouth Live", "The York Press", "Kent Online".
+_LOCAL_PRESS_RE = re.compile(
+    r"(?i)\b(live|telegraph|post|star|press|echo|gazette|mail|news|herald|chronicle|argus|observer|"
+    r"sentinel|advertiser|times|online|examiner|courier|mercury|journal|standard|citizen|"
+    r"guardian|bulletin|free press|evening \w+|today)$"
+)
+
+
+def is_local_press(source):
+    src = (source or "").strip()
+    return bool(src) and src.lower() not in _NATIONAL_TITLES and bool(_LOCAL_PRESS_RE.search(src))
+
+
+def _digest_rank(cluster):
+    """Lower is better; None means not eligible for Top stories."""
+    a = cluster["primary"]
+    tier = a.get("tier", "normal")
+    if tier in ("low", "fan"):
+        return None
+    outlets = len({m.get("source") for m in [a] + cluster["more"]})
+    if tier == "trusted":
+        return 1 if a.get("source") == "Official site" else 0
+    if is_local_press(a.get("source")):
+        return 0
+    if outlets >= 3:
+        return 1
+    if outlets == 2:
+        return 2
+    return None
+
+
+def mark_top_stories(clusters):
+    """Set cluster["top"] for one day's clusters (see the block comment
+    above). A story about two clubs uses up both clubs' slots, so a match
+    report covers both sides."""
+    def outlets(c):
+        return len({m.get("source") for m in [c["primary"]] + c["more"]})
+
+    for c in clusters:
+        c["top"] = False
+    ranked = [(r, c) for c in clusters for r in [_digest_rank(c)] if r is not None]
+    # Stable sorts, least important key first: newest, then coverage, then rank.
+    ranked.sort(key=lambda rc: rc[1]["primary"].get("published", ""), reverse=True)
+    ranked.sort(key=lambda rc: -outlets(rc[1]))
+    ranked.sort(key=lambda rc: rc[0])
+    used = {}
+    for _, c in ranked:
+        slugs = c["primary"].get("clubs", [])
+        if slugs and all(used.get(s, 0) < DIGEST_PER_CLUB for s in slugs):
+            c["top"] = True
+            for s in slugs:
+                used[s] = used.get(s, 0) + 1
+    fan_used = {}
+    fans = [c for c in clusters if c["primary"].get("tier") == "fan"]
+    fans.sort(key=lambda c: c["primary"].get("published", ""), reverse=True)
+    for c in fans:
+        slugs = c["primary"].get("clubs", [])
+        if slugs and all(fan_used.get(s, 0) < FAN_PER_CLUB for s in slugs):
+            c["top"] = True
+            for s in slugs:
+                fan_used[s] = fan_used.get(s, 0) + 1
+    return clusters
+
+
 def group_by_day(articles_sorted, today):
     """articles_sorted must already be newest-first. Returns an ordered
     list of (label, date, [articles]) preserving that order. Dates are UK
@@ -309,6 +399,27 @@ def group_by_day(articles_sorted, today):
 # promoted into the EFL -- gets a neutral grey swatch rather than breaking
 # the build; add it here when that happens.
 CLUB_KITS = {
+    # Premier League
+    "arsenal": ("solid", "#EF0107", "#FFFFFF"),
+    "aston-villa": ("solid", "#670E36", "#95BFE5"),
+    "bournemouth": ("stripes", "#DA291C", "#111111"),
+    "brentford": ("stripes", "#E30613", "#FFFFFF"),
+    "brighton-and-hove-albion": ("stripes", "#0057B8", "#FFFFFF"),
+    "chelsea": ("solid", "#034694", "#FFFFFF"),
+    "coventry-city": ("solid", "#59CBE8", "#FFFFFF"),
+    "crystal-palace": ("stripes", "#1B458F", "#C4122E"),
+    "everton": ("solid", "#003399", "#FFFFFF"),
+    "fulham": ("solid", "#FFFFFF", "#111111"),
+    "hull-city": ("stripes", "#F5A12D", "#111111"),
+    "ipswich-town": ("solid", "#0044A9", "#FFFFFF"),
+    "leeds-united": ("solid", "#FFFFFF", "#1D428A"),
+    "liverpool": ("solid", "#C8102E", "#A50E26"),
+    "manchester-city": ("solid", "#6CABDD", "#FFFFFF"),
+    "manchester-united": ("solid", "#DA291C", "#FFFFFF"),
+    "newcastle-united": ("stripes", "#111111", "#FFFFFF"),
+    "nottingham-forest": ("solid", "#DD0000", "#FFFFFF"),
+    "sunderland": ("stripes", "#EB172B", "#FFFFFF"),
+    "tottenham-hotspur": ("solid", "#FFFFFF", "#132257"),
     # Championship
     "birmingham-city": ("solid", "#2B4FA8", "#FFFFFF"),
     "blackburn-rovers": ("halves", "#1F5FAD", "#FFFFFF"),
@@ -413,6 +524,13 @@ SHORT_NAME_OVERRIDES = {
     "accrington-stanley": "Accrington",
     "crewe-alexandra": "Crewe",
     "plymouth-argyle": "Plymouth",
+    "manchester-city": "Man City",
+    "manchester-united": "Man Utd",
+    "tottenham-hotspur": "Tottenham",
+    "brighton-and-hove-albion": "Brighton",
+    "nottingham-forest": "Nott'm Forest",
+    "crystal-palace": "Crystal Palace",
+    "aston-villa": "Aston Villa",
 }
 _SHORT_SUFFIX_RE = re.compile(r"\s+(City|Town|United|Rovers|Wanderers|Athletic|County|Albion)$")
 
@@ -470,11 +588,18 @@ def story_row(cluster, names):
   <div class="more-list">{items}</div>
 </details>"""
     swatches = "".join(swatch(s, small=True) for s in slugs[:2])
-    return f"""<article class="cluster" data-clubs="{esc(' '.join(slugs))}" data-division="{esc(primary.get('division',''))}" data-category="{esc(primary.get('category','news'))}">
+    source = esc(primary.get("source", ""))
+    if primary.get("tier") == "fan":
+        kind = primary.get("fan_kind") or "media"
+        source += f' &middot; <span class="fan-tag">Fan {esc(kind)}</span>'
+    # Rendered already filtered to Top stories (the default view), so the
+    # first paint is the short page, not all 500+ rows about to be hidden.
+    top = cluster.get("top", False)
+    return f"""<article class="cluster" data-clubs="{esc(' '.join(slugs))}" data-division="{esc(primary.get('division',''))}" data-category="{esc(primary.get('category','news'))}" data-top="{'1' if top else '0'}"{'' if top else ' hidden'}>
   <div class="row-meta"><span class="sw-pair">{swatches}</span><span class="row-club">{esc(club_label(slugs, names))}</span>{timestamp(primary.get('published',''))}</div>
   <h3 class="row-title"><a href="{esc(primary.get('url',''))}" rel="noopener" target="_blank">{esc(title)}</a></h3>
   {excerpt_html}
-  <div class="row-source">{esc(primary.get('source',''))}</div>
+  <div class="row-source">{source}</div>
   {more_html}
 </article>"""
 
@@ -504,7 +629,7 @@ RESULT_WORDS = {"W": "Won", "D": "Drew", "L": "Lost"}
 
 def your_clubs_row(club, div_standings, names):
     """One row in "Your clubs": kit swatch, name, league position, points,
-    form guide and last result. Rendered for all 72 clubs, every one
+    form guide and last result. Rendered for every club, every one
     hidden; the page script un-hides the ones being followed. Degrades
     piece by piece: no standings.json yet still gives a row with the club
     name and division, rather than no row at all."""
@@ -556,7 +681,8 @@ TICK_SVG = ('<svg class="tick" width="14" height="14" viewBox="0 0 24 24" aria-h
 def club_pill(c, names):
     # data-search adds the short form, so "wolves", "qpr", "west brom" or
     # "sheff wed" all find their club.
-    search = f"{c['name']} {short_name(c['slug'], names)}".lower()
+    # Markers add nicknames and initials: "spurs", "owls", "qpr", "swfc".
+    search = " ".join([c["name"], short_name(c["slug"], names)] + list(c.get("markers", []))).lower()
     return (f'<button class="pill" type="button" aria-pressed="false" data-slug="{esc(c["slug"])}" '
             f'data-search="{esc(search)}">{swatch(c["slug"], small=True)}'
             f'<span class="pill-name">{esc(c["name"])}</span>{TICK_SVG}</button>')
@@ -599,7 +725,7 @@ def build_manifest():
     return {
         "name": SITE_TITLE,
         "short_name": "Football News",  # what shows under the home-screen icon -- the full title truncates awkwardly there
-        "description": f"News from all 72 English Football League clubs. {SITE_ABOUT}",
+        "description": f"Top stories from all 92 Premier League and EFL clubs. {SITE_ABOUT}",
         "start_url": "./",
         "scope": "./",
         "display": "standalone",
@@ -819,7 +945,7 @@ PAGE_CSS = r"""
   .title-block h1 { margin: 0; font-size: 34px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; }
   .title-date { font-size: 15px; color: var(--muted); }
 
-  /* ---- My clubs / All 72 clubs */
+  /* ---- My clubs / Top stories */
   .segmented {
     display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 3px; padding: 3px;
     background: var(--seg-track); border-radius: 12px;
@@ -923,6 +1049,9 @@ PAGE_CSS = r"""
     display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
   }
   .row-source { font-size: 13px; color: var(--muted); }
+  .fan-tag { font-weight: 600; color: var(--text); }
+  .digest-note { margin: -6px 0 0; font-size: 13px; color: var(--muted); }
+  #older-btn { align-self: flex-start; }
 
   .more-stories { position: relative; z-index: 1; }
   .more-stories summary {
@@ -1056,7 +1185,7 @@ PAGE_JS = r"""
 
   // ---- state. Same storage keys as the previous design, so returning
   // visitors keep their clubs and categories. "mode" is new: My clubs
-  // vs All 72 clubs. Someone who already follows clubs starts in My clubs,
+  // vs Top stories. Someone who already follows clubs starts in My clubs,
   // which matches how the old page behaved for them.
   var CLUBS_KEY = "eflfeed.clubs", CATS_KEY = "eflfeed.categories", MODE_KEY = "eflfeed.mode";
   var clubPills = all("#picker .pill");
@@ -1113,10 +1242,16 @@ PAGE_JS = r"""
     var d = new Date(+p[0], +p[1] - 1, +p[2]);
     var today = new Date(); today.setHours(0, 0, 0, 0);
     var diff = Math.round((d - today) / 86400000);  // round: DST days are 23h/25h
-    if (diff === 0) return state.mode === "mine" ? "Latest for your clubs" : "Latest";
+    if (diff === 0) return state.mode === "mine" ? "Latest for your clubs" : "Top stories";
     if (diff === -1) return "Yesterday";
     return longDate(d);
   }
+  // Top stories opens on the two newest days; "Earlier this week" reveals
+  // the rest for this visit. My clubs always shows every day.
+  var RECENT_DAYS = 2;
+  var showOlder = false;
+  var olderBtn = $("older-btn");
+  var digestNote = $("digest-note");
 
   function render() {
     var sel = state.clubs, cats = state.cats, mine = state.mode === "mine";
@@ -1131,16 +1266,26 @@ PAGE_JS = r"""
     var anyVisible = false;
     clusters.forEach(function (c) {
       var clubs = (c.dataset.clubs || "").split(" ");
-      var clubOk = !mine || clubs.some(function (s) { return sel.indexOf(s) !== -1; });
+      // My clubs: everything about the clubs followed. Top stories: the
+      // build's pick of one story per club per day (data-top).
+      var clubOk = mine ? clubs.some(function (s) { return sel.indexOf(s) !== -1; }) : c.dataset.top === "1";
       var catOk = cats.length === 0 || cats.indexOf(c.dataset.category) !== -1;
       c.hidden = !(clubOk && catOk);
       if (!c.hidden) anyVisible = true;
     });
-    dayGroups.forEach(function (g) {
-      g.hidden = !all(".cluster", g).some(function (c) { return !c.hidden; });
+    var olderHidden = false;
+    anyVisible = false;
+    dayGroups.forEach(function (g, i) {
+      var has = all(".cluster", g).some(function (c) { return !c.hidden; });
+      var tucked = !mine && !showOlder && i >= RECENT_DAYS;
+      if (has && tucked) olderHidden = true;
+      g.hidden = !has || tucked;
+      if (!g.hidden) anyVisible = true;
       var h = g.querySelector(".day-heading");
       if (h && g.dataset.date) h.textContent = dayLabel(g.dataset.date);
     });
+    olderBtn.hidden = !olderHidden;
+    digestNote.hidden = mine;
 
     // Your clubs: only the clubs actually followed, in the order picked.
     ycRows.forEach(function (r) { r.hidden = sel.indexOf(r.dataset.slug) === -1; });
@@ -1206,6 +1351,7 @@ PAGE_JS = r"""
   });
   clearBtn.addEventListener("click", function () { setClubs([]); });
   function showAllClubs() { state.mode = "all"; save(); render(); }
+  olderBtn.addEventListener("click", function () { showOlder = true; render(); });
   ycBrowse.addEventListener("click", showAllClubs);
   emptyAll.addEventListener("click", showAllClubs);
   emptyCats.addEventListener("click", function () { state.cats = []; save(); render(); });
@@ -1340,6 +1486,11 @@ PAGE_JS = r"""
 """
 
 
+# Top stories shows this many days up front; older ones sit behind an
+# "Earlier this week" button. My clubs always shows every day.
+RECENT_DAYS = 2
+
+
 def build_html(articles, clubs, standings):
     today = datetime.now(LOCAL_TZ).date()
     names = {c["slug"]: c["name"] for c in clubs}
@@ -1347,8 +1498,10 @@ def build_html(articles, clubs, standings):
 
     feed_sections = []
     for i, (label, d, group) in enumerate(group_by_day(articles_sorted, today)):
-        rows = "\n".join(story_row(c, names) for c in cluster_by_clubs(group))
-        feed_sections.append(f"""<section class="day-group" data-date="{d.isoformat()}" aria-labelledby="day-{i}">
+        day_clusters = mark_top_stories(cluster_by_clubs(group))
+        rows = "\n".join(story_row(c, names) for c in day_clusters)
+        shown = i < RECENT_DAYS and any(c["top"] for c in day_clusters)
+        feed_sections.append(f"""<section class="day-group" data-date="{d.isoformat()}" aria-labelledby="day-{i}"{'' if shown else ' hidden'}>
   <h2 class="section-title day-heading" id="day-{i}">{esc(label)}</h2>
   <div class="group">
 {rows}
@@ -1375,7 +1528,7 @@ def build_html(articles, clubs, standings):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(SITE_TITLE)} &mdash; {esc(SITE_TAGLINE)}</title>
-<meta name="description" content="News from all 72 English Football League clubs, in one feed. {esc(SITE_ABOUT)}">
+<meta name="description" content="Top stories from all 92 Premier League and EFL clubs, in one feed with no ads. {esc(SITE_ABOUT)}">
 <link rel="canonical" href="{esc(SITE_URL)}/">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="apple-touch-icon" href="icon-192.png">
@@ -1386,7 +1539,7 @@ def build_html(articles, clubs, standings):
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{esc(SITE_TITLE)}">
 <meta property="og:title" content="{esc(SITE_TITLE)} &mdash; {esc(SITE_TAGLINE)}">
-<meta property="og:description" content="Championship, League One and League Two news in one place. Pick your clubs and it remembers.">
+<meta property="og:description" content="One top story a day for every Premier League and EFL club, and everything about the clubs you follow. No ads.">
 <meta property="og:url" content="{esc(SITE_URL)}/">
 <meta name="twitter:card" content="summary">
 <script>{HEAD_JS}</script>
@@ -1412,8 +1565,9 @@ def build_html(articles, clubs, standings):
 
   <div class="segmented" role="group" aria-label="Which stories to show">
     <button type="button" data-mode="mine" aria-pressed="false">My clubs</button>
-    <button type="button" data-mode="all" aria-pressed="true">All {club_count} clubs</button>
+    <button type="button" data-mode="all" aria-pressed="true">Top stories</button>
   </div>
+  <p class="digest-note" id="digest-note">One story per club per day across all {club_count} clubs, from the BBC, local papers and club sites. Follow a club to see everything about it.</p>
 
   <section id="your-clubs" class="section" aria-labelledby="yc-title">
     <div class="section-head">
@@ -1425,7 +1579,7 @@ def build_html(articles, clubs, standings):
         <p>Pick the clubs you follow to see their league position, recent form and news first.</p>
         <div class="btn-row">
           <button id="yc-choose" class="btn btn-primary" type="button">Choose clubs</button>
-          <button id="yc-browse-all" class="btn" type="button" hidden>Browse all {club_count} clubs</button>
+          <button id="yc-browse-all" class="btn" type="button" hidden>See top stories</button>
         </div>
       </div>
 {your_clubs_html}
@@ -1438,17 +1592,20 @@ def build_html(articles, clubs, standings):
     <button class="chip" type="button" aria-pressed="false" data-category="match">Matches</button>
     <button class="chip" type="button" aria-pressed="false" data-category="opinion">Opinion</button>
     <button class="chip" type="button" aria-pressed="false" data-category="news">News</button>
+    <button class="chip" type="button" aria-pressed="false" data-category="fan">Fan media</button>
   </div>
 
   <main id="feed">
 {feed_html}
   </main>
 
+  <button id="older-btn" class="btn" type="button" hidden>Earlier this week</button>
+
   <section id="empty-state" class="group empty" aria-live="polite" hidden>
     <p id="empty-text">No stories right now.</p>
     <div class="btn-row">
       <button id="empty-cats" class="btn btn-primary" type="button">Show every type</button>
-      <button id="empty-all" class="btn" type="button">Show all {club_count} clubs</button>
+      <button id="empty-all" class="btn" type="button">See top stories from all {club_count} clubs</button>
     </div>
   </section>
 
