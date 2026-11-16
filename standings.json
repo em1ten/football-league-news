@@ -1571,7 +1571,7 @@
         "gf": 6,
         "ga": 2,
         "opponent_slug": "burton-albion",
-        "opponent_name": "Burton Albion",
+        "opponent_name": "Burton",
         "home_away": "H",
         "date": "2026-11-14"
       },
@@ -1580,7 +1580,7 @@
         "gf": 1,
         "ga": 3,
         "opponent_slug": "stockport-county",
-        "opponent_name": "Stockport County",
+        "opponent_name": "Stockport",
         "home_away": "A",
         "date": "2026-11-14"
       },
@@ -1598,7 +1598,7 @@
         "gf": 1,
         "ga": 2,
         "opponent_slug": "wigan-athletic",
-        "opponent_name": "Wigan Athletic",
+        "opponent_name": "Wigan",
         "home_away": "A",
         "date": "2026-11-14"
       },
@@ -1715,7 +1715,7 @@
         "gf": 3,
         "ga": 0,
         "opponent_slug": "plymouth-argyle",
-        "opponent_name": "Plymouth Argyle",
+        "opponent_name": "Plymouth",
         "home_away": "H",
         "date": "2026-11-14"
       },
@@ -1742,7 +1742,7 @@
         "gf": 0,
         "ga": 3,
         "opponent_slug": "sheffield-wednesday",
-        "opponent_name": "Sheffield Wednesday",
+        "opponent_name": "Sheffield Weds",
         "home_away": "A",
         "date": "2026-11-14"
       },
@@ -2224,7 +2224,7 @@
         "gf": 2,
         "ga": 2,
         "opponent_slug": "crewe-alexandra",
-        "opponent_name": "Crewe Alexandra",
+        "opponent_name": "Crewe",
         "home_away": "A",
         "date": "2026-11-14"
       },
@@ -2233,7 +2233,7 @@
         "gf": 0,
         "ga": 1,
         "opponent_slug": "york-city",
-        "opponent_name": "York City",
+        "opponent_name": "York",
         "home_away": "H",
         "date": "2026-11-14"
       },
@@ -2242,7 +2242,7 @@
         "gf": 1,
         "ga": 2,
         "opponent_slug": "shrewsbury-town",
-        "opponent_name": "Shrewsbury Town",
+        "opponent_name": "Shrewsbury",
         "home_away": "A",
         "date": "2026-11-14"
       },
@@ -2251,7 +2251,7 @@
         "gf": 4,
         "ga": 2,
         "opponent_slug": "accrington-stanley",
-        "opponent_name": "Accrington Stanley",
+        "opponent_name": "Accrington",
         "home_away": "H",
         "date": "2026-11-14"
       },
@@ -2287,7 +2287,7 @@
         "gf": 1,
         "ga": 1,
         "opponent_slug": "northampton-town",
-        "opponent_name": "Northampton Town",
+        "opponent_name": "Northampton",
         "home_away": "H",
         "date": "2026-11-14"
       },
@@ -2296,7 +2296,7 @@
         "gf": 0,
         "ga": 1,
         "opponent_slug": "exeter-city",
-        "opponent_name": "Exeter City",
+        "opponent_name": "Exeter",
         "home_away": "A",
         "date": "2026-11-14"
       },
@@ -2314,7 +2314,7 @@
         "gf": 2,
         "ga": 0,
         "opponent_slug": "bristol-rovers",
-        "opponent_name": "Bristol Rovers",
+        "opponent_name": "Bristol Rvs",
         "home_away": "A",
         "date": "2026-11-14"
       },
@@ -2323,7 +2323,7 @@
         "gf": 1,
         "ga": 0,
         "opponent_slug": "tranmere-rovers",
-        "opponent_name": "Tranmere Rovers",
+        "opponent_name": "Tranmere",
         "home_away": "H",
         "date": "2026-11-14"
       },
@@ -2350,7 +2350,7 @@
         "gf": 0,
         "ga": 2,
         "opponent_slug": "colchester-united",
-        "opponent_name": "Colchester United",
+        "opponent_name": "Colchester",
         "home_away": "A",
         "date": "2026-11-14"
       },
@@ -2368,7 +2368,7 @@
         "gf": 4,
         "ga": 1,
         "opponent_slug": "swindon-town",
-        "opponent_name": "Swindon Town",
+        "opponent_name": "Swindon",
         "home_away": "A",
         "date": "2026-11-14"
       },
@@ -2377,7 +2377,7 @@
         "gf": 1,
         "ga": 0,
         "opponent_slug": "cheltenham-town",
-        "opponent_name": "Cheltenham Town",
+        "opponent_name": "Cheltenham",
         "home_away": "H",
         "date": "2026-11-14"
       },
@@ -2386,7 +2386,7 @@
         "gf": 1,
         "ga": 1,
         "opponent_slug": "salford-city",
-        "opponent_name": "Salford City",
+        "opponent_name": "Salford",
         "home_away": "A",
         "date": "2026-11-14"
       },
@@ -2395,7 +2395,7 @@
         "gf": 1,
         "ga": 4,
         "opponent_slug": "grimsby-town",
-        "opponent_name": "Grimsby Town",
+        "opponent_name": "Grimsby",
         "home_away": "H",
         "date": "2026-11-14"
       },
@@ -2413,7 +2413,7 @@
         "gf": 2,
         "ga": 1,
         "opponent_slug": "oldham-athletic",
-        "opponent_name": "Oldham Athletic",
+        "opponent_name": "Oldham",
         "home_away": "H",
         "date": "2026-11-14"
       },
