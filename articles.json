@@ -1,5 +1,76 @@
 [
   {
+    "title": "Charlton Athletic have landed a £500k masterstroke - Blackburn Rovers will be shocked",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZHhaSnlFeFNvVXNxbXlOcVRHWmZETDJKSWR4amprRzJNQms5S3RiMzJqb0xYeXR1MHV1QVgzRUs1U1hsT2ptQU1BNEd5djNCTG40cVotV3g0aWlHQUF1d1ZzbDBqckFDMl9VZ3lWNlR6ekFKZHI0YnNQLVcwQWF1Z0pnLXBNZ0ZRWlBKejd4a2c1MjlQamJwbXRuYmtIT09mM19raTNncG5zTHNwV2N3UVlDTm5RMlp6dGxSVlJhcnpnYUE?oc=5",
+    "excerpt": "",
+    "source": "Football League World",
+    "published": "2026-11-16T07:00:13+00:00",
+    "clubs": [
+      "charlton-athletic",
+      "blackburn-rovers"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "West Brom’s £2.5m summer recruit makes ‘change in mindset’ admission",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNM3BtWHJsS0tLb3RXVFNXUTFwY256RE9kQVVmcWVwOXViMGlyU1REczd5aFBCRzdfNFpLTEVhTFpzTnhwNk15R0NGQllPeGR1bzZxTkZmdDFnTVpsOHMzQnR3cWZqb0xWQ1ZoWldsSFRIMW0wWHRrN0xfZnpOVXRsWHlQS21uSEp0TG9mRTljcHJmNS13YlpsODMta3FEWkJzenp1akNuMFdVa2tCTjVZYzh2Yk05QkprRzUzaF81dDBaVnY3SzRCaU1hdktoN2VIMUJyVVZPWQ?oc=5",
+    "excerpt": "",
+    "source": "Express and Star",
+    "published": "2026-11-16T06:59:00+00:00",
+    "clubs": [
+      "west-bromwich-albion"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Operator adds two trains as new fleet delayed",
+    "url": "https://www.bbc.co.uk/news/articles/c5y4jn8ywrpmo?at_medium=RSS&at_campaign=rss",
+    "excerpt": "The Class 221 trains are being introduced following delays to EMR's new Aurora trains by Hitachi Rail.",
+    "source": "BBC",
+    "published": "2026-11-16T06:13:18+00:00",
+    "clubs": [
+      "chesterfield"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "‘Balance is important’ - Walsall boss Lee Grant outlines international break approach",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdjduUmRucV8xYl9NbG5UOTZwNURoaUFwellZd1NnVGNXaDZLd21aVC1LSV8zbWRVdmRQUTJVenNwRW8xZGNCSDdxamFyUjNRQUM5TUtxdHF3YTlSVkVQWHdGbXJmVFY0V1BubndjMHRjcHBaZDQzMlRfX1M5ZXlxQzVTalYydnFqRmptTDBtaGtJbDdkLUJYdEg3X0ZzRjNWQW1yQUZEUS0tdm1YcmRyblVKSUpqWG5PR2g5a2wtTmwyMm8?oc=5",
+    "excerpt": "",
+    "source": "Express and Star",
+    "published": "2026-11-16T03:30:00+00:00",
+    "clubs": [
+      "walsall"
+    ],
+    "category": "transfer",
+    "tier": "normal",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Crawley Town to sign former Arsenal goalkeeper as a free agent",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY0pDZFRZcUdKTmJiNHhjVHk3MnM3NncteWJSUGlack5xYUkxNWdDUnVCTVFMNzZ2WGFGdTkyd1FNeUNTcDl4VkhrTnYtdkduMlBvb0NrcU51ZUpldUZOdXZ6dDdMUHlqNU1fY24xc09tcE5mNXJHTWhlaGV1LXRHb1pKaWRRWE1kcmZzSUVoUVVMMlVCRENjYmZEWVlFSnI5cmdXV3lIdw?oc=5",
+    "excerpt": "",
+    "source": "now.arsenal",
+    "published": "2026-11-15T23:09:12+00:00",
+    "clubs": [
+      "crawley-town"
+    ],
+    "category": "transfer",
+    "tier": "normal",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
     "title": "The Challinor Owls Take Shape",
     "url": "https://talkingwednesday.podbean.com/e/the-challinor-owls-take-shape/",
     "excerpt": "The SWFC Manager Dave Challinor has his first league win! Big news for Talking Wednesday, we are now doing merch! Check out - www.dexteritybox.com - NEW CLOTHING! FOLLOW THE TWITTER - https://twitter.com/talkingwed...",
@@ -12,20 +83,6 @@
     "tier": "fan",
     "fan_kind": "podcast",
     "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Crawley Town to sign former Arsenal goalkeeper as a free agent",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY0pDZFRZcUdKTmJiNHhjVHk3MnM3NncteWJSUGlack5xYUkxNWdDUnVCTVFMNzZ2WGFGdTkyd1FNeUNTcDl4VkhrTnYtdkduMlBvb0NrcU51ZUpldUZOdXZ6dDdMUHlqNU1fY24xc09tcE5mNXJHTWhlaGV1LXRHb1pKaWRRWE1kcmZzSUVoUVVMMlVCRENjYmZEWVlFSnI5cmdXV3lIdw?oc=5",
-    "excerpt": "",
-    "source": "now.arsenal",
-    "published": "2026-11-15T22:09:36+00:00",
-    "clubs": [
-      "crawley-town"
-    ],
-    "category": "transfer",
-    "tier": "normal",
-    "division": "league-two",
     "scope": "club"
   },
   {
@@ -368,6 +425,21 @@
     "scope": "club"
   },
   {
+    "title": "Accrington Stanley vs Salford City",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU2F6am0zWHB3dERRc0NZRHZYVTRQQzJxT255aDc0dnl4SkhETDNwcWo1QVRLbGJHd3NuV3dKZm9iVDRKVEdOUURwUXdlWE9uYy1vVm02aXZxWWtkWEdWdDhLLXE1clZsbHdDOFdtRmtCUklTMFNtMmNoN0Y2ZWZncy1KMU9SNVU1U3VUcmp4UngxMndKck8ydU1ydUR3ajg?oc=5",
+    "excerpt": "",
+    "source": "beIN SPORTS",
+    "published": "2026-11-15T12:11:13+00:00",
+    "clubs": [
+      "accrington-stanley",
+      "salford-city"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
     "title": "Major Sheffield Wednesday v Plymouth Argyle flashpoint causes big online stir",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRmhvcUVMUXFZbGR4TDZ1VW5ERjBHQTNMaV9ibTBrNUYtUGoyTzduM2JrelVkRlF3ZV9WSFV3YWVLcGljZzUxbkF4LW9aRFZuODJyblh3UGg0aUVkRmtXUDZMazZsTGtOWDVVMG90RjdtN2dvSzFidHdITzlIUFBneXhnTUk1TjJNb0lYNzZTY2VDUmljeDJySkF6cWFLeXVfV1c2MWlKeGZKYmRMYkow?oc=5",
     "excerpt": "",
@@ -379,6 +451,21 @@
     ],
     "category": "match",
     "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Luton Town vs Peterborough United: EFL Trophy stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5vOWEzRDczX18yZlhsWDNURzROSUxqWnVBTnlXeTJ4U0JHMEoteXpLT05MN1NzY1oyOV9zUkRNa1kwMFV3eV9XQmJEV3BaQXN5NUY5Nlg1bFhoazVTZVNkYkdLeTVEZw?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-11-15T12:05:00+00:00",
+    "clubs": [
+      "peterborough-united",
+      "luton-town"
+    ],
+    "category": "match",
+    "tier": "trusted",
     "division": "league-one",
     "scope": "club"
   },
@@ -609,6 +696,21 @@
     "category": "opinion",
     "tier": "normal",
     "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Fleetwood 1-0 Tranmere",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5aTW0xWlV1U3lTWVlnM3JXYm5FUGNNUUl5Q3Zab2Z6Q2tBQzRYX1pQSktfVHBueTJBNWR6ZkdZNThDeVBsU2RReDhGaFRQUGJrMUg4Vi1XOTh5VFJ0S1RrU2pic0QxeXhzSmVocHlkNHp5dnlPOFZIaVptaw?oc=5",
+    "excerpt": "",
+    "source": "Google News",
+    "published": "2026-11-15T09:32:08+00:00",
+    "clubs": [
+      "fleetwood-town",
+      "tranmere-rovers"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-two",
     "scope": "club"
   },
   {
@@ -945,7 +1047,7 @@
   },
   {
     "title": "Millwall’s Top 3 players of the 2026/27 season so far, including seven-figure summer signing",
-    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcG4zNkFwUE04My1aUnlCQ01YVElWMTJZeXVzYzRrajVSYTVrY2xraldxc2pwbWJOWGtBdmJqZmlKWlZXVTF0YWtYYnRyel9vM0ZLNHJLZl82U3ZRVkttamp0bExYd1psZG9BcEhQb1F0TXA4NmE3SFIzX3ZLVm85NVVzZ0RpN0d1V2t4QVQ2MDBtZjRzWXZlNlBtX2FJMVJJN3JjVXFPQW5NczdCYS03czZLMWpnNnhxSk03bzJieXRLOFBhSnpvc05ySUkwclBTdGtiUzNPT2d6MGFZ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hN3dEbmxHcWpnVk5yME1RRFhiclFQMHZ5d2dkb1NDaVd4eXl5V09Ia2lERzlYb0RXalQwMTNuLXBQUDFsZ1hveXZ4S0Z4ZzB5UnpBamNnNlhTb2hhZmFqVDQycmN3ZFlBNS03bDBGUmo3RWRt?oc=5",
     "excerpt": "",
     "source": "The72",
     "published": "2026-11-15T07:30:00+00:00",
@@ -1181,21 +1283,6 @@
     "clubs": [
       "cheltenham-town",
       "exeter-city"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Fleetwood 1-0 Tranmere",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5aTW0xWlV1U3lTWVlnM3JXYm5FUGNNUUl5Q3Zab2Z6Q2tBQzRYX1pQSktfVHBueTJBNWR6ZkdZNThDeVBsU2RReDhGaFRQUGJrMUg4Vi1XOTh5VFJ0S1RrU2pic0QxeXhzSmVocHlkNHp5dnlPOFZIaVptaw?oc=5",
-    "excerpt": "",
-    "source": "Google News",
-    "published": "2026-11-14T21:31:58+00:00",
-    "clubs": [
-      "fleetwood-town",
-      "tranmere-rovers"
     ],
     "category": "match",
     "tier": "normal",
@@ -8461,162 +8548,6 @@
     ],
     "category": "news",
     "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "West Ham and Wolves want Ryan Naderi - can they bring in the Rangers star?",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QTGRFdGR3OWU0N01hM1RkYnNFeHoyU1VOWnd3Zll5NVZ4ZDdkMGcxcmFETGN0Q0pXVGFKb19YcW0tazc4Ym9kamtSX2Z4eDRMZ2xjSXdBR2JHdXJfNlhaQlVxajBMem56Y0g2QWxBZHMxQmlDcms5c3RB?oc=5",
-    "excerpt": "",
-    "source": "The72",
-    "published": "2026-11-12T06:45:00+00:00",
-    "clubs": [
-      "west-ham-united",
-      "wolverhampton-wanderers"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "‘Even Cristiano Ronaldo’ - Wolves striker earns praise after finding scoring form",
-    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQUzZ3S2x0d0h1Zzd4ZUQtNEZjaWdhdHcxMzQ4cHI1N2laR2JfRFl3NHhzZDlnY2RpT2tBUHRvZUxFa2ktS29hSnFlWEROVWJRTV9UalozVEw0SXJGeTZUM1JiVzkzOS1QQURiaDVpVExPdERRc1I4VlVGU3hHbzZHdmJRX1duLWkxMlZiOUQ2UjhHSUtETTRmLUhFaDlabVBiOHFjMkN1US0tOGw3Wm1BaEw2dTFlYlBuSldqWENRd2llUHdaTVgyT21TNEVSYzR2bHdxc2lLLVBOTmstX3dIdlIzTUFPUjQ1QzBJa1JtV2RFUVhBMjNqT1JYQU83X00?oc=5",
-    "excerpt": "",
-    "source": "Express and Star",
-    "published": "2026-11-12T06:30:00+00:00",
-    "clubs": [
-      "wolverhampton-wanderers"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Brad Friedel reveals his big Championship dream for Shrewsbury Town",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORVB6UzNFZkZ3Q1M4ZjRJbFBXN1dUeE1nLUZCb25sSXM0WVYtUXFVSlc1aGNBLWU5b0F3a3V4LVdYNVhTRWx1VFo5czhxcXUyd3JscnV0cVFMN2x2eE96NnhzeVUyb0FOekQwSTNlYlp5dnhscE1xYVpKazV2ekx5dk1xSEVKR2dBRklySGJkM0s3emxpVXFMOWpQalZFSnRHVlVfQi1BNnh4NkljckFGM2pRSGR2RlY4VzRPMWdTZkV0bEVCX2E2WDhtQ3BHS3pFaXA4QkJDbw?oc=5",
-    "excerpt": "",
-    "source": "Shropshire Star",
-    "published": "2026-11-12T06:30:00+00:00",
-    "clubs": [
-      "shrewsbury-town"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Andri nominated for the Championship's Player of the Month!",
-    "url": "https://www.rovers.co.uk/news/2026/november/12/andri-nominated-for-the-championship-s-player-of-the-month-/",
-    "excerpt": "Rovers’ in-form frontman Andri Gudjohnsen has been rewarded for his October exploits by being nominated for the Sky Bet Championship’s Player of the Month award. The red-hot Iceman scored five goals in the month just...",
-    "source": "Official site",
-    "published": "2026-11-12T06:00:00+00:00",
-    "clubs": [
-      "blackburn-rovers"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Kim Hellberg And Will Lankshear Nominated For Monthly Awards",
-    "url": "https://www.mfc.co.uk/news/2026/november/12/kim-hellberg-and-will-lankshear-nominated-for-monthly-awards/",
-    "excerpt": "Kim Hellberg and Will Lankshear have been nominated for the Sky Bet Championship's monthly awards for October. Boro won four and drew one of our five games in the month to strengthen our position in the table. After...",
-    "source": "Official site",
-    "published": "2026-11-12T06:00:00+00:00",
-    "clubs": [
-      "middlesbrough"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Blackburn Rovers star recognised for fantastic goal-scoring form",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOLXE0TVhBMVVBc2tHZkJXLTA3a08yb1lYNVA4bEh3YXQ2QTJ2cXRRSlNKcm9TMnJiUmJ6MzYxMEpQMnlldFVzUGNxamRhcmx3cy1SR1kybGQ2eWRid1RGNTJkUjlCS1RRdHo1RjVvTkNJM3pwaUxOMHJrVWtrWnl2WFREV0Y2dElsRjhha3BaZWJIV2N1aEt4TXJLc0JQdlBYU2Fj?oc=5",
-    "excerpt": "",
-    "source": "Lancashire Telegraph",
-    "published": "2026-11-12T06:00:00+00:00",
-    "clubs": [
-      "blackburn-rovers"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Sixfields To Help Stage The Big Sleep Out 2027",
-    "url": "https://www.ntfc.co.uk/news/2026/november/12/sixfields-to-help-stage-the-big-sleep-out-2027/",
-    "excerpt": "The Northampton Hope Centre has announced the Big Sleep Out 2027, a county-wide night of fundraising and awareness for people experiencing homelessness and hardship across Northamptonshire. The event is being delivered...",
-    "source": "Official site",
-    "published": "2026-11-12T05:56:00+00:00",
-    "clubs": [
-      "northampton-town"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Wigan Athletic vs Barnsley",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdmR0N0wwci12TFl5c2haMUhRaGdYaUtXWlpLcHZUdnJEck9MNjRra1k5UnY2UDJRandrZXRIaTk5Z0hBNllOTWVfT3NkekhZTzE4YTRpcmVhLTdUOWx6RnVJWHpoS1liM2FUZWpYMEFCWUFGc1pmRmJqaGJPa0Y0OEVZNXBoZGZLUmlWX3JmeUxsUQ?oc=5",
-    "excerpt": "",
-    "source": "beIN SPORTS",
-    "published": "2026-11-12T05:02:02+00:00",
-    "clubs": [
-      "wigan-athletic",
-      "barnsley"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "In-form Aaron Collins making Bolton Wanderers think twice about transfer value",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMVFhVXVWcUJqRG5fLTQtUXBrVTkyLUlsSHRzdGxkYUxFQUdBN25aSlZuVm1aS0NGMUVtXzNQTUFibTVFTkRpdTJsNTVVSjBZOEh6ektlQklCWnNZSXNtOFQtVHdKaHlwRHVzVThfdExMblpuZWlGTzQxdF9YV1E3LWlBX1I4amhzaF9QV0JZTHVRMV8wLVRwRTdBbw?oc=5",
-    "excerpt": "",
-    "source": "The Bolton News",
-    "published": "2026-11-12T05:00:00+00:00",
-    "clubs": [
-      "bolton-wanderers"
-    ],
-    "category": "transfer",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "West Ham Sack Nuno Espirito Santo After Poor Championship Start",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZVA0UHI3UWNBOTJGQ20tUldGU1ZTamxpQ19NbFR5N21LSUVuZjNrV3BqQkl3TzRqbEpDbGFNcl9SWmRQSDJQQzByTlNJM3l6OTFtal96Zm94Q0VaakozZThIVTBwOGx3YUQ5TU53dUhYX1k5TmxMVVlLUmdPQW1XaVBEazNHWll3QzVTU3BpQQ?oc=5",
-    "excerpt": "",
-    "source": "LEADERSHIP Newspapers",
-    "published": "2026-11-12T00:49:48+00:00",
-    "clubs": [
-      "west-ham-united"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Wrexham A.F.C. owners Ryan Reynolds and Rob McElhenney lose another key figure as fresh questions emerge",
-    "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNSDFIT185N3hLbDloM2laM2lzZXI4Z1l1cnhKbDVHT2xEZmZHbHdqbmtzcWNCNlItcElHSDR3VjdvNWFnUUxJU19TQTJRQ0N3THl6bGMyZ2lodWlKdWRvWWk5XzRJQ1NGRHA4eUM0QV96WTJTV3JwWkRKcDAtLUdGUWFjSmQ5TWdtRmxLQVowRTRoRFB2Uk14SzVuUGEtUFl2SlFWLTBDaFFGRzBXWVlQaDhfemRZWEtvdHRxYVJzdkRNLW9EMWVTek51NE5VMXlEd1BPVXdacTlWNTYzc2FkNjRZZVc3S1lOQnpJcERKU2hmbS1fX3A1ZU9SbjRNc183UFRrRmFpbFY4UjdvMXEwSkpJR0JxN2lqeDJZZ1RRNnNyUWxRRXZwQlJJLWRfT05ta01KZWxHdFBCTTU1U3cxbU96ZGFmcUtJdEV4QtIB0gJBVV95cUxNazZfV29NX2M0bi1YaDhFTk5UVVBKWTJBQ0I3NklMNnVpcHJxTElnVWd1MmNrTlVVV3FabHIyQlQ2dU52eEUzZ2x6SnByWlY4c2hCSjJ2amtKNjFMelZDR3dkbmhvRnAtbTdxMFRXZV9nMmtUTVJkU00zSVdZQy1sZGdNWklBQW1TcUxnOW9oSXVWTndtS2FScFdfdWpadXBsRFRPeTlRYnRxVUEyX19aWkV0Yl83WkpjRXIyRzE4dnNNMURuX3RDem5hbzMwLXIxRkpneGVpQm1oY3pscWFMQlpvWnR4TE9fb0FxaVNzNFRkeVE5TThWVktOSXpiV1lDTzFjTDNvc21fQlUwRjNrZFJWLUE2Uzh2UzJHcWJiSGtFWUN6Q1BzOHJkc2xSSmp5TVctamNjRFhEaGx3OEZGYWl2ek9jTklSeXh0bzZOSUlxZw?oc=5",
-    "excerpt": "",
-    "source": "The Times of India",
-    "published": "2026-11-12T00:32:00+00:00",
-    "clubs": [
-      "wrexham"
-    ],
-    "category": "news",
-    "tier": "normal",
     "division": "championship",
     "scope": "club"
   }
