@@ -1,5 +1,91 @@
 [
   {
+    "title": "Luton Town Finances 2024/25",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tY2xxTWNOSjQ3U0xsclJUOUtJYVppd1RGdkNDYjB3WVRxV2FPZEUtbW9mYlBPU2hsc2oxelZvZ2NjLVE1Q2V0QzkzVWx6aGl5VXNMQ2JxajRrX0NtY1JPUk51UmxXQnp2aXlDcmh3?oc=5",
+    "excerpt": "",
+    "source": "The Swiss Ramble",
+    "published": "2026-11-19T07:45:36+00:00",
+    "clubs": [
+      "luton-town"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "How Premier League's big six keep getting richer",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6x28e93zv3jo?at_medium=RSS&at_campaign=rss",
+    "excerpt": "Ten games into the Premier League season, and the top five places are dominated by big six clubs. It should come as no surprise as they have a growing advantage of hundreds of millions of pounds.",
+    "source": "BBC",
+    "published": "2026-11-19T07:38:22+00:00",
+    "clubs": [
+      "arsenal"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "premier-league",
+    "scope": "club"
+  },
+  {
+    "title": "Oxford United Team and Injury News for Visit of Wycombe",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS0IxUVNmN2R1NGZsQXh2QjF3OHlOQ3BBdUJod3ZRM2swNGtWNGRTb19yU2h4QUlvWDdwbjB1MlpmR2JIeUttdlozYkQyemVZR3BtZGc0TmpaUmJlOWRoQ1RPNV9aSEswSFFsa0RjNUw4S0x5ck5ld284VThicVlKX1dwSGlwNVpLenZMMmZxVVpMQXZZbFB1STBwN05HdkRWNzViNmNSaHk?oc=5",
+    "excerpt": "",
+    "source": "Last Word On Sports",
+    "published": "2026-11-19T07:14:21+00:00",
+    "clubs": [
+      "oxford-united",
+      "wycombe-wanderers"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "From Forest fringes to Glasner's go-to guy - the rise of McAtee",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ck98z842gp11o?at_medium=RSS&at_campaign=rss",
+    "excerpt": "How has Nottingham Forest midfielder James McAtee gone from the bench to indispensable at the City Ground?",
+    "source": "BBC",
+    "published": "2026-11-19T07:14:11+00:00",
+    "clubs": [
+      "nottingham-forest"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "premier-league",
+    "scope": "club"
+  },
+  {
+    "title": "'I kept coach Bennell's abuse secret until mum died'",
+    "url": "https://www.bbc.co.uk/news/articles/cqlyk93rdw8po?at_medium=RSS&at_campaign=rss",
+    "excerpt": "David Lean, abused by paedophile coach Barry Bennell, says he did not want to burden her.",
+    "source": "BBC",
+    "published": "2026-11-19T06:41:26+00:00",
+    "clubs": [
+      "crewe-alexandra"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "\"It's no secret\" - Wigan Athletic urged to make Bradford City transfer happen in January",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdUYtN2F6c2h5TUg3RlpKUjVITTZMT0VhYjJOa0pJcDBOcXBraXdBd2pYb1FEYjBGYndTWHJzNm05S1JkOUI0YUpVajJGVGtTcVZPOERXNGV3VVlwQUpiZGltNmhocW9tenZTYlZuZHptbWc1MDJwd3BWRHZ0dzhSbng0Rlhsc0pheldRRHo3dGw2SFk4NHVZSk9RYVBkanhPT1VLZVpn?oc=5",
+    "excerpt": "",
+    "source": "Football League World",
+    "published": "2026-11-19T06:30:13+00:00",
+    "clubs": [
+      "wigan-athletic",
+      "bradford-city"
+    ],
+    "category": "transfer",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
     "title": "Preview: Plymouth Argyle vs Peterborough",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTUszT0xWMU5rYXRCQ1RGT3N3RnpwUHU3LU4teG9RVkZ3V3BBem9DUkx6dUJRWl9PZ3hBRzNBRzV6TWEtV3g4OXJPM0stUk9XSjlSVFVNOHVWVkItS2E0bGNRd0lRRlhYV1F1M1JXSEYwb1BvWnpPQjhDV2JoTG43OXYyamJpTFdFVnJ3UDJn?oc=5",
     "excerpt": "",
@@ -72,6 +158,20 @@
     "scope": "club"
   },
   {
+    "title": "Five EFL talking points: Bradford City takeover? Vitor Matos leaves Swansea City and Scott Lindsey praises York City players",
+    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOVUVjS1hyaEJza1ZzQ0tlQjlUS0ZnRnY2R3gzR1hZSThLbUxqLVQ1c0FtWDJydzM2UG1rNzlXLWZXMDRici1JMXQyakVOSTl2bkwwZkx0d3ZwWHVtYVhCd1VRU1VzNXhvU1hWUFYzbFhaQ1dhUXF5MFlwQjJWR01XeS1fTVpZWnhsa3hydkotN0RIYzhOM0Y1bEhfcl9Kc3Y5Q1g0YmtrRW80eXlMeW1sbWhJWmZXUXZ1VkRRTzRPNmlUejBoU1NYU29fdVQ0Tk1Rb2xCbmhEN2tfb094Ny1tUjlOT0JHMHlGMG9TRGR2SENFeFhaZ2s0cHJNSjA5ZDdNTHR3?oc=5",
+    "excerpt": "",
+    "source": "The League Paper",
+    "published": "2026-11-18T21:30:41+00:00",
+    "clubs": [
+      "bradford-city"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
     "title": "Ukrainian FA to blame for failed drugs test - Mudryk",
     "url": "https://www.bbc.co.uk/sport/football/articles/cr930l71z5ejo?at_medium=RSS&at_campaign=rss",
     "excerpt": "Tottenham's on-loan Chelsea winger Mykhailo Mudryk says he blames the Ukrainian Association of Football for his failed drugs test and subsequent ban.",
@@ -83,20 +183,6 @@
     "category": "transfer",
     "tier": "trusted",
     "division": "premier-league",
-    "scope": "club"
-  },
-  {
-    "title": "Five EFL talking points: Bradford City takeover? Vitor Matos leaves Swansea City and Scott Lindsey praises York City players",
-    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOVUVjS1hyaEJza1ZzQ0tlQjlUS0ZnRnY2R3gzR1hZSThLbUxqLVQ1c0FtWDJydzM2UG1rNzlXLWZXMDRici1JMXQyakVOSTl2bkwwZkx0d3ZwWHVtYVhCd1VRU1VzNXhvU1hWUFYzbFhaQ1dhUXF5MFlwQjJWR01XeS1fTVpZWnhsa3hydkotN0RIYzhOM0Y1bEhfcl9Kc3Y5Q1g0YmtrRW80eXlMeW1sbWhJWmZXUXZ1VkRRTzRPNmlUejBoU1NYU29fdVQ0Tk1Rb2xCbmhEN2tfb094Ny1tUjlOT0JHMHlGMG9TRGR2SENFeFhaZ2s0cHJNSjA5ZDdNTHR3?oc=5",
-    "excerpt": "",
-    "source": "The League Paper",
-    "published": "2026-11-18T20:36:07+00:00",
-    "clubs": [
-      "swansea-city"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
     "scope": "club"
   },
   {
@@ -233,6 +319,20 @@
     "title": "Ramsey hopes Oxford embargo is close to being lifted",
     "url": "https://www.bbc.co.uk/sport/football/articles/cr15ez0qewy9o?at_medium=RSS&at_campaign=rss",
     "excerpt": "Oxford United head coach Aaron Ramsey hopes the transfer embargo the club is under could soon be coming to an end.",
+    "source": "BBC",
+    "published": "2026-11-18T18:09:04+00:00",
+    "clubs": [
+      "oxford-united"
+    ],
+    "category": "transfer",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Aaron Ramsey: Oxford United boss hopes transfer embargo is close to being lifted",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9EZFkxUU9saFlhOVppTjRPU3JJUElaQ01OUnAtck43Ui1qWlJCUkItWjB3VWR4RDdUX3lpRjFURHNKNndFQ2x2dEhGbmlKbDltQTI0VURMSng0ZzdVVFJyNWtzLXAxbW1FUnlj?oc=5",
+    "excerpt": "",
     "source": "BBC",
     "published": "2026-11-18T18:09:04+00:00",
     "clubs": [
@@ -409,20 +509,6 @@
     "category": "news",
     "tier": "trusted",
     "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Match Preview: Oldham Athletic (A)",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tbWNPdHp5VVRwY2QyVXBlZ1NNb21jNXo5THZBS1BYb3czN25hT0ZrOXJCcGJzZUxCbU9FRVdxem5Ea1JHdE5lMUJzM2FXLXJSZU5XRExqMmVRLVU?oc=5",
-    "excerpt": "",
-    "source": "Exeter City",
-    "published": "2026-11-18T16:39:52+00:00",
-    "clubs": [
-      "oldham-athletic"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "league-two",
     "scope": "club"
   },
   {
@@ -922,9 +1008,9 @@
   },
   {
     "title": "Reading FC star striker Jack Marriott helps launch EFL sticker collection",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWEFWTnRfakhNeWZSUTdaT1k5NmN1SEs4ZnJlQW90ZnEyU0VId3dsUXdkSTlHSzBvN0pmNjByVUVGYjZEeF9TcVFOSDM5V3Azb0VpRzVwU041SnNYS0NNMnUtdVhvZUppMndYTWpZTVh5aGIwYXBWbTE5ME5Yam5vaFBB?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWk43UW9idHBlOWVRWVlZSFBRRnRTOVF3alRfTGNvUkxDZmRWenY0Wm0xMmpIeHM1Wkx0MDdwTDNoeGtUQlZZWFRkX1JPZnl6WGdFQTRkdkxGYXlCQ2NxX3hIZWFMRmhMTUdLQWo2R1VteDhvOGZXLS1HMlhsQ3pJRGtpSENXd1lCMGRPMEdpZ2FaR3VVYjBzOTFJRGRWV2R2UGwyWnctdDU?oc=5",
     "excerpt": "",
-    "source": "Yahoo",
+    "source": "Reading Chronicle",
     "published": "2026-11-18T13:08:26+00:00",
     "clubs": [
       "reading"
@@ -1177,6 +1263,20 @@
     "scope": "club"
   },
   {
+    "title": "Match Preview: Oldham Athletic (A)",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tbWNPdHp5VVRwY2QyVXBlZ1NNb21jNXo5THZBS1BYb3czN25hT0ZrOXJCcGJzZUxCbU9FRVdxem5Ea1JHdE5lMUJzM2FXLXJSZU5XRExqMmVRLVU?oc=5",
+    "excerpt": "",
+    "source": "Exeter City",
+    "published": "2026-11-18T11:30:11+00:00",
+    "clubs": [
+      "oldham-athletic"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
     "title": "'We are exploring options' - Wycombe Wanderers provide update on terrace",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNalZucklpdlhrdG5SdmxOQnZvSFJzZ0ZOZENydW1EbFEyME45ZWEtcXhoejZZMW5LTzVTYzhOemdzQnF4NGo4cEF2aDhaTVpWa0lRd3JTUU5sZm05VFBrWGFQUWtmU3FnTE1OUXJONEdZbUJWd3dLaks4VjhpZ3RBTk1MNGcxQmhib2VTRW5HRkRVWVlleXc?oc=5",
     "excerpt": "",
@@ -1230,6 +1330,20 @@
     "category": "news",
     "tier": "trusted",
     "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Up Next | Swindon Town",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83eUJhQUk0RGNvWDJCMWFnT2ozZElSbVBFa2dOTDl0ZU9oMUVVc0gzX3AwWjRXcWVtOVNWWThQdnVUTnN1cVBwWHdMRmZEQzVKZ25UUE1DUHc4MnVkR2VaS2dOSmlLamc3?oc=5",
+    "excerpt": "",
+    "source": "Newport County",
+    "published": "2026-11-18T11:10:31+00:00",
+    "clubs": [
+      "swindon-town"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-two",
     "scope": "club"
   },
   {
@@ -1601,20 +1715,6 @@
     "scope": "club"
   },
   {
-    "title": "Wolves must sanction Newcastle United transfer to fix problem",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTHZweThVY0hodjVUbDZlR0RGc2N4VUR6cGNtWmFDWFBIelRZdVdENFgtZE1XQTl0R2VSNjJHNFhVV3pLakExc1lYZWFsd1NlbVFvcWhlZndXYVhHTG1GcUE0X1o4cG5UX2VGZ1VFMzQ3S1NadjE5SmdNUmhDRnVkR3VhLUV2bkU0QldSbGRyZE1MNkpX?oc=5",
-    "excerpt": "",
-    "source": "Football League World",
-    "published": "2026-11-18T09:00:13+00:00",
-    "clubs": [
-      "wolverhampton-wanderers"
-    ],
-    "category": "transfer",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
     "title": "'Very excuse-filled' - Pundit fires Ian Evatt sack warning at Blackpool",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX1JlWjl0cWkxY21SdG5WdEVGcEg3d3NKbm50T2pkZm1USXBha0pnMGFaWUFQUWZtdlZVZ1ZoQUdDZng0QWo3QlJjT0JsRm85cDVENUozS1EwYWIxaVZ5ei1PeW5rcVdCX3RZNnkyX2U2SHg4TWpXT3Zqb3RJbFRFOXVFbVZGVnZNbjdB?oc=5",
     "excerpt": "",
@@ -1626,6 +1726,20 @@
     "category": "news",
     "tier": "normal",
     "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Wolves must sanction Newcastle United transfer to fix problem",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTHZweThVY0hodjVUbDZlR0RGc2N4VUR6cGNtWmFDWFBIelRZdVdENFgtZE1XQTl0R2VSNjJHNFhVV3pLakExc1lYZWFsd1NlbVFvcWhlZndXYVhHTG1GcUE0X1o4cG5UX2VGZ1VFMzQ3S1NadjE5SmdNUmhDRnVkR3VhLUV2bkU0QldSbGRyZE1MNkpX?oc=5",
+    "excerpt": "",
+    "source": "Football League World",
+    "published": "2026-11-18T09:00:13+00:00",
+    "clubs": [
+      "wolverhampton-wanderers"
+    ],
+    "category": "transfer",
+    "tier": "normal",
+    "division": "championship",
     "scope": "club"
   },
   {
@@ -1739,20 +1853,6 @@
     "category": "news",
     "tier": "normal",
     "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Up Next | Swindon Town",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83eUJhQUk0RGNvWDJCMWFnT2ozZElSbVBFa2dOTDl0ZU9oMUVVc0gzX3AwWjRXcWVtOVNWWThQdnVUTnN1cVBwWHdMRmZEQzVKZ25UUE1DUHc4MnVkR2VaS2dOSmlLamc3?oc=5",
-    "excerpt": "",
-    "source": "Newport County",
-    "published": "2026-11-18T08:30:30+00:00",
-    "clubs": [
-      "swindon-town"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "league-two",
     "scope": "club"
   },
   {
@@ -7446,265 +7546,6 @@
     "category": "transfer",
     "tier": "normal",
     "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "West Brom must hate what’s going on at Wrexham right now for one clear reason",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTkkxWU5tTzlhcE1UYlBlUi1XTlpwcktfdlRfc1pScUIzaHRuVEN5RUoydURfa3ZtOVZyaDk2UkFKWDhVeHQwb05GY3JiWUZxTjZDZVdjSEdGNkg0U2FsYnNrN0Q1cUV2UGMzUzlSRXVxSFZ2c2lYbzJFX01hWkkxdGlRUGdFVzNPbUVUOGFiT19xbEpjaDY0a3hCN1hUTDVTZlhhcFY1Q2RpazNFSHBSTw?oc=5",
-    "excerpt": "",
-    "source": "Football League World",
-    "published": "2026-11-15T07:46:13+00:00",
-    "clubs": [
-      "west-bromwich-albion",
-      "wrexham"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Max Dean in: How Bolton Wanderers’ dream January transfer window looks",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQmZfMXBRX1Zfd0owb1Vlc29KVWprZEI5aHpadGdtckFlVGZXTXNjN3Y3WS1YcGFuUk9yV0RkQVlwSi16TXVKT2VZdWRnS3RiU0R3OTVrclg2Rlk1S0lxd0I0QjF0ZWlqR0FCRUdQTTloYlpDS1N4VTJBeWRSYUZhSnotSTdLU24zaGE4WWR6enJsN0NUTTZDOEZDMFh2ZFpYeHJtd1AxNkplWkotWGZ5LTh3VjlZdmc1M09F?oc=5",
-    "excerpt": "",
-    "source": "Football League World",
-    "published": "2026-11-15T07:46:13+00:00",
-    "clubs": [
-      "bolton-wanderers"
-    ],
-    "category": "transfer",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Mark Robins faces brutal Stoke City January call - £10m forward could leave",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUUtrNUNHZ2ppalQ0WnppTnhrUmR5Q1J2QmVGVVg5VkdSd2ZpeXZfMXZzNGdOYzlMc1VwUVRTZlNXcDF2OEs4Zmg0aVhmVTA3SUpIdUVXWER0MzN1RVNwc19KdWtmRjBqWUI5U0ZWd21SQkNET2QwY1pGSElicHhKc2UxTG9pcHNXWmZ2N0EtUGR6b1JUU0I0VHZySzhzejZzdnAyVER6bWNQUXc?oc=5",
-    "excerpt": "",
-    "source": "Football League World",
-    "published": "2026-11-15T07:30:13+00:00",
-    "clubs": [
-      "stoke-city"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Birmingham City should beat Middlesbrough to Leeds United target after Chris Davies admission",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYUFkdUZyeHpKdGs0bFNiQU9XZVVrQ290eV84VEJ0bVVGRXdDaXNjOVRhX29mek5rd1o4Z3dCalpsSGZ6RUtvd3NYQlhORVBKWDl2cFRQTzViUnJHQXM4OXUtVkFnVVh4Szg2clMzYV95LVF5T1pIdFBFV3JsTlV3bW9QY1hpNzBWNXlqeWFnNkdFN1BmRGx6d04xaTd1WVZtdXJj?oc=5",
-    "excerpt": "",
-    "source": "Football League World",
-    "published": "2026-11-15T07:30:13+00:00",
-    "clubs": [
-      "birmingham-city",
-      "middlesbrough"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Millwall’s Top 3 players of the 2026/27 season so far, including seven-figure summer signing",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hN3dEbmxHcWpnVk5yME1RRFhiclFQMHZ5d2dkb1NDaVd4eXl5V09Ia2lERzlYb0RXalQwMTNuLXBQUDFsZ1hveXZ4S0Z4ZzB5UnpBamNnNlhTb2hhZmFqVDQycmN3ZFlBNS03bDBGUmo3RWRt?oc=5",
-    "excerpt": "",
-    "source": "The72",
-    "published": "2026-11-15T07:30:00+00:00",
-    "clubs": [
-      "millwall"
-    ],
-    "category": "transfer",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Shrewsbury Town chief Brad Friedel hails star after Oldham victory",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcVpIVlpObVJUWklqMFlCb3hOTEJWQkFsVzdQaWI1VVRLc3JzWS1TWjdqYmxYSG5vc0I1aXcyRm1KLU1iME9jbUNES3NTb0stZ2JEZnpZSC1rMmU0NUUzU2dFdGNOVjEwbEZvYW91bHRaREE1VWpDVWMteUVFS0tPcF8zZmZHeU1ibTNNUEhTeGQwRE10U2M1Sy1LVFR3MkwxYzJIY1U4UzB2ZjlqRkR1Z1J3eW14QzBBOGs0WldIT19IZllfLUEtbWtLQ0FXOU5lUHhpR2Rn?oc=5",
-    "excerpt": "",
-    "source": "Shropshire Star",
-    "published": "2026-11-15T07:30:00+00:00",
-    "clubs": [
-      "shrewsbury-town",
-      "oldham-athletic"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Southampton News Today: Schlotterbeck Out, Bree and Eckert Nominated (15 Nov)",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JUmR2cVZVcXdwWlZYaTRYXzJqWXYyTmtweWdWckJMUmVheTJOejVIVXNGQXQ4c0hsay1xRGI2YjRLWm5EYllINC1KcnJ3elFURlFDMTlSSTZwWEVxMktCcms4LWVzVVoxMnhXeFJsbTRDYlBVd1ZZVHF1ZGhEUG8?oc=5",
-    "excerpt": "",
-    "source": "The False 9",
-    "published": "2026-11-15T07:24:55+00:00",
-    "clubs": [
-      "southampton"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Bristol Rovers boss Steve Evans threatens to quit after Chesterfield defeat: 'If I'm not wanted I'll leave'",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMjNZRHprYlJfWl85QWdELU1FUHBLdk9lVkFnQmFtT2dpSi1DYUdNSlVjSHY0SFRfUVAtSVJMNDQ4bFhaR0Q3dWQ2cXNKTjFqclRWYTBXRmU0WmhuQjJ2REdZS1hMSGp1eUdIR2JLcklBQzVsbjZCc2lfSUtaeHR6aUMtOWNwQQ?oc=5",
-    "excerpt": "",
-    "source": "Yahoo",
-    "published": "2026-11-15T06:38:00+00:00",
-    "clubs": [
-      "bristol-rovers",
-      "chesterfield"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "AFC Wimbledon 1-0 Blackpool",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYVdOYlhUTGZaM3E1cFNYajZDVnpHSUs3RVRaa0FsSnppMmdhRm4yNkV6cDFrWTZpSkFtN0o3Sm13emtLX0JNR25WLTltbHJsdTd5RWNCZm5kUkJCWEtPdXJobklXQm1Ld21NdXpkbWdyeGRXZTJaVTYySTFhYkwwbElR?oc=5",
-    "excerpt": "",
-    "source": "Google News",
-    "published": "2026-11-15T05:24:18+00:00",
-    "clubs": [
-      "afc-wimbledon",
-      "blackpool"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Port Vale 4-2 Accrington",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5zd1FrV3FvYlRncDNvbWZsMWt3OEZTOXVHZ19XenQxM3ZRajd1c3BLSjZiWllKcVh5WHhwb1JGRDZKaVN3UFNFa0NzTTQtejZxN2U5ZFhGWmRrSWxHeFFsNTNaNFlLZlRyMzZTRVA2dVdXdjcyR1lwLXp4MnNadw?oc=5",
-    "excerpt": "",
-    "source": "Google News",
-    "published": "2026-11-15T05:18:20+00:00",
-    "clubs": [
-      "accrington-stanley",
-      "port-vale"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "MK Dons 6-2 Burton",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yUllobDVyQThWQ0lreE92RkFNYVFjMUxTNXNldnNyU1lYbndndE12aURwX2VPTnlhcWxzT3FpRi1BV3YxQnRaUWlQc0paZlAybS1QNjRndGh2UHMxdVpXUi1qMVdCOWRiaUt2VHNPNHppT185UEE?oc=5",
-    "excerpt": "",
-    "source": "Google News",
-    "published": "2026-11-15T05:12:01+00:00",
-    "clubs": [
-      "milton-keynes-dons"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Crewe 2-2 Newport",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9PN0QwUGM1NTh1WnF2RkxIRjJEbnFOTVdYcGczYklEQno4RW00SmdTUV9OYXNRR0pXYl95aU9VbDhXWDM0VERSRTNPdEhqM1RyWHJkVkx1ekc3NFg5c0hibWZRRm9YenJGLVBOUjFadWFNZG5I?oc=5",
-    "excerpt": "",
-    "source": "Google News",
-    "published": "2026-11-15T05:07:51+00:00",
-    "clubs": [
-      "crewe-alexandra"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Stockport 3-1 Reading",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1HNkNZdk5mandnRFhyS3hheExjVnotbDJFQTVMOXdKTTducWR0aV9Ob2kwZkpMQXhYeHhzbVptZUxzbzdCYWQ1Y2JhWFN1c2YyZmZXekpLbTFTdzdCb3p6U3ZlZmhqSFhDTzg4TVZHNjJqbk5kWi1zQnNn?oc=5",
-    "excerpt": "",
-    "source": "Google News",
-    "published": "2026-11-15T05:01:50+00:00",
-    "clubs": [
-      "stockport-county"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "EFL expert on why leaky defence could send Bolton Wanderers back to League One",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVkUxeDk2U3l3Sl9hb3FkcjBhNjd3QnZXWU5XdnFIbnVDSDlYdV9jaTE4RFdldGtjV2x1bzVsZGc4aU1DQzU2UWV0Y3ZRTDRSYmN2ZjhxWmdqallsV1FGbHZlXzd5c2VGRkdPdTlJdUNWVXdsWUtpQXFqUFNjeTN6cnpMMDdvdVZyQXlVLVVmMGhhdjdQa0F1Yl8wdlBPdkJWM292Vg?oc=5",
-    "excerpt": "",
-    "source": "The Bolton News",
-    "published": "2026-11-15T05:00:00+00:00",
-    "clubs": [
-      "bolton-wanderers"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Rochdale 0 Pearce Aids Travel-Sick Minstermen",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZU1pSDZZTDAxMkVRVU13QXd1T2QwMUppUm91N2drczY3UGZSanNsUk41X3ZIZmVOTzNFbDRVVzZIUVFWeWItM0p3bTZKWG93aVNsbE5GQXREeHltWjJPNllESmVYbHRPS3ZrcEtfa0tUQ0d0aF9zTGFPUks2d0NpdENwanZNWlFkNXdwWFBPYXlrLU1wOV84LUZBUWR0UGVQd1JDRDJrbmtOZ19ULTlMdlZ5dlhUWWtLOVRURkhvNVFzYjg?oc=5",
-    "excerpt": "",
-    "source": "The League Paper",
-    "published": "2026-11-15T04:27:08+00:00",
-    "clubs": [
-      "rochdale"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Fighting Against The Tide: Why Plymouth Argyle Must Prioritise Durability In January",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNzA1ZHVWZTBLSkhMUzdlekVQTXBUX1YxOTYtOVBIVFl6cDRidWlEc3Bic3BaMEVvOHN6dm1nNEl1aDdvZzJpUEI0THg5NkJwZGlZU2ZxbHBRbnc4bnk3ZllXdDdqT2tsdzIxWjFaQ01FN2s2c252M0hPc1JqTzF2cTdNUUJ5Q2lJR0huWFRmenAtRVFXcXc0ZUl5a3E1UjktLVRkbU9HaDFDb1hNcFdVYmtn?oc=5",
-    "excerpt": "",
-    "source": "Football Lowdown",
-    "published": "2026-11-15T04:16:27+00:00",
-    "clubs": [
-      "plymouth-argyle"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
-    "title": "Should Southampton target the teenager who made Premier League history?",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVGFCOHlRckdhUHV3TGNjNVRleHZ6Tk1PSzl5X1dCTl95SWpycWZCRkFnMFpnNy14bTdWOG5lSGNMdktvWl92MVBkQVJDSi0tX0hLeTRSZEE1Q0F5YWxyN2l1MHViNC0tZ01uREVHWkZKVUJMRXVyeDhDM3FGcEpuVW4zS3hiR1hRRVpiT2NKUWVzMkVkUTQ4MHhDY2hEY1YxUi1kYzBQeEVkT2l2Ny1rSmoxa0dzblAtS1E3MTc5cDhfNkxxWkdoN3BNU21FUnFBT0JuS2JrRnFoYXNPUmc?oc=5",
-    "excerpt": "",
-    "source": "LiveScore",
-    "published": "2026-11-15T04:08:06+00:00",
-    "clubs": [
-      "southampton"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Huddersfield vs. Leicester (Nov 21, 2026) Odds and Spread",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VQWVBbUVndTZ5VVlseUdZd3psX0hqOTFmMmZLcXVKUUJUUTVWbzdIVWw1SkhHM0tTY3NvNzNHYnJ4SDhhc3NlbHdCaVo2YThpSVgxTE1uYjhGSlNXb2hKaQ?oc=5",
-    "excerpt": "",
-    "source": "ESPN",
-    "published": "2026-11-15T03:16:43+00:00",
-    "clubs": [
-      "huddersfield-town",
-      "leicester-city"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "league-one",
     "scope": "club"
   }
 ]
