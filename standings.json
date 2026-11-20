@@ -1274,6 +1274,18 @@
         "position": 2
       },
       {
+        "slug": "sheffield-wednesday",
+        "played": 15,
+        "won": 7,
+        "drawn": 5,
+        "lost": 3,
+        "gf": 27,
+        "ga": 15,
+        "gd": 12,
+        "points": 26,
+        "position": 3
+      },
+      {
         "slug": "oxford-united",
         "played": 13,
         "won": 7,
@@ -1283,7 +1295,7 @@
         "ga": 11,
         "gd": 11,
         "points": 26,
-        "position": 3
+        "position": 4
       },
       {
         "slug": "luton-town",
@@ -1295,18 +1307,6 @@
         "ga": 21,
         "gd": 6,
         "points": 24,
-        "position": 4
-      },
-      {
-        "slug": "sheffield-wednesday",
-        "played": 14,
-        "won": 6,
-        "drawn": 5,
-        "lost": 3,
-        "gf": 25,
-        "ga": 14,
-        "gd": 11,
-        "points": 23,
         "position": 5
       },
       {
@@ -1515,13 +1515,13 @@
       },
       {
         "slug": "barnsley",
-        "played": 13,
+        "played": 14,
         "won": 2,
         "drawn": 3,
-        "lost": 8,
-        "gf": 13,
-        "ga": 24,
-        "gd": -11,
+        "lost": 9,
+        "gf": 14,
+        "ga": 26,
+        "gd": -12,
         "points": 9,
         "position": 23
       },
@@ -1597,10 +1597,10 @@
         "result": "L",
         "gf": 1,
         "ga": 2,
-        "opponent_slug": "wigan-athletic",
-        "opponent_name": "Wigan",
-        "home_away": "A",
-        "date": "2026-11-14"
+        "opponent_slug": "sheffield-wednesday",
+        "opponent_name": "Sheffield Wednesday",
+        "home_away": "H",
+        "date": "2026-11-20"
       },
       "bromley": {
         "result": "L",
@@ -1712,12 +1712,12 @@
       },
       "sheffield-wednesday": {
         "result": "W",
-        "gf": 3,
-        "ga": 0,
-        "opponent_slug": "plymouth-argyle",
-        "opponent_name": "Plymouth",
-        "home_away": "H",
-        "date": "2026-11-14"
+        "gf": 2,
+        "ga": 1,
+        "opponent_slug": "barnsley",
+        "opponent_name": "Barnsley",
+        "home_away": "A",
+        "date": "2026-11-20"
       },
       "mansfield-town": {
         "result": "D",
@@ -1802,8 +1802,8 @@
       "barnsley": [
         "L",
         "L",
-        "L",
         "D",
+        "L",
         "L"
       ],
       "bromley": [
@@ -1892,9 +1892,9 @@
       ],
       "sheffield-wednesday": [
         "L",
-        "L",
         "D",
         "D",
+        "W",
         "W"
       ],
       "mansfield-town": [
