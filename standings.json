@@ -3,14 +3,14 @@
     "table": [
       {
         "slug": "arsenal",
-        "played": 10,
+        "played": 11,
         "won": 9,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 1,
-        "gf": 15,
-        "ga": 5,
+        "gf": 17,
+        "ga": 7,
         "gd": 10,
-        "points": 27,
+        "points": 28,
         "position": 1
       },
       {
@@ -135,14 +135,14 @@
       },
       {
         "slug": "newcastle-united",
-        "played": 10,
+        "played": 11,
         "won": 3,
-        "drawn": 3,
+        "drawn": 4,
         "lost": 4,
-        "gf": 13,
-        "ga": 16,
+        "gf": 15,
+        "ga": 18,
         "gd": -3,
-        "points": 12,
+        "points": 13,
         "position": 12
       },
       {
@@ -244,13 +244,13 @@
     ],
     "last_result": {
       "arsenal": {
-        "result": "W",
-        "gf": 1,
-        "ga": 0,
-        "opponent_slug": "hull-city",
-        "opponent_name": "Hull",
-        "home_away": "H",
-        "date": "2026-11-07"
+        "result": "D",
+        "gf": 2,
+        "ga": 2,
+        "opponent_slug": "newcastle-united",
+        "opponent_name": "Newcastle United",
+        "home_away": "A",
+        "date": "2026-11-21"
       },
       "coventry-city": {
         "result": "W",
@@ -389,12 +389,12 @@
       },
       "newcastle-united": {
         "result": "D",
-        "gf": 1,
-        "ga": 1,
-        "opponent_slug": "fulham",
-        "opponent_name": "Fulham",
-        "home_away": "A",
-        "date": "2026-11-07"
+        "gf": 2,
+        "ga": 2,
+        "opponent_slug": "arsenal",
+        "opponent_name": "Arsenal",
+        "home_away": "H",
+        "date": "2026-11-21"
       },
       "liverpool": {
         "result": "W",
@@ -430,7 +430,7 @@
         "W",
         "W",
         "W",
-        "W"
+        "D"
       ],
       "coventry-city": [
         "L",
@@ -539,9 +539,9 @@
       ],
       "newcastle-united": [
         "L",
-        "L",
         "W",
         "L",
+        "D",
         "D"
       ],
       "liverpool": [
