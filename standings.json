@@ -715,14 +715,14 @@
       },
       {
         "slug": "blackburn-rovers",
-        "played": 15,
+        "played": 16,
         "won": 6,
-        "drawn": 3,
+        "drawn": 4,
         "lost": 6,
-        "gf": 22,
-        "ga": 23,
+        "gf": 24,
+        "ga": 25,
         "gd": -1,
-        "points": 21,
+        "points": 22,
         "position": 13
       },
       {
@@ -823,14 +823,14 @@
       },
       {
         "slug": "burnley",
-        "played": 15,
+        "played": 16,
         "won": 1,
-        "drawn": 7,
+        "drawn": 8,
         "lost": 7,
-        "gf": 22,
-        "ga": 31,
+        "gf": 24,
+        "ga": 33,
         "gd": -9,
-        "points": 10,
+        "points": 11,
         "position": 22
       },
       {
@@ -869,13 +869,13 @@
         "date": "2026-11-21"
       },
       "blackburn-rovers": {
-        "result": "W",
+        "result": "D",
         "gf": 2,
-        "ga": 1,
-        "opponent_slug": "west-ham-united",
-        "opponent_name": "West Ham",
-        "home_away": "H",
-        "date": "2026-11-07"
+        "ga": 2,
+        "opponent_slug": "burnley",
+        "opponent_name": "Burnley",
+        "home_away": "A",
+        "date": "2026-11-22"
       },
       "bolton-wanderers": {
         "result": "D",
@@ -1040,13 +1040,13 @@
         "date": "2026-11-21"
       },
       "burnley": {
-        "result": "L",
-        "gf": 4,
-        "ga": 5,
-        "opponent_slug": "cardiff-city",
-        "opponent_name": "Cardiff",
-        "home_away": "A",
-        "date": "2026-11-07"
+        "result": "D",
+        "gf": 2,
+        "ga": 2,
+        "opponent_slug": "blackburn-rovers",
+        "opponent_name": "Blackburn Rovers",
+        "home_away": "H",
+        "date": "2026-11-22"
       },
       "west-ham-united": {
         "result": "D",
@@ -1085,11 +1085,11 @@
         "W"
       ],
       "blackburn-rovers": [
-        "L",
         "W",
         "L",
         "L",
-        "W"
+        "W",
+        "D"
       ],
       "bolton-wanderers": [
         "L",
@@ -1219,10 +1219,10 @@
       ],
       "burnley": [
         "L",
+        "D",
+        "D",
         "L",
-        "D",
-        "D",
-        "L"
+        "D"
       ],
       "west-ham-united": [
         "L",
