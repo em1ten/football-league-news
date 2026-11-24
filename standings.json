@@ -62,6 +62,18 @@
         "position": 5
       },
       {
+        "slug": "brentford",
+        "played": 11,
+        "won": 4,
+        "drawn": 5,
+        "lost": 2,
+        "gf": 20,
+        "ga": 11,
+        "gd": 9,
+        "points": 17,
+        "position": 6
+      },
+      {
         "slug": "leeds-united",
         "played": 11,
         "won": 4,
@@ -71,18 +83,6 @@
         "ga": 9,
         "gd": 5,
         "points": 17,
-        "position": 6
-      },
-      {
-        "slug": "everton",
-        "played": 10,
-        "won": 4,
-        "drawn": 4,
-        "lost": 2,
-        "gf": 12,
-        "ga": 10,
-        "gd": 2,
-        "points": 16,
         "position": 7
       },
       {
@@ -98,6 +98,18 @@
         "position": 8
       },
       {
+        "slug": "everton",
+        "played": 11,
+        "won": 4,
+        "drawn": 4,
+        "lost": 3,
+        "gf": 12,
+        "ga": 14,
+        "gd": -2,
+        "points": 16,
+        "position": 9
+      },
+      {
         "slug": "tottenham-hotspur",
         "played": 11,
         "won": 4,
@@ -107,18 +119,6 @@
         "ga": 11,
         "gd": 1,
         "points": 15,
-        "position": 9
-      },
-      {
-        "slug": "brentford",
-        "played": 10,
-        "won": 3,
-        "drawn": 5,
-        "lost": 2,
-        "gf": 16,
-        "ga": 11,
-        "gd": 5,
-        "points": 14,
         "position": 10
       },
       {
@@ -280,13 +280,13 @@
         "date": "2026-11-22"
       },
       "everton": {
-        "result": "W",
-        "gf": 3,
-        "ga": 1,
-        "opponent_slug": "coventry-city",
-        "opponent_name": "Coventry",
-        "home_away": "H",
-        "date": "2026-11-06"
+        "result": "L",
+        "gf": 0,
+        "ga": 4,
+        "opponent_slug": "brentford",
+        "opponent_name": "Brentford",
+        "home_away": "A",
+        "date": "2026-11-23"
       },
       "crystal-palace": {
         "result": "L",
@@ -334,13 +334,13 @@
         "date": "2026-11-21"
       },
       "brentford": {
-        "result": "L",
-        "gf": 0,
-        "ga": 2,
-        "opponent_slug": "brighton-and-hove-albion",
-        "opponent_name": "Brighton",
-        "home_away": "A",
-        "date": "2026-11-08"
+        "result": "W",
+        "gf": 4,
+        "ga": 0,
+        "opponent_slug": "everton",
+        "opponent_name": "Everton",
+        "home_away": "H",
+        "date": "2026-11-23"
       },
       "tottenham-hotspur": {
         "result": "W",
@@ -454,11 +454,11 @@
         "L"
       ],
       "everton": [
-        "D",
         "L",
         "L",
         "W",
-        "W"
+        "W",
+        "L"
       ],
       "crystal-palace": [
         "L",
@@ -496,11 +496,11 @@
         "W"
       ],
       "brentford": [
-        "D",
         "L",
         "D",
         "W",
-        "L"
+        "L",
+        "W"
       ],
       "tottenham-hotspur": [
         "W",
