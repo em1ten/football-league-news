@@ -87,13 +87,13 @@
       },
       {
         "slug": "chelsea",
-        "played": 11,
+        "played": 12,
         "won": 5,
         "drawn": 1,
-        "lost": 5,
-        "gf": 20,
-        "ga": 20,
-        "gd": 0,
+        "lost": 6,
+        "gf": 22,
+        "ga": 23,
+        "gd": -1,
         "points": 16,
         "position": 8
       },
@@ -158,6 +158,18 @@
         "position": 13
       },
       {
+        "slug": "nottingham-forest",
+        "played": 12,
+        "won": 3,
+        "drawn": 3,
+        "lost": 6,
+        "gf": 12,
+        "ga": 17,
+        "gd": -5,
+        "points": 12,
+        "position": 14
+      },
+      {
         "slug": "coventry-city",
         "played": 11,
         "won": 4,
@@ -167,7 +179,7 @@
         "ga": 21,
         "gd": -8,
         "points": 12,
-        "position": 14
+        "position": 15
       },
       {
         "slug": "fulham",
@@ -179,7 +191,7 @@
         "ga": 13,
         "gd": -2,
         "points": 11,
-        "position": 15
+        "position": 16
       },
       {
         "slug": "ipswich-town",
@@ -191,18 +203,6 @@
         "ga": 22,
         "gd": -7,
         "points": 11,
-        "position": 16
-      },
-      {
-        "slug": "nottingham-forest",
-        "played": 11,
-        "won": 2,
-        "drawn": 3,
-        "lost": 6,
-        "gf": 9,
-        "ga": 15,
-        "gd": -6,
-        "points": 9,
         "position": 17
       },
       {
@@ -316,13 +316,13 @@
         "date": "2026-11-21"
       },
       "nottingham-forest": {
-        "result": "L",
-        "gf": 0,
+        "result": "W",
+        "gf": 3,
         "ga": 2,
-        "opponent_slug": "bournemouth",
-        "opponent_name": "Bournemouth",
-        "home_away": "A",
-        "date": "2026-11-21"
+        "opponent_slug": "chelsea",
+        "opponent_name": "Chelsea",
+        "home_away": "H",
+        "date": "2026-11-27"
       },
       "leeds-united": {
         "result": "W",
@@ -416,12 +416,12 @@
       },
       "chelsea": {
         "result": "L",
-        "gf": 1,
-        "ga": 4,
-        "opponent_slug": "leeds-united",
-        "opponent_name": "Leeds",
-        "home_away": "H",
-        "date": "2026-11-21"
+        "gf": 2,
+        "ga": 3,
+        "opponent_slug": "nottingham-forest",
+        "opponent_name": "Nottingham Forest",
+        "home_away": "A",
+        "date": "2026-11-27"
       }
     },
     "form": {
@@ -482,11 +482,11 @@
         "D"
       ],
       "nottingham-forest": [
-        "L",
         "D",
         "L",
         "W",
-        "L"
+        "L",
+        "W"
       ],
       "leeds-united": [
         "D",
@@ -559,9 +559,9 @@
         "D"
       ],
       "chelsea": [
-        "W",
         "L",
         "W",
+        "L",
         "L",
         "L"
       ]
@@ -570,16 +570,28 @@
   "championship": {
     "table": [
       {
-        "slug": "middlesbrough",
-        "played": 17,
+        "slug": "southampton",
+        "played": 18,
         "won": 10,
         "drawn": 5,
-        "lost": 2,
+        "lost": 3,
         "gf": 34,
-        "ga": 20,
-        "gd": 14,
+        "ga": 16,
+        "gd": 18,
         "points": 35,
         "position": 1
+      },
+      {
+        "slug": "middlesbrough",
+        "played": 18,
+        "won": 10,
+        "drawn": 5,
+        "lost": 3,
+        "gf": 34,
+        "ga": 22,
+        "gd": 12,
+        "points": 35,
+        "position": 2
       },
       {
         "slug": "stoke-city",
@@ -591,7 +603,7 @@
         "ga": 19,
         "gd": 8,
         "points": 35,
-        "position": 2
+        "position": 3
       },
       {
         "slug": "wolverhampton-wanderers",
@@ -603,18 +615,6 @@
         "ga": 19,
         "gd": 12,
         "points": 34,
-        "position": 3
-      },
-      {
-        "slug": "southampton",
-        "played": 17,
-        "won": 9,
-        "drawn": 5,
-        "lost": 3,
-        "gf": 32,
-        "ga": 16,
-        "gd": 16,
-        "points": 32,
         "position": 4
       },
       {
@@ -932,13 +932,13 @@
         "date": "2026-11-24"
       },
       "middlesbrough": {
-        "result": "W",
-        "gf": 2,
-        "ga": 1,
-        "opponent_slug": "swansea-city",
-        "opponent_name": "Swansea",
-        "home_away": "H",
-        "date": "2026-11-24"
+        "result": "L",
+        "gf": 0,
+        "ga": 2,
+        "opponent_slug": "southampton",
+        "opponent_name": "Southampton",
+        "home_away": "A",
+        "date": "2026-11-27"
       },
       "lincoln-city": {
         "result": "L",
@@ -1031,13 +1031,13 @@
         "date": "2026-11-25"
       },
       "southampton": {
-        "result": "D",
-        "gf": 1,
-        "ga": 1,
-        "opponent_slug": "sheffield-united",
-        "opponent_name": "Sheffield United",
-        "home_away": "A",
-        "date": "2026-11-24"
+        "result": "W",
+        "gf": 2,
+        "ga": 0,
+        "opponent_slug": "middlesbrough",
+        "opponent_name": "Middlesbrough",
+        "home_away": "H",
+        "date": "2026-11-27"
       },
       "burnley": {
         "result": "L",
@@ -1134,11 +1134,11 @@
         "L"
       ],
       "middlesbrough": [
-        "W",
         "L",
         "D",
         "W",
-        "W"
+        "W",
+        "L"
       ],
       "lincoln-city": [
         "L",
@@ -1211,11 +1211,11 @@
         "L"
       ],
       "southampton": [
-        "W",
         "D",
         "L",
         "W",
-        "D"
+        "D",
+        "W"
       ],
       "burnley": [
         "D",
