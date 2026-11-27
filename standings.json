@@ -1263,14 +1263,14 @@
       },
       {
         "slug": "huddersfield-town",
-        "played": 15,
-        "won": 8,
+        "played": 16,
+        "won": 9,
         "drawn": 5,
         "lost": 2,
-        "gf": 28,
-        "ga": 13,
-        "gd": 15,
-        "points": 29,
+        "gf": 31,
+        "ga": 15,
+        "gd": 16,
+        "points": 32,
         "position": 2
       },
       {
@@ -1491,13 +1491,13 @@
       },
       {
         "slug": "doncaster-rovers",
-        "played": 14,
+        "played": 15,
         "won": 3,
         "drawn": 4,
-        "lost": 7,
-        "gf": 16,
-        "ga": 24,
-        "gd": -8,
+        "lost": 8,
+        "gf": 18,
+        "ga": 27,
+        "gd": -9,
         "points": 13,
         "position": 21
       },
@@ -1684,13 +1684,13 @@
         "date": "2026-11-21"
       },
       "huddersfield-town": {
-        "result": "L",
-        "gf": 0,
-        "ga": 1,
-        "opponent_slug": "leicester-city",
-        "opponent_name": "Leicester",
-        "home_away": "H",
-        "date": "2026-11-21"
+        "result": "W",
+        "gf": 3,
+        "ga": 2,
+        "opponent_slug": "doncaster-rovers",
+        "opponent_name": "Doncaster Rovers",
+        "home_away": "A",
+        "date": "2026-11-26"
       },
       "afc-wimbledon": {
         "result": "L",
@@ -1729,13 +1729,13 @@
         "date": "2026-11-21"
       },
       "doncaster-rovers": {
-        "result": "D",
+        "result": "L",
         "gf": 2,
-        "ga": 2,
-        "opponent_slug": "bradford-city",
-        "opponent_name": "Bradford",
-        "home_away": "A",
-        "date": "2026-11-21"
+        "ga": 3,
+        "opponent_slug": "huddersfield-town",
+        "opponent_name": "Huddersfield Town",
+        "home_away": "H",
+        "date": "2026-11-26"
       },
       "plymouth-argyle": {
         "result": "L",
@@ -1872,9 +1872,9 @@
       "huddersfield-town": [
         "W",
         "W",
-        "W",
         "D",
-        "L"
+        "L",
+        "W"
       ],
       "afc-wimbledon": [
         "L",
@@ -1905,11 +1905,11 @@
         "D"
       ],
       "doncaster-rovers": [
-        "L",
         "W",
         "L",
         "L",
-        "D"
+        "D",
+        "L"
       ],
       "plymouth-argyle": [
         "L",

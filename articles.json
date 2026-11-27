@@ -1,5 +1,486 @@
 [
   {
+    "title": "Can Steve Evans save the sinking ship of Bristol Rovers to avoid dropping out the EFL?",
+    "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNRG81V2VXdGRXeDQ1bmJoekxDRGlrd19lU3Y4ekpmVmkxczNaREMwVUUtOWk1Q2lJNjA5VE1EM285MFc4cUhCZjRZUFd3Uko2TDdUSXZlWkRCZDNIMkV5YVJUMXBzOVZjWm9ad3JzcDAzcTZudEVxRUJ3OHQ4WVNnQ01zNkx0V1pyYkFwMXZEQTh2TUg3SkVrZmhTWFFYUERRdHBSbW1SSHhpS0ppeGJUUkhGLUVCMzltWU53bjRqUWItdnRZWXh6cDd4S0Jwek9IT3M4S2NNeTZkRG1qdEc0ZDlGTkdJZFZjVkpuc1dCX2d1MlpjUmZiaGFKT1VZdnZCLWFiWmtMVVVYaHoy?oc=5",
+    "excerpt": "",
+    "source": "The League Paper",
+    "published": "2026-11-27T03:52:58+00:00",
+    "clubs": [
+      "bristol-rovers"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Birmingham City v Bolton Wanderers: Championship stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB2R2tZa2ZGZHl0bmI1UzIzS19PRXIxOXZQakZYRExkazFfenVjMDR0cWpnMFhBbTlPT0poMGlUUjhrWFpUcGRWdldIZ1Z4VW1zRzJfY0tfRE1Za3R6eTVKTzBZWQ?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-11-27T03:49:45+00:00",
+    "clubs": [
+      "bolton-wanderers",
+      "birmingham-city"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Stockport County vs Leyton Orient: League One stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tQVhQNXJyVl9NMzFSSERuX2pnbE1NaG5OUmZfZXZPWVBEODg4ZFU1QzJyOXBSQVZkXzVLemlCbmhDRFE2RFhTRW1jUEVKYkhVbVl2V18wTG9nWEVVSFpTZnhuYw?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-11-27T03:49:45+00:00",
+    "clubs": [
+      "stockport-county",
+      "leyton-orient"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "AFC Wimbledon vs Barnsley: League One stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5KcUxNeV9Udjl0c2hiWC1zMjZ2Q2xGVThSekx2emUtdjByNUNTbmp2cGZoMTFBQTkyRlFTRjBCQ2pERVVzU2MwZHZZclFDOHJnZlJodUZ6REN1eW5YYU94anMxVQ?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-11-27T03:49:45+00:00",
+    "clubs": [
+      "afc-wimbledon",
+      "barnsley"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Luton Town vs Oxford United: League One stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA4UFVqdjhtWEdKaFRkRzhMTzZobFozMllQQ3p1SzhJYm1PbDRDWHh3YXQ3cGNRalhlelltTV9fcXhBNlVLSkR0cHBuOWdpSU1mcmNpUUlrdVliaEdrTURVT09YZw?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-11-27T03:45:00+00:00",
+    "clubs": [
+      "oxford-united",
+      "luton-town"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Derby County v Watford: Championship stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wVGUxZ19JWmdhN1dDanRuMDBhaTYtVjFwSVlSLVBfR0dnNWFLUVBxelpwV25BSURUQlI1cVR1ZmVTVnRDVGNISnMyLVdVMl80LWNlaGV6UjEzWGEtdTZENG9aMA?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-11-27T03:31:04+00:00",
+    "clubs": [
+      "derby-county",
+      "watford"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Leicester City vs Mansfield Town: League One stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8yQXptcF85MURZOWRaeWV6SmYwS2ZPVFNfR3p5LXNnTlNHZWg4aVRRSWZzY3dJdHN3VG9RMXYzVTBSTGRHWnlkalpaZFZ2RVhLWEU0XzF6RDBpT1ZfRnQwSzY3VQ?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-11-27T03:22:30+00:00",
+    "clubs": [
+      "leicester-city",
+      "mansfield-town"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "West Bromwich Albion v Bristol City: Championship stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBJRkNmdFVCaUh3aDk5S1lva28yVk1VNWxUdG1oYlhRSEhtQnFHckFHTlVybjBYbEFGNTk4UXhOS2JUYzhxQUZZejA5Mmo4OG9NTzJmaVB4X2FBSlBnbTNsMVdhSQ?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-11-27T03:10:08+00:00",
+    "clubs": [
+      "west-bromwich-albion",
+      "bristol-city"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Doncaster 2-3 Huddersfield: Terriers level at the top of League One after defying red card to beat Donny",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPQk9pRVVGc05kM1VJYVcxYmlyQnRNZnd4YWJBY09ZUHY1Y0VkQWYtam9tTmx6VVRDNUktLUJMU1ZWRkduQWQzWWFWVmsxX09OeEw1T09Qam5tTlRhN3NXODFVdG5FZ2FyZVNvOTNEWVJPeGJfYm8tZTZvd0xOc1A0OVE3NzRZX1YzRTZlUGsyeEt1WTJPbGpQQUJBckV2Nm9PX3U4S3VMZjZ6ZUE5anNjZXZkSmN6OUw4S3dQaTY4Wkk3WEE3UUpHYm9hY3VySjFNOUowTzdsTWJTUGNHRERRdHpwNG9IS0U?oc=5",
+    "excerpt": "",
+    "source": "Google News",
+    "published": "2026-11-27T02:13:43+00:00",
+    "clubs": [
+      "huddersfield-town",
+      "doncaster-rovers"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Match Preview | Bristol Rovers v Tranmere Rovers",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdVpNTm1zSXR2TFNFREU5bVpkalVZVlBnMmVNQlZZNUJFbzlHeWZlb3pUWlNHNVllT0NPRWZoMGJxSFBaOFJVdU5DUnZwNGpld0VZSTBpQlE4Nk1uQlpQSjlpUDdzODd0ZUd4ZC0zYXloZ0RBUTBTWDg5UTFZMS11N0x6M3B5a2dnaWFvd2RB?oc=5",
+    "excerpt": "",
+    "source": "Bristol Rovers",
+    "published": "2026-11-27T01:36:03+00:00",
+    "clubs": [
+      "tranmere-rovers",
+      "bristol-rovers"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "John Eustace Makes Derby County Survival Vow Ahead Of Watford Clash",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYjJQT29vOE1kdm1DZkJ5RUJpQjVGS0YxeHR5Y3NTZEdnYUU4RUdTQ0V4QWR5N3R2NTBBLXo0Mi1ZaTJ6cERrejl1NVpZc19KdEcxRDU0NmhIYm9WbE5GNGJyQUZPT0IycUswTHhId2FmWWtNM01WckpmQmZCcmM0WDJEMUdNNFppN0xvRXo3UDBOSXZVRzctM0JMNi1Lb3M2VUxjRWpnNVZ1eXFyWENPWWFaaFJsc1dXQUJQUFpXeXBJY0REN3BWM01uRHRLV3B4NmpyOQ?oc=5",
+    "excerpt": "",
+    "source": "VAVEL.com",
+    "published": "2026-11-27T00:24:50+00:00",
+    "clubs": [
+      "derby-county",
+      "watford"
+    ],
+    "category": "news",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Sky Bet League One: Huddersfield Town edge five goal thriller against Doncaster Rovers",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMDR4LWxEQ2tIekljeUt6QzdQWXRPdG1RNlRDdGJIT3ZJZzVlZEViNldzWHJualQtVVJobnh0U2xVbzlHYm5CQnNTTlJCS041WFdfX0E2R1kwWjgwZGp4cmFOSmxRNnRpWHpsODkxazhyOHlfRGZpdFhUU1E5a3czTVRndUxBa2pFSEpERjB5dTNDQW5tMFkxa09rdXhIaG5zelpoSkF1VWxDaG94aUppdm9vbzRtX19saFdfZTNYRlZTUVRLNkZqcw?oc=5",
+    "excerpt": "",
+    "source": "EFL",
+    "published": "2026-11-27T00:24:33+00:00",
+    "clubs": [
+      "huddersfield-town",
+      "doncaster-rovers"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Black Friday is here: Up to 60% off everything + a free ball",
+    "url": "https://www.wolves.co.uk/news/club/20261127-black-friday-is-here-up-to-60-off-everything-plus-a-free-ball/",
+    "excerpt": "The main event has arrived. From today until midnight on Sunday, get up to 60% off everything*, a free ball when you spend £60 or over, and free delivery when you spend £75 or more.",
+    "source": "Official site",
+    "published": "2026-11-27T00:05:00+00:00",
+    "clubs": [
+      "wolverhampton-wanderers"
+    ],
+    "category": "news",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Latics face League Two rivals Chesterfield as EFL Trophy reaches the knockout stage",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ293SjQzOENnamRMNXZLelYyb1kxdFlLbXNyajFXYloycVBLaTlYV0JQb0ppRFVCeDhSN0hhekxwaXFid2NNZWRnbnBZQjhEQ1A3VnNCS0pkUXJJX2t3SEFoM1pqZ1JQSnI0VWNJMU1iN0pXYTZBczhLalhRSDVJVENGNlh6U0VaLXg2R0FNTlFSZnVMVmtaYw?oc=5",
+    "excerpt": "",
+    "source": "Oldham Times",
+    "published": "2026-11-27T00:02:34+00:00",
+    "clubs": [
+      "chesterfield"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "West Brom's Price ruled out for up to six weeks",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6vg2440gq9vo?at_medium=RSS&at_campaign=rss",
+    "excerpt": "West Brom's top goalscorer Isaac Price is ruled out for up to six weeks with a knee injury.",
+    "source": "BBC",
+    "published": "2026-11-26T23:13:11+00:00",
+    "clubs": [
+      "west-bromwich-albion"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Watch: Drury And Humphreys On Doncaster Win",
+    "url": "https://www.htafc.com/news/2026/november/26/watch--drury-and-on-doncaster/",
+    "excerpt": "- Doncaster Rovers 2-3 Huddersfield Town - Martin Drury and Cameron Humphreys speak to HTTV following full-time - Presented by SBK Huddersfield Town Head Coach Martin Drury and midfielder Cameron Humphreys joined HTTV...",
+    "source": "Official site",
+    "published": "2026-11-26T23:00:00+00:00",
+    "clubs": [
+      "huddersfield-town"
+    ],
+    "category": "transfer",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Doncaster player ratings: Bailey scores in dramatic 3-2 loss",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE16eHh5XzhIZ1NxSXVlcUx6RnlraHpxNlI4SnU0Mk56VHdBR3hZMVRaRDYxUkdwQXhnVGNJV1Y1OXM3dmJzeHVobkF1bHVzZ0dTVEJrMXB6QWJ5VmNjTGFVb2dIU2s?oc=5",
+    "excerpt": "",
+    "source": "Dave.Sport",
+    "published": "2026-11-26T22:59:06+00:00",
+    "clubs": [
+      "doncaster-rovers"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Huddersfield player ratings: Humphreys leads stunning 3-2 win",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5DeUx4MWg3QWFMV185NVhDS1JTV0VOcDZnemdtdXl5aS00YnU5ZkN1UktJQ0NSZkZTS1p0LWRkMUE5MUpxWC1hYW1nbTZxQkhnb2xuNzNiMXhJR3VrR09qZnV2VmJFOWVkVXE0?oc=5",
+    "excerpt": "",
+    "source": "Dave.Sport",
+    "published": "2026-11-26T22:56:46+00:00",
+    "clubs": [
+      "huddersfield-town"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Report: Doncaster Rovers 2-3 Town",
+    "url": "https://www.htafc.com/news/2026/november/26/report--doncaster-rovers-vs-huddersfield-town/",
+    "excerpt": "- Doncaster Rovers 2-3 Huddersfield Town; Sky Bet League One - Cam Humphreys, Joe Taylor and Ilias Bronkhorst find net in South Yorkshire - Match report brought to you by RIASA Ten man Huddersfield Town bounced back...",
+    "source": "Official site",
+    "published": "2026-11-26T22:45:00+00:00",
+    "clubs": [
+      "huddersfield-town"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Ilias Bronkhorst fires ten-man Huddersfield to stunning 3-2 win",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5lem0ySVU5OWQ3akFkNXN6dk04NGZrUHhLaXkxbUQtX3Fja3lWUEdzTWRidTAyM2YxOWVrU1UwRTlTQnA4Q3N5eFJkZjdkdWwyaGpsaGdPOEdiZEVFZEFMdTI5bWhNZHpycHlDSE81SkFualJlUVVkNFlVYw?oc=5",
+    "excerpt": "",
+    "source": "Dave.Sport",
+    "published": "2026-11-26T22:34:32+00:00",
+    "clubs": [
+      "huddersfield-town"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Bournemouth 'allowed to dream' as fans book Europa League final hotels",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmq5v84vw818o?at_medium=RSS&at_campaign=rss",
+    "excerpt": "Bournemouth are dreaming of winning the Europa League after joining a select band of teams who have won their first five European games.",
+    "source": "BBC",
+    "published": "2026-11-26T22:27:52+00:00",
+    "clubs": [
+      "bournemouth"
+    ],
+    "category": "transfer",
+    "tier": "trusted",
+    "division": "premier-league",
+    "scope": "club"
+  },
+  {
+    "title": "Analysis: Familiar frustrations for Black Cats",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cr9309kx91gpo?at_medium=RSS&at_campaign=rss",
+    "excerpt": "Familiar themes haunted the Black Cats who will see their 1-1 draw with Polish side Jagiellonia Bialystok as a big opportunity missed.",
+    "source": "BBC",
+    "published": "2026-11-26T22:16:57+00:00",
+    "clubs": [
+      "sunderland"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "premier-league",
+    "scope": "club"
+  },
+  {
+    "title": "Doncaster Rovers 2-3 Huddersfield Town | League One highlights",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORDd5V09zMmNBVlN3NDRDd19OYkdGUTRaMko0aEhtcXFsY21iMUhRclBHbUpha1A1eGxGSVhsU0pEamE0aWlDNkwyNWw2VndqNkJPdXpOZWNUQktWOFpiZFc1MG1yaldfajV3Z1ZPOTZEUE85aGZzeXA3WlhnS1pZVHdmd0ZpYnBoUW9SeEViUEhYZXRYWEtpNFJPcnlmMHVhdDZ3dmt2b1FkWm1qVlpz?oc=5",
+    "excerpt": "",
+    "source": "Google News",
+    "published": "2026-11-26T22:13:51+00:00",
+    "clubs": [
+      "huddersfield-town",
+      "doncaster-rovers"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Match Preview: Crawley Town (H)",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBzdTZYYy0wbzlzQk5QalVmRmp4OW85ZnBjd3FjT3A0T3hBRmxyVldKNjFTREVmcEdhaEZpMkpzVmJSSGNiSXVURHZ3SHJxT1hDTjN5TGtPSkpfRDFJ?oc=5",
+    "excerpt": "",
+    "source": "Exeter City",
+    "published": "2026-11-26T22:01:27+00:00",
+    "clubs": [
+      "crawley-town"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Sheffield Wednesday vs Reading: League One stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1xV3hGSDF6Z0F2RHZBRUlKeTB2R21ucEFMVVJhZUg2a3BjczZqN3VPQ1dpSmtSQjNOcnBhUnBMVGNPdkpxajZUSGw0UVEtQlhnb3BnYktndDBXYVJWc29kRXV6c3Nvdw?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-11-26T21:55:00+00:00",
+    "clubs": [
+      "sheffield-wednesday"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Wigan Athletic vs Plymouth Argyle: League One stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5pTjV1Ujd3U1E0YURLQXJvaXRZWVRjanB5c1FSZG5reVlUVlBJbV9uWXowNm4xZXQwUU5FaUtfY1ZtTWFwRWhwUlJ3RGF0VnFCZWlPaE9pRXBNM080UjE5WFpWOEU3UQ?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-11-26T21:55:00+00:00",
+    "clubs": [
+      "plymouth-argyle",
+      "wigan-athletic"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Bromley vs Burton Albion: League One stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Kc2FFdW1femJuek95VVcwNmlPSWp2eTJOSlJLWTRjd0hMU1lXMGRZanZiTnhEWTMwQmJTaEw0bFZTTmsxMUhMd1dCNE1TTFNKQVlORU9xYlVzNnI3SGo1WGgzakRSZw?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-11-26T21:55:00+00:00",
+    "clubs": [
+      "burton-albion",
+      "bromley"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Wycombe Wanderers vs Bradford City: League One stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRcHM3VG5rRFVMWmZIZmNlZlhvTC13bnB1RVFtOG1hcjU2Y3F6RGZUanc3Y0NxajRLd1c1dUlNSlgxMjdGMExBRTlZbnZSSmpFU0o0WDlkbFZjNnNwS3dlY2RPVjYxQQ?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-11-26T21:55:00+00:00",
+    "clubs": [
+      "wycombe-wanderers",
+      "bradford-city"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Peterborough United vs Cambridge United: League One stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9LanJxb2JleGllNHAzdUxFckFqLWlybzYtdE5xbjdETU9wWktuZHpzcHM2Q3lzbnFWZlRzdEpWS1l6aURGN2s1c2taZVNKSUdOWFB2SEpmWmxlbTBZQXg4ekRiOUdqUQ?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-11-26T21:55:00+00:00",
+    "clubs": [
+      "peterborough-united",
+      "cambridge-united"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "MK Dons vs Notts County: League One stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04QWR0Z3FoNHdsQ1F1dFV1RHd1RFFib2tJZ05PYjFkdEI5UXl1akNybGs3OTI3aDIzRE9QaGhlYmFDaHFWSTVkaWJXYTdwWXF1S04wSmlvTG01YzBHRGg3RE5hZEt6dw?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-11-26T21:55:00+00:00",
+    "clubs": [
+      "notts-county",
+      "milton-keynes-dons"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Doncaster Rovers v Huddersfield Town player ratings: Low defensive marks for hosts, some key 8/10s for visitors",
+    "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPR0otTWNaQVFPS29zcy03b0NIQmhGTWtwQUYtVVdqWjZRelpwb2c5bjhnQTlZN1poRkUwRnV2UEFMcWpoMlVKd3M1S0o0OXdXemN3SGxSV2FsOFYxcmdseTFwLWxpYXlReHRsVFRGWDQzeGhHNlBHcFlKQWN6eUN6M1YyRDg2MTVjdG1pZXpMdWFEbF8yZG1fQjdKT1lSS3Z1QjVuT3RTT1NYNlBySDEzQmxmTFpQa3VUWVVhS1Q3dzVJZVEwT3VXbTdXdV84eUZQT0pWdFJYS3RqZ3BwYkp2UTFOb2tIZERNdFdYRkZvbDZZVVA3Z0E?oc=5",
+    "excerpt": "",
+    "source": "Yorkshire Post",
+    "published": "2026-11-26T21:55:00+00:00",
+    "clubs": [
+      "huddersfield-town",
+      "doncaster-rovers"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Mateus Fernandes isn't the only way Tottenham got one over on West Ham again",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQnRLU0dVUmVBUUc2Nkx0ZnZZMnpxOWowQ045LVNGQzlqZWpwS2VmRk9uQmxQU3plSUFpVE9Mcm1zd21EQlhJNDVxbExSYVdYNTZLYXVfd2RJQ3F0Y1VsM2ZmME9rb3Q2UmpOU2dpRXpiMGRuX0V2RkJLUm5PeFpXOFJOMFdodUpEeFRKa2s3UQ?oc=5",
+    "excerpt": "",
+    "source": "Yahoo Sports",
+    "published": "2026-11-26T21:04:00+00:00",
+    "clubs": [
+      "west-ham-united"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Blackpool vs Luton Town line-ups, team news and injuries | EFL League One",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qRWFHVVJOdVlrSnVaNDFvT2czQzVoVWp0REJQbGs5TmV2Z3daRVNUWkNGRjZEYnZCVS1UcmRSXzY0TkVCVnByRlhWYmxlWHM1VlVaTzh3?oc=5",
+    "excerpt": "",
+    "source": "懂球帝",
+    "published": "2026-11-26T20:58:32+00:00",
+    "clubs": [
+      "luton-town",
+      "blackpool"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
     "title": "Cardiff City vs. Swansea City Live Stream of English Football League",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBPZGJiRlpwVk9jYkk4MjJMY3JqdmE5UnFxdEdIeXM2NzNXTHNtcjgwbTZET0ZFQmc1SVBqUG5OeFMwOXZ6UVRUOFhTMERGcGtRYzlXN2xnMUdiNzdlTmc?oc=5",
     "excerpt": "",
@@ -43,7 +524,7 @@
     "scope": "club"
   },
   {
-    "title": "Bowen won't give up on promotion dream as West Ham warned not to make excuses",
+    "title": "Jarrod Bowen refuses to give up on promotion dream as West Ham warned not to make excuses",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZUZ2b3dzZ2ZhdFNlaEswekVfZWdLZ1NaTmt4RzFwQjRjcWY4dVg4U25QdGxqR1piN2planJXbGU2bWw3Wm1qZ3ZmUjcyMjJoOUJMMHVTRFhhY0hhczV0RHhMUWFoNmNGQThwTVpkQVlUcVVxMlprQ0Ixb0FTS19QOUxyUjBXbG4yVmVTa05xcw?oc=5",
     "excerpt": "",
     "source": "talkSPORT",
@@ -57,11 +538,25 @@
     "scope": "club"
   },
   {
+    "title": "Press Conference - Live",
+    "url": "https://sufc.co.uk/news/2026/november/26/press-conference-live/",
+    "excerpt": "Chris Wilder will speak to the media ahead of the trip to QPR and you can watch his full press conference for free - live from 9am on Friday. The start time could be later or could even be earlier than planned. Click...",
+    "source": "Official site",
+    "published": "2026-11-26T20:15:00+00:00",
+    "clubs": [
+      "sheffield-united"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "Birmingham continue impressive away form with victory at Turf Moor",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWDh1R3lWY2x6VW4tT1FZY21TeFoyeXhocHc3VnNZNE5vMkZDOGFLR0Z0U3NQQ0FTMTRWNF90cDdENjB4bzhEem80amhpb3hWZWpzU1dvWU9uTUN5TTF0TjRUOXQ4cXo5S05JQ0piX1BjSklxTXlaRDdOaU5RM1ZQUXcwVkJteWU4ZS0yUHFRWG1keXdrdXJGbTZVYw?oc=5",
     "excerpt": "",
     "source": "Sports Gazette",
-    "published": "2026-11-26T20:10:57+00:00",
+    "published": "2026-11-26T20:10:27+00:00",
     "clubs": [
       "burnley"
     ],
@@ -71,11 +566,69 @@
     "scope": "club"
   },
   {
+    "title": "Lincoln vs Wolves Championship Match Centre",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVnl6SUxIem9EVEVENkhZNFZrNkJuVVczOU11NnpmZjJmZWNiWnF4RmtzRmtHb2hrY2tpWXBIREItbDdpbnI5dFN0NW1SM0duSzJjYzNDbkxRd1JnQTBETko4bU12bmxPSzdHQk51MDRjUnhUdk9hWUdzeFZKSE4zeDh1VQ?oc=5",
+    "excerpt": "",
+    "source": "Dave.Sport",
+    "published": "2026-11-26T20:09:22+00:00",
+    "clubs": [
+      "wolverhampton-wanderers"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Oxford United vs Sheffield Wednesday preview: head-to-head record, form and stats",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFZlhJaUJUcmUza2pqSHN0M1VDdlhqU01DdUNjMkpLSGFibEVVZEZsMjJELXB0emVuaXZWRVVrTl9yQUd3VlllUTNuZmxjY25aME84VWFB?oc=5",
+    "excerpt": "",
+    "source": "懂球帝",
+    "published": "2026-11-26T20:08:50+00:00",
+    "clubs": [
+      "sheffield-wednesday",
+      "oxford-united"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
     "title": "Middlesbrough vs. Southampton Live Stream of English Football League",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1wTkNLa2pfWHFXZ2hKYlpSUXFRa1lwRVZFZTU0cnQxM0MtbnNIcXVpYUI0OUpnS1gxS0w5TVFYdVN0QmFWQ24yMWp1bTN6bjVNUG1YTFpUS1BXbFBoZlE?oc=5",
     "excerpt": "",
     "source": "CBS Sports",
     "published": "2026-11-26T20:03:48+00:00",
+    "clubs": [
+      "middlesbrough",
+      "southampton"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Asmir Begovic reveals two things Stoke City must do to secure promotion",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOF9UUkNweUFoc2w0dUk5bmhzLXgyWEI3d1g4MzZkSjc3a0lqUnJHX3ZMd3QzdkozUThVVDRaR1VpdXhUSXpsQkV6UnFlSVlLb2FPcU1rYWFsWVFaNlVVeFJHcEZ2anp0NjN5NXppNENlb1ZJQzRKa0hfb3MxTFk3N0x0ZXpjS1hJS210MXdLUHBLclF2d3RCRmJTanRDMWpDMzJ3NXBHelBoQQ?oc=5",
+    "excerpt": "",
+    "source": "Football League World",
+    "published": "2026-11-26T20:01:13+00:00",
+    "clubs": [
+      "stoke-city"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Southampton v Middlesbrough: Spygate backdrop disguises huge top-of-Championship clash",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQYmRFOVhDUG5BaEdkem5reWNRTmJNa2x3MlM3bWVxSTl6dkthX05ad3hHYkxTQ1VXUGtGazFQNnBOdS1yLTVCZkxaYk1pNF9VY3V5Mzk2VHN3cHBIalN3SmdNYnVDQlNkeDhEd1plUnR2TTdmRFNNTGlQRHlFNmdCcTJoSVVUSG9pVUdxYlRISzFldENvVFBDaUZ2RElhbzV2UUh0UzBwZHE1WU5sVHBLMEVmbzIzZ0xRclZFUndrQVNKU2FiakRraWxobXdRaGU1Q005cWR4ZVZuYy12akpDMWMycUtxSDVadkh1Q2tPWEVzQQ?oc=5",
+    "excerpt": "",
+    "source": "Yorkshire Post",
+    "published": "2026-11-26T20:00:00+00:00",
     "clubs": [
       "middlesbrough",
       "southampton"
@@ -116,6 +669,20 @@
     "scope": "club"
   },
   {
+    "title": "West Ham Fall Further Behind As Stoke Turn Up The Heat",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMGpBc1NOTHJyN3JySFRHanl5YnFuY3lmc1I4ZnBvSVptQm5CakpsNERvX2I2VDJVbzRncFF4YThvaHprTjV4amJIdk1EYmFadXNsRzR0X1JsQi1veG9jQk9PYXlKNTFCTVNaWjJlZ3BlMllrM2NScGZYbzRNbHY2a2pCREZKdTRQVlM2TThaOA?oc=5",
+    "excerpt": "",
+    "source": "Claret & Hugh",
+    "published": "2026-11-26T19:41:20+00:00",
+    "clubs": [
+      "west-ham-united"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "Roving Cam: Watford 0-1 Rovers",
     "url": "https://www.rovers.co.uk/news/2026/november/26/roving-cam--watford-0-1-rovers/",
     "excerpt": "Go Inside Matchday at Vicarage Road with a behind-the-scenes view of Blackburn Rovers' 1-0 victory over Watford.",
@@ -144,6 +711,20 @@
     "scope": "club"
   },
   {
+    "title": "Supporters Meet Players In The Club Store As Big Black Friday Sale Continues",
+    "url": "https://www.ntfc.co.uk/news/2026/november/26/supporters-meet-players-in-the-club-store-as-big-black-friday-sale-continues/",
+    "excerpt": "Thank you to everyone who visited the club store on Thursday evening to meet Logan Briggs, Matty Warhurst and Owen Dale. The big Black Friday sale in the club store continues. There is 20%-30% off a wide range of items...",
+    "source": "Official site",
+    "published": "2026-11-26T19:32:00+00:00",
+    "clubs": [
+      "northampton-town"
+    ],
+    "category": "news",
+    "tier": "low",
+    "division": "league-two",
+    "scope": "club"
+  },
+  {
     "title": "Southampton v Middlesbrough preview as Saints chase 8th home win",
     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qYWhQNWhtbFZlemdfdkZKTlVyMGdGVnJwMFo3M0VnME5aY1daV2Nmb2VlVkpUOW5aVGxMdUZIemdoZWNpSEtqdnNwclV1SmRZUUZaMkQ3dGk4a3B2V2ZLbGdsMV9ITk1uaEpNeTlDWmF2d3B0d0pkN21WV1p3dw?oc=5",
     "excerpt": "",
@@ -154,6 +735,35 @@
       "southampton"
     ],
     "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Larin or Lankshear: Billy Sharp Names Better Striker Before Southampton vs Middlesbrough",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPakJDaG5tREprLWE2WlI0elBoQmVISkpTcURsaEM4X3d1QW9CUVg5czYza3RVSkx2aTV5X0d6Wk9LMWhaMVM1Unk4UExPTWtWVTJpV085SzZyeV9wLVRzWG01bndyN2NCQVN4cmk5Xzh1Zmd6eTVtM19UcldobVBZdlhKSzJ6aHZsT1JGQUFncWk2Y3ZhQVBBTVd5YzJWZXFFWFlYeFE1WE4yUGc?oc=5",
+    "excerpt": "",
+    "source": "GiveMeSport",
+    "published": "2026-11-26T19:10:14+00:00",
+    "clubs": [
+      "middlesbrough",
+      "southampton"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Jeff Stelling made QPR prediction in August that he might've misjudged",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ085U0wzVno0cDREaHBpZ18yUzkxNnA2U29UUUlNLWhhN1hvTFNnUGRoLWl4a256UnZhLWU3TGJLNnI1UjM4aE5tZF9RODUzdGhXazlKYkNPelJ6SFJGTnd0ZjV6aU96TFVMbi1oYmxzTlZOY1pMak9PRW14U0gzby03NFVqSmw2NDFNamZFSWlYOUpHVVFuQXo2SjAtZTNqVnFhRDhzUQ?oc=5",
+    "excerpt": "",
+    "source": "Football League World",
+    "published": "2026-11-26T19:00:13+00:00",
+    "clubs": [
+      "queens-park-rangers"
+    ],
+    "category": "news",
     "tier": "normal",
     "division": "championship",
     "scope": "club"
@@ -230,21 +840,6 @@
     "scope": "club"
   },
   {
-    "title": "Match Preview | Bristol Rovers v Tranmere Rovers",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdVpNTm1zSXR2TFNFREU5bVpkalVZVlBnMmVNQlZZNUJFbzlHeWZlb3pUWlNHNVllT0NPRWZoMGJxSFBaOFJVdU5DUnZwNGpld0VZSTBpQlE4Nk1uQlpQSjlpUDdzODd0ZUd4ZC0zYXloZ0RBUTBTWDg5UTFZMS11N0x6M3B5a2dnaWFvd2RB?oc=5",
-    "excerpt": "",
-    "source": "Bristol Rovers",
-    "published": "2026-11-26T18:27:31+00:00",
-    "clubs": [
-      "tranmere-rovers",
-      "bristol-rovers"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "league-two",
-    "scope": "club"
-  },
-  {
     "title": "The Briefing: Luton Town v Oxford United",
     "url": "https://www.bbc.co.uk/sport/football/articles/cqrmg43jzmd8o?at_medium=RSS&at_campaign=rss",
     "excerpt": "BBC Radio Oxford bring you the latest episode of The Briefing as they look forward to Saturday's game at Luton Town.",
@@ -255,6 +850,20 @@
     ],
     "category": "match",
     "tier": "trusted",
+    "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "Oxford United refuse to lose under 'special' manager Aaron Ramsey",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTGdIZUNCZlJiaFNidktlQ1FPc2pBaWpYQkNVZlgzR3FBOUZ3MVloQ3FNZGxaQllxeUdyczFCMk4xckxDNWZZMEx5YW1FM2FlRUN0dlQyZnFyRllFQmRJZ3JQbDNGOGZXRzZFYUJBXzF5SC1sMnJDWWpEVW9reWEwYllBOF9DSUIwV2RRLXpLSTAxME5hZlRKRk96b1U4UQ?oc=5",
+    "excerpt": "",
+    "source": "Bicester Advertiser",
+    "published": "2026-11-26T18:04:52+00:00",
+    "clubs": [
+      "oxford-united"
+    ],
+    "category": "news",
+    "tier": "normal",
     "division": "league-one",
     "scope": "club"
   },
@@ -287,20 +896,6 @@
     "scope": "club"
   },
   {
-    "title": "Oxford United refuse to lose under 'special' manager Aaron Ramsey",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNb0Rfc0kxbnJiWmNzdmhFMVpqSXZheXZlSzBHY0t3NU5UczFFUHJNS2h0WWwtQWtFbENIQlF1YU52eDVickFQYjQ5ek9rLUxhRUpNUy01alRsRUJMVjJ1QnJCSGNMVGw4ZERCYjFVY3lMVkF2THpNVXk5NzZsOEFYM01sOW9Wb1NFWHVhMl9LQmltSmtRVVRLNnpn?oc=5",
-    "excerpt": "",
-    "source": "Witney Gazette",
-    "published": "2026-11-26T18:00:00+00:00",
-    "clubs": [
-      "oxford-united"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
     "title": "Tigers great inducted into club's Hall of Fame",
     "url": "https://www.bbc.co.uk/news/articles/c6gre92qxvn4o?at_medium=RSS&at_campaign=rss",
     "excerpt": "John \"Jacky\" Smith was killed on the Somme during World War One.",
@@ -312,20 +907,6 @@
     "category": "news",
     "tier": "trusted",
     "division": "premier-league",
-    "scope": "club"
-  },
-  {
-    "title": "Can Steve Evans save the sinking ship of Bristol Rovers to avoid dropping out the EFL?",
-    "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNRG81V2VXdGRXeDQ1bmJoekxDRGlrd19lU3Y4ekpmVmkxczNaREMwVUUtOWk1Q2lJNjA5VE1EM285MFc4cUhCZjRZUFd3Uko2TDdUSXZlWkRCZDNIMkV5YVJUMXBzOVZjWm9ad3JzcDAzcTZudEVxRUJ3OHQ4WVNnQ01zNkx0V1pyYkFwMXZEQTh2TUg3SkVrZmhTWFFYUERRdHBSbW1SSHhpS0ppeGJUUkhGLUVCMzltWU53bjRqUWItdnRZWXh6cDd4S0Jwek9IT3M4S2NNeTZkRG1qdEc0ZDlGTkdJZFZjVkpuc1dCX2d1MlpjUmZiaGFKT1VZdnZCLWFiWmtMVVVYaHoy?oc=5",
-    "excerpt": "",
-    "source": "The League Paper",
-    "published": "2026-11-26T17:48:41+00:00",
-    "clubs": [
-      "bristol-rovers"
-    ],
-    "category": "news",
-    "tier": "normal",
-    "division": "league-two",
     "scope": "club"
   },
   {
@@ -348,7 +929,7 @@
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYmRJY2IweWlVXzUwWTM3YXZmbmJXZk5QSlFJSXRqdXg4YzVoMmZWOFRYQmJKYUhyazVKYW5VUEZDNFRQRmUyNm1lRDlaUVlRMTVVb0Z5OUVGMzV5NmYtQjlJd182Sk1IZTduUWtENWhobjFwazBqeUhrUVlIcEdMelQ4SUlWSFoxMncxZzd2TU5MUGlXT2NvN1hXb1ZvdDNyQUFMbEhpS3oyVGdtOURNQU9TY0VySkdGcWItWERBM0h4aXM0TldF?oc=5",
     "excerpt": "",
     "source": "Sports Mole",
-    "published": "2026-11-26T17:13:20+00:00",
+    "published": "2026-11-26T17:13:00+00:00",
     "clubs": [
       "sheffield-wednesday"
     ],
@@ -542,9 +1123,9 @@
   },
   {
     "title": "Reading FC injury update as Benn Ward nears return for Sheffield Wednesday",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYlVEcUJLVnRMMm5TeVUxR2JpWkxZOVJrSWJjeENUc3lIVWowNVRtTWQzbG5RZm4yM3RlejNsM0Y4ZFAxcnFabWJZaV9KNjBUd3hieVVYclVRS25OM25sZEctNlozb1NEWFZuZkpmZF9mUUV5dDNMSWFGZnY2YVZOc2ZUTkxWU19JaWRzR3lxcUF5TzdrMGlVUUZfdGI3aEVwc3V3?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOV2FzMjA3eGx6WjFHWHU4cUY0US1YX0hGRGpVbV93VFFCWmQ4ZXBKRGdVYlZURG52am9Wc29YbDk5X0ZRWnh2TzZuTDNyNzBXSkw1b0EtQXpvNk9STGZPSklnR0tvc2R1LTMyLVAtWFlUZnVHRFFFaHNpcHJKTTB1OA?oc=5",
     "excerpt": "",
-    "source": "Reading Chronicle",
+    "source": "Yahoo",
     "published": "2026-11-26T16:37:33+00:00",
     "clubs": [
       "sheffield-wednesday",
@@ -657,6 +1238,21 @@
     "scope": "club"
   },
   {
+    "title": "Championship Roundup: Derby County Hit Rock Bottom as Stoke City Make History",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZl8wQXhiWEJYU2NaUUNMMEstdDVCLUtQNXR3bmE4OUpoM0dpOWZGbV93RWpCblB3M2dnZ0ZmclowbjNCWUQxRTBzNFJNdkRsNFcyTm1WSjhUMy0xTkNBYmZaVFJ2NUZGbW9rQmZKSE9MRHFpTm1zSktjY1NTLXA2aHh0eEw5akZVakFpN0VpQ084U1lPSGhiOTJrbGRqY2dlVl9MS3p6UEtfT3RxUVh2TmFKT3VfMHd0dnd1S3YtMnhENHBKRzItbU9rZk1CX01hQ3NNSGxPUWhlN3RUTEFGWQ?oc=5",
+    "excerpt": "",
+    "source": "VAVEL.com",
+    "published": "2026-11-26T16:14:50+00:00",
+    "clubs": [
+      "derby-county",
+      "stoke-city"
+    ],
+    "category": "news",
+    "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "Supporters’ Advisory Board minutes: October 2026",
     "url": "https://qprfc.co.uk/news/2026/november/26/supporters--advisory-board-minutes--october-2026/",
     "excerpt": "The notes from the latest QPR Supporter Advisory Board meetings are now available. Alongside last month’s meeting, the group met for two off-season working group meetings, discussing ticketing feedback and fan...",
@@ -668,20 +1264,6 @@
     "category": "news",
     "tier": "trusted",
     "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Match Preview: Crawley Town (H)",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBzdTZYYy0wbzlzQk5QalVmRmp4OW85ZnBjd3FjT3A0T3hBRmxyVldKNjFTREVmcEdhaEZpMkpzVmJSSGNiSXVURHZ3SHJxT1hDTjN5TGtPSkpfRDFJ?oc=5",
-    "excerpt": "",
-    "source": "Exeter City",
-    "published": "2026-11-26T16:01:27+00:00",
-    "clubs": [
-      "crawley-town"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "league-two",
     "scope": "club"
   },
   {
@@ -940,6 +1522,20 @@
     "scope": "club"
   },
   {
+    "title": "West Brom coach targeted for vacant Championship manager's role",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOa3lGYjVyZWsxaEhTOWtLLUxMX0ppREdMdG1VS29YRWNrZUtaZkFqdi1CYVBzc2xwdjUtc3ZLMFYzWWZrcUMyNkwwWnNaT3YxX1cyN0pLR3JFMTEzRnhKdEduUU9yMlJGQjFrR3NJaGNkOXVXb2lzYWJHdVFxbFR6WVFZNTVkS2xMYXROYUMtRWlJZmtaUGc?oc=5",
+    "excerpt": "",
+    "source": "The72",
+    "published": "2026-11-26T14:47:00+00:00",
+    "clubs": [
+      "west-bromwich-albion"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "The striker battle that could decide Southampton's biggest game of the season so far",
     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOZHhEM1lId3lNVFViaXVkYk9qNWxtb0JyTEM3Q1JOOW92YWZMdlIwelRNRExVR3ltVHgzangyQjVZMTBfOU5vSnBNejFDdDd3a2pOcllYcUR5WHN4OUVhZlRNM0ZSNHFmeWtyMm5JTktEZm1JMm14WnZnOU4xOHhLSEx5X1l5VUFCNHd4WmJEQWVyLWtBUXhMNUVxdGozTzRPbWpSdnNGYzRubEFKNGZBdmJqT18wb2xYQVppcGc3NTZERGZ2aXljMk5pSDNyeC1FUFNIbmpZUjNWTkxQZzBoOG9HTGY4a3p0N1E3aXZNR0dKUks3STJZ?oc=5",
     "excerpt": "",
@@ -1035,6 +1631,20 @@
     ],
     "category": "news",
     "tier": "low",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Vale makes point about the new and improved QPR - Report",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV2NEMkFud1lYcy1yLUpQVXJPNHQ3N19VdXRPLXV3Zlk5TjhENU96cU9laGFFZHFoTGxNaUgyYl9IUlVlMmIzeGROM0FjY01OcUNKX3h5MWlLMU51RW93cnNmWnRianNmdFdSS3AweGdKbVpJTkR3ZUxwa2pYaFVVeFJCZEYybF9zejB4X3NJT2pSM3hTT3JFRlVwMU1SMVB0TllMNEt3bFlpS0dTWG1EQVFHS1hodllubUtISEdLd1o?oc=5",
+    "excerpt": "",
+    "source": "FansNetwork.co.uk",
+    "published": "2026-11-26T14:21:00+00:00",
+    "clubs": [
+      "queens-park-rangers"
+    ],
+    "category": "news",
+    "tier": "normal",
     "division": "championship",
     "scope": "club"
   },
@@ -1408,6 +2018,51 @@
     "scope": "club"
   },
   {
+    "title": "Wrexham v Portsmouth: Championship stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fWXd0ZjVHYmxIVWNmSnVGWTc1WDI2bnVtMzMwYTVTbUQ2WkpJVmRxWERSTEhSaTE2OWNaeTRxZVR6QjRNMkFiNTNHOERvX2NWTkdueDNuR2VaQmpDR0hodndkSzk1QQ?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-11-26T12:55:00+00:00",
+    "clubs": [
+      "portsmouth",
+      "wrexham"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Preston North End v Norwich City: Championship stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5yT3FFcExSMjMtbnRWdDUxV3NncVdTRW9vdjNmYmxlYm90aXl5VVU1Qzgzamx5Q2RDMWxKaXdfczFwUXM3VE0xOExLOE5qemlPVDNUQm9vR19WSGxHZ0wzakk4d29Qdw?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-11-26T12:55:00+00:00",
+    "clubs": [
+      "preston-north-end",
+      "norwich-city"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Queens Park Rangers v Sheffield United: Championship stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE16Mncwa3VRNzhuajM2Rmo0QzBBbXQ2LXNyZjA3YVlFZHJnLUlKTjRkakZtd19fOWVsUzhMSDVrVHpGS1hseDJfdHJqWjFMWkRnR2dhek5rbWZVMkF6eFFLcXE3enZRZw?oc=5",
+    "excerpt": "",
+    "source": "BBC",
+    "published": "2026-11-26T12:55:00+00:00",
+    "clubs": [
+      "queens-park-rangers",
+      "sheffield-united"
+    ],
+    "category": "match",
+    "tier": "trusted",
+    "division": "championship",
+    "scope": "club"
+  },
+  {
     "title": "Cambridge United identifies new venue site short walk from Abbey",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRXlvb3djNUVBOGJLaDMyc2xUeWdWYTFEWXZlZXkyVjJydjdxTnlpRFpwaHRhQmQxZnFvUEp5TWRINE1TbE5VM0d0WVRxUUw4NDVCZHlMOEowYXJ2MWVGWEdPODNGaUNEY3NEX3VzdEpPQlRZYXRsZlJfNXdZZ3pBd09qRFV1c1VhMDQxRXRGY2dMSGlKX0dRSlI2SXhRcWl0UTU40gGjAUFVX3lxTE1FeW9vd2M1RUE4YktoMzJzbFR5Z1ZhMURZdmVleTJWMnJ2N3FOeWlEWnBodGFCZDFmcW9QSnlNZEg0TVNsTlUzR3RZVHFRTDg0NUJkeUw4SjBhcnYxZUZYR084M0ZpQ0Rjc0RfdXN0Sk9CVFlhdGxmUl81d1lnekF3T2pEVXVzVWEwNDFFdEZjZ0xIaUpfR1FKUjZJeFFxaXRRNTg?oc=5",
     "excerpt": "",
@@ -1419,6 +2074,21 @@
     "category": "news",
     "tier": "normal",
     "division": "league-one",
+    "scope": "club"
+  },
+  {
+    "title": "West Brom coach eyed up for Lincoln City manager role",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPM1FCaGVqX29ETE9VX25vVWhrcldGYWpsSmNZRDVxdTV3MmdtTlBlODVEMjNDMUlOMHdZT3ZHNzkzNEprb0RWMXQ3ZkpoRjRvck96MzRrMEs4UVkxYUR2MVVsZlBqdTVDU1lFME1qOTRxX3VZR1FqaXhVM3pYOGp3RW1QYTJiR0otRDhEY0hCUm9Mdw?oc=5",
+    "excerpt": "",
+    "source": "Football League World",
+    "published": "2026-11-26T12:50:12+00:00",
+    "clubs": [
+      "lincoln-city",
+      "west-bromwich-albion"
+    ],
+    "category": "news",
+    "tier": "normal",
+    "division": "championship",
     "scope": "club"
   },
   {
@@ -1506,6 +2176,21 @@
     "category": "opinion",
     "tier": "normal",
     "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Tonda Eckert reveals Kim Hellberg phone 'conversation' ahead of Southampton v Middlesbrough",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNk9ZUXo2bHZZaGpOM1dwNFpuZlpramt0WDNfZXhQb1F3eWRlWHBPbWFRLW9nUG93VXdkLWZ0TUxNbXR2eEVEdVU4TmxwdjdScGRTQUt4NWxoblNQVW5nTDJnRm00eEdCOER4SmszbENHdlpWMmt4XzhfN04zeFJOaUota2l1XzE0OTBFX2JucUlXMjZXakF6TjFkXzBUVWc2Y0FSend0UTd0NnVRSGhaQWlwWVZ4ZmNCbDJCLTUyaHQyZw?oc=5",
+    "excerpt": "",
+    "source": "Football League World",
+    "published": "2026-11-26T12:00:13+00:00",
+    "clubs": [
+      "middlesbrough",
+      "southampton"
+    ],
+    "category": "match",
+    "tier": "normal",
+    "division": "championship",
     "scope": "club"
   },
   {
@@ -1750,20 +2435,6 @@
     "scope": "club"
   },
   {
-    "title": "Ticket Details | Bromley (A)",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBoMjdtdzYzVnM1REM1UmR4bVBNNXBiN2FzZHdvY0Nuel9SU0ZIV0xvYWh0anFveWc2eG5SYnotaG0ydkFJbWxjNmJoc0ZMcER4aGlEeXU1bXp6azFMU0Q0?oc=5",
-    "excerpt": "",
-    "source": "Oxford United",
-    "published": "2026-11-26T11:03:06+00:00",
-    "clubs": [
-      "bromley"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "league-one",
-    "scope": "club"
-  },
-  {
     "title": "Ben Middlemas to make Swindon Town return against Chesterfield, offering Robins a different dynamic in midfield",
     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNR2tKazNUckx6akhKMkFaQXB5SXY4OW5fV2tnM1dIV0FjcWNWTExuWjcwM2FoWF9mQ3NJUkMtX1JYc1NuZDAwZ3lQNjJCcy1PcGVJQjUyWTkwM0pkSXJyQUxKOWczX2poWDNEWmtOSmJZUlZJNTFHVTIwVUc4cmRJX1BWYzRsQ2JDY2VFMEhLYklHVnpnYTRYanZiandDVnR3WktoclNOUFMtaXh6S0dmZ043cEJWNUNkQUZxS3d6dXFNYUxqLWd6eHpMZnNJOGtfQmpjUEptMUhzN29FTGpIY0YwWTNuWGdidkFYZTRKVWdCaFY5?oc=5",
     "excerpt": "",
@@ -1776,6 +2447,20 @@
     "category": "news",
     "tier": "normal",
     "division": "league-two",
+    "scope": "club"
+  },
+  {
+    "title": "Tickets on sale: Stoke (A)",
+    "url": "https://qprfc.co.uk/news/2026/november/26/tickets-stoke-away/",
+    "excerpt": "TICKETS for QPR's trip to Stoke City in the Championship are now on sale. Click HERE to buy. Information is as follows: Fixtures Stoke City Vs. Queens Park Rangers - Sat, Dec 05 2026, 15:00 IMPORTANT TICKETING...",
+    "source": "Official site",
+    "published": "2026-11-26T11:00:00+00:00",
+    "clubs": [
+      "queens-park-rangers"
+    ],
+    "category": "match",
+    "tier": "low",
+    "division": "championship",
     "scope": "club"
   },
   {
@@ -1865,7 +2550,7 @@
   },
   {
     "title": "Doncaster Rovers v Huddersfield Town: Pre-match stat pack",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZjVhMkYyalFuLTJhX1pVU2t2SHBLLUt3bDhNRUwyei01R1luTjdfRmlJMzFDR0Y3VHh2d3Rpemh0N2dzTnd0ekxoRDJCU25pd29lc3VkVkVIRUVaeFliek1iZzNqai1kVDFlTE9BN2E3TGR3S3lpa3NhSFdCZ1ZCY0JOTWp6SFNYS1JpUFBqZXhKcnNYNnlDUFJyTldRak9saXc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVzNQeEtfbEJzTWNTRHpiNzI0VDB0Vlc5TnRNa1NyMVFSWU1ubDBjeFpDcE13aEZCQnN5M0dNYmtKcnY2eFhwN01GVEUyak9nemVPeTM3SjlCeDlrbktuMktRS2pKRUZER1N0dmZ0QlZVVzlYSUxCZlRrSmRxTmVuZkNMSkFWMnFjbjJ2SEt2Rm9JQW9sSDhBRVppSnY?oc=5",
     "excerpt": "",
     "source": "EFL",
     "published": "2026-11-26T10:45:19+00:00",
@@ -2439,6 +3124,20 @@
     "category": "news",
     "tier": "trusted",
     "division": "championship",
+    "scope": "club"
+  },
+  {
+    "title": "Ticket Details | Bromley (A)",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBoMjdtdzYzVnM1REM1UmR4bVBNNXBiN2FzZHdvY0Nuel9SU0ZIV0xvYWh0anFveWc2eG5SYnotaG0ydkFJbWxjNmJoc0ZMcER4aGlEeXU1bXp6azFMU0Q0?oc=5",
+    "excerpt": "",
+    "source": "Oxford United",
+    "published": "2026-11-26T08:32:01+00:00",
+    "clubs": [
+      "bromley"
+    ],
+    "category": "news",
+    "tier": "trusted",
+    "division": "league-one",
     "scope": "club"
   },
   {
@@ -13746,181 +14445,6 @@
     "category": "news",
     "tier": "normal",
     "division": "league-two",
-    "scope": "club"
-  },
-  {
-    "title": "Charlton Athletic v Lincoln City: Championship stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8xejlTU1ZDcXdkbDQxNGNwWnFzZ2NHS3FwajUzSFZ6Y25fUUhmRDZSZXYwUTBpOXlLYnFqZmN2OVl4ZHhKRUo0dEs5WnI4ZThlaHdmYV9ldW02SktHeHFXanpQaw?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-11-23T03:36:26+00:00",
-    "clubs": [
-      "charlton-athletic",
-      "lincoln-city"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Cardiff City vs Preston North End: Championship stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkNm5KUUpQOHdKVEluZ04xVjY3Uzh3VFV1S3FtbkZTZE53VWM4YkpZZFA3YzFWOUhZOWt0MDRVZnpoY3R3cjdBUDV0RERzSlBFbXYwNjc2UTdYR3ZqWERzcXVHNA?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-11-23T03:36:26+00:00",
-    "clubs": [
-      "preston-north-end",
-      "cardiff-city"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Norwich City vs Queens Park Rangers: Championship stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4yYUhuVnhTT1Z2N3pmVExUX0FrWDYwelZKUmE0djJJUl9kYlV0Ykt2TlJiNC03ZkVxVEhrN21yRFpmWl9tTm91YUFrSlFnTkFITVhJRVh0VGM2cDQxYWNOaUVvWQ?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-11-23T03:18:29+00:00",
-    "clubs": [
-      "queens-park-rangers",
-      "norwich-city"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Bristol City v Wrexham: Championship stats & head-to-head",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VajlDWFkxWjduZ2RTVzlrVWlxYm15OFAzbjIzVkc4ME1xNndhamZkcExZMFlQck5xZ1JtczlNd05UUDdsclBGelY3QmJvajQtRVBjamFxaGhtUG40RWVEVGRiRQ?oc=5",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-11-23T03:09:38+00:00",
-    "clubs": [
-      "bristol-city",
-      "wrexham"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Charlton Athletic vs Lincoln City",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWmZlNHE5T1MzVXRTVFB3aUhtUkdCTGZMdlFOZ2tHdXdwLUFWWmc1QTQzTVpmbmVxVHBPUWsyam9EOVFhSFhZTnZDSHNraDZVTHh0VWVsUG9TX19KUlpqQjE4RUh4V05jdjllRkU4YVZpT0V0VDZiV1ZjZWdocUdzbHdvT0hXQlRERVRNYzhOZjduTkRDX3RrbEl0c0ViN2Y5?oc=5",
-    "excerpt": "",
-    "source": "beIN SPORTS",
-    "published": "2026-11-23T01:14:06+00:00",
-    "clubs": [
-      "charlton-athletic",
-      "lincoln-city"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Match Highlights Burnley - Blackburn | EFL Championship | Yalla Shoot",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2ajhocGlvV09EMWV1RC10VnNwVlpFT0lXRzJ1TDBkV2I2dFBnNFdjRHZSQzhNRkI0SjdySENHTWpJN3hINktLUXZvY2hVakstVVE?oc=5",
-    "excerpt": "",
-    "source": "YSscores",
-    "published": "2026-11-23T00:00:45+00:00",
-    "clubs": [
-      "blackburn-rovers",
-      "burnley"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Replay | Burnley V Blackburn",
-    "url": "https://www.burnleyfootballclub.com/media-video/replay-burnley-v-blackburn",
-    "excerpt": "",
-    "source": "Official site",
-    "published": "2026-11-23T00:00:18+00:00",
-    "clubs": [
-      "burnley"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "championship",
-    "scope": "club"
-  },
-  {
-    "title": "Did Liverpool 'get lucky' with red card decision?",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cq23jmklrj33o?at_medium=RSS&at_campaign=rss",
-    "excerpt": "Match of the Day pundits Danny Murphy and Ashley Young believe that Liverpool were perhaps \"lucky\" when Manchester United's Leny Yoro was sent off in the 8th-minute at Anfield.",
-    "source": "BBC",
-    "published": "2026-11-22T23:59:59+00:00",
-    "clubs": [
-      "liverpool"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "premier-league",
-    "scope": "club"
-  },
-  {
-    "title": "How 'outstanding' Tzolakis kept Brighton at bay",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cm702nzyl8pzo?at_medium=RSS&at_campaign=rss",
-    "excerpt": "Match of the Day pundit Danny Murphy looks at how Hull goalkeeper Konstantinos Tzolakis was able to thwart high-flying Brighton in their 2-0 win over the Seagulls at the MKM Stadium.",
-    "source": "BBC",
-    "published": "2026-11-22T23:59:57+00:00",
-    "clubs": [
-      "brighton-and-hove-albion"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "premier-league",
-    "scope": "club"
-  },
-  {
-    "title": "Robinson: It will take Poch time to fix United",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cw62pnmx8l0yo?at_medium=RSS&at_campaign=rss",
-    "excerpt": "",
-    "source": "BBC",
-    "published": "2026-11-22T23:39:02+00:00",
-    "clubs": [
-      "manchester-united"
-    ],
-    "category": "news",
-    "tier": "trusted",
-    "division": "premier-league",
-    "scope": "club"
-  },
-  {
-    "title": "A 'wow' player - why Ngumoha is already a Liverpool game-changer",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmn80y5w84qqo?at_medium=RSS&at_campaign=rss",
-    "excerpt": "Match of the Day pundit Danny Murphy explains how Rio Ngumoha showed everyone what he is capable of in Liverpool's 4-0 win over Manchester United.",
-    "source": "BBC",
-    "published": "2026-11-22T23:20:16+00:00",
-    "clubs": [
-      "liverpool"
-    ],
-    "category": "match",
-    "tier": "trusted",
-    "division": "premier-league",
-    "scope": "club"
-  },
-  {
-    "title": "Here comes Hollywood: Lincoln City Vs Wrexham Match Preview (EFL Championship)",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOFhjTzAtNk1VQXhDc2ItOWF6b1NHaDRsRVJXRFRVRFlaMzhSa3NiSUNoVUs2YWtBYXFDUlZSSFZGRU95WnZ6UjUxSm9Iamp1dnpkMWFVWlpGQTlOUGY3U3czWWYyQ25jMElQVENrRXdadU4yX3JhMjJIbHZOSW5aNVZaWnBtQmlONzUxS2xRM0JTS2REX1hwTTExdDJIazg2b0NUT3Bkc1hydw?oc=5",
-    "excerpt": "",
-    "source": "The Linc",
-    "published": "2026-11-22T22:00:25+00:00",
-    "clubs": [
-      "lincoln-city",
-      "wrexham"
-    ],
-    "category": "match",
-    "tier": "normal",
-    "division": "championship",
     "scope": "club"
   }
 ]
